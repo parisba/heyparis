@@ -4,3 +4,6 @@
 [submodule "heyparis/themes/PaperMod"]
 	path = heyparis/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-theme-texify"]
+	path = themes/hugo-theme-texify
+	url = https://github.com/queensferryme/hugo-theme-texify.git
