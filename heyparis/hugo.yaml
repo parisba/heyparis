@@ -1,0 +1,35 @@
+baseURL: https://hey.paris/
+languageCode: en-AU
+title: hey.paris
+theme: ["PaperMod"]
+
+params:
+  profileMode:
+    enabled: true
+    title: "Paris Buttfield-Addison" # optional default will be site title
+    subtitle: "Game developer, author, science communicator."
+    imageUrl: "Paris_Headshot_2024.jpg" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 300 # custom size
+    imageHeight: 300 # custom size
+    buttons:
+      - name: "Yarn Spinner"
+        url: "https://www.yarnspinner.dev"
+      - name: "Secret Lab"
+        url: "https://www.secretlab.games"
+      - name: "West Coast Space Centre"
+        url: "https://www.westcoastspacecentre.com"
+
+  socialIcons: # optional
+    - name: "Mastodon"
+      url: "https://cloudisland.nz/@parisba"
+    - name: "Bluesky"
+      url: "https://bsky.app/profile/hey.paris"
+    - name: "Threads"
+      url: "https://www.threads.net/@paris_b_a"
+    - name: "Instagram"
+      url: "https://www.instagram.com/paris_b_a"
+    - name: "Flickr"
+      url: "https://www.flickr.com/photos/parisba/"
+    - name: "GitHub"
+      url: "https://github.com/parisba"

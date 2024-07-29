@@ -1,0 +1,6 @@
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "heyparis/themes/PaperMod"]
+	path = heyparis/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
