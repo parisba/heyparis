@@ -48,12 +48,62 @@ We&amp;rsquo;ve called these events the West Coast Space Show. This National Sci
 This is an early step in our efforts to establish the West Coast Space Centre.</description>
     </item>
     <item>
+      <title>Yarn Spinner for Books</title>
+      <link>http://localhost:1313/posts/ysb/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ysb/</guid>
+      <description>You already know that Yarn Spinner is one of the most powerful, flexible and innovative tools for writing interactive stories. Yarn Spinner makes it easy to write stories that run in any engine, on any platform. However, there’s one platform that we’ve neglected:
+The printed page.
+That’s why we’re thrilled to announce Yarn Spinner for Books. Yarn Spinner for Books allows writers to write their stories in the Yarn syntax that they know and love, and produce beautifully-typeset PDFs with their interactive stories.</description>
+    </item>
+    <item>
       <title>You can now (also) buy Yarn Spinner</title>
       <link>http://localhost:1313/posts/yspl/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/yspl/</guid>
       <description>Yarn Spinner is now available for purchase! We&amp;rsquo;ve been working hard to make it easier for you to get started with Yarn Spinner, and we&amp;rsquo;re excited to announce that you can now buy Yarn Spinner on the Unity Asset Store, and the Itch Store.
 Yarn Spinner will always be free and open source, but we&amp;rsquo;re excited to offer a way for you to support the project and get some extra features and support in return.</description>
+    </item>
+    <item>
+      <title>I Feel Fine</title>
+      <link>http://localhost:1313/posts/iff/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/iff/</guid>
+      <description>We&amp;rsquo;re thrilled to announce that our next game, I Feel Fine, is coming out this year! I Feel Fine is developed by studio, Secret Lab, written by Eisner Award-winning writer Ryan North, powered by Yarn Spinner, and funded by Screen Tasmania:
+Great news! You&amp;rsquo;ll be dead in three days.
+Here&amp;rsquo;s the situation. You&amp;rsquo;re a tourism information robot aboard a space station orbiting Jupiter. An asteroid will hit the station in three days, destroying it and everything on it.</description>
+    </item>
+    <item>
+      <title>Practical Simulations for Machine Learning is out now</title>
+      <link>http://localhost:1313/posts/psml/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/psml/</guid>
+      <description>Another new book! Our latest book, written together with my wife Mars, plus friends Tim and Jon, is out! It covers everything you need to know to do simulations using Unity ML-Agents, and how to use them to train machine learning models.
+You can buy it from all sorts of book shops, as well as read it on O&amp;rsquo;Reilly&amp;rsquo;s Online Learning platform.</description>
+    </item>
+    <item>
+      <title>Head First Swift</title>
+      <link>http://localhost:1313/posts/hfs/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hfs/</guid>
+      <description>It&amp;rsquo;s finally done! My latest book, written together with my Jon, is out! It&amp;rsquo;s a fantastic, visual beginners guide to Swift programming, with an emphasis on using Swift Playgrounds. I&amp;rsquo;m really proud of it.
+You can buy it from all sorts of book shops, as well as read it on O&amp;rsquo;Reilly&amp;rsquo;s Online Learning platform.</description>
+    </item>
+    <item>
+      <title>Night in the Woods for iOS</title>
+      <link>http://localhost:1313/posts/nitwios/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/nitwios/</guid>
+      <description>We&amp;rsquo;re thrilled to announce that Night in the Woods, a game we&amp;rsquo;ve been working on for some time, is now also out for iOS. You can grab it today on the iOS App Store.
+Go do crimes.</description>
+    </item>
+    <item>
+      <title>Practical Artificial Intelligence with Swift is out now</title>
+      <link>http://localhost:1313/posts/pais/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pais/</guid>
+      <description>Our latest book, written together with my partner Mars, plus friends Tim and Jon, is out! It covers everything you need to know to do practical AI with Swift (hence its title: Practical Artificial Intelligence with Swift, clever right?).
+You can buy it from all sorts of book shops, as well as read it on O&amp;rsquo;Reilly&amp;rsquo;s Online Learning platform.</description>
     </item>
   </channel>
 </rss>

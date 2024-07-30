@@ -30,6 +30,8 @@ cover:
 * Goldstein, N., Manning, J., & Buttfield-Addison, P. (2010). iPhone and iPad Game Development For Dummies. Wiley Publishing.
 * Goldstein, N., Manning, J., & Buttfield-Addison, P. (2011). Développer des jeux pour iPhone et iPad pour les Nuls. Wiley Publishing. (French Translation)
 
+![Learning Swift](/books-and-events/images/books-ls.jpg)
+
 ### Papers
 
 I also occasionally put my PhD to use, and pretend to be an academic. Here are some of the papers I've written:

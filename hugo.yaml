@@ -3,7 +3,7 @@
 baseURL: "https://hey.paris/"
 title: hey.paris
 copyright: "© Dr Paris Buttfield-Addison"
-paginate: 5
+paginate: 10
 theme: [PaperMod]
 
 enableInlineShortcodes: true

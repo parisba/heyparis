@@ -4,9 +4,9 @@ author:
 weight: 1
 ShowToc: false
 cover:
-  image: "images/Paris_Headshot_2024.jpg"
+  image: "images/mountain.jpeg"
   alt: "Paris"
-  relative: false
+  relative: true
 ---
 
 Dr Paris Buttfield-Addison is a creative technologist who works with everything from games and apps to narrative tools and educational resources. 
@@ -23,4 +23,4 @@ He is the author of nearly 30 technical [books](/books-and-events/books), and is
 
 You can email me at _paris AT paris.id.au_ to invite me to speak at your event. I'm happy to talk about a wide range of topics, from game development to creative technology, education, and more.
 
-![](mountain.jpeg)
+![](/images/Paris_Headshot_2024.jpg)
