@@ -80,7 +80,7 @@ params:
   ShowToc: true
   # comments: false
   images:
-    - images/main-cover.jpeg
+    - https://westcoastspacecentre.com/assets/thumbnail.png
 
   # profileMode:
   #   enabled: false
