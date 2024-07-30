@@ -1,14 +1,17 @@
 ---
-title: Welcome
+title: "West Coast Space Show"
 date: 2024-07-29
 cover:
   image: "header_tall.png"
-  alt: "West Coast Space Centre logo against a starscape"
+  alt: "West Coast Space Show logo against a starscape"
   relative: false
 ShowToc: false
+params:
+  description: Learn about the West Coast Space Show.
+  images:
+  - header_tall.png
+  title: "West Coast Space Show"
 ---
-
-## West Coast Space Show
 
 I'm absolutely thrilled to announce that, together with my wife [Mars](https://themartianlife.com), I'll be heading to the West and North West coasts of Tasmania to present a series of space-themed events and workshops for kids and adults alike.
 
