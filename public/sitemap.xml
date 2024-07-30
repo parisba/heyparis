@@ -4,7 +4,9 @@
   <url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/books-and-talks/</loc>
+    <loc>http://localhost:1313/books-and-events/books/</loc>
+  </url><url>
+    <loc>http://localhost:1313/books-and-events/events/</loc>
   </url><url>
     <loc>http://localhost:1313/all-posts/</loc>
   </url><url>
@@ -19,6 +21,8 @@
   </url><url>
     <loc>http://localhost:1313/posts/yspl/</loc>
     <lastmod>2024-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books-and-events/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

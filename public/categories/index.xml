@@ -6,8 +6,8 @@
     <description>Recent content in Categories on hey.paris</description>
     <image>
       <title>hey.paris</title>
-      <url>http://localhost:1313/images/header.jpg</url>
-      <link>http://localhost:1313/images/header.jpg</link>
+      <url>http://localhost:1313/images/cover.jpg</url>
+      <link>http://localhost:1313/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>

@@ -6,8 +6,8 @@
     <description>Recent content on hey.paris</description>
     <image>
       <title>hey.paris</title>
-      <url>http://localhost:1313/images/header.jpg</url>
-      <link>http://localhost:1313/images/header.jpg</link>
+      <url>http://localhost:1313/images/cover.jpg</url>
+      <link>http://localhost:1313/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
@@ -24,12 +24,18 @@ He is co-founder and creative director of long-running Tasmanian game developmen
 He is also co-founder of Yarn Spinner, a company spun out of the wildly successful game tool of the same name which is used in everything from university curricula to multiple IGF- and BAFTA-winning titles.</description>
     </item>
     <item>
-      <title>Books and Talks</title>
-      <link>http://localhost:1313/books-and-talks/</link>
+      <title>Books</title>
+      <link>http://localhost:1313/books-and-events/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/books-and-talks/</guid>
-      <description>Books List of books forthcoming.
-Talks List of talks forthcoming.</description>
+      <guid>http://localhost:1313/books-and-events/books/</guid>
+      <description>List of books forthcoming.</description>
+    </item>
+    <item>
+      <title>Events</title>
+      <link>http://localhost:1313/books-and-events/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books-and-events/events/</guid>
+      <description>📣I&amp;#39;m happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat.Upcoming Events 2024 Hosting: West Coast Space Show 2024, Tasmania, Australia Speaking: NZGDC 2024, Wellington, New Zealand Session: Let&amp;rsquo;s learn to write narrative games with Yarn Spinner Past Events 2023 ?</description>
     </item>
     <item>
       <title>West Coast Space Show</title>

@@ -32,12 +32,15 @@ languages:
         - name: About
           url: about
           weight: 3
-        - name: Books and Talks
-          url: /books-and-talks/
+        - name: Books
+          url: /books-and-events/books
           weight: 2
+        - name: Events
+          url: /books-and-events/events
+          weight: 1
         - name: Posts
           url: all-posts
-          weight: 1
+          weight: 0
         # - name: Tags
         #   url: tags/
         #   weight: 10
@@ -76,7 +79,7 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  images: ["images/header.jpg"]
+  images: ["images/cover.jpg"]
 
   # profileMode:
   #   enabled: false
