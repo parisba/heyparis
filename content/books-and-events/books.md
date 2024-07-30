@@ -4,6 +4,10 @@ id: books
 author: 
 weight: 2
 ShowToc: false
+cover:
+  image: "books-and-events/images/cover-books.jpeg"
+  alt: "Book collection"
+  relative: false
 ---
 * Buttfield-Addison, P., Buttfield-Addison, M., Nugent, T., & Manning, J. (2022). Practical Simulations for Machine Learning.  O'Reilly Media. 
 * Buttfield-Addison, P. & Manning, J. (2021). Head First Swift. O'Reilly Media. 

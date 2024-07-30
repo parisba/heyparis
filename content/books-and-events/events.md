@@ -3,21 +3,46 @@ title: Events
 id: events
 author: 
 weight: 2
-ShowToc: true
+ShowToc: false
+TocOpen: false
+cover:
+  image: "books-and-events/images/cover-speaking.png"
+  alt: "Paris speaking"
+  relative: false
 ---
-{{< callout emoji="📣" text="I'm happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat." >}}
+⚠️ I'm happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat.
 
 # Upcoming Events
 
 ## 2024
-* Hosting: West Coast Space Show 2024, Tasmania, Australia
+* Speaking: West Coast Space Show 2024, Tasmania, Australia
 * Speaking: NZGDC 2024, Wellington, New Zealand
     * Session: Let's learn to write narrative games with Yarn Spinner
 
 # Past Events
 
+## 2024
+* Organising: AUC /dev/world/2024, Melbourne, Australia
+* Organising: AUC XWorld 2024, Melbourne, Australia
+* Speaking: NarraScope 2024, Rochester, NY, USA
+    * Workshop: Getting started with Yarn Spinner
+* Speaking: North Bay Python 2024, Petaluma, CA, USA
+    * Session: Nighmare on LLM Street
+
 ## 2023
-?
+
+* Speaking: Everything Open 2023, Melbourne, Australia
+    * Session: Let's Use An Automated Theorem Prover To Verify Video Games
+    * Session: Don't wait for Godot! Build a game today!
+* Attending: GDC 2023, San Francisco, USA
+* Organising: AUC /dev/world/2023, Melbourne, Australia
+* Organising: AUC XWorld 2023, Melbourne, Australia
+* Organising: FOSSY 2023, Portland, OR, USA
+    * Track: FOSS at Play
+* Speaking: NZGDC 2023, Wellington, New Zealand
+    * Workshop: Introduction to Yarn Spinner
+* Speaking: High Score 2023, Melbourne, Australia
+    * Panel: Experience Design--Game Audio beyond PC & Console
 
 ## 2022
 * Exhibiting: Gamescom 2022, Cologne, Germany
@@ -29,6 +54,8 @@ ShowToc: true
     * Panel: Narrative Tools and Game Development
 * Speaking: linux.conf.au 2022 [online]
     * Session: Let's Make a Game
+* Speaking: GCAP 2022, Melbourne, Australia
+    * Session: We deserve better subtitles!
 
 ## 2021
 * Speaking: PAX Australia Online 2021 [online]
