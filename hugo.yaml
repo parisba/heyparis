@@ -80,7 +80,7 @@ params:
   ShowToc: true
   # comments: false
   images:
-    - https://westcoastspacecentre.com/assets/thumbnail.png
+    - /hobart.jpg
 
   # profileMode:
   #   enabled: false
