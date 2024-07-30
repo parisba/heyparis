@@ -31,12 +31,16 @@ languages:
       main:
         - name: About
           url: about
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Tags
-          url: tags/
-          weight: 10
+          weight: 3
+        - name: Books and Talks
+          url: /books-and-talks/
+          weight: 2
+        - name: Posts
+          url: all-posts
+          weight: 1
+        # - name: Tags
+        #   url: tags/
+        #   weight: 10
         # - name: Secret Lab
         #   url: https://secretlab.games
         # - name: Yarn Spinner
@@ -64,15 +68,15 @@ params:
   # disableSpecial1stPost: true
   displayFullLangName: true
   hideAuthor: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  images: ["images/papermod-cover.png"]
+  images: ["images/header.jpg"]
 
   # profileMode:
   #   enabled: false

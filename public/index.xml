@@ -6,8 +6,8 @@
     <description>Recent content on hey.paris</description>
     <image>
       <title>hey.paris</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>http://localhost:1313/images/header.jpg</url>
+      <link>http://localhost:1313/images/header.jpg</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
@@ -24,6 +24,14 @@ He is co-founder and creative director of long-running Tasmanian game developmen
 He is also co-founder of Yarn Spinner, a company spun out of the wildly successful game tool of the same name which is used in everything from university curricula to multiple IGF- and BAFTA-winning titles.</description>
     </item>
     <item>
+      <title>Books and Talks</title>
+      <link>http://localhost:1313/books-and-talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/books-and-talks/</guid>
+      <description>Books List of books forthcoming.
+Talks List of talks forthcoming.</description>
+    </item>
+    <item>
       <title>West Coast Space Show</title>
       <link>http://localhost:1313/posts/wcss/</link>
       <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
@@ -31,6 +39,13 @@ He is also co-founder of Yarn Spinner, a company spun out of the wildly successf
       <description>I&amp;rsquo;m absolutely thrilled to announce that, together with my wife Mars, I&amp;rsquo;ll be heading to the West and North West coasts of Tasmania to present a series of space-themed events and workshops for kids and adults alike.
 We&amp;rsquo;ve called these events the West Coast Space Show. This National Science Week project is supported by the Australian Government.
 This is an early step in our efforts to establish the West Coast Space Centre.</description>
+    </item>
+    <item>
+      <title>You can now (also) buy Yarn Spinner</title>
+      <link>http://localhost:1313/posts/yspl/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/yspl/</guid>
+      <description>Yarn Spinner is now available on the Unity Asset Store.</description>
     </item>
   </channel>
 </rss>

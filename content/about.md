@@ -1,7 +1,8 @@
 ---
 title: About Paris
 author: 
-weight: 10
+weight: 1
+ShowToc: false
 ---
 
 Dr Paris Buttfield-Addison is a creative technologist who works with everything from games and apps to narrative tools and educational resources. 
