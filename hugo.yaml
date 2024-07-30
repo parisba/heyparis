@@ -63,6 +63,7 @@ params:
   ShowReadingTime: false
   # disableSpecial1stPost: true
   displayFullLangName: true
+  hideAuthor: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
