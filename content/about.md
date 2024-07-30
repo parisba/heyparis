@@ -6,7 +6,7 @@ weight: 10
 
 Dr Paris Buttfield-Addison is a creative technologist who works with everything from games and apps to narrative tools and educational resources. 
 
-He is co-founder and creative director of long-running Tasmanian game development studio Secret Lab, where he has worked on games for QANTAS, CSIRO, Marvel, the ABC and more. 
+He is co-founder and creative director of long-running Tasmanian game development studio Secret Lab, where he has worked on games for QANTAS, CSIRO, Marvel, the ABC, and more. 
 
 He is also co-founder of Yarn Spinner, a company spun out of the wildly successful game tool of the same name which is used in everything from university curricula to multiple IGF- and BAFTA-winning titles. 
 
