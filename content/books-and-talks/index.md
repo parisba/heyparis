@@ -8,6 +8,8 @@ ShowToc: false
 
 List of books forthcoming.
 
+![Head First Swift](images/book-headfirstswift.jpg)
+
 # Talks
 
 List of talks forthcoming.

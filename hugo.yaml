@@ -94,7 +94,15 @@ params:
   homeInfoParams:
     Title: "Paris Buttfield-Addison"
     Content:
-        Hi, I'm Paris, and I've been doing things with technology, education, writing, and creative arts for a long time. You can [learn more about me here](/about).
+        Hi, I'm Paris 👋
+
+        <br /><br />
+        
+        I've been doing things with technology, education, writing, and creative arts for a long time. You can [learn more about me here](/about).
+
+        <br /><br />
+        
+        If you're looking for my wife, Mars, you can find her [here](https://themartianlife.com).
         
   socialIcons:
     - name: "Mastodon"

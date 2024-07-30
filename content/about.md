@@ -3,6 +3,10 @@ title: About Paris
 author: 
 weight: 1
 ShowToc: false
+cover:
+  image: "images/Paris_Headshot_2024.jpg"
+  alt: "Paris"
+  relative: false
 ---
 
 Dr Paris Buttfield-Addison is a creative technologist who works with everything from games and apps to narrative tools and educational resources. 
@@ -14,3 +18,11 @@ He is also co-founder of Yarn Spinner, a company spun out of the wildly successf
 Paris spends much of him remaining time on community support and education in creative and technology industries—leading boards, running conferences, and more. 
 
 He is the author of nearly 30 technical books, and is currently working on multiple educational series for both audio and screen. He is also working to improve regional STEM outreach in Tasmania as co-founder of the not-for-profit West Coast Space Centre. 
+
+### Books and Talks
+
+I've written a lot of books, and given a lot of talks. You can learn more about those [here](/books-and-talks/).
+
+### Invite me to speak
+
+You can email me at _paris AT paris.id.au_ to invite me to speak at your event. I'm happy to talk about a wide range of topics, from game development to creative technology, education, and more.
