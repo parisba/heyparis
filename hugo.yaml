@@ -79,7 +79,7 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  images: ["images/cover.jpg"]
+  images: ["/images/cover.jpg"]
 
   # profileMode:
   #   enabled: false
