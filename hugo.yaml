@@ -29,18 +29,20 @@ languages:
       series: series
     menu:
       main:
+        - name: About
+          url: about
         - name: Archive
           url: archives
           weight: 5
         - name: Tags
           url: tags/
           weight: 10
-        - name: Secret Lab
-          url: https://secretlab.games
-        - name: Yarn Spinner
-          url: https://yarnspinner.dev
-        - name: West Coast Space Centre
-          url: "https://www.westcoastspacecentre.com"
+        # - name: Secret Lab
+        #   url: https://secretlab.games
+        # - name: Yarn Spinner
+        #   url: https://yarnspinner.dev
+        # - name: West Coast Space Centre
+        #   url: "https://www.westcoastspacecentre.com"
 
     # custom params for each language should be under [langcode].parms - hugo v0.120.0
 
@@ -57,8 +59,8 @@ params:
 
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
-  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowReadingTime: false
   # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
@@ -86,8 +88,9 @@ params:
 
   homeInfoParams:
     Title: "Paris Buttfield-Addison"
-    Content: >
-        gurp
+    Content:
+        Hi, I'm Paris, and I've been doing things with technology, education, writing, and creative arts for a long time. You can [learn more about me here](/about).
+        
   socialIcons:
     - name: "Mastodon"
       url: "https://cloudisland.nz/@parisba"
