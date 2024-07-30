@@ -10,6 +10,8 @@ ShowToc: false
 
 ## West Coast Space Show
 
-I'm absolutely thrilled to announce that, together with my wife Mars, I'll be heading to the West and North West coasts of Tasmania to present a series of space-themed events and workshops for kids and adults alike.
+I'm absolutely thrilled to announce that, together with my wife [Mars](https://themartianlife.com), I'll be heading to the West and North West coasts of Tasmania to present a series of space-themed events and workshops for kids and adults alike.
 
-We've called these events the [West Coast Soace Show](http://westcoastspacecentre.com/scienceweek2024). This National Science Week project is supported by the Australian Government.
+We've called these events the [West Coast Space Show](http://westcoastspacecentre.com/scienceweek2024). This [National Science Week](https://scienceweek.net.au) project is supported by the Australian Government.
+
+This is an early step in our efforts to establish the [West Coast Space Centre](https://www.westcoastspacecentre.com). You can follow our work on the web, and on [Instagram](http://instagram.com/westcoastspacecentre/).
