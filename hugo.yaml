@@ -121,6 +121,10 @@ params:
       url: "https://www.flickr.com/photos/parisba/"
     - name: "GitHub"
       url: "https://github.com/parisba"
+    - name: "Facebook"
+      url: "https://facebook.com/parisba"
+    - name: "LinkedIn"
+      url: "https://au.linkedin.com/in/parisba"
 
   # editPost:
   #   URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
