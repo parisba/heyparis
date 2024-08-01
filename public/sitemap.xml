@@ -10,19 +10,13 @@
   </url><url>
     <loc>http://localhost:1313/all-posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/weekly-links/08012024/</loc>
-    <lastmod>2024-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/weekly-links/</loc>
+    <loc>http://localhost:1313/posts/weekly-links-08012024/</loc>
     <lastmod>2024-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/wcss/</loc>
@@ -50,6 +44,8 @@
     <lastmod>2019-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books-and-events/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
   </url><url>
