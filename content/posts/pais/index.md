@@ -11,6 +11,7 @@ params:
   images:
   - cover.jpeg
   title: "Practical Artificial Intelligence with Swift is out!"
+tags: ["book"]
 ---
 
 Our [latest book](https://www.oreilly.com/library/view/practical-artificial-intelligence/9781492044802/), written together with my partner Mars, plus friends Tim and Jon, is out! It covers everything you need to know to do practical AI with Swift (hence its title: Practical Artificial Intelligence with Swift, clever right?).

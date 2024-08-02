@@ -11,6 +11,7 @@ params:
   images:
   - cover.png
   title: "Yarn Spinner on Itch and Unity Asset Store"
+tags: ["yarn spinner"]
 ---
 
 Yarn Spinner is now available for purchase! We've been working hard to make it easier for you to get started with Yarn Spinner, and we're excited to announce that you can now buy Yarn Spinner on the [Unity Asset Store](https://assetstore.unity.com/publishers/91946), and the [Itch Store](http://yarnspinner.itch.io).

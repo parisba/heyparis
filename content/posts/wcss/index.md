@@ -11,6 +11,7 @@ params:
   images:
   - cover.png
   title: "West Coast Space Show"
+tags: ["west coast space centre"]
 ---
 
 I'm absolutely thrilled to announce that, together with my wife [Mars](https://themartianlife.com), I'll be heading to the West and North West coasts of Tasmania to present a series of space-themed events and workshops for kids and adults alike.

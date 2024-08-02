@@ -11,6 +11,7 @@ params:
   images:
   - cover-hfs.png
   title: "Head First Swift is out!"
+tags: ["book"]
 ---
 
 It's finally done! My [latest book](https://www.oreilly.com/library/view/head-first-swift/9781491923184/), written together with my Jon, is out! It's a fantastic, visual beginners guide to Swift programming, with an emphasis on using Swift Playgrounds. I'm really proud of it.

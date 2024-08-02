@@ -11,6 +11,7 @@ params:
   images:
   - cover.png
   title: "Practical Simulations for Machine Learning is out!"
+tags: ["book"]
 ---
 
 Another new book! Our [latest book](https://www.oreilly.com/library/view/practical-simulations-for/9781492089919/), written together with my wife Mars, plus friends Tim and Jon, is out! It covers everything you need to know to do simulations using Unity ML-Agents, and how to use them to train machine learning models.

@@ -11,6 +11,7 @@ params:
   images:
   - cover.jpg
   title: "Night in the Woods for iOS is out!"
+tags: ["game", "secret lab", "yarn spinner"]
 ---
 
 We're thrilled to announce that Night in the Woods, a game [we've](https://secretlab.games) been working on for some time, is now also out for iOS. You can grab it today on the iOS App Store.

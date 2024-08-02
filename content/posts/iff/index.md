@@ -11,6 +11,7 @@ params:
   images:
   - cover.jpg
   title: "I Feel Fine"
+tags: ["game", "secret lab", "yarn spinner"]
 ---
 
 We're thrilled to announce that our next game, [I Feel Fine](https://store.steampowered.com/app/2150850/I_Feel_Fine/), is coming out this year! I Feel Fine is developed by studio, [Secret Lab](https://secretlab.games), written by Eisner Award-winning writer [Ryan North](https://www.ryannorth.ca/), powered by [Yarn Spinner](https://yarnspinner.dev), and funded by [Screen Tasmania](https://screen.tas.gov.au/home):

@@ -11,6 +11,7 @@ params:
   images:
   - cover.png
   title: "Yarn Spinner for Books"
+tags: ["yarn spinner"]
 ---
 
 You already know that [Yarn Spinner](https://yarnspinner.dev) is one of the most powerful, flexible and innovative tools for writing interactive stories. Yarn Spinner makes it easy to write stories that run in any engine, on any platform. However, there’s one platform that we’ve neglected:
