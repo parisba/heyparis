@@ -4,7 +4,7 @@ date: 2022-06-30
 cover:
   image: "cover.png"
   alt: "Practical Simulations for Machine Learning is out!"
-  relative: true
+  relative: false
 ShowToc: false
 params:
   description: Practical Simulations for Machine Learning is out!

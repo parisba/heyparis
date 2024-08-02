@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <copyright>Dr Paris Buttfield-Addison</copyright>
-    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Paris</title>
@@ -39,12 +39,20 @@ He is also co-founder of Yarn Spinner, a company spun out of the wildly successf
 Upcoming Events 2024 Speaking: West Coast Space Show 2024, Tasmania, Australia Speaking: NZGDC 2024, Wellington, New Zealand Session: Let&amp;rsquo;s learn to write narrative games with Yarn Spinner Past Events 2024 Organising: AUC /dev/world/2024, Melbourne, Australia Organising: AUC XWorld 2024, Melbourne, Australia Speaking: NarraScope 2024, Rochester, NY, USA Workshop: Getting started with Yarn Spinner Speaking: North Bay Python 2024, Petaluma, CA, USA Session: Nighmare on LLM Street 2023 Speaking: Everything Open 2023, Melbourne, Australia Session: Let&amp;rsquo;s Use An Automated Theorem Prover To Verify Video Games Session: Don&amp;rsquo;t wait for Godot!</description>
     </item>
     <item>
+      <title>Yarn Spinner will be at GCAP 2024</title>
+      <link>http://localhost:1313/posts/gcap2024/ys-ss-talk/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gcap2024/ys-ss-talk/</guid>
+      <description>We&amp;rsquo;re so excited to announce that we&amp;rsquo;ll be presenting at the amazing GCAP conference in Melbourne, Australia, this year!
+We&amp;rsquo;ll be showing off what we&amp;rsquo;ve been working on, and talking about how you can use Yarn Spinner to make your own games. We&amp;rsquo;ll also be around for the whole conference, so if you&amp;rsquo;re there, come and say hi!</description>
+    </item>
+    <item>
       <title>Weekly Links for August 1, 2024</title>
       <link>http://localhost:1313/posts/weekly-links/08012024/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/weekly-links/08012024/</guid>
       <description>With the death of Twitter, and the fracturing of social media, I&amp;rsquo;m going to try an experiment! To that end, I&amp;rsquo;m going post some of the more interesting things I&amp;rsquo;ve read online each Thursday. I hope you find them interesting too. Or not, I don&amp;rsquo;t mind. I&amp;rsquo;m just going to keep doing it anyway.
-I&amp;rsquo;ll post links in no particular oder, and they might not be recent. Just things I&amp;rsquo;ve found interesting in the previous week or so.</description>
+I&amp;rsquo;ll post links in no particular order, and they might not be recent. Just things I&amp;rsquo;ve found interesting in the previous week or so.</description>
     </item>
     <item>
       <title>West Coast Space Show</title>

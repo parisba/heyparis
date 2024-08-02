@@ -12,15 +12,23 @@
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <copyright>Dr Paris Buttfield-Addison</copyright>
-    <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Yarn Spinner will be at GCAP 2024</title>
+      <link>http://localhost:1313/posts/gcap2024/ys-ss-talk/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gcap2024/ys-ss-talk/</guid>
+      <description>Another new book! Our latest book, written together with my wife Mars, plus friends Tim and Jon, is out! It covers everything you need to know to do simulations using Unity ML-Agents, and how to use them to train machine learning models.
+You can buy it from all sorts of book shops, as well as read it on O&amp;rsquo;Reilly&amp;rsquo;s Online Learning platform.</description>
+    </item>
+    <item>
       <title>Weekly Links for August 1, 2024</title>
-      <link>http://localhost:1313/posts/weekly-links-08012024/</link>
+      <link>http://localhost:1313/posts/weekly-links/08012024/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/weekly-links-08012024/</guid>
+      <guid>http://localhost:1313/posts/weekly-links/08012024/</guid>
       <description>With the death of Twitter, and the fracturing of social media, I&amp;rsquo;m going to try an experiment! To that end, I&amp;rsquo;m going post some of the more interesting things I&amp;rsquo;ve read online each Thursday. I hope you find them interesting too. Or not, I don&amp;rsquo;t mind. I&amp;rsquo;m just going to keep doing it anyway.
-I&amp;rsquo;ll post links in no particular oder, and they might not be recent. Just things I&amp;rsquo;ve found interesting in the previous week or so.</description>
+I&amp;rsquo;ll post links in no particular order, and they might not be recent. Just things I&amp;rsquo;ve found interesting in the previous week or so.</description>
     </item>
     <item>
       <title>West Coast Space Show</title>
