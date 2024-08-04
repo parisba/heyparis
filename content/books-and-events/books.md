@@ -61,7 +61,7 @@ cover:
   * English: [Swift Development for the Apple Watch](https://www.oreilly.com/library/view/swift-development-for/9781491925263/) (O'Reilly Media, 2016)
 
 * **iOS Swift Game Development Cookbook (Second Edition)**
-  * English: [iOS Swift Game Development Cookbook (Second Edition)]((https://www.oreilly.com/library/view/ios-swift-game/9781491920794/) (O'Reilly Media, 2015)
+  * English: [iOS Swift Game Development Cookbook (Second Edition)](https://www.oreilly.com/library/view/ios-swift-game/9781491920794/) (O'Reilly Media, 2015)
   * Chinese: [iOS Swift 遊戲程式開發錦囊妙計 第二版](https://www.oreilly.com/library/view/ios-swift/9789863479048/) (GoTop Information, 2015)
 
 * **Swift Development with Cocoa**
