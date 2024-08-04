@@ -22,5 +22,21 @@
       <description>Another new book! Our latest book, written together with my wife Mars, plus friends Tim and Jon, is out! It covers everything you need to know to do simulations using Unity ML-Agents, and how to use them to train machine learning models.
 You can buy it from all sorts of book shops, as well as read it on O&amp;rsquo;Reilly&amp;rsquo;s Online Learning platform.</description>
     </item>
+    <item>
+      <title>Head First Swift</title>
+      <link>http://localhost:1313/posts/hfs/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hfs/</guid>
+      <description>It&amp;rsquo;s finally done! My latest book, written together with my Jon, is out! It&amp;rsquo;s a fantastic, visual beginners guide to Swift programming, with an emphasis on using Swift Playgrounds. I&amp;rsquo;m really proud of it.
+You can buy it from all sorts of book shops, as well as read it on O&amp;rsquo;Reilly&amp;rsquo;s Online Learning platform.</description>
+    </item>
+    <item>
+      <title>Practical Artificial Intelligence with Swift is out now</title>
+      <link>http://localhost:1313/posts/pais/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pais/</guid>
+      <description>Our latest book, written together with my partner Mars, plus friends Tim and Jon, is out! It covers everything you need to know to do practical AI with Swift (hence its title: Practical Artificial Intelligence with Swift, clever right?).
+You can buy it from all sorts of book shops, as well as read it on O&amp;rsquo;Reilly&amp;rsquo;s Online Learning platform.</description>
+    </item>
   </channel>
 </rss>

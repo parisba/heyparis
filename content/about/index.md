@@ -9,7 +9,7 @@ cover:
   relative: true
 ---
 
-Dr Paris Buttfield-Addison is a creative technologist who works with everything from games and apps to narrative tools and educational resources. 
+Dr Paris Buttfield-Addison (he/him) is a creative technologist who works with everything from games and apps to narrative tools and educational resources. 
 
 He is co-founder and creative director of long-running Tasmanian game development studio [Secret Lab](https://secretlab.games), where he has worked on games for QANTAS, CSIRO, Marvel, the ABC, and more. 
 

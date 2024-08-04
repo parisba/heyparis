@@ -12,8 +12,17 @@
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <copyright>Dr Paris Buttfield-Addison</copyright>
-    <lastBuildDate>Thu, 09 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I Feel Fine</title>
+      <link>http://localhost:1313/posts/iff/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/iff/</guid>
+      <description>We&amp;rsquo;re thrilled to announce that our next game, I Feel Fine, is coming out this year! I Feel Fine is developed by studio, Secret Lab, written by Eisner Award-winning writer Ryan North, powered by Yarn Spinner, and funded by Screen Tasmania:
+Great news! You&amp;rsquo;ll be dead in three days.
+Here&amp;rsquo;s the situation. You&amp;rsquo;re a tourism information robot aboard a space station orbiting Jupiter. An asteroid will hit the station in three days, destroying it and everything on it.</description>
+    </item>
     <item>
       <title>Night in the Woods for iOS</title>
       <link>http://localhost:1313/posts/nitwios/</link>
