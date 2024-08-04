@@ -25,9 +25,9 @@ He is also co-founder of Yarn Spinner, a company spun out of the wildly successf
     </item>
     <item>
       <title>AUC</title>
-      <link>http://localhost:1313/about/projects/auc/</link>
+      <link>http://localhost:1313/projects/auc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/projects/auc/</guid>
+      <guid>http://localhost:1313/projects/auc/</guid>
       <description></description>
     </item>
     <item>
@@ -50,31 +50,10 @@ English: Head First Swift (O&amp;rsquo;Reilly Media, 2021) Chinese: 深入淺出
 English: Unity Game Development Cookbook (First Edition) (O&amp;rsquo;Reilly Media, 2019) Practical Artificial Intelligence with Swift</description>
     </item>
     <item>
-      <title>Secret Lab</title>
-      <link>http://localhost:1313/about/projects/sl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/projects/sl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>West Coast Space Centre</title>
-      <link>http://localhost:1313/about/projects/wcsc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/projects/wcsc/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Work</title>
       <link>http://localhost:1313/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/work/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Yarn Spinner</title>
-      <link>http://localhost:1313/about/projects/ys/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/projects/ys/</guid>
       <description></description>
     </item>
     <item>

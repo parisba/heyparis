@@ -88,7 +88,7 @@ cover:
   * English: [iPhone and iPad Game Development For Dummies](https://www.wiley.com/en-gb/iPhone+and+iPad+Game+Development+For+Dummies-p-9780470599105) (Wiley Publishing, 2010)
   * French: [Développer des jeux pour iPhone et iPad pour les Nuls](https://search.worldcat.org/title/717622899) (Wiley Publishing, 2011)
 
-## Papers
+## Selected Papers
 
 I also occasionally put my PhD to use, and pretend to be an academic. Here are some of the papers I've written:
 

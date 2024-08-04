@@ -78,11 +78,11 @@ cover:
     * Session: Simulating your robot brain with a game engine
 
 ## 2020
-* Speaking: GIDS.AI/ML & Data [online this year]
+* Speaking: GIDS.AI/ML & Data [online]
     * Session: Deep Learning Techniques for Natural Language Processing
 * Organising: EveryWorld 2020 [online]
 * Speaking: FWD50 2020, Ottawa, Canada [online this year]
-    * Session: What government needs to know about teaching AI in schools
+    * Session: [What government needs to know about teaching AI in schools](https://www.fwd50.com/session/391/what-government-needs-to-know-about-teaching-ai-in-schools)
 * Speaking: SeaGL 2020, Seattle, USA [online this year]
     * Session: First Steps with Swift for TensorFlow (with Tim)
 * Speaking: All Things Open 2020, Raleigh, USA [online this year]
