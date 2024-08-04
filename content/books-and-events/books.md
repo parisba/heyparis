@@ -75,8 +75,11 @@ cover:
 
 * **Learning Cocoa With Objective-C (Third Edition)**
   * English: [Learning Cocoa with Objective-C (Third Edition)](https://www.oreilly.com/library/view/learning-cocoa-with/9781449355432/) (O'Reilly Media, 2012)
-  * Portuguese: Aprendendo Cocoa com Objective-C (Novatec, 2013)
+  * Portuguese: [Aprendendo Cocoa com Objective-C](https://novatec.com.br/livros/aprendendo-cocoa-com-objective-c/) (Novatec, 2013)
   * Chinese: [Cocoa學習手冊：使用Objective-C(第三版)](https://www.oreilly.com/library/view/cocoa-objective-c/9789862768136/) (GoTop Information, 2013)
+
+* **Gamification: how we can use game mechanics in areas that are not a game**
+  * English: Gamification: how we can use game mechanics in areas that are not a game (Media Evolution, 2011)
 
 * **Unity Mobile Game Development for Dummies**
   * English: [Unity Mobile Game Development for Dummies](https://search.worldcat.org/title/751100288) (Wiley Publishing, 2011)
@@ -85,18 +88,15 @@ cover:
   * English: [iPhone and iPad Game Development For Dummies](https://www.wiley.com/en-gb/iPhone+and+iPad+Game+Development+For+Dummies-p-9780470599105) (Wiley Publishing, 2010)
   * French: [Développer des jeux pour iPhone et iPad pour les Nuls](https://search.worldcat.org/title/717622899) (Wiley Publishing, 2011)
 
-![Learning Swift](/books-and-events/images/books-ls.jpg)
-
 ## Papers
 
 I also occasionally put my PhD to use, and pretend to be an academic. Here are some of the papers I've written:
 
-* Buttfield-Addison, P., Manning, J., & Nugent, T. (2016). A better recipe for game jams: using the Mechanics Dynamics Aesthetics framework for planning. In proceedings of the International Conference on Game Jams, Hackathons, and Game Creation Events 2016.
+* Buttfield-Addison, P., Manning, J., & Nugent, T. (2016). [A better recipe for game jams: using the Mechanics Dynamics Aesthetics framework for planning](/papers/buttfield-addison2016.pdf). In proceedings of the International Conference on Game Jams, Hackathons, and Game Creation Events 2016.
 * Manning, J., Buttfield-Addison, P., Nugent, T, & Lueg, C. (2015). User Interfaces in Science Fiction in Video Games. Presented at OzCHI 2015, workshop on HCI and Science-Fiction: Inspirations, Achievements, or a Mismatch 2015.
-* Nugent, T., Buttfield-Addison, P., Lueg, C., & Dermoudy, J. (2015). “It’s useless for that”: Finding, Frustration, and Fun with Mobile Technology in Outdoor Markets. In proceedings of the Annual Meeting of the Association for Information Science and Technology 2015.
-* Buttfield-Addison, P., Lueg, C., & Ellis, L. (2013). iPad as PIM device: input, interrelation and indexes. In proceedings of iConference 2013.
-* Buttfield-Addison, P., Lueg, C., Ellis, L., & Manning, J. (2012). “Everything goes into or out of the iPad” – the iPad, information scraps and personal information management. In proceedings of OZCHI 2012.
-* Buttfield-Addison, P. (2011). Gamification: how we can use game mechanics in areas that are not a game. Media Evolution.
+* Nugent, T., Buttfield-Addison, P., Lueg, C., & Dermoudy, J. (2015). [“It’s useless for that”: Finding, Frustration, and Fun with Mobile Technology in Outdoor Markets](/papers/nugent2016.pdf). In proceedings of the Annual Meeting of the Association for Information Science and Technology 2015.
+* Buttfield-Addison, P., Lueg, C., & Ellis, L. (2013). [iPad as PIM device: input, interrelation and indexes](/papers/285.pdf). In proceedings of iConference 2013.
+* Buttfield-Addison, P., Lueg, C., Ellis, L., & Manning, J. (2012). [“Everything goes into or out of the iPad” – the iPad, information scraps and personal information management](/papers/OzCHI12EverythinggoesintooroutoftheiPad.pdf). In proceedings of OZCHI 2012.
 * Burns, P., Buttfield-Addison, P., D'Orazio, M., & Nugent, T. (2011). The Serendipity Engine. OZCHI 2011 Design Challenge.
 * Manning, J. A., Lueg, C., & Buttfield-Addison, P. S. (2009). Avoiding creepy people: social networks increasing the pleasure of carpooling. OZCHI 2009.
-* Buttfield-Addison, P., & Lueg, C. (2009). The pile of least effort: supporting lived document management practices. In proceedings of OZCHI 2009.
+* Buttfield-Addison, P., & Lueg, C. (2009). [The pile of least effort: supporting lived document management practices](/papers/buttfield-addison2009.pdf). In proceedings of OZCHI 2009.
