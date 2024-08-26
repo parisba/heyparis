@@ -15,7 +15,6 @@ cover:
 # Upcoming Events
 
 ## 2024
-* Speaking: [West Coast Space Show 2024, Tasmania, Australia](https://westcoastspacecentre.com)
 * Speaking: [NZGDC 2024, Wellington, New Zealand](https://www.nzgdc.com/conf2024)
     * Session: Let's learn to write narrative games with Yarn Spinner
 * Speaking: [It Takes a Spark! - STEM Conference 2024, Launceston, Tasmania, Australia](https://spark-educonferences.com.au/tasmania-2024/)
@@ -24,6 +23,7 @@ cover:
 # Past Events
 
 ## 2024
+* Organsing/Speaking: [West Coast Space Show 2024, Tasmania, Australia](https://westcoastspacecentre.com)
 * Organising: AUC /dev/world/2024, Melbourne, Australia
 * Organising: AUC XWorld 2024, Melbourne, Australia
 * Speaking: [NarraScope 2024](https://narrascope.org), Rochester, NY, USA
