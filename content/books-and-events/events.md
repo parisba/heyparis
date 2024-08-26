@@ -29,13 +29,13 @@ cover:
 * Speaking: [NarraScope 2024](https://narrascope.org), Rochester, NY, USA
     * Workshop: Getting started with Yarn Spinner
 * Speaking: North Bay Python 2024, Petaluma, CA, USA
-    * Session: Nighmare on LLM Street
+    * Session: [Nighmare on LLM Street](https://www.youtube.com/watch?v=t5cFHvWKPD8)
 
 ## 2023
 
 * Speaking: Everything Open 2023, Melbourne, Australia
     * Session: Let's Use An Automated Theorem Prover To Verify Video Games
-    * Session: Don't wait for Godot! Build a game today!
+    * Session: [Don't wait for Godot! Build a game today!](https://www.youtube.com/watch?v=bXxY0ggr7n4)
 * Attending: GDC 2023, San Francisco, USA
 * Organising: AUC /dev/world/2023, Melbourne, Australia
 * Organising: AUC XWorld 2023, Melbourne, Australia
@@ -50,14 +50,14 @@ cover:
 * Exhibiting: Gamescom 2022, Cologne, Germany
     * Exhibiting: Yarn Spinner
 * Speaking: KiwiPyCon 2022, Christchurch, New Zealand
-    * Session: Machine Learning, Video Games, and Python
+    * Session: [Machine Learning, Video Games, and Python](https://www.youtube.com/watch?v=cCQSSNUlhZs)
 * Speaking: NZGDC 2022, Wellington, New Zealand
-    * Session: Machine Learning and Video Games
-    * Panel: Narrative Tools and Game Development
+    * Session: [Building and Training Machine Learning Agents with Unity](https://www.youtube.com/watch?v=DlJ8XSglJIE)
+    * Panel: [Writing, Workflow, and Game design](https://www.youtube.com/watch?v=EpJpVkiIssw)
 * Speaking: linux.conf.au 2022 [online]
-    * Session: Let's Make a Game
+    * Session: [Let's Make a Game](https://www.youtube.com/watch?v=z-zUqv_O6So)
 * Speaking: GCAP 2022, Melbourne, Australia
-    * Session: We deserve better subtitles!
+    * Session: [We deserve better subtitles!](https://www.youtube.com/watch?v=HYN4N-X2URQ)
 
 ## 2021
 * Speaking: PAX Australia Online 2021 [online]
@@ -70,7 +70,7 @@ cover:
     * Session: Let's Train an AI (Hobart)
     * Session: Let's Train an AI (Launceston)
 * Speaking: NZGDC 2021, Wellington, New Zealand
-    * Session: Machine Learning, Artificial Intelligence, and Simulations with Unity (with Mars)
+    * Session: [Machine Learning, Artificial Intelligence, and Simulations with Unity](https://www.youtube.com/watch?v=AztjZ0wSIgA) (with Mars)
     * Panel: What’s the story with narrative game development? (with Tim and Jon)
 * Speaking: Write the Docs 2021, Portland, Oregon [online]
     * Session: The Secret History of Libraries [video 🎬]
