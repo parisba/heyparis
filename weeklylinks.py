@@ -21,10 +21,10 @@ def generate_random_intro():
 def generate_random_goodbye():
     goodbyes = [
         "See you next time!",
-        "Until next week, happy reading!",
-        "Enjoy exploring these links!",
-        "That's all for now. Stay curious!",
-        "Looking forward to sharing more next week!"
+        "Until next week!",
+        "Enjoy!",
+        "That's all for now.",
+        "That's all folks."
     ]
     return random.choice(goodbyes)
 
@@ -43,10 +43,10 @@ cover:
     relative: true
 tags: ["weekly links"]
 params:
-    description: "Paris Buttfield-Addison's weekly interesting links for {date_text}."
+    description: "Weekly Links for {date_text}."
 images:
  - "/link-cover.jpg"
-title: "Paris Buttfield-Addison's weekly interesting links for {date_text}."
+title: "Weekly Links for {date_text}."
 images:
  - "/link-cover.jpg"
 ---
