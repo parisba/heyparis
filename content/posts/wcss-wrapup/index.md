@@ -16,7 +16,7 @@ tags: ["West Coast Space Centre"]
 
 The West Coast Space Show was a fantastic success! We had a great time presenting our space-themed show and activities for kids and adults alike, all around Tasmania's West and Central Coast. 
 
-We're so grateful for the support we [received from the Australian Government via National Science Week](https://www.scienceweek.net.au/national-grant-round-recipients-for-2024/#SA1). We ran the show in Strahan, Zeehan, and Queenstown, as well as Ulverstone and Devonport, plus a quick stop in a school in Burnie. In total, we spoke to more than 255 people.
+We're so grateful for the support we [received from the Australian Government via National Science Week](https://www.scienceweek.net.au/national-grant-round-recipients-for-2024/#SA1). We ran the show all over the West Coast and Central Coast of Tasmania, including Strahan, Zeehan, Queenstown, Ulverstone, and Devonport, plus a quick stop in a school in Burnie. In total, we spoke to more than 255 people.
 
 {{< figure src="mars.jpeg" caption="Mars, and part of our setup for the West Coast Space Show." >}}
 
