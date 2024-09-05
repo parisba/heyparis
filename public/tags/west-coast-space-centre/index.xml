@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <copyright>Dr Paris Buttfield-Addison</copyright>
-    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/west-coast-space-centre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>West Coast Space Show Wrap-up</title>
+      <link>http://localhost:1313/posts/wcss-wrapup/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/wcss-wrapup/</guid>
+      <description>The West Coast Space Show was a fantastic success! We had a great time presenting our space-themed show and activities for kids and adults alike, all around Tasmania&amp;rsquo;s West and Central Coast. We&amp;rsquo;re so grateful for the support we received from the Australian Government via National Science Week. We ran the show in Strahan, Zeehan, and Queenstown, as well as Ulverstone and Devonport, plus a quick stop in a school in Burnie.</description>
+    </item>
     <item>
       <title>West Coast Space Show</title>
       <link>http://localhost:1313/posts/wcss/</link>

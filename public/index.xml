@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.129.0</generator>
     <language>en</language>
     <copyright>Dr Paris Buttfield-Addison</copyright>
-    <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Paris</title>
@@ -35,8 +35,8 @@ He is also co-founder of Yarn Spinner, a company spun out of the wildly successf
       <link>http://localhost:1313/books-and-events/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/books-and-events/events/</guid>
-      <description>⚠️ I&amp;rsquo;m happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat.
-Upcoming Events 2024 Speaking: West Coast Space Show 2024, Tasmania, Australia Speaking: NZGDC 2024, Wellington, New Zealand Session: Let&amp;rsquo;s learn to write narrative games with Yarn Spinner Speaking: It Takes a Spark!</description>
+      <description>⚠️ I&amp;rsquo;m happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots here.
+Upcoming Events 2024 Speaking: West Coast Heritage Centre, Zeehan, Tasmania Open Day Session on STEM and Space Speaking: NZGDC 2024, Wellington, New Zealand Session: Let&amp;rsquo;s learn to write narrative games with Yarn Spinner Speaking: It Takes a Spark!</description>
     </item>
     <item>
       <title>Publications</title>
@@ -50,11 +50,64 @@ English: Head First Swift (O&amp;rsquo;Reilly Media, 2021) Chinese: 深入淺出
 English: Unity Game Development Cookbook (First Edition) (O&amp;rsquo;Reilly Media, 2019) Practical Artificial Intelligence with Swift</description>
     </item>
     <item>
+      <title>Secret Lab</title>
+      <link>http://localhost:1313/projects/sl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>West Coast Space Centre</title>
+      <link>http://localhost:1313/projects/wcsc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/wcsc/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Work</title>
       <link>http://localhost:1313/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/work/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Yarn Spinner</title>
+      <link>http://localhost:1313/projects/ys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ys/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>West Coast Space Show Wrap-up</title>
+      <link>http://localhost:1313/posts/wcss-wrapup/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/wcss-wrapup/</guid>
+      <description>The West Coast Space Show was a fantastic success! We had a great time presenting our space-themed show and activities for kids and adults alike, all around Tasmania&amp;rsquo;s West and Central Coast.
+We&amp;rsquo;re so grateful for the support we received from the Australian Government via National Science Week. We ran the show in Strahan, Zeehan, and Queenstown, as well as Ulverstone and Devonport, plus a quick stop in a school in Burnie.</description>
+    </item>
+    <item>
+      <title>Weekly Links for August 29, 2024</title>
+      <link>http://localhost:1313/posts/weekly-links/08292024/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weekly-links/08292024/</guid>
+      <description>Here are this week&amp;rsquo;s interesting links:
+Dishwashers are critical: At the heart of every restaurant Hahahah, oh ho ho ho, hahahaha: Microsoft&amp;rsquo;s Copilot falsely accuses court reporter of crimes he covered Astronomers back call for review of bonkers rule that means satellite swarms fly without environment checks Enjoy!</description>
+    </item>
+    <item>
+      <title>Weekly Links for August 15 and August 22, 2024</title>
+      <link>http://localhost:1313/posts/weekly-links/08152024/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weekly-links/08152024/</guid>
+      <description>Here&amp;rsquo;s the latest links. I was travelling the last two weeks, so I missed a week, and this one is late, but here we are:
+The staggering death toll of scientific lies Finally, yes please: Artificial intelligence is losing hype From the &amp;lsquo;absolute crap&amp;rsquo; department: Peloton announces $95 “used equipment activation fee” Magic moment: Sydney aquarium filled with song after sea birds mourn death of gay penguin Sphen You don&amp;rsquo;t know how bad most things are nor precisely how they&amp;rsquo;re bad.</description>
+    </item>
+    <item>
+      <title>Weekly Links for August 8, 2024</title>
+      <link>http://localhost:1313/posts/weekly-links/08082024/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/weekly-links/08082024/</guid>
+      <description>And so it continues! Here&amp;rsquo;s my interesting links for this week:
+Airlines Are Running Out Of Flight Numbers, And They Don’t Know What To Do About It New Euripides just dropped: Uncovered Euripides fragments are ‘kind of a big deal’ Should&amp;rsquo;ve just used that Brother printer everyone has: Reverse engineering the 59-pound printer onboard the Space Shuttle From the &amp;ldquo;they quoted my clever wife&amp;rdquo; department: Space is becoming an &amp;lsquo;unsustainable environment in the long term,&amp;rsquo; ESA says A public draft of the second edition of the brilliant Artificial Intelligence and Games book is available Computer Archeology: Exploring the Anatomy of an MS-DOS Virus (if you found this interesting you may also find this interesting) Last days of the lonely interstellar spacecraft (original here) See you next week!</description>
     </item>
     <item>
       <title>Yarn Spinner will be at GCAP 2024</title>
