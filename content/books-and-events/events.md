@@ -10,7 +10,7 @@ cover:
   alt: "Paris speaking"
   relative: false
 ---
-⚠️ I'm happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat.
+⚠️ I'm happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](/about).
 
 # Upcoming Events
 
@@ -57,7 +57,7 @@ cover:
 * Speaking: linux.conf.au 2022 [online]
     * Session: [Let's Make a Game](https://www.youtube.com/watch?v=z-zUqv_O6So)
 * Speaking: GCAP 2022, Melbourne, Australia
-    * Session: [We deserve better subtitles!](https://www.youtube.com/watch?v=HYN4N-X2URQ)
+    * Session: [We deserve better subtitles!](https://www.youtube.com/watch?v=HYN4N-X2URQ)h
 
 ## 2021
 * Speaking: PAX Australia Online 2021 [online]
@@ -263,3 +263,24 @@ Presentation: Building mobile apps for IoT devices. YOW! Connected 2014, Septem
 Speaking: Building Swift Applications, Online Training for O'Reilly Media, July 20 and 21, 2016
 Speaking: PyCon Australia 2016, Melbourne, Australia: "Code the Docs: Interactive Documentation Environments", August 12 to 16, 2016
 If you're interested in having me talk at your conference or event, then please email me and let me know! -->
+
+# Speaker Information
+
+You can download a headshot here: [Paris Buttfield-Addison headshot](/Paris_Headshot_2024.jpg). A variety of biography lengths are available below.
+
+## Long Biography
+Paris Buttfield-Addison is a multifaceted creative technologist, author, and entrepreneur with a PhD in Computing from the University of Tasmania. As co-founder of Secret Lab, he has led teams in creating award-winning games and interactive experiences, including contributions to the BAFTA- and IGF-winning Night in the Woods, as well as projects for high-profile clients such as CSIRO, ABC, Qantas, Marvel, and Apple. 
+
+In 2024, he co-founded Yarn Spinner, a company built around the eponymous narrative scripting tool developed at Secret Lab, which has gained widespread adoption in both educational settings and acclaimed game titles worldwide. Paris has authored more than 20 books on subjects ranging from game development to artificial intelligence and astrophysics, with translations in more than 10 languages and international bestseller status. 
+
+His commitment to the tech community is evident through his current board positions with the Australasian Apple University Consortium (AUC) and Tasmanian Game Makers (TasGM), as well as his past twelve-year tenure on the board of the Australian Computer Society (ACS). A sought-after speaker, Paris frequently shares his knowledge at conferences globally, covering topics from game design to cutting-edge AI technologies. 
+
+In 2024, Paris, together with his wife, embarked on a new venture by co-founding the West Coast Space Centre, a non-profit organization dedicated to advancing STEAM education in Tasmania, further showcasing his dedication to fostering innovation and learning in his home state.
+
+## Medium Biography
+
+Paris Buttfield-Addison is a creative technologist, author, and entrepreneur with a PhD in Computing from the University of Tasmania. As co-founder of Secret Lab, he has led teams in creating award-winning games and interactive experiences, including contributions to the BAFTA- and IGF-winning Night in the Woods. Paris has authored more than 20 internationally bestselling books on subjects ranging from game development to artificial intelligence. His commitment to the tech community is evident through his board positions with the Australasian Apple University Consortium, Tasmanian Game Makers, and the Australian Computer Society. A sought-after speaker, Paris frequently shares his knowledge at global conferences. In 2024, he co-founded Yarn Spinner, a company built around a widely-adopted narrative scripting tool, and——together with his wife, Mars——the West Coast Space Centre, a non-profit dedicated to advancing STEAM education in Tasmania.
+
+## Short Biography
+
+Paris Buttfield-Addison is a creative technologist, author, and entrepreneur with a PhD in Computing. He co-founded Secret Lab, creating award-winning games, and has authored over 20 bestselling tech books. Paris serves on industry boards, speaks globally, and recently co-founded Yarn Spinner and the West Coast Space Centre, advancing game development and STEAM education in Tasmania.
