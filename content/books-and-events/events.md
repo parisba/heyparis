@@ -15,6 +15,8 @@ cover:
 # Upcoming Events
 
 ## 2024
+* Speaking: West Coast Heritage Centre, Zeehan, Tasmania
+    * Open Day Session on STEM and Space
 * Speaking: [NZGDC 2024, Wellington, New Zealand](https://www.nzgdc.com/conf2024)
     * Session: Let's learn to write narrative games with Yarn Spinner
 * Speaking: [It Takes a Spark! - STEM Conference 2024, Launceston, Tasmania, Australia](https://spark-educonferences.com.au/tasmania-2024/)
