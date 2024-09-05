@@ -27,3 +27,14 @@ We also brought a big Schmidt-Cassegrain telescope, and our brand new Seestar S5
 Overall, the first West Coast Space Show was a wild success, and we're excited to do more things in the coming years, in the lead up to our [West Coast Space Centre](https://westcoastspacecentre.com). Stay tuned for more updates! 
 
 {{< figure src="old-cover.jpeg" >}}
+
+With particular thanks to:
+
+* the National Science Week Federal Grant program
+* Inspiring Tasmania
+* the staff of the Study Hub West Coast
+* the staff of Strahan Primary School
+* the Libraries Tasmania West Coast team
+* Alan Jennison at the [Western Echo](http://westernecho.news)
+
+... and all the amazing attendees and helpers that came out to attend, support, or help us in some way.
