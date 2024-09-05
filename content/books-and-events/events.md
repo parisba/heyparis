@@ -10,7 +10,7 @@ cover:
   alt: "Paris speaking"
   relative: false
 ---
-⚠️ I'm happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](/about).
+⚠️ I'm happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information).
 
 # Upcoming Events
 
