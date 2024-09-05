@@ -21,6 +21,6 @@ He is the author of nearly 30 technical [books](/books-and-events/books), and is
 
 ### Invite me to speak
 
-You can email me at _paris AT paris.id.au_ to invite me to speak at your event. I'm happy to talk about a wide range of topics, from game development to creative technology, education, and more.
+You can email me at _paris AT paris.id.au_ to invite me to speak at your event. I'm happy to talk about a wide range of topics, from game development to creative technology, education, and more. You can find bios and photos for me [here](/books-and-events/events/#speaker-information).
 
 ![](/images/Paris_Headshot_2024.jpg)
