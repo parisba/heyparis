@@ -25,7 +25,7 @@ cover:
 # Past Events
 
 ## 2024
-* Organsing/Speaking: [West Coast Space Show 2024, Tasmania, Australia](https://westcoastspacecentre.com)
+* Organising/Speaking: [West Coast Space Show 2024, Tasmania, Australia](https://westcoastspacecentre.com)
 * Organising: AUC /dev/world/2024, Melbourne, Australia
 * Organising: AUC XWorld 2024, Melbourne, Australia
 * Speaking: [NarraScope 2024](https://narrascope.org), Rochester, NY, USA
