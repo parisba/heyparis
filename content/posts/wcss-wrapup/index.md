@@ -18,8 +18,6 @@ The West Coast Space Show was a fantastic success! We had a great time presentin
 
 We're so grateful for the support we [received from the Australian Government via National Science Week](https://www.scienceweek.net.au/national-grant-round-recipients-for-2024/#SA1). We ran the show all over the West Coast and Central Coast of Tasmania, including Strahan, Zeehan, Queenstown, Ulverstone, and Devonport, plus a quick stop in a school in Burnie. In total, we spoke to more than 255 people.
 
-{{< figure src="mars.jpeg" caption="Mars, and part of our setup for the West Coast Space Show." >}}
-
 In addition to our prepared presentation on space, we took along a collection of real meoteorites (which were a huge hit with the kids), impact glass (including the local Darwin glass), and Saturn V and Space Shuttle Lego models. 
 
 We also brought a big Schmidt-Cassegrain telescope, and our brand new Seestar S50 telescope. While conditions weren't perfect, we did manage to get a nice shot or two:
@@ -27,3 +25,5 @@ We also brought a big Schmidt-Cassegrain telescope, and our brand new Seestar S5
 {{< figure src="m8.jpeg" caption="A shot from the Seestar." >}}
 
 Overall, the first West Coast Space Show was a wild success, and we're excited to do more things in the coming years, in the lead up to our [West Coast Space Centre](https://westcoastspacecentre.com). Stay tuned for more updates! 
+
+{{< figure src="old-cover.jpeg" >}}
