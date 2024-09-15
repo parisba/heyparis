@@ -48,7 +48,7 @@ outputs:
     - rss
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   description: "Dr Paris Buttfield-Addison's personal website. Paris is bestselling author, and co-founder of Secret Lab, Yarn Spinner, and West Coast Space Centre."
   author: Dr Paris Buttfield-Addison
 
