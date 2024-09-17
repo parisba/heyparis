@@ -18,6 +18,10 @@ I'm thrilled to share that we'll be part of [Level Up Tasmania 2024](https://www
 
 The main showcase will unfold at PW1 in Hobart on Friday and Saturday, featuring over 30 Tasmanian-made games. It's a rare opportunity to see the breadth of talent we have in our state, all under one roof! Come along? [Tickets are free and available now.](https://www.eventbrite.com.au/e/level-up-tasmania-video-game-showcase-tickets-1004245855387?aff=oddtdtcreator)
 
+We'll be there on both days, showing off our work on [_"Night in the Woods"_](http://www.nightinthewoods.com), as well as our upcoming Screen Tasmania-funded game, [_"I Feel Fine"_](https://store.steampowered.com/app/2150850/I_Feel_Fine/), and a tiny sneak peak of our (much later) upcoming Screen Tasmania- and Screen Australia-funded game, _"Leonardo's Moon Ship"_.
+
+![](iff.jpg)
+
 On Sunday, the [Industry Day](https://www.screen.tas.gov.au/leveluptasmania/industry_day) at the Theatre Royal's Studio Theatre will offer deeper insights into game development. I'm going to be moderating a panel called _"Path to Play: Education & Gaming"_ at 10:20am, featuring some awesome Tasmanian educators.
 
 And, later, at 12:30pm, Jon Manning and I will be sharing our journey _"From Secret Lab to Yarn Spinner."_ We'll be talking about how our open-source tool, Yarn Spinner, born right here in Hobart, has gone on to impact game storytelling worldwide. You need to [register separarely for Industry Day, but it's also free](https://www.eventbrite.com.au/e/level-up-tasmania-2024-industry-day-tickets-1004907564577?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl)!
