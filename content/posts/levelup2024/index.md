@@ -20,7 +20,7 @@ The main showcase will unfold at PW1 in Hobart on Friday and Saturday, featuring
 
 We'll be there on both days, showing off our work on [_"Night in the Woods"_](http://www.nightinthewoods.com), as well as our upcoming Screen Tasmania-funded game, [_"I Feel Fine"_](https://store.steampowered.com/app/2150850/I_Feel_Fine/), and a tiny sneak peak of our (much later) upcoming Screen Tasmania- and Screen Australia-funded game, _"Leonardo's Moon Ship"_.
 
-![](iff.jpg)
+[![](iff.jpg)](https://store.steampowered.com/app/2150850/I_Feel_Fine/)
 
 On Sunday, the [Industry Day](https://www.screen.tas.gov.au/leveluptasmania/industry_day) at the Theatre Royal's Studio Theatre will offer deeper insights into game development. I'm going to be moderating a panel called _"Path to Play: Education & Gaming"_ at 10:20am, featuring some awesome Tasmanian educators.
 
