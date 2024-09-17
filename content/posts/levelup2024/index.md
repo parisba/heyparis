@@ -1,6 +1,6 @@
 ---
 title: "Level Up 2024"
-date: 2024-01-15
+date: 2024-09-17
 cover:
   image: "cover.jpg"
   alt: "Level Up 2024"
