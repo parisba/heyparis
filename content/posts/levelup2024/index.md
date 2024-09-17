@@ -1,16 +1,16 @@
 ---
-title: "Level Up 2024"
+title: "Level Up Tasmania 2024"
 date: 2024-09-17
 cover:
   image: "cover.jpg"
-  alt: "Level Up 2024"
+  alt: "Level Up Tasmania 2024"
   relative: true
 ShowToc: false
 params:
-  description: Level Up 2024
+  description: Level Up Tasmania 2024
   images:
   - cover.jpg
-  title: "Level Up 2024"
+  title: "Level Up Tasmania 2024"
 tags: ["game", "secret lab", "yarn spinner", "tasmania", "level up", "screen tasmania"]
 ---
 
