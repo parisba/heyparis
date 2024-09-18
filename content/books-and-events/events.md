@@ -15,6 +15,10 @@ cover:
 # Upcoming Events
 
 ## 2024
+* Speaking: [Level Up Tasmania 2024](https://www.screen.tas.gov.au/leveluptasmania), Hobart, Tasmania, Australia
+    * Panel: Path to Play: Education & Gaming
+    * Session: From Secret Lab to Yarn Spinner
+    * Expo: Night in the Woods, I Feel Fine, and Leonardo's Moon Ship
 * Speaking: West Coast Heritage Centre, Zeehan, Tasmania
     * Open Day Session on STEM and Space
 * Speaking: [NZGDC 2024, Wellington, New Zealand](https://www.nzgdc.com/conf2024)
