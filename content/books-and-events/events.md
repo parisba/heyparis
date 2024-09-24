@@ -26,8 +26,7 @@ cover:
 * Speaking: [It Takes a Spark! - STEM Conference 2024, Launceston, Tasmania, Australia](https://spark-educonferences.com.au/tasmania-2024/)
     * Workshop: Writing choose your own adventure stories with Yarn Spinner
 * Speaking: [Tasmanian Ham Radio Conference 2024, Hobart, Tasmania, Australia](https://www.reast.asn.au/news-events/tassie-ham-radio-conference/)
-    * Session: Artificial Intelligence & Machine Learning
-in Amateur Radio
+    * Session: Artificial Intelligence & Machine Learning in Amateur Radio
 
 # Past Events
 
