@@ -15,22 +15,30 @@ cover:
 # Upcoming Events
 
 ## 2024
-* Speaking: [Level Up Tasmania 2024](https://www.screen.tas.gov.au/leveluptasmania), Hobart, Tasmania, Australia
-    * Panel: Path to Play: Education & Gaming
-    * Session: From Secret Lab to Yarn Spinner
-    * Expo: Night in the Woods, I Feel Fine, and Leonardo's Moon Ship
-* Speaking: West Coast Heritage Centre, Zeehan, Tasmania
-    * Open Day Session on STEM and Space
-* Speaking: [NZGDC 2024, Wellington, New Zealand](https://www.nzgdc.com/conf2024)
-    * Session: Let's learn to write narrative games with Yarn Spinner
 * Speaking: [It Takes a Spark! - STEM Conference 2024, Launceston, Tasmania, Australia](https://spark-educonferences.com.au/tasmania-2024/)
     * Workshop: Writing choose your own adventure stories with Yarn Spinner
-* Speaking: [Tasmanian Ham Radio Conference 2024, Hobart, Tasmania, Australia](https://www.reast.asn.au/news-events/tassie-ham-radio-conference/)
-    * Session: Artificial Intelligence & Machine Learning in Amateur Radio
+* Speaking: Yarn Spinner Workshops Melbourne
+    * Workshop: Yarn Spinner for Writers
+    
+## 2025
+* Speaking: ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)
+    * Session: Careers, video games, and technology
 
 # Past Events
 
 ## 2024
+* Speaking: [Tasmanian Ham Radio Conference 2024, Hobart, Tasmania, Australia](https://www.reast.asn.au/news-events/tassie-ham-radio-conference/)
+    * Session: Artificial Intelligence & Machine Learning in Amateur Radio
+* Speaking: [NZGDC 2024, Wellington, New Zealand](https://www.nzgdc.com/conf2024)
+    * Session: Let's learn to write narrative games with Yarn Spinner
+* Speaking: Melbourne International Games Week, Technically Games Lightning Talks
+    * Session: Let's learn to write narrative games with Yarn Spinner
+* Speaking: West Coast Heritage Centre, Zeehan, Tasmania
+    * Open Day Session on STEM and Space
+* Speaking: [Level Up Tasmania 2024](https://www.screen.tas.gov.au/leveluptasmania), Hobart, Tasmania, Australia
+    * Panel: Path to Play: Education & Gaming
+    * Session: From Secret Lab to Yarn Spinner
+    * Expo: Night in the Woods, I Feel Fine, and Leonardo's Moon Ship
 * Organising/Speaking: [West Coast Space Show 2024, Tasmania, Australia](https://westcoastspacecentre.com)
 * Organising: AUC /dev/world/2024, Melbourne, Australia
 * Organising: AUC XWorld 2024, Melbourne, Australia
