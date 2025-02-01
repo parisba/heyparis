@@ -10,23 +10,24 @@ cover:
   alt: "Paris speaking"
   relative: false
 ---
-⚠️ I'm happy to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information).
+⚠️ I'm happy to be invited to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information).
 
 # Upcoming Events
 
-## 2024
-* Speaking: [It Takes a Spark! - STEM Conference 2024, Launceston, Tasmania, Australia](https://spark-educonferences.com.au/tasmania-2024/)
-    * Workshop: Writing choose your own adventure stories with Yarn Spinner
-* Speaking: Yarn Spinner Workshops Melbourne
-    * Workshop: Yarn Spinner for Writers
-    
 ## 2025
+* Attending: [South Australian Game Exhibition 2025, Adelaide, South Australia, Australia](https://www.sagameexhibition.com)
+* Speaking: [TasICT Tapas & Tech: Creative Technologies, Hobart, Tasmania, Australia](https://www.tasict.com.au/event/creative-tech-connections/)
+  * Session: Yarn Spinner
 * Speaking: ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)
     * Session: Careers, video games, and technology
 
 # Past Events
 
 ## 2024
+* Speaking: [It Takes a Spark! - STEM Conference 2024, Launceston, Tasmania, Australia](https://spark-educonferences.com.au/tasmania-2024/)
+    * Workshop: Writing choose your own adventure stories with Yarn Spinner
+* Speaking: Yarn Spinner Workshops Melbourne
+    * Workshop: Yarn Spinner for Writers
 * Speaking: [Tasmanian Ham Radio Conference 2024, Hobart, Tasmania, Australia](https://www.reast.asn.au/news-events/tassie-ham-radio-conference/)
     * Session: Artificial Intelligence & Machine Learning in Amateur Radio
 * Speaking: [NZGDC 2024, Wellington, New Zealand](https://www.nzgdc.com/conf2024)
