@@ -20,6 +20,8 @@ cover:
   * Session: Yarn Spinner
 * Speaking: ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)
     * Session: Careers, video games, and technology
+* Organising: AUC /dev/world/2025, Melbourne, Australia
+* Organising: AUC XWorld 2025, Melbourne, Australia
 
 # Past Events
 
