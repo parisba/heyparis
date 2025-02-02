@@ -1,16 +1,16 @@
 ---
-title: "GDC 2025"
+title: "Yarn Spinner at GDC 2025"
 date: 2025-02-02
 cover:
   image: "cover.jpg"
-  alt: "GDC 2025"
+  alt: "Yarn Spinner at GDC 2025"
   relative: true
 ShowToc: false
 params:
-  description: GDC 2025
+  description: Yarn Spinner at GDC 2025 
   images:
   - cover.jpg
-  title: "GDC 2025"
+  title: "Yarn Spinner at GDC 2025"
 tags: ["games", "secret lab", "yarn spinner", "tasmania", "dredge", "presentation", "conference", "talk", "event"]
 ---
 
