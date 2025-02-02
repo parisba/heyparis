@@ -20,10 +20,10 @@ With thanks to our outgoing board member, and our fantastic community and financ
 
 ### The new board is:
 
-President: Paris B-A
-Vice-Presidents: Leo F, Michael H 
-Treasurer: Jon M 
-Secretary: Tim N 
-General Committee: Jason I, Dean B, Drew V S, Alonso Z, Lindsay W, Jerome P, Aaron W, and Bella M
+* President: Paris B-A
+* Vice-Presidents: Leo F, Michael H 
+* Treasurer: Jon M 
+* Secretary: Tim N 
+* General Committee: Jason I, Dean B, Drew V S, Alonso Z, Lindsay W, Jerome P, Aaron W, and Bella M
 
 If you're in Tasmania, and interested in being part of our growing games industry, please check out [Tas Game Makers](https://tasgamemakers.com)! Membership is only $20 per year, and is a great way to support the community.
