@@ -1,6 +1,6 @@
 ---
 title: "Yarn Spinner at GDC 2025"
-date: 2025-02-02
+date: 2025-02-10
 cover:
   image: "cover.jpg"
   alt: "Yarn Spinner at GDC 2025"
