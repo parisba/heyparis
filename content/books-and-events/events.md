@@ -15,15 +15,18 @@ cover:
 # Upcoming Events
 
 ## 2025
-* Attending: [South Australian Game Exhibition 2025, Adelaide, South Australia, Australia](https://www.sagameexhibition.com)
 * Speaking: [TasICT Tapas & Tech: Creative Technologies, Hobart, Tasmania, Australia](https://www.tasict.com.au/event/creative-tech-connections/)
   * Session: Yarn Spinner
-* Speaking: ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)
+* Speaking: [ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)](https://edcat.acs.org.au), Hobart, Tasmania, Australia
     * Session: Careers, video games, and technology
 * Organising: AUC /dev/world/2025, Melbourne, Australia
 * Organising: AUC XWorld 2025, Melbourne, Australia
 
 # Past Events
+
+## 2025
+* Attending: [South Australian Game Exhibition 2025, Adelaide, South Australia, Australia](https://www.sagameexhibition.com)
+  * Session: Yarn Spinner Workshop for Game Development Studios
 
 ## 2024
 * Speaking: [It Takes a Spark! - STEM Conference 2024, Launceston, Tasmania, Australia](https://spark-educonferences.com.au/tasmania-2024/)
