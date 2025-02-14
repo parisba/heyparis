@@ -14,6 +14,8 @@ params:
 tags: ["games", "secret lab", "yarn spinner", "tasmania", "tasict", "hobart", "event"]
 ---
 
+**Update:** This event is now passed, and [it went great](https://www.linkedin.com/posts/tasict_increasing-collab-between-tassie-tech-activity-7295938398639247360-s-8I/)!
+
 I'm incredibly excited to be speaking at the upcoming [TasICT](https://tasict.com.au) [event in Hobart](https://www.tasict.com.au/event/creative-tech-connections/), alongside the fabulous [Procreate](https://procreate.com), [Handbuilt Creative](https://www.handbuiltcreative.com.au), and [Screen Tasmania](https://www.screen.tas.gov.au). I'll be representing [Secret Lab](https://secretlab.games) and [Yarn Spinner](https://yarnspinner.dev), and no doubt [Tas Game Makers](https://tasgamemakers.com.au), our Tasmanian Games Incubator, and other things will get a look in as well.
 
 If you're in Hobart, [get along to the event](https://www.tasict.com.au/event/creative-tech-connections/) to show your suport for the connection between Tasmania's technology industry and creative technology industry!

@@ -15,8 +15,7 @@ cover:
 # Upcoming Events
 
 ## 2025
-* Speaking: [TasICT Tapas & Tech: Creative Technologies, Hobart, Tasmania, Australia](https://www.tasict.com.au/event/creative-tech-connections/)
-  * Session: Yarn Spinner
+
 * Speaking: [ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)](https://edcat.acs.org.au), Hobart, Tasmania, Australia
     * Session: Careers, video games, and technology
 * Organising: AUC /dev/world/2025, Melbourne, Australia
@@ -25,6 +24,8 @@ cover:
 # Past Events
 
 ## 2025
+* Speaking: [TasICT Tapas & Tech: Creative Technologies, Hobart, Tasmania, Australia](https://www.linkedin.com/posts/tasict_increasing-collab-between-tassie-tech-activity-7295938398639247360-s-8I?utm_source=share&utm_medium=member_desktop)
+  * Session: Yarn Spinner
 * Attending: [South Australian Game Exhibition 2025, Adelaide, South Australia, Australia](https://www.sagameexhibition.com)
   * Session: Yarn Spinner Workshop for Game Development Studios
 
