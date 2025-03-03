@@ -68,6 +68,10 @@ params:
   images:
     - /hobart.jpg
 
+  analytics:
+    google:
+      SiteVerificationTag: "G-FMR8Q48WG5"
+
   homeInfoParams:
     Title: "Paris Buttfield-Addison"
     Content:
