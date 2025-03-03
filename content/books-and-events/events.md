@@ -16,6 +16,8 @@ cover:
 
 ## 2025
 
+* Speaking: [TasICT Tas Tech Fest 2025](https://web.cvent.com/event/bdf1d46e-26ef-4d43-a439-730b6b2b1441/summary), Hobart, Tasmania, Australia
+	* Session: Hidden Secrets of the Video Game Industry
 * Speaking: [ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)](https://edcat.acs.org.au), Hobart, Tasmania, Australia
     * Session: Careers, video games, and technology
 * Organising: AUC /dev/world/2025, Melbourne, Australia
