@@ -11,7 +11,7 @@ params:
   images:
   - cover.jpg
   title: "The Empty Promise of AI-Generated Creativity"
-tags: ["games", "secret lab", "yarn spinner", "ai", "generative", "artificial intelligence", "thoughts", "obnoxious thought leadership", "ml"]
+tags: ["games", "secret lab", "yarn spinner", "ai", "generative", "artificial intelligence", "thoughts", "obnoxious thought leadership", "ml", "rant"]
 ---
 
 _"Are you going to add AI writing to Yarn Spinner?"__ It's a question I hear almost weekly these days. Whether at game development conferences, online, or during meetings, there's an assumption that every tool is racing to implement some form of generative AI. I understand the curiosity—we're living through an unprecedented wave of AI hype, and there's genuine confusion about where these technologies might fit into creative processes. So I thought I'd share some thoughts on why we're taking a different path.
