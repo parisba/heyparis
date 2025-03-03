@@ -14,7 +14,9 @@ params:
 tags: ["games", "secret lab", "yarn spinner", "ai", "generative", "artificial intelligence", "thoughts", "obnoxious thought leadership", "ml"]
 ---
 
-As co-founder of [Yarn Spinner](https://yarnspinner.dev), I've reviewed countless examples of AI-generated narrative content. The verdict? Uniformly disappointing—derivative, hollow, and lacking the coherent creative thread that defines meaningful human expression. This isn't just opinion; it's why we've taken an uncompromising position: **Yarn Spinner will never integrate AI that writes narrative content.**
+_"Are you going to add AI writing to Yarn Spinner?"__ It's a question I hear almost weekly these days. Whether at game development conferences, online, or during meetings, there's an assumption that every tool is racing to implement some form of generative AI. I understand the curiosity—we're living through an unprecedented wave of AI hype, and there's genuine confusion about where these technologies might fit into creative processes. So I thought I'd share some thoughts on why we're taking a different path.
+
+As co-founder of [Yarn Spinner](https://yarnspinner.dev), I've reviewed countless examples of AI-generated narrative content. The verdict? Uniformly disappointing—derivative, hollow, and lacking the coherent creative thread that defines meaningful human expression. This isn't just opinion; it's why we've taken an uncompromising position: **Yarn Spinner will never integrate AI that writes for you.**
 
 What strikes me about AI-generated stories, dialogue, and characters is their inherent mimicry. These systems don't create—they rearrange existing patterns from their training data. The results feel like pale echoes of authentic work, with a distinctive blandness that comes from averaging thousands of human voices into statistical patterns. Even the most "impressive" AI-generated narratives fall apart under scrutiny. They meander without purpose, introduce plot elements they forget about, and create characters without consistent motivations. The creative thread—that intentional through-line that guides meaningful work—is conspicuously absent.
 
@@ -24,7 +26,7 @@ Beyond the quality issues, we must confront the ethical problems. These AI syste
 
 To be crystal clear: **Yarn Spinner has absolutely no plans to incorporate generative AI into our products—not now, not ever.** We've seen the disappointing results these systems produce, and we've witnessed their failure to generate narratives with the depth, coherence, and meaning that human writers create naturally. Some suggest AI could have limited applications as tools under human control. But even for these narrow use cases, we remain unconvinced at the moment. The risks of normalising AI in creative processes outweigh any marginal benefits these systems might offer.
 
-What troubles me most is how AI threatens to devalue human creativity by suggesting that the creative process itself—the struggle, the vision, the intention—doesn't matter. When we pretend an AI can write "good enough" stories, we misunderstand what stories are: not just words arranged in pleasing patterns, but acts of human connection and meaning-making.
+What troubles me most is how AI threatens to devalue human creativity by suggesting that the creative process itself—the vision, the intention—doesn't matter. When we pretend an AI can write "good enough" stories, we misunderstand what stories are: not just words arranged in pleasing patterns, but acts of human connection and meaning-making.
 
 Every game narrative created by a human writer carries their unique perspective and intention. Players don't just experience content; they engage with another human's vision of the world. No algorithm can provide this human-to-human connection, regardless of how statistically sophisticated its output might be.
 
