@@ -33,3 +33,7 @@ Every game narrative created by a human writer carries their unique perspective 
 The game industry faces a choice between expediency and authenticity. The path of least resistance leads toward automation—replacing human creativity with algorithmic approximations. This path (questionably) promises cost savings but delivers creatively bankrupt experiences. At Yarn Spinner, we build tools that amplify what creative people can do, never tools that attempt to do the creating for them. We respect the creative process too much to automate it away.
 
 As more creative tools rush to integrate AI that produces weak, derivative content, our stance becomes clearer: we stand for authentic human expression in an industry increasingly willing to settle for less. I invite others to join us in drawing this line. Not because we fear technology, but because we've seen what AI-generated content actually delivers—and it's simply not good enough. Human creativity, with all its messiness and brilliance, remains irreplaceable. And that's something worth protecting, even when—especially when—the technological tide pushes in the opposite direction.
+
+---
+
+Cover Image by <a href="https://pixabay.com/users/iniesta44-4560761/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5260665">Patrik Houštecký</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5260665">Pixabay</a>
