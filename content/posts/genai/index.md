@@ -26,7 +26,7 @@ Beyond the quality issues, we must confront the ethical problems. These AI syste
 
 To be crystal clear: **Yarn Spinner has absolutely no plans to incorporate generative AI into our products—not now, not ever.** We've seen the disappointing results these systems produce, and we've witnessed their failure to generate narratives with the depth, coherence, and meaning that human writers create naturally. Some suggest AI could have limited applications as tools under human control. But even for these narrow use cases, we remain unconvinced at the moment. The risks of normalising AI in creative processes outweigh any marginal benefits these systems might offer.
 
-What troubles me most is how AI threatens to devalue human creativity by suggesting that the creative process itself—the vision, the intention—doesn't matter. When we pretend an AI can write "good enough" stories, we misunderstand what stories are: not just words arranged in pleasing patterns, but acts of human connection and meaning-making.
+What troubles me most is how AI threatens to devalue human creativity by suggesting that the creative process itself—the vision, the intention, the evolution—doesn't matter. When we pretend an AI can write "good enough" stories, we misunderstand what stories are: not just words arranged in pleasing patterns, but acts of human connection and meaning-making.
 
 Every game narrative created by a human writer carries their unique perspective and intention. Players don't just experience content; they engage with another human's vision of the world. No algorithm can provide this human-to-human connection, regardless of how statistically sophisticated its output might be.
 
