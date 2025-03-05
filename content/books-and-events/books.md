@@ -14,7 +14,7 @@ cover:
 
 Occasionally (more often than not, lately) I pretend I can write fiction:
 
-* [The Chair](/fiction/the-chair)
+* [The Chair](/fiction/the-chair) (short story)
 
 # Books
 
