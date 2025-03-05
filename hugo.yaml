@@ -30,7 +30,7 @@ languages:
         - name: About
           url: about
           weight: 3
-        - name: Books
+        - name: Writing
           url: /books-and-events/books
           weight: 2
         - name: Events
