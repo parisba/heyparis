@@ -4,10 +4,12 @@ id: the-chair
 author: Paris Buttfield-Addison
 weight: 1
 ShowToc: false
+<!-- 
 cover:
   image: "books-and-events/images/cover-books.jpeg"
   alt: "Book collection"
   relative: false
+ -->
 ---
 
 <!---

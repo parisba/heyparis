@@ -10,11 +10,13 @@ cover:
   relative: false
 ---
 
-## Fiction
+# Fiction
 
+Occasionally (more often than not, lately) I pretend I can write fiction:
 
+* [The Chair](/fiction/the-chair)
 
-## Books
+# Books
 
 * **Unity Development Cookbook Second Edition**
   * English: [Unity Development Cookbook Second Edition](https://www.oreilly.com/library/view/unity-development-cookbook/9781098113704/) (O'Reilly Media, 2023)
@@ -92,7 +94,7 @@ cover:
   * English: [iPhone and iPad Game Development For Dummies](https://www.wiley.com/en-gb/iPhone+and+iPad+Game+Development+For+Dummies-p-9780470599105) (Wiley Publishing, 2010)
   * French: [Développer des jeux pour iPhone et iPad pour les Nuls](https://search.worldcat.org/title/717622899) (Wiley Publishing, 2011)
 
-## Selected Papers
+# Selected Papers
 
 I also occasionally put my PhD to use, and pretend to be an academic. Here are some of the papers I've written:
 
