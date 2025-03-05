@@ -4,13 +4,12 @@ id: the-chair
 author: Paris Buttfield-Addison
 weight: 1
 ShowToc: false
+tags: ["story", "fiction", "short story", "soren"]
 ---
 
 <!---
 This story is not licensed to you under any open license. 
 -->
-
-# The Chair
 
 Soren Kastner entered the negotiation chamber on Valos Station and immediately identified the anomaly. Five chairs for six delegations. The Meritocracy of Eridani had sent no representative, only a message that their seat should remain vacant.
 
