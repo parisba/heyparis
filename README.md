@@ -11,3 +11,4 @@ There's a few licenses at play in this repository:
 * Unless otherwise stated on specific pages, or for specific blocks of content, all text content in Markdown format (i.e. posts, pages) and images or photographs created by Paris Buttfield-Addison are licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 * Any other images are licensed as per their attribution.
 * Any code, as well as the theme itself, is licensed under the [MIT license](https://opensource.org/license/mit). The PaperMod theme is copyright nanxiaobei and adityatelange.
+* Any fiction, interactive or interwise, is not licensed to you in any way beyond your ability to read it on the blog/files of the blog.
