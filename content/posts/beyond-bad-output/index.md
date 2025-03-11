@@ -16,7 +16,7 @@ tags: ["games", "secret lab", "yarn spinner", "ai", "generative", "artificial in
 
 ## The Deeper Problems with AI in Creative Work
 
-_"But AI will get better at writing stories, won't it?"_ This response to my critique of AI-generated content misses the point entirely. Even if AI writing improved dramatically tomorrow, fundamental problems would remain that no algorithm refinement can fix.
+_"But AI will get better at writing stories, won't it?"_ This response to [my rant about AI-generated content](/posts/genai/) misses the point entirely. Even if AI writing improved dramatically tomorrow, fundamental problems would remain that no algorithm refinement can fix.
 
 The environmental cost alone should give us pause. Training [even a small LLM produces carbon emissions equivalent to several cars lifetimes](https://www.jmlr.org/papers/volume24/23-0069/23-0069.pdf), and each query consumes significant energy. [Game development already has a substantial carbon footprint](https://www.abc.net.au/news/science/2023-10-13/carbon-emissions-video-game-development-scope-3-climate-impact/102955178)—why increase it when human writers remain perfectly capable?
 
