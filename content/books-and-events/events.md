@@ -22,6 +22,7 @@ cover:
     * Session: Careers, video games, and technology
 * Speaking: [NarraScope 2025](https://narrascope.org), June 2025, Philadelphia, NY, USA
     * Session: Mathematically Proving Your Stories Have No Bugs
+* Helping: Screen Tasmania's Level Up Tasmania 2025, August 2025, Hobart, Tasmania, Australia
 * Organising: AUC /dev/world/2025, September 2025, Melbourne, Australia
 * Organising: AUC XWorld 2025, September 2025, Melbourne, Australia
 

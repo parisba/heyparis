@@ -19,6 +19,8 @@ Occasionally (more often than not, lately) I pretend I can write fiction:
 
 # Books
 
+For nearly 15 years, I wrote _a lot_ of technical books, initially for Wiley, and then for O'Reilly Media. I'm currently taking a deliberate break from writing books, but hope to return to it in the future.
+
 * **Unity Development Cookbook Second Edition**
   * English: [Unity Development Cookbook Second Edition](https://www.oreilly.com/library/view/unity-development-cookbook/9781098113704/) (O'Reilly Media, 2023)
 
