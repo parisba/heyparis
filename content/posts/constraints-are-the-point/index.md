@@ -24,7 +24,7 @@ The best dialogue in games is often the most efficient. It's the perfectly timed
 
 But the LLM-powered character paradigm throws all that out the window:
 
-> "Talk to this NPC about ANYTHING! Ask them about their childhood! Their favorite food! The socioeconomic conditions of their fictional kingdom! They'll have an answer for EVERYTHING!"
+> "_Talk to this NPC about ANYTHING! Ask them about their childhood! Their favorite food! The socioeconomic conditions of their fictional kingdom! They'll have an answer for EVERYTHING!_"
 
 Great. So instead of a character who serves an artistic purpose, we have a glorified chatbot wearing a character skin. A Wikipedia with a personality. A verbose exposition machine that never shuts up.
 
