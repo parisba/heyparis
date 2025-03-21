@@ -1,6 +1,6 @@
 baseURL: "https://hey.paris/"
 title: hey.paris
-copyright: "© Dr Paris Buttfield-Addison | I live on the land of the muwinina people. Sovereignty was never ceded."
+copyright: "© Dr Paris Buttfield-Addison · I live on the land of the muwinina people. Sovereignty was never ceded."
 paginate: 10
 theme: [PaperMod]
 
@@ -75,11 +75,11 @@ params:
   homeInfoParams:
     Title: "Paris Buttfield-Addison"
     Content:
-        Hi, I'm Paris 👋
+        Hi, I'm Dr Paris Buttfield-Addison👋
 
         <br /><br />
 
-        I've been doing things with technology, education, writing, and creative arts for a long time. You can [learn more about me here](/about).
+        I help run indie games studio, [Secret Lab](https://secretlab.games), and narrative tools studio, [Yarn Spinner](https://yarnspinner.dev). You can [learn more about me here](/about).
 
         <br /><br />
 

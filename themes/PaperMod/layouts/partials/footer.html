@@ -6,7 +6,7 @@
         {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
-        {{- print " · "}}
+        {{- print ""}}
     {{- end }}
 
     {{- with site.Params.footer.text }}
@@ -15,7 +15,7 @@
     {{- end }}
 
     <span>
-        <a href="https://github.com/parisba/heyparis/" rel="noopener noreferrer" target="_blank">Source Code</a> | No permission is granted to train any form of AI-, LLM-, or ML-powered system (or similar) using content from this site.</span>
+        <a href="https://github.com/parisba/heyparis/" rel="noopener noreferrer" target="_blank">Source Code</a> · No permission is granted to train any form of AI-, LLM-, or ML-powered system (or similar) using content from this site.</span>
 </footer>
 {{- end }}
 
