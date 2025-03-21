@@ -26,9 +26,9 @@ But the LLM-powered character paradigm throws all that out the window:
 
 > "_Talk to this NPC about ANYTHING! Ask them about their childhood! Their favorite food! The socioeconomic conditions of their fictional kingdom! They'll have an answer for EVERYTHING!_"
 
-Great. So instead of a character who serves an artistic purpose, we have a glorified chatbot wearing a character skin. A Wikipedia with a personality. A verbose exposition machine that never shuts up.
+Great. So instead of a character who serves an artistic purpose, we have a chatbot wearing a character skin. Go and talk to your bank's LLM-powered chatbot instead, it's the same thing. Just tell it it's a blacksmith in a fantasy town.
 
-**LLM-powered NPCs are boring.** The irony is painful. The technology that promised to make NPCs more engaging has actually made them infinitely more dull. These characters will happily drone on for pages about their generated backstories, the local geography, or their opinions on magic systems – all with the emotional impact of reading a terms of service agreement.
+**LLM-powered NPCs are boring.**  A technology that falsely promises to make NPCs more engaging has actually made them infinitely more dull. These characters will happily drone on for pages about their generated slop backstories, the local geography, or their opinions on magic systems – all with the emotional impact of reading a terms of service agreement.
 
 Players will engage with these systems maybe once – to test the boundaries, ask inappropriate questions, or try to make the AI contradict itself. Then guess what? They get bored and never engage with the character that way again. Because there's nothing there. There's no crafted experience, no pacing, no dramatic tension – just an endless word salad that ultimately signifies nothing.
 
