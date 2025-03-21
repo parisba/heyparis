@@ -72,4 +72,4 @@ Would you rather have a five-minute conversation with someone fascinating, or a 
 
 ---
 
-Cover Image by <a href="https://www.pexels.com/photo/a-burning-trash-bin-14575781/">Kai Dewitt</a> from <a href="https://pexels.com/">Pexels</a>
+Cover Image by <a href="https://www.pexels.com/photo/a-burning-trash-bin-14575781/">Kai Dewitt</a> from <a href="https://pexels.com/">Pexels</a>.
