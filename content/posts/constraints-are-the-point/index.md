@@ -56,9 +56,9 @@ A well-designed character with a bunch of carefully crafted storylets that trigg
 
 LLM-powered characters are a creative cop-out. 
 
-Instead of asking "_What should this character say in this specific situation to create the optimal player experience?_" they ask "_How can we make this character say SOMETHING about ANYTHING?__"
+Instead of asking "_What should this character say in this specific situation to create the optimal player experience?_" they ask "_How can we make this character say SOMETHING about ANYTHING?_"
 
-**When "anything" means "nothing that matters."** The most insidious problem with LLM-powered NPCs is that they create the illusion of depth while actually flattening the experience. When a character can talk about anything, nothing they say feels particularly significant. There's no weight to their words because there are always more words coming. Their dialogue becomes ambient noise rather than meaningful communication.
+**When "_anything_" means "_nothing that matters_."** The most insidious problem with LLM-powered NPCs is that they create the illusion of depth while actually flattening the experience. When a character can talk about anything, nothing they say feels particularly significant. There's no weight to their words because there are always more words coming. Their dialogue becomes ambient noise rather than meaningful communication.
 
 In contrast, when a character has a limited set of deliberately crafted responses, each one carries significance. Players learn to pay attention because they know every line might matter.
 
