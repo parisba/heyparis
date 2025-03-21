@@ -11,10 +11,10 @@ params:
   images:
   - cover.jpg
   title: "Constraints are the Point"
-tags: ["games", "secret lab", "yarn spinner", "ai", "generative", "artificial intelligence", "thoughts", "obnoxious thought leadership", "ml", "rant", "here we go again", "here we go yet again"]
+tags: ["games", "secret lab", "yarn spinner", "ai", "generative", "artificial intelligence", "thoughts", "obnoxious thought leadership", "ml", "rant", "here we go again", "here we go yet again", "slop", "automatic plagiarism machines", "boring technology"]
 ---
 
-I get it. I disagree with it, but I get it. The tech industry is throwing obscene amounts of money at LLMs. VCs are salivating over AI startups. Every game dev team has that one person who won't shut up about how "we should integrate ChatGPT into our game" because they read some Medium article about the future of interactive entertainment. 
+I get it. I disagree with it, but I get it. The tech industry is throwing obscene amounts of money at LLMs. VCs are salivating over AI startups. Every game dev team has that one person who won't shut up about how "_we should integrate ChatGPT into our game__" because they read some Medium article about the future of interactive entertainment. 
 
 But as narrative designers, we need to call this what it is: **a massive distraction from what makes game characters work**.
 
@@ -28,7 +28,7 @@ But the LLM-powered character paradigm throws all that out the window:
 
 Great. So instead of a character who serves an artistic purpose, we have a glorified chatbot wearing a character skin. A Wikipedia with a personality. A verbose exposition machine that never shuts up.
 
-**AI-powered NPCs are catastrophically boring.** The irony is painful. The technology that promised to make NPCs more engaging has actually made them infinitely more dull. These characters will happily drone on for pages about their generated backstories, the local geography, or their opinions on magic systems – all with the emotional impact of reading a terms of service agreement.
+**LLM-powered NPCs are boring.** The irony is painful. The technology that promised to make NPCs more engaging has actually made them infinitely more dull. These characters will happily drone on for pages about their generated backstories, the local geography, or their opinions on magic systems – all with the emotional impact of reading a terms of service agreement.
 
 Players will engage with these systems maybe once – to test the boundaries, ask inappropriate questions, or try to make the AI contradict itself. Then guess what? They get bored and never engage with the character that way again. Because there's nothing there. There's no crafted experience, no pacing, no dramatic tension – just an endless word salad that ultimately signifies nothing.
 
