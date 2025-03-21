@@ -44,7 +44,7 @@ Here's a radical idea: the limitations of traditional character dialogue aren't 
 
 When we know we can only write 15 lines for a shopkeeper, we make damn sure those 15 lines paint a complete picture. We ensure each line pulls double or triple duty – establishing character, world-building, and guiding the player.
 
-These constraints make us write better. They force us to distill characters to their essence. To find the perfect line rather than ten mediocre ones.
+These constraints make us write better. They force us to distill characters to their essence. [To find the perfect line rather than ten mediocre ones.](https://www.ishtar-collective.net/categories/eris-morn?highlight=Eris)
 
 LLM-powered NPCs remove those constraints, and with them, the creative pressure that produces great writing. They replace the scalpel with a firehose and call it progress.
 
@@ -52,7 +52,7 @@ If we want truly responsive characters who remember player actions and adapt to 
 
 These systems allow characters to present contextually appropriate content based on the player's history, the game state, and narrative priorities. They create characters who feel alive and responsive without sacrificing narrative control or wasting the player's time.
 
-A well-designed character with a bunch of carefully crafted storylets that trigger in precisely the right circumstances will always create a more compelling experience than an AI character with unlimited, mediocre responses.
+A well-designed character with a bunch of carefully crafted storylets that trigger in precisely the right circumstances will always create a more compelling experience than an LLM-powered character with unlimited, mediocre responses.
 
 LLM-powered characters are a creative cop-out. 
 
