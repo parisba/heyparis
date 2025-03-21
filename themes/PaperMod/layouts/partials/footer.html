@@ -4,7 +4,7 @@
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
         {{- else }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a> I live on the land of the muwinina people. Sovereignty was never ceded.</span>
+        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
         {{- print " · "}}
     {{- end }}
@@ -15,8 +15,7 @@
     {{- end }}
 
     <span>
-        Source code at 
-        <a href="https://github.com/parisba/heyparis/" rel="noopener noreferrer" target="_blank">github.com/parisba/heyparis</a>. No permission is granted to train any form of AI-, LLM-, or ML-powered system (or similar) using content from this site.</span>
+        <a href="https://github.com/parisba/heyparis/" rel="noopener noreferrer" target="_blank">Source Code</a> | No permission is granted to train any form of AI-, LLM-, or ML-powered system (or similar) using content from this site.</span>
 </footer>
 {{- end }}
 
