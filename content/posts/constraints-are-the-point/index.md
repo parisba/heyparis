@@ -14,7 +14,7 @@ params:
 tags: ["games", "secret lab", "yarn spinner", "ai", "generative", "artificial intelligence", "thoughts", "obnoxious thought leadership", "ml", "rant", "here we go again", "here we go yet again", "slop", "automatic plagiarism machines", "boring technology"]
 ---
 
-I get it. I disagree with it, but I get it. The tech industry is throwing obscene amounts of money at LLMs. VCs are salivating over AI startups. Every game dev team has that one person who won't shut up about how "_we should integrate ChatGPT into our game_" because they read some Medium article about the future of interactive entertainment. 
+I get it. I disagree with it, but I get it. The tech industry is throwing obscene amounts of money at LLMs. VCs are salivating over AI startups. The big important executives are regularly bleating about how "_we should integrate ChatGPT into our game_" because they read some Medium article about the future of interactive entertainment. 
 
 But as narrative designers, we need to call this what it is: **a massive distraction from what makes game characters work**.
 
