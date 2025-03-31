@@ -14,27 +14,27 @@ params:
 tags: ["story", "short story", "fiction"]
 ---
 
-Eleanor arranged her storybooks on the small wooden table, her arthritic fingers tracing the worn covers she'd carried to the local library every Wednesday for twenty-three years. The familiar room felt colder today.
+Eleanor arranged her storybooks on the small wooden table, her arthritic fingers tracing the worn covers she'd carried to the local library every Wednesday for twenty-three years. The familiar room felt much colder today.
 
-"We're starting with 'The Cloud Sailor' since it's Amy's birthday," she announced to the gathered children. Several weren't listening, already staring at the gleaming white booth being installed in her corner.
+"We're starting with 'The Cloud Sailor' since it's Amy's birthday," she announced to the gathered children. Some weren't listening, which was normal, but many were also staring at the gleaming white booth being installed in her corner.
 
-"StoryGenius: Interactive AI Narrative Experience" scrolled across its digital display in playful, animated letters.
+"StoryGenius: Interactive AI Narrative Experience" scrolled across its digital display in playful, animated letters. 
 
 Eleanor had protested when the library manager showed her the replacement. "Kids need human connection in storytelling. They need to see my expressions, hear my voice change, feel the room respond together."
 
-"The AI adapts to each child's emotional state," the manager had explained. "It generates personalised stories based on their interests, reading level, and psychological needs. And it's available twenty-four hours a day."
+"The AI adapts to each child's emotional state," the manager had explained. "It generates personalised stories based on their interests, reading level, and psychological needs. And it's available twenty-four hours a day." He didn't really get it, so she didn't press the matter.
 
 Eleanor watched two technicians calibrating the booth's sensors. One caught her gaze and quickly looked away.
 
 "Miss Ellie," whispered Kira, a shy six-year-old, "can you do the dragon voice for the scary bit?"
 
-Eleanor smiled and began reading, her voice transforming as it had thousands of times before. Halfway through, three children wandered off to watch the booth installation.
+Eleanor smiled and began reading, her voice transforming as it had many times before. Halfway through, three children wandered off to watch the booth installation.
 
 "It can make YOU a character in the story!" she overheard a technician telling them.
 
-After the session, the manager approached with a plastic name badge. "We're offering you a casual position as 'StoryGenius Monitor' for two hours on Saturdays. Just to supervise while the littlies use the booth."
+After the session, the manager approached with a plastic name badge. "We're offering you a casual position as StoryGenius Monitor for two hours every Saturday. Just to supervise while the littlies use the booth..."
 
-Eleanor declined, packing her books for the final time.
+Eleanor declined, packing her books away for the final time.
 
 That evening, she passed by the library and paused at the window. Through the glass, she watched a child sitting alone in the booth, bathed in blue light, headphones on, staring at a screen where animated characters performed perfectly calculated emotional beats designed to trigger optimal neurological response.
 
