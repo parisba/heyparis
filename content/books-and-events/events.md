@@ -10,14 +10,12 @@ cover:
   alt: "Paris speaking"
   relative: false
 ---
-⚠️ I'm happy to be invited to speak at events on a range of topics, including game development and design, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information).
+⚠️ I'm happy to be invited to speak at events on a range of topics, including but not limited to game development and design, creative arts, writing, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information). If you cannot afford to pay for travel, and speaking fees, please let me know upfront.
 
 # Upcoming Events
 
 ## 2025
 
-* Speaking: [TasICT Tas Tech Fest 2025](https://web.cvent.com/event/bdf1d46e-26ef-4d43-a439-730b6b2b1441/summary), March 2025, Hobart, Tasmania, Australia
-	* Session: Hidden Secrets of the Video Game Industry
 * Speaking: [ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)](https://edcat.acs.org.au), April 2025, Hobart, Tasmania, Australia
     * Session: Careers, video games, and technology
 * Speaking: [NarraScope 2025](https://narrascope.org), June 2025, Philadelphia, NY, USA
@@ -29,6 +27,8 @@ cover:
 # Past Events
 
 ## 2025
+* Speaking: [TasICT Tas Tech Fest 2025](https://web.cvent.com/event/bdf1d46e-26ef-4d43-a439-730b6b2b1441/summary), March 2025, Hobart, Tasmania, Australia
+	* Session: Hidden Secrets of the Video Game Industry
 * Speaking: [TasICT Tapas & Tech: Creative Technologies, Hobart, Tasmania, Australia](https://www.linkedin.com/posts/tasict_increasing-collab-between-tassie-tech-activity-7295938398639247360-s-8I?utm_source=share&utm_medium=member_desktop)
   * Session: Yarn Spinner
 * Attending: [South Australian Game Exhibition 2025, Adelaide, South Australia, Australia](https://www.sagameexhibition.com)
