@@ -30,8 +30,10 @@ Eleanor watched two technicians calibrating the booth's sensors. One caught her 
 
 After the session, the manager approached with a plastic name badge. "We're offering you a casual position as booth monitor for two hours every Saturday. Just to supervise while the littlies use it..." Eleanor declined, packing her books away for the final time.
 
-Later, as she passed by the library and paused at the window she watched a child sitting alone in the booth, bathed in blue light, headphones on, staring at a screen where animated characters performed perfectly calculated emotional beats designed to trigger optimal neurological response. No laughter echoed through the room. No collective gasps. No hands reaching out to touch the page or interrupt with questions. Just silent, isolated consumption of _content_ tailored to each individual's metrics.
+Later, as she passed by the library and paused at the window she watched a child sitting alone in the booth, bathed in blue light, headphones on, staring at a screen where animated characters performed perfectly calculated emotional beats designed to trigger optimal neurological response. No laughter echoed through the room. No collective gasps. No hands reaching out to touch the page or interrupt with questions. Just silent, isolated consumption of content tailored to each individual's metrics.
 
 Eleanor turned away. Twenty-three years of storytelling. Four decades before that of collecting yarns, perfecting voices, learning when to pause for effect. All now obsolete against an algorithm trained on millions of stories it had never truly experienced, never felt, never loved.
+
 ---
+
 Image by <a href="https://pixabay.com/users/luboshouska-198496/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1204029">Lubos Houska</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1204029">Pixabay</a>
