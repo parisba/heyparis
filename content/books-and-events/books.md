@@ -16,6 +16,7 @@ Occasionally (more often than not, lately) I pretend I can write fiction:
 
 * [The Chair](/fiction/the-chair) (short story)
 * [Bolted Down](/fiction/bolted-down) (short story)
+* [The Last Session](/posts/finalsession/) (short story)
 
 # Books
 
