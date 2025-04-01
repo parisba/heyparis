@@ -13,10 +13,9 @@ params:
   title: "Mass Effect 2 for Yarn Spinner"
 tags: ["yarn spinner", "yarnspinner", "april1", "masseffect", "masseffect2"]
 ---
+{{< youtube 9jIZqszuGI8 >}}
 
-https://www.youtube.com/watch?v=9jIZqszuGI8
-
-You've been begging for it, and here it is! Announcing an exciting new product from Yarn Spinner Co:
+You've been begging for it, and here it is! Announcing an exciting new product from Yarn Spinner...
 
 🪐 Mass Effect 2 Save Importer for Yarn Spinner 🚀
 
