@@ -75,15 +75,23 @@ params:
   homeInfoParams:
     Title: "Paris Buttfield-Addison"
     Content:
-        Hi, I'm Dr Paris Buttfield-Addison👋
+        Hi, I'm Paris Buttfield-Addison 👋
+
+        <br /><br />
+        
+        I'm a writer, game developer, event organiser, occasional academic, and enthusiastic amateur photographer.
+        
+        <br /><br />
+        
+        I co-founded, and help run indie games studio, [Secret Lab](https://secretlab.games), and narrative tools studio, [Yarn Spinner](https://yarnspinner.dev). I am the president of [Tasmanian Game Makers, Inc.](https://www.tasgamemakers.com), the Secretary of the [AUC](https://www.auc.edu.au), and the coordinate of the [Tasmanian Games Incubator](https://secretlab.games/incubator). 
+        
+        <br /><br />
+        
+        You can [learn more about me here](/about).
 
         <br /><br />
 
-        I help run indie games studio, [Secret Lab](https://secretlab.games), and narrative tools studio, [Yarn Spinner](https://yarnspinner.dev). You can [learn more about me here](/about).
-
-        <br /><br />
-
-        If you're looking for my wife, Mars, you can find her [here](https://themartianlife.com).
+        If you're looking for my amazing wife, Mars, you can find her [here](https://themartianlife.com).
 
   socialIcons:
     - name: "Mastodon"
