@@ -16,17 +16,17 @@ cover:
 
 ## 2025
 
-* Speaking: [ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)](https://edcat.acs.org.au), April 2025, Hobart, Tasmania, Australia
-    * Session: Careers, video games, and technology
 * Speaking: [NarraScope 2025](https://narrascope.org), June 2025, Philadelphia, NY, USA
     * Session: Mathematically Proving Your Stories Have No Bugs
-* Helping: Screen Tasmania's Level Up Tasmania 2025, August 2025, Hobart, Tasmania, Australia
 * Organising: AUC /dev/world/2025, September 2025, Melbourne, Australia
 * Organising: AUC XWorld 2025, September 2025, Melbourne, Australia
+* Helping: Screen Tasmania Level Up Tasmania 2026, April 2026, Hobart, Australia
 
 # Past Events
 
 ## 2025
+* Speaking: [ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)](https://edcat.acs.org.au), April 2025, Hobart, Tasmania, Australia
+    * Session: Careers, video games, and technology
 * Speaking: [TasICT Tas Tech Fest 2025](https://web.cvent.com/event/bdf1d46e-26ef-4d43-a439-730b6b2b1441/summary), March 2025, Hobart, Tasmania, Australia
 	* Session: Hidden Secrets of the Video Game Industry
 * Speaking: [TasICT Tapas & Tech: Creative Technologies, Hobart, Tasmania, Australia](https://www.linkedin.com/posts/tasict_increasing-collab-between-tassie-tech-activity-7295938398639247360-s-8I?utm_source=share&utm_medium=member_desktop)
