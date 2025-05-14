@@ -1,15 +1,15 @@
 ---
 title: "Don't use Wise"
-date: 2025-03-11
+date: 2025-05-14
 cover:
-  image: "cover.jpg"
+  image: "cover.png"
   alt: "Don't use Wise"
   relative: true
 ShowToc: false
 params:
   description: Don't use Wise 
   images:
-  - cover.jpg
+  - cover.png
   title: "Don't use Wise"
 tags: ["business", "secret lab", "yarn spinner", "money", "banks", "shit companies", "crooks", "wise", "angry", "rant", "theft"]
 ---
