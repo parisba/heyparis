@@ -24,35 +24,35 @@ In response, in early-April 2025, we uploaded a [paid ASIC Extract](https://asic
 
 On 6 May 2025, with no notice, and with no out of the ordinary or large transactions happening, Wise started declining our card on all transactions, and blocking any ACH/wire transfers out of the account.
 
-[](wise1.png#center)
+{{< figure src="wise1.png" >}}
 
 There is a link on each declined transaction that says offers a way to fix it:
 
-[](wise2.png#center)
+{{< figure src="wise2.png" >}}
 
 Alas, it does not, and has never worked:
 
-[](wise3.png#center)
+{{< figure src="wise3.png" >}}
 
 Every time a transaction declines, we also get an email from Wise:
 
-[](wise4.png#center)
+{{< figure src="wise4.png" >}}
 
 But again, alas, the "Unblock your account" button in this email also goes to an unhelpful page:
 
-[](wise5.png#center)
+{{< figure src="wise5.png" >}}
  
 Lodging a support ticket yields an unhelpful response:
 
-[](wise6.png#center)
+{{< figure src="wise6.png" >}}
 
 And replying makes them more confusing:
 
-[](wise7.png#center)
+{{< figure src="wise7.png" >}}
 
 And then, more confusing still, when they ask for the same documents they already had, again:
 
-[](wise8.png#center)
+{{< figure src="wise8.png" >}}
 
 Calling results in someone in their call centre telling us it's a "bug" and will be "fixed soon", or that I need to upload more documents. And when asked what documents, they list the same document we already uploaded (an ASIC Extract). And round and round we go.
 
