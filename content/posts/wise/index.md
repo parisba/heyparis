@@ -1,0 +1,59 @@
+---
+title: "Don't use Wise"
+date: 2025-03-11
+cover:
+  image: "cover.jpg"
+  alt: "Don't use Wise"
+  relative: true
+ShowToc: false
+params:
+  description: Don't use Wise 
+  images:
+  - cover.jpg
+  title: "Don't use Wise"
+tags: ["business", "secret lab", "yarn spinner", "money", "banks", "shit companies", "crooks", "wise", "angry", "rant", "theft"]
+---
+
+[Wise](https://wise.com) has stolen more than $60,000 AUD from us, and refuses to let us access it.
+
+[We've](https://secretlab.games) had a Wise account for around 5 years (since they were called TransferWise). It's been a really useful way to transact in foreign currencies, and pay for things when we're travelling for work.
+
+In early-April 2025, Wise asked us to provide some additional information on our Ultimate Beneficial Owners (UBOs) by uploading a statement of shareholders, and the ID of the owners. Perfectly reasonable stuff for an entity that pretends to be a bank to us.
+
+In response, in early-April 2025, we uploaded a [paid ASIC Extract](https://asic.gov.au/online-services/search-asic-registers/search-fees/) for the business, and scans of the passports of the two UBOs. The message requesting additional information on UBOs went away, and the account continued ticking along. 
+
+On 6 May 2025, with no notice, and with no out of the ordinary or large transactions happening, Wise started declining our card on all transactions, and blocking any ACH/wire transfers out of the account.
+
+[](wise1.png#center)
+
+There is a link on each declined transaction that says offers a way to fix it:
+
+[](wise2.png#center)
+
+Alas, it does not, and has never worked:
+
+[](wise3.png#center)
+
+Every time a transaction declines, we also get an email from Wise:
+
+[](wise4.png#center)
+
+But again, alas, the "Unblock your account" button in this email also goes to an unhelpful page:
+
+[](wise5.png#center)
+ 
+Lodging a support ticket yields an unhelpful response:
+
+[](wise6.png#center)
+
+And replying makes them more confusing:
+
+[](wise7.png#center)
+
+And then, more confusing still, when they ask for the same documents they already had, again:
+
+[](wise8.png#center)
+
+Calling results in someone in their call centre telling us it's a "bug" and will be "fixed soon", or that I need to upload more documents. And when asked what documents, they list the same document we already uploaded (an ASIC Extract). And round and round we go.
+
+So, we're out $60,000+ AUD, and Wise refuses to help.
