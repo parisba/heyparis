@@ -18,7 +18,7 @@ tags: ["business", "secret lab", "yarn spinner", "money", "banks", "shit compani
 
 [We've](https://secretlab.games) had a Wise account for around 5 years (since they were called TransferWise). It's been a really useful way to transact in foreign currencies, and pay for things when we're travelling for work.
 
-In early-April 2025, Wise asked us to provide some additional information on our Ultimate Beneficial Owners (UBOs) by uploading a statement of shareholders, and the ID of the owners. Perfectly reasonable stuff for an entity that pretends to be a bank to us.
+In early-April 2025, Wise asked us to provide some additional information on our Ultimate Beneficial Owners (UBOs) by uploading a statement of shareholders, and the ID of the owners. Perfectly reasonable stuff for an entity that pretends to be a bank to ask for.
 
 In response, in early-April 2025, we uploaded a [paid ASIC Extract](https://asic.gov.au/online-services/search-asic-registers/search-fees/) for the business, and scans of the passports of the two UBOs. The message requesting additional information on UBOs went away, and the account continued ticking along. 
 
