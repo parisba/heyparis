@@ -44,9 +44,9 @@ cover:
 * Speaking: [Tasmanian Ham Radio Conference 2024, Hobart, Tasmania, Australia](https://www.reast.asn.au/news-events/tassie-ham-radio-conference/)
     * Session: Artificial Intelligence & Machine Learning in Amateur Radio
 * Speaking: [NZGDC 2024, Wellington, New Zealand](https://www.nzgdc.com/conf2024)
-    * Session: Let's learn to write narrative games with Yarn Spinner
+    * Session: [Let's learn to write narrative games with Yarn Spinner](https://www.youtube.com/watch?v=7R-XzOoWTNA)
 * Speaking: Melbourne International Games Week, Technically Games Lightning Talks
-    * Session: Let's learn to write narrative games with Yarn Spinner
+    * Session: [Let's learn to write narrative games with Yarn Spinner](https://www.youtube.com/watch?v=npjLR98HrEk)
 * Speaking: West Coast Heritage Centre, Zeehan, Tasmania
     * Open Day Session on STEM and Space
 * Speaking: [Level Up Tasmania 2024](https://www.screen.tas.gov.au/leveluptasmania), Hobart, Tasmania, Australia
