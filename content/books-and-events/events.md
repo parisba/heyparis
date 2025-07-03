@@ -15,16 +15,18 @@ cover:
 # Upcoming Events
 
 ## 2025
-
-* Speaking: [NarraScope 2025](https://narrascope.org), June 2025, Philadelphia, NY, USA
-    * Session: Mathematically Proving Your Stories Have No Bugs
-* Organising: AUC /dev/world/2025, September 2025, Melbourne, Australia
-* Organising: AUC XWorld 2025, September 2025, Melbourne, Australia
+* Organising: AUC [/dev/world/2025](https://devworld.au), September 2025, Melbourne, Australia
+* Organising: AUC [X World 2025](https://xworld.au), September 2025, Melbourne, Australia
+* Speaking: [Tasmanian Leaders Program](https://www.tasmanianleaders.org.au), Linking Session, September 2025
+    * Topic: AI and the Workforce
 * Helping: Screen Tasmania Level Up Tasmania 2026, April 2026, Hobart, Australia
 
 # Past Events
 
 ## 2025
+* Speaking: [NarraScope 2025](https://narrascope.org), June 2025, Philadelphia, NY, USA
+    * Session: Mathematically Proving Your Stories Have No Bugs
+    * Session: Yarn Spinner Toolbox
 * Speaking: [ACS EdCAT (Australian Computer Society Education Careers and Tech Summit)](https://edcat.acs.org.au), April 2025, Hobart, Tasmania, Australia
     * Session: Careers, video games, and technology
 * Speaking: [TasICT Tas Tech Fest 2025](https://web.cvent.com/event/bdf1d46e-26ef-4d43-a439-730b6b2b1441/summary), March 2025, Hobart, Tasmania, Australia

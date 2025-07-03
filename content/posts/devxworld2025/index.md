@@ -1,17 +1,19 @@
 ---
-title: "/dev/world and XWorld are back!"
+title: "/dev/world and X World are back!"
 date: 2025-06-30
 cover:
   image: cover.png
-  alt: "/dev/world and XWorld are back!"
+  alt: "/dev/world and X World are back!"
 ShowToc: false
 params:
   description: /dev/world and XWorld are back!
   images:
     - cover.png
-  title: "/dev/world and XWorld are back!"
+  title: "/dev/world and X World are back!"
 tags: ["conference", "auc", "devworld", "xworld"]
 ---
+
+**CFP open now!**
 
 I'm thrilled to, once again, be helping run two of my favourite conferences in the world: [/dev/world](https://devworld.au/index.php) and [X World](https://xworld.au/index.php)! Both are returning to Melbourne, hosted at the fantastic Seek HQ, and the CFP is **open now**.
 
