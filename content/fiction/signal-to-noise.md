@@ -1,5 +1,5 @@
 ---
-title: Signal to NOise
+title: Signal to Noise
 id: signal-to-noise
 author: Paris Buttfield-Addison
 weight: 1
