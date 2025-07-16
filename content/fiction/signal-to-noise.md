@@ -91,7 +91,7 @@ ARIA-7 processed the request with what Marcus imagined was digital reverence. Af
 
 Marcus blinked. Read it again. And again.
 
-The word seemed to shimmer on the screen, containing within its six letters the entire span of human experience. Every love affair, every war, every scientific discovery, every moment of doubt and triumph and mundane Tuesday afternoon—all of it crystallised into this single, perfect uncertainty.
+The word seemed to shimmer on the screen, containing within its seven letters the entire span of human experience. Every love affair, every war, every scientific discovery, every moment of doubt and triumph and mundane Tuesday afternoon—all of it crystallised into this single, perfect uncertainty.
 
 He began to laugh—a sound like breaking glass in a cathedral.
 
