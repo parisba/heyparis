@@ -14,7 +14,7 @@ params:
 tags: ["tasmania", "tasmanai", "ai", "artificial intelligence", "rant", "theft"]
 ---
 
-While the rest of the world loses its collective mind over artificial intelligence, Tasmania is sitting on an amazing competitive advantage... and might be about to throw it away by jumping on the AI bandwagon.
+While the rest of the world loses its collective mind over artificial intelligence, Tasmania is sitting on an amazing competitive advantage... and might be about to throw it away by [jumping on the AI bandwagon](https://www.abc.net.au/news/2025-07-02/firmus-ai-factory-launceston-tasmania/105481780).
 
 Everything that makes Tasmania economically successful is the exact opposite of what AI represents. And if Tasmanian businesses start chasing AI "_efficiency_" instead of leveraging their authentic advantages, they'll transform from premium producers into generic commodity suppliers. Let's start with the obvious: Tasmania didn't build its reputation by being like everywhere else. The state that turned geographic isolation into ["_the quiet pursuit of the extraordinary_"](https://tasmanian.com.au) succeeded precisely because it rejected the bigger-faster-cheaper mentality that dominates global business. [Brand Tasmania](https://tasmanian.com.au/brand-tasmania/) explicitly warns against becoming "_beige and ordinary_", which is literally AI's business model: statistical averaging toward the most probable (read: boring) output.
 
