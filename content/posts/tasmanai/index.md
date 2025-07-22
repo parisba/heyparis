@@ -50,4 +50,4 @@ The choice is clear: Tasmania can chase AI "efficiency" and become indistinguish
 
 ---
 
-Header image from [Tourism Tasmania's TasmanAi campaign](https://www.discovertasmania.com.au/tasmanai/). Used without permission or endorsement, implied or otherwise.
+Header image inspired by [Tourism Tasmania's TasmanAi campaign](https://www.discovertasmania.com.au/tasmanai/). "TasmanAI" is used without permission or endorsement, implied or otherwise.
