@@ -38,4 +38,4 @@ Our community must now consider its response. This is a moment to affirm our sup
 
 ---
 
-Header image inspired by [Tourism Tasmania's TasmanAi campaign](https://www.discovertasmania.com.au/tasmanai/). "TasmanAI" is used without permission or endorsement, implied or otherwise.
+[Header image](https://unsplash.com/photos/person-holding-white-and-blue-plastic-blocks-pxVOztBa6mY) by [Bradyn Trollip](https://unsplash.com/@bradyn).
