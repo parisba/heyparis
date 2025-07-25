@@ -20,7 +20,7 @@ The stated goal of the campaign was to combat media that glorifies sexual violen
 
 To understand the impact, you first have to understand what Itch.io is. Unlike more commercial platforms, Itch is a foundational space for small teams, individual creators, and students. It is a hub for the kind of diverse, experimental, and personal storytelling that our own national arts bodies claim to support.
 
-Now here's the crucial step that gets missed. An online storefront like Itch has no way to operate without a payment processor. It cannot exist. When the Australian anti-pornography lobby group Collective Shout launched their campaign, they successfully pressured Mastercard to act. Mastercard then presented Itch with an ultimatum. Comply with their new demands, or they would pull their services. This was an existential threat. The choice wasn't whether to remove the titles. The choice was to remove them immediately, without warning, or the entire site would cease to function right now.
+An online storefront like Itch has no way to operate without a payment processor. It cannot exist. When the Australian anti-pornography lobby group Collective Shout launched their campaign, they successfully pressured Mastercard to act. Mastercard then presented Itch with an ultimatum. Comply with their new demands, or they would pull their services. This was an existential threat. The choice wasn't whether to remove the titles. The choice was to remove them immediately, without warning, or the entire site would cease to function right now.
 
 The mass removal of titles wasn't an "outcome". It was the only possible action to keep the platform from being wiped out entirely.
 
