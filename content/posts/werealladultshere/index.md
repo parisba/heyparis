@@ -14,7 +14,7 @@ params:
 tags: ["art", "games", "bullying", "lgbtq", "rant", "stupidity"]
 ---
 
-The recent [delisting of over 17,000 games from the independent platform Itch.io](https://www.pcgamer.com/gaming-industry/itch-io-latest-in-platforms-pressured-by-credit-card-companies-as-well-as-activist-group-collective-shout-which-has-successfully-caught-an-award-winning-indie-and-more-in-the-crossfire/) wasn't a content moderation decision made by the platform itself. It was an act of financial coercion. Instigated by a local activist group and carried out by payment processors like Mastercard, it sets a dangerous precedent for all creative fields online.
+The recent [delisting of over 17,000 games from the independent platform Itch.io](https://www.pcgamer.com/gaming-industry/itch-io-latest-in-platforms-pressured-by-credit-card-companies-as-well-as-activist-group-collective-shout-which-has-successfully-caught-an-award-winning-indie-and-more-in-the-crossfire/) wasn't a content moderation decision made by the platform itself. It was an act of financial coercion. Instigated by an Australian activist group and carried out by payment processors like Mastercard, it sets a dangerous precedent for all creative fields online.
 
 The stated goal of the campaign was to combat media that glorifies sexual violence. An aim that sounds laudable, making it difficult to argue against in public. But like calls to age-gate social media, such goals can act as a Trojan horse. A socially acceptable pretext for gaining more information and control over people. And the outcome here reveals a profound and damaging overreach.
 
