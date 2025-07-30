@@ -10,7 +10,10 @@ cover:
   alt: "Paris speaking"
   relative: false
 ---
-⚠️ I'm happy to be invited to speak at events on a range of topics, including but not limited to game development and design, creative arts, writing, artifical intelligence, the intersection and implications of technology and creativity, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information). If you cannot afford to pay for travel, and speaking fees, please let me know upfront.
+
+I'm happy to be **invited to speak** at events on a range of topics, including but not limited to artifical intelligence, the intersection and implications of technology and creativity, work, and culture, the intersection of technology and creativity, game development and design, creative arts, writing, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information). 
+
+If you cannot afford to pay for travel, and speaking fees, please let me know upfront (I'd still be happy to explore your speaker needs). I am comfortable speaking at all scales of events, including corporate meetings, board meetings, conferences, school events, to children, and more. I hold an up to date Working with Vulnerable People registration in Tasmania.
 
 # Upcoming Events
 
