@@ -17,6 +17,10 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 
 # Upcoming Events
 
+## Regular
+* Organising: [Tasmanian Game Makers, Inc.](https://tasgamemakers.com) events
+* Hosting: Monthly [Space News on ABC Radio Hobart and Northern Tasmania](/posts/spacenews), [with Lucie Cutting](https://www.abc.net.au/listen/programs/hobart-sundays)
+
 ## 2025
 * Organising: AUC [/dev/world/2025](https://devworld.au), September 2025, Melbourne, Australia
 * Organising: AUC [X World 2025](https://xworld.au), September 2025, Melbourne, Australia
