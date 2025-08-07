@@ -26,6 +26,8 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 * Organising: AUC [X World 2025](https://xworld.au), September 2025, Melbourne, Australia
 * Speaking: [Tasmanian Leaders Program](https://www.tasmanianleaders.org.au), Linking Session, September 2025
     * Topic: AI and the Workforce
+* Speaking: GCAP 2025, Melbourne, Australia
+    * Session: [Creating While the World Burns](https://gcap.com.au)
     
 ## 2026
 * Helping: Screen Tasmania Level Up Tasmania 2026, April 2026, Hobart, Australia
