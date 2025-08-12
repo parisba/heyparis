@@ -23,6 +23,8 @@ tags: ["business", "secret lab", "yarn spinner", "money", "banks", "shit compani
 - During investigation, CBA staff replicated the same ChatGPT query process, seemingly on a personal phone, again unauthenticated, and on the consumer ChatGPT platform
 - Signs indicate this might be routine practice amongst CBA staff
 
+Oh, and they gave out the phone number for us, Secret Lab, to someone looking for Secretlab's phone number. So, in the end of all this, they weren't even helpful. LLMs in a nutshell, really.
+
 It certainly feels like CBA has violated, or come pretty close to violating, a lot of things, and this doesn't _feel good_...
 
 ### For example, the [_Privacy Act 1988_ (Cth)](https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act), and the [Australian Privacy Principles](https://www.oaic.gov.au/privacy/australian-privacy-principles):
