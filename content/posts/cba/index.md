@@ -21,7 +21,10 @@ tags: ["business", "secret lab", "yarn spinner", "money", "banks", "shit compani
 - CBA staff disclosed the retrieved phone number to the requesting customer
 - The retrieved phone number is a number belonging to one of the directors of [Secret Lab](https://secretlab.games) (a company that does _not_ make chairs, and _is_ us), a customer of CBA, and is used for our CBA account and our Director's CBA account
 - Therefore, CBA disclosed customer [personal information](https://www.commbank.com.au/support/privacy.html) to another, unrelated customer, and trusted a third-party LLM (ChatGPT), accessed seemingly unauthenticated on the consumer ChatGPT platform, as a source for data to provide to another customer
-- During investigation, CBA staff replicated the same ChatGPT query process, seemingly on a personal phone, again unauthenticated, and on the consumer ChatGPT platform
+- During investigation, CBA staff replicated the same ChatGPT query process, seemingly on a personal phone, again unauthenticated, and on the consumer ChatGPT platform:
+
+{{< figure src="cba-muppet.png" >}}
+
 - Signs indicate this might be routine practice amongst CBA staff
 
 Oh, and they gave out the phone number for us, Secret Lab (not chairs), to someone looking for Secretlab's (chairs) phone number. So, in the end of all this, they weren't even helpful. LLMs in a nutshell, really.
