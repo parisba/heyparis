@@ -30,12 +30,12 @@ For example, the [_Privacy Act 1988_ (Cth)](https://www.oaic.gov.au/privacy/priv
 **APP 6: Use or Disclosure of Personal Information:**
 Personal information may only be used or disclosed for the primary purpose of collection or related secondary purposes. Disclosure of customer contact information to another customer falls outside permitted purposes.
 
-**APP 8 - Cross-border Disclosure:**
+**APP 8: Cross-border Disclosure:**
 > "Before an APP entity discloses personal information about an individual to a person (the overseas recipient) who is not in Australia or an external Territory, the APP entity must take such steps as are reasonable in the circumstances to ensure that the overseas recipient does not breach the Australian Privacy Principles."
 
 **Violation:** Querying ChatGPT involves transmitting the customer's business name to OpenAI's international servers, and relying on information sourced from those servers, without adequate safeguards for data handling. OK, admittedly, our business name isn't really personal information, but they still transacted with a cross-border entity for the information about us they then gave the other customer.
 
-**APP 11 - Security of Personal Information:**
+**APP 11: Security of Personal Information:**
 > "An APP entity must take such steps as are reasonable in the circumstances to protect the personal information that it holds from misuse, interference and loss and from unauthorised access, modification or disclosure."
 
 **Violation:** Staff relying on unverified external AI sources for customer information retrieval and subsequent disclosure fails to meet reasonable security standards for protecting customer information.
