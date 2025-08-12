@@ -40,7 +40,7 @@ Disclosure of customer contact information to another customer falls outside per
 
 Querying ChatGPT involves transmitting the customer's business name to OpenAI's international servers, and relying on information sourced from those servers, without adequate safeguards for data handling. 
 
-OK, _admittedly__, our business name isn't really personal information (our phone number is), but they still transacted with a cross-border entity for the information about us they then gave the other customer. 
+OK, _admittedly_, our business name isn't really personal information (our phone number is), but they still transacted with a cross-border entity for the information about us they then gave the other customer. 
 
 Given we're CBA customers, this becomes pretty horrific.
 
