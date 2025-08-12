@@ -25,7 +25,7 @@ tags: ["business", "secret lab", "yarn spinner", "money", "banks", "shit compani
 
 It certainly feels like CBA has violated, or come pretty close to violating, a lot of things, and this doesn't _feel good_...
 
-For example, the [_Privacy Act 1988_ (Cth)](https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act), and the [Australian Privacy Principles](https://www.oaic.gov.au/privacy/australian-privacy-principles):
+### For example, the [_Privacy Act 1988_ (Cth)](https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act), and the [Australian Privacy Principles](https://www.oaic.gov.au/privacy/australian-privacy-principles):
 
 **APP 6 Use or Disclosure of Personal Information:**
 Personal information may only be used or disclosed for certain, good, reasons.
@@ -46,7 +46,7 @@ Given we're CBA customers, this becomes pretty horrific.
 
 Staff relying on unverified external AI sources for customer information retrieval and subsequent disclosure fails to meet reasonable security standards for protecting customer information.
 
-And the [_Banking Code of Practice_](https://www.commbank.com.au/about-us/opportunity-initiatives/policies-and-practices/banking-code-of-practice.html):
+### And the [_Banking Code of Practice_](https://www.commbank.com.au/about-us/opportunity-initiatives/policies-and-practices/banking-code-of-practice.html):
 
 **Privacy:**
 The Banking Code requires banks protect customer privacy.
@@ -63,7 +63,7 @@ The Banking Code requires banks to maintain professional standards in customer s
 
 Using unverified external AI sources clearly fails to meet professional banking standards.
 
-And [AUSTRAC](https://www.austrac.gov.au/business/legislation/amlctf-act):
+### And [AUSTRAC](https://www.austrac.gov.au/business/legislation/amlctf-act):
 
 **Customer Due Diligence Requirements:**
 AUSTRAC mandates banks maintain robust "Know Your Customer" (KYC) procedures and ongoing customer due diligence. Banks must verify customer identity using "reliable and independent documents or electronic data" from "at least two separate data sources."
@@ -72,21 +72,21 @@ Using ChatGPT as a source for customer information violates AML/CTF requirements
 
 This _wasn't really_ part of a due diligence/KYC process, but they used it as a source of information, when it's not reliable or accurate. Very strange indeed.
 
-And then there's the [Australian Consumer Law](https://consumer.gov.au), specifically Misleading or Deceptive Conduct:
+### And then there's the [Australian Consumer Law](https://consumer.gov.au), specifically Misleading or Deceptive Conduct:
 
 **Section 18 Competition and Consumer Act 2010:**
 > "A person must not, in trade or commerce, engage in conduct that is misleading or deceptive or is likely to mislead or deceive."
 
 CBA's disclosure of unverified information sourced from ChatGPT _could_ constitute misleading conduct by presenting potentially inaccurate information as reliable to customers.
 
-And, of course, [ASIC](https://www.legislation.gov.au/C2004A00819/latest/text): 
+### And, of course, [ASIC](https://www.legislation.gov.au/C2004A00819/latest/text): 
 
 **Section 12D Misleading or Deceptive Conduct in Financial Services:**
 > "A person must not, in trade or commerce, in relation to financial services engage in conduct that is misleading or deceptive or is likely to mislead or deceive."
 
 Providing unverified customer information in a financial services context constitutes misleading conduct under financial services-specific legislation.
 
-For even more fun, we can look at the [CBA Privacy Statement](https://www.commbank.com.au/support/privacy.html) and the [CBA Information Security Policy Framework](https://www.commbank.com.au/content/dam/commbank-assets/about-us/2024-07/information-security-statement-july-2024.pdf):
+### For even more fun, we can look at the [CBA Privacy Statement](https://www.commbank.com.au/support/privacy.html) and the [CBA Information Security Policy Framework](https://www.commbank.com.au/content/dam/commbank-assets/about-us/2024-07/information-security-statement-july-2024.pdf):
 
 **From CBA's Group Privacy Statement:**
 > "We take our responsibility to protect your privacy very seriously. We apply strict security and privacy controls to the way we handle your personal information."
@@ -108,14 +108,14 @@ Sharing customer information with another unrelated customer is not included in 
 
 Staff relying on unverified external AI systems for customer information contradicts CBA's commitment to protecting information security and integrity.
 
-And their [Code of Conduct](https://www.commbank.com.au/content/dam/commbank-assets/about-us/docs/cba-code-of-conduct.pdf):
+### And their [Code of Conduct](https://www.commbank.com.au/content/dam/commbank-assets/about-us/docs/cba-code-of-conduct.pdf):
 
 **Internal Policy Framework:**
 CBA's Code of Conduct requires staff to act with integrity and follow proper procedures when handling customer information.
 
 Using external AI tools without proper authorisation or verification procedures breaches internal conduct standards.
 
-For even more _fun_, we can think about Unconscionable Conduct:
+### For even more _fun_, we can think about Unconscionable Conduct:
 
 **ASIC Act and Corporations Act:**
 Both Acts prohibit "unconscionable conduct" which is regularly invoked by customers against financial services providers.
