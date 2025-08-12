@@ -14,7 +14,7 @@ params:
 tags: ["business", "secret lab", "yarn spinner", "money", "banks", "shit companies", "crooks", "commbank", "angry", "rant", "liars"]
 ---
 
-[CBA](https://commbank.com.au) has been naughty, and too reliant on their AI boyfriend. Here's what happened:
+[CBA](https://commbank.com.au) has been naughty, and too reliant on their [AI boyfriend](https://www.abc.net.au/news/2025-07-29/commonwealth-bank-says-ai-behind-dozens-of-job-cuts/105586312). Here's what happened:
 - A CBA customer contacted bank requesting contact details for [Secretlab](https://secretlab.sg)
 - CBA staff member queried ChatGPT (possibly via their own personal, unauthenticated access to ChatGPT) to obtain phone number for Secretlab
 - CBA staff disclosed the retrieved phone number to the requesting customer
