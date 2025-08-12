@@ -18,7 +18,7 @@ tags: ["business", "secret lab", "yarn spinner", "money", "banks", "shit compani
 - A CBA customer contacted bank requesting contact details for [Secretlab](https://secretlab.sg)
 - CBA staff member queried ChatGPT (possibly via their own personal, unauthenticated access to ChatGPT) to obtain phone number for Secretlab
 - CBA staff disclosed the retrieved phone number to the requesting customer
-- The retrieved phone number is a private number belonging to one of the directors of Secret Lab, a customer of CBA
+- The retrieved phone number is a private number belonging to one of the directors of [Secret Lab](https://secretlab.games), a customer of CBA
 - Therefore, CBA disclosed customer personal information to another, unrelated customer, and trusted a third-party LLM (ChatGPT), accessed seemingly unauthenticated on the consumer ChatGPT platform, as a source for data to provide to another customer
 - During investigation, CBA staff replicated the same ChatGPT query process, seemingly on a personal phone, again unauthenticated, and on the consumer ChatGPT platform
 - Signs indicate this might be routine practice amongst CBA staff
