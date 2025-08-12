@@ -27,12 +27,12 @@ It certainly feels like CBA has violated, or come pretty close to violating, a l
 
 For example, the [_Privacy Act 1988_ (Cth)](https://www.oaic.gov.au/privacy/privacy-legislation/the-privacy-act), and the [Australian Privacy Principles](https://www.oaic.gov.au/privacy/australian-privacy-principles):
 
-**APP 6: Use or Disclosure of Personal Information:**
+**APP 6 Use or Disclosure of Personal Information:**
 Personal information may only be used or disclosed for certain, good, reasons.
 
 Disclosure of customer contact information to another customer falls outside permitted purposes.
 
-**APP 8: Cross-border Disclosure:**
+**APP 8 Cross-border Disclosure:**
 > "Before an APP entity discloses personal information about an individual to a person (the overseas recipient) who is not in Australia or an external Territory, the APP entity must take such steps as are reasonable in the circumstances to ensure that the overseas recipient does not breach the Australian Privacy Principles."
 
 Querying ChatGPT involves transmitting the customer's business name to OpenAI's international servers, and relying on information sourced from those servers, without adequate safeguards for data handling. 
@@ -41,7 +41,7 @@ OK, _admittedly__, our business name isn't really personal information (our phon
 
 Given we're CBA customers, this becomes pretty horrific.
 
-**APP 11: Security of Personal Information:**
+**APP 11 Security of Personal Information:**
 > "An APP entity must take such steps as are reasonable in the circumstances to protect the personal information that it holds from misuse, interference and loss and from unauthorised access, modification or disclosure."
 
 Staff relying on unverified external AI sources for customer information retrieval and subsequent disclosure fails to meet reasonable security standards for protecting customer information.
@@ -74,14 +74,14 @@ This _wasn't really_ part of a due diligence/KYC process, but they used it as a 
 
 And then there's the [Australian Consumer Law](https://consumer.gov.au), specifically Misleading or Deceptive Conduct:
 
-**Section 18 - Competition and Consumer Act 2010:**
+**Section 18 Competition and Consumer Act 2010:**
 > "A person must not, in trade or commerce, engage in conduct that is misleading or deceptive or is likely to mislead or deceive."
 
 CBA's disclosure of unverified information sourced from ChatGPT _could_ constitute misleading conduct by presenting potentially inaccurate information as reliable to customers.
 
 And, of course, [ASIC](https://www.legislation.gov.au/C2004A00819/latest/text): 
 
-**Section 12DA - Misleading or Deceptive Conduct in Financial Services:**
+**Section 12D Misleading or Deceptive Conduct in Financial Services:**
 > "A person must not, in trade or commerce, in relation to financial services engage in conduct that is misleading or deceptive or is likely to mislead or deceive."
 
 Providing unverified customer information in a financial services context constitutes misleading conduct under financial services-specific legislation.
