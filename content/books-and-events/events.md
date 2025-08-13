@@ -15,7 +15,7 @@ I'm happy to be **invited to speak** at events on a range of topics, including b
 
 If you cannot afford to pay for travel, and speaking fees, please let me know upfront (I'd still be happy to explore your speaker needs). I am comfortable speaking at all scales of events, including corporate meetings, board meetings, conferences, school events, to children, and more. I hold an up to date Working with Vulnerable People registration in Tasmania.
 
-**Please note:* From October 2025 I will not be travelling out of Tasmania for events for the foreseeable. Please feel free to invite me to events within Tasmania, or held remotely/online! I'll update this message when I'm travelling again!
+**Please note:** From October 2025 I will not be travelling out of Tasmania for events for the foreseeable. Please feel free to invite me to events within Tasmania, or held remotely/online! I'll update this message when I'm travelling again!
 
 # Upcoming Events
 
@@ -30,7 +30,9 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
     * Topic: AI and the Workforce
 * Speaking: GCAP 2025, Melbourne, Australia
     * Session: [Creating While the World Burns](https://gcap.com.au)
-    
+** Speaking: PAX Australia 2025, Melbourne, Australia
+	* Panel: Interactive Storytelling 101: Write Your First Game with the Tool Behind Night in the Woods and DREDGE
+	
 ## 2026
 * Helping: Screen Tasmania Level Up Tasmania 2026, April 2026, Hobart, Australia
 
