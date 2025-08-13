@@ -10,12 +10,12 @@ cover:
   alt: "Paris speaking"
   relative: false
 ---
+**Please note:** With the exception of some existing commitments, I will not be travelling out of Tasmania for events for the foreseeable. Please feel free to invite me to events within Tasmania, or held remotely/online! I'll update this message when I'm travelling again! Invite me then!_—- Paris, August 2025_
 
 I'm happy to be **invited to speak** at events on a range of topics, including but not limited to artifical intelligence, the intersection and implications of technology and creativity, work, and culture, the intersection of technology and creativity, game development and design, creative arts, writing, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information). 
 
 If you cannot afford to pay for travel, and speaking fees, please let me know upfront (I'd still be happy to explore your speaker needs). I am comfortable speaking at all scales of events, including corporate meetings, board meetings, conferences, school events, to children, and more. I hold an up to date Working with Vulnerable People registration in Tasmania.
 
-**Please note:** From October 2025 I will not be travelling out of Tasmania for events for the foreseeable. Please feel free to invite me to events within Tasmania, or held remotely/online! I'll update this message when I'm travelling again!
 
 # Upcoming Events
 
