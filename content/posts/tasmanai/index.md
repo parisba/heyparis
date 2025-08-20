@@ -50,6 +50,7 @@ The gap only widens when a small entity tries to leverage technologies or even t
 
 The choice is clear: Tasmania can chase AI "_efficiency_" and become indistinguishable from everywhere else, or it can leverage its authentic advantages to command premium prices in markets increasingly hungry for genuine alternatives. The state that turned isolation into distinction can turn the AI revolution into its greatest competitive advantage, by consciously choosing to remain human.
 
+
 ---
 
-Header image inspired by [Tourism Tasmania's TasmanAi campaign](https://www.discovertasmania.com.au/tasmanai/). "TasmanAI" is used without permission or endorsement, implied or otherwise.
+_Written by Paris Buttfield-Addison_. Header image inspired by [Tourism Tasmania's TasmanAi campaign](https://www.discovertasmania.com.au/tasmanai/). "TasmanAI" is used without permission or endorsement, implied or otherwise.
