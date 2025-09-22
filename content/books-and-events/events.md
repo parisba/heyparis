@@ -24,13 +24,9 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 * Hosting: Monthly [Space News on ABC Radio Hobart and Northern Tasmania](/posts/spacenews), [with Lucie Cutting](https://www.abc.net.au/listen/programs/hobart-sundays) (I took over hosting this from my wife, [Mars](https://themartianlife.com), while she's busy with her PhD.)
 
 ## 2025
-* Organising: AUC [/dev/world/2025](https://devworld.au), September 2025, Melbourne, Australia
-* Organising: AUC [X World 2025](https://xworld.au), September 2025, Melbourne, Australia
-* Speaking: [Tasmanian Leaders Program](https://www.tasmanianleaders.org.au), Linking Session, September 2025
-    * Topic: AI and the Workforce
 * Speaking: GCAP 2025, Melbourne, Australia
     * Session: [Creating While the World Burns](https://gcap.com.au)
-** Speaking: PAX Australia 2025, Melbourne, Australia
+* Speaking: PAX Australia 2025, Melbourne, Australia
 	* Panel: Interactive Storytelling 101: Write Your First Game with the Tool Behind Night in the Woods and DREDGE
 	
 ## 2026
@@ -39,6 +35,10 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 # Past Events
 
 ## 2025
+* Organising: AUC [/dev/world/2025](https://devworld.au), September 2025, Melbourne, Australia
+* Organising: AUC [X World 2025](https://xworld.au), September 2025, Melbourne, Australia
+* Speaking: [Tasmanian Leaders Program](https://www.tasmanianleaders.org.au), Linking Session, September 2025
+    * Topic: AI and the Workforce
 * Speaking: [NarraScope 2025](https://narrascope.org), June 2025, Philadelphia, NY, USA
     * Session: Mathematically Proving Your Stories Have No Bugs
     * Session: Yarn Spinner Toolbox
