@@ -24,8 +24,6 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 * Hosting: Monthly [Space News on ABC Radio Hobart and Northern Tasmania](/posts/spacenews), [with Lucie Cutting](https://www.abc.net.au/listen/programs/hobart-sundays) (I took over hosting this from my wife, [Mars](https://themartianlife.com), while she's busy with her PhD.)
 
 ## 2025
-* Speaking: GCAP 2025, Melbourne, Australia
-    * Session: [Creating While the World Burns](https://gcap.com.au)
 * Speaking: PAX Australia 2025, Melbourne, Australia
 	* Panel: Interactive Storytelling 101: Write Your First Game with the Tool Behind Night in the Woods and DREDGE
 	
@@ -35,6 +33,8 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 # Past Events
 
 ## 2025
+* Speaking: GCAP 2025, Melbourne, Australia
+    * Session: [Creating While the World Burns](https://gcap.com.au)
 * Organising: AUC [/dev/world/2025](https://devworld.au), September 2025, Melbourne, Australia
 * Organising: AUC [X World 2025](https://xworld.au), September 2025, Melbourne, Australia
 * Speaking: [Tasmanian Leaders Program](https://www.tasmanianleaders.org.au), Linking Session, September 2025
