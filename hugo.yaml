@@ -73,25 +73,37 @@ params:
       SiteVerificationTag: "G-FMR8Q48WG5"
 
   homeInfoParams:
-  Title: "Paris Buttfield-Addison"
-  Content: |
-    **Hi, I'm Dr Paris Buttfield-Addison 👋**
-    <br /><br />
-    I co-founded [Secret Lab](https://secretlab.games) (indie games studio behind the ABC Play School games, and BAFTA and IGF-winning *Night in the Woods*) and [Yarn Spinner](https://yarnspinner.dev)—narrative tools powering thousands of games played by millions, including *DREDGE*, *A Short Hike*, *Venba*, and *Unbeatable*.
-    <br /><br />
-    I'm a technical product leader with a multidisciplinary background: law degree, history major, trained engineer. I've worked at Meebo (acquired by Google), [authored over 20 technical books on software development, game design, artificial intelligence, and machine learning](/books/#books). I've delivered [keynotes, presentations, and workshops at conferences worldwide](/books-and-events/events/), and [host a radio show covering space news](/posts/spacenews/). I build products at the intersection of technology, policy, storytelling, and human behavior, helping to translate complex systems into experiences and tools that millions of people actually use.
-    <br /><br />
-    I run [/dev/world](https://devworld.com.au), the longest-running Apple developer event not run by Apple (since 2008), serve as Secretary of the [AUC](https://www.auc.edu.au), and lead Tasmania's game development ecosystem as President of [Tasmanian Game Makers, Inc.](https://www.tasgamemakers.com) and coordinator of the [Tasmanian Games Incubator](https://secretlab.games/incubator).
-    <br /><br />
-    I'm also a [fiction writer](/books/#fiction), [occasional academic](https://scholar.google.com/citations?user=rJGJ8f8AAAAJ&hl=en&oi=ao), teacher, and enthusiastic amateur [photographer](https://www.flickr.com/photos/parisba/).
-    <br /><br />
-    [Learn more about me](/about). If you're looking for my amazing wife, Mars, you can find her [here](https://themartianlife.com).
+    Title: "Paris Buttfield-Addison"
+    Content:
+        Hi, I'm Dr Paris Buttfield-Addison 👋
+
+        <br /><br />
+        
+        I co-founded [Secret Lab](https://secretlab.games) (indie games studio behind the ABC Play School games, and BAFTA and IGF-winning *Night in the Woods*) and [Yarn Spinner](https://yarnspinner.dev)—narrative tools powering thousands of games played by millions, including *DREDGE*, *A Short Hike*, *Venba*, and *Unbeatable*.
+        
+        <br /><br />
+        
+        I'm a technical product leader with a multidisciplinary background: law degree, history major, trained engineer. I've worked at Meebo (acquired by Google), [authored over 20 technical books on software development, game design, artificial intelligence, and machine learning](/books/#books). I've delivered [keynotes, presentations, and workshops at conferences worldwide](/books-and-events/events/), and [host a radio show covering space news](/posts/spacenews/). I build products at the intersection of technology, policy, storytelling, and human behavior, helping to translate complex systems into experiences and tools that millions of people actually use. 
+        
+        <br /><br />
+        
+        I run [/dev/world](https://devworld.com.au), the longest-running Apple developer event not run by Apple (since 2008), serve as Secretary of the [AUC](https://www.auc.edu.au), and lead Tasmania's game development ecosystem as President of [Tasmanian Game Makers, Inc.](https://www.tasgamemakers.com) and coordinator of the [Tasmanian Games Incubator](https://secretlab.games/incubator).
+
+        <br /><br />
+
+        I'm also a [fiction writer](/books/#fiction), [occasional academic](https://scholar.google.com/citations?user=rJGJ8f8AAAAJ&hl=en&oi=ao), teacher, and enthusiastic amateur [photographer](https://www.flickr.com/photos/parisba/).
+
+        <br /><br />
+
+        [Learn more about me](/about). If you're looking for my amazing wife, Mars, you can find her [here](https://themartianlife.com).
 
   socialIcons:
     - name: "Mastodon"
       url: "https://cloudisland.nz/@parisba"
     - name: "Bluesky"
       url: "https://bsky.app/profile/hey.paris"
+    - name: "Threads"
+      url: "https://www.threads.net/@paris_b_a"
     - name: "Instagram"
       url: "https://www.instagram.com/paris_b_a"
     - name: "Flickr"
