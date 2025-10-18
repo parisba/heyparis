@@ -41,3 +41,7 @@ Instead of banning kids, we could force the platforms to be safer by design. Mak
 We could also invest properly in real digital literacy education. We could teach kids how to navigate the online world safely, instead of trying to lock them out of it until they turn sixteen, leaving them completely unprepared for what they’ll find.
 
 This law isn’t a smart solution. It’s a clumsy, rushed plan that sacrifices everyone’s privacy for a system that is guaranteed to fail. It punishes vulnerable kids and wilfully ignores better, more effective alternatives. It’s a truly terrible idea, and we need to say so before our open internet becomes a walled-off garden of state-sanctioned surveillance.
+
+---
+
+Header image is [An Unwelcome Visitor](https://pdimagearchive.org/images/f6f5f877-9abe-4d75-b41b-eecea96d09cb/).
