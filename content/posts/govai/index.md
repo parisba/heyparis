@@ -169,7 +169,7 @@ This is not just a repeat of Robodebt. It is Robodebt at a speed and scale the o
 
 ## **Anyway…**
 
-The Australian Public Service AI Plan is not a flawed plan. It is a document of profound institutional amnesia and "policy negligence. It is irrefutable evidence that the government has learned nothing from the "[venality, incompetence and cowardice](https://www.abc.net.au/news/2023-07-07/robodebt-royal-commission-findings-revealed/102531450)" of the Robodebt scandal. All the key structural failures that enabled Robodebt are replicated:
+The Australian Public Service AI Plan is not just a flawed plan. It is a document of profound institutional amnesia and policy negligence. It is irrefutable evidence that the government has learned nothing from the "[venality, incompetence and cowardice](https://www.abc.net.au/news/2023-07-07/robodebt-royal-commission-findings-revealed/102531450)" of the Robodebt scandal. All the key structural failures that enabled Robodebt are replicated:
 
 * **Weak oversight:** An AI Review Committee that is basically advisory theatre.
 * **Legal vacuum:** A strange 18-month gap between things, and a "voluntary compliance" regime.
