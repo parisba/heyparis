@@ -10,7 +10,7 @@ cover:
   alt: "Paris speaking"
   relative: false
 ---
-**Please note:** With the exception of some existing commitments, I will not be travelling out of Tasmania for events for the foreseeable. Please feel free to invite me to events within Tasmania, or held remotely/online! I'll update this message when I'm travelling again! Invite me then!_—- Paris, August 2025_
+**Please note:** With the exception of some existing commitments, I will not be travelling out of Tasmania for events for a year or two. Please feel free to invite me to events within Tasmania, or held remotely/online! I'll update this message when I'm travelling again! Invite me then!_—- Paris, August 2025_
 
 I'm happy to be **invited to speak** at events on a range of topics, including but not limited to artifical intelligence, the intersection and implications of technology and creativity, work, and culture, the intersection of technology and creativity, game development and design, creative arts, writing, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information). 
 
@@ -22,9 +22,15 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 ## Regular
 * Organising: [Tasmanian Game Makers, Inc.](https://tasgamemakers.com) events
 * Hosting: Monthly [Space News on ABC Radio Hobart and Northern Tasmania](/posts/spacenews), [with Lucie Cutting](https://www.abc.net.au/listen/programs/hobart-sundays) (I took over hosting this from my wife, [Mars](https://themartianlife.com), while she's busy with her PhD.)
-	
+
+## 2025
+* Attending: Future Skills Organisation Roundtable, November 2025, Hobart, Australia
+* Speaking: [Apple Box Studio, Reel Talk, November 2025](https://www.appleboxstudiotas.com.au/all-events#!event/2025/11/12/november-reel-talk), Hobart, Australia
+* Attending: AI Industry Leaders Dialogue, November 2025, Hobart, Tasmania
+* Attending: Parliamentary Friends of Technology, December 2025, Hobart, Tasmania
+
 ## 2026
-* Helping: Screen Tasmania Level Up Tasmania 2026, April 2026, Hobart, Australia
+* Organising: Screen Tasmania Level Up Tasmania 2026, April 2026, Hobart, Australia
 
 # Past Events
 
