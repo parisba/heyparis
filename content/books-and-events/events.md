@@ -23,21 +23,18 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 * Organising: [Tasmanian Game Makers, Inc.](https://tasgamemakers.com) events
 * Hosting: Monthly [Space News on ABC Radio Hobart and Northern Tasmania](/posts/spacenews), [with Lucie Cutting](https://www.abc.net.au/listen/programs/hobart-sundays) (I took over hosting this from my wife, [Mars](https://themartianlife.com), while she's busy with her PhD.)
 
-## 2025
-* Attending: Future Skills Organisation Roundtable, November 2025, Hobart, Australia
-* Speaking: [Apple Box Studio, Reel Talk, November 2025](https://www.appleboxstudiotas.com.au/all-events#!event/2025/11/12/november-reel-talk), Hobart, Australia
-* Attending: AI Industry Leaders Dialogue, November 2025, Hobart, Tasmania
-* Attending: Parliamentary Friends of Technology, December 2025, Hobart, Tasmania
-
 ## 2026
+* * Speaking: [Apple Box Studio, Reel Talk, ~January 2026](https://www.appleboxstudiotas.com.au/), Hobart, Australia
 * Organising: Screen Tasmania Level Up Tasmania 2026, April 2026, Hobart, Australia
 
 # Past Events
 
 ## 2025
+* Attending: Parliamentary Friends of Technology, December 2025, Hobart, Tasmania
+* Attending: AI Industry Leaders Dialogue, November 2025, Hobart, Tasmania
 * Speaking: PAX Australia 2025, Melbourne, Australia
 	* Panel: Interactive Storytelling 101: Write Your First Game with the Tool Behind Night in the Woods and DREDGE
-
+* Attending: Future Skills Organisation Roundtable, November 2025, Hobart, Australia
 * Speaking: GCAP 2025, Melbourne, Australia
     * Session: [Creating While the World Burns](https://gcap.com.au)
 * Organising: AUC [/dev/world/2025](https://devworld.au), September 2025, Melbourne, Australia
