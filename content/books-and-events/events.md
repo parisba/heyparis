@@ -24,7 +24,7 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 * Hosting: Monthly [Space News on ABC Radio Hobart and Northern Tasmania](/posts/spacenews), [with Lucie Cutting](https://www.abc.net.au/listen/programs/hobart-sundays) (I took over hosting this from my wife, [Mars](https://themartianlife.com), while she's busy with her PhD.)
 
 ## 2026
-* * Speaking: [Apple Box Studio, Reel Talk, ~January 2026](https://www.appleboxstudiotas.com.au/), Hobart, Australia
+* Speaking: [Apple Box Studio, Reel Talk, ~January 2026](https://www.appleboxstudiotas.com.au/), Hobart, Australia
 * Organising: Screen Tasmania Level Up Tasmania 2026, April 2026, Hobart, Australia
 
 # Past Events
