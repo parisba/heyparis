@@ -33,7 +33,10 @@ My Apple ID, which I have held for around two decades, has been permanently disa
 * **The Consequence:** My account is flagged as "closed in accordance with the Apple Media Services Terms and Conditions".
 * **The Damage:** I effectively have over $30,000 worth of previously-active “bricked" hardware. My iPhone, iPad, Watch, and Macs cannot sync, update, or function properly. I have lost access to thousands of dollars in purchased software and media.
   * Apple representatives claim that only the “Media and Services” side of my account is blocked, but now my devices have signed me out of iMessage (and I can't sign back in), and I can’t even sign out of the blocked iCloud account because… it’s barred from the sign-out API, as far as I can tell.
-  * I can’t even login to the “Secure File Transfer” system Apple uses to exchange information, because it relies on an Apple ID…
+  * I can’t even login to the “Secure File Transfer” system Apple uses to exchange information, because it relies on an Apple ID. Most of the ways Apple has suggested seeking help from them involve signing in to an Apple service to upload something, or communicate with them. This doesn't work as the account is locked.
+  
+[![](/accountfail.png#center)]()
+
   * I can't even download my iCloud Photos, as:
     1. There are repeated auth-errors on my account, so I can't make Photos work;
     2. I don't have a 6TB device to sync them to, even if I could. 
