@@ -65,6 +65,6 @@ This advice is technically disastrous:
 I am not a casual user. I have [literally written the book on Apple development (taking over the *Learning Cocoa with Objective-C* series, which Apple themselves used to write, for O'Reilly Media, and then 20+ books following that)](/books-and-events/books/#books). I help run the longest-running Apple developer event not run by Apple themselves, [/dev/world](https://devworld.au/index.php). I have effectively been an evangelist for this company’s technology for my entire professional life. We had an app on the App Store on Day 1 in every sense of the world. 
 
 ## My Plea
-I am asking for a human at Apple to review this case. I suspect an automated fraud flag regarding the bad gift card triggered a nuclear response that frontline support cannot override.
+I am asking for a human at Apple to review this case. I suspect an automated fraud flag regarding the bad gift card triggered a nuclear response that frontline support cannot override. I have escalated this through my many friends in WWDR and SRE at Apple, with no success.
 
 I am desperate to resolve this and restore my digital life. If you can help, please email paris AT paris.id.au
