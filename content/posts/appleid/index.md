@@ -48,6 +48,7 @@ I contacted Apple Support immediately (Case ID: 102774292094). The experience wa
 
 1. **No Information:** Support staff refused to tell me *why* the account was banned or provide specific details on the decision.
 2. **No Escalation:** When I begged for an escalation to Executive Customer Relations (ECR), noting that I would lose the ability to do my job and that my devices were useless, I was told that "an additional escalation won't lead to a different outcome".
+     * Many of the reps I've spoken to have suggested strange things, one of the strangest was telling me that I could physically go to Apple's Australian HQ at Level 3, 20 Martin Place, Sydney, and plead my case. They even put me on hold for 5 minutes while they looked up the address.
 
 [![](/chat.png#center)]()
 
