@@ -28,12 +28,15 @@ My Apple ID, which I have held for around two decades, has been permanently disa
   * An Apple Support representative suggested that this was the cause of the issue: indicating that something was likely untoward about this card.
   * The card was purchased from a major brick-and-mortar retailer (Australians, think Woolworths scale; Americans, think Walmart scale), so if I cannot rely on the provenance of that, and have no recourse, what am I meant to do? We have even sent the receipt, indicating the card's serial number and purchase location to Apple.
 
-[![](/account-locked.png#center)]()
+[![](/apple-account-locked.png#center)]()
 
 * **The Consequence:** My account is flagged as "closed in accordance with the Apple Media Services Terms and Conditions".
 * **The Damage:** I effectively have over $30,000 worth of previously-active “bricked" hardware. My iPhone, iPad, Watch, and Macs cannot sync, update, or function properly. I have lost access to thousands of dollars in purchased software and media.
   * Apple representatives claim that only the “Media and Services” side of my account is blocked, but now my devices have signed me out of iMessage (and I can't sign back in), and I can’t even sign out of the blocked iCloud account because… it’s barred from the sign-out API, as far as I can tell.
   * I can’t even login to the “Secure File Transfer” system Apple uses to exchange information, because it relies on an Apple ID…
+  * I can't even download my iCloud Photos, as:
+    1. There are repeated auth-errors on my account, so I can't make Photos work;
+    2. I don't have a 6TB device to sync them to, even if I could. 
 
 [![](/imessage.png#center)]()
 
