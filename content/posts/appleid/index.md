@@ -62,7 +62,7 @@ This advice is technically disastrous:
 * **The Developer Risk:** As a professional Apple Developer, attempting to "dodge" a ban by creating a new ID could lead to my Developer Program membership being permanently blacklisted, amongst other things.
 
 ## Who I Am
-I am not a casual user. I have literally written the book on Apple development (taking over the *Learning Cocoa with Objective-C* series, which Apple themselves used to write, for O'Reilly Media, and then 20+ books following that). I help run the longest-running Apple developer event not run by Apple themselves, /dev/world. I have effectively been an evangelist for this company’s technology for my entire professional life.
+I am not a casual user. I have literally written the book on Apple development (taking over the *Learning Cocoa with Objective-C* series, which Apple themselves used to write, for O'Reilly Media, and then 20+ books following that). I help run the longest-running Apple developer event not run by Apple themselves, /dev/world. I have effectively been an evangelist for this company’s technology for my entire professional life. We had an app on the App Store on Day 1 in every sense of the world. 
 
 ## My Plea
 I am asking for a human at Apple to review this case. I suspect an automated fraud flag regarding the bad gift card triggered a nuclear response that frontline support cannot override.
