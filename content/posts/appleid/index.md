@@ -24,7 +24,9 @@ My Apple ID, which I have held for around two decades, has been permanently disa
 
 [![](/cardfail.png#center)]()
 
-* **The Trigger:** The only recent activity on my account was a recent attempt to redeem a $500 Apple Gift Card to pay for my 6TB iCloud+ storage plan. The code failed. The vendor suggested that the card number was likely compromised and agreed to reissue it. Shortly after, my account was locked. An Apple Support representative suggested that this was the cause of the issue. The card was purchased from a major brick-and-mortar retailer (Australians, think Woolworths scale; Americans, think Walmart scale), so if I cannot rely on the provenance of that, and have no recourse, what am I meant to do?
+* **The Trigger:** The only recent activity on my account was a recent attempt to redeem a $500 Apple Gift Card to pay for my 6TB iCloud+ storage plan. The code failed. The vendor suggested that the card number was likely compromised and agreed to reissue it. Shortly after, my account was locked. 
+  * An Apple Support representative suggested that this was the cause of the issue: indicating that something was likely untoward about this card.
+  * The card was purchased from a major brick-and-mortar retailer (Australians, think Woolworths scale; Americans, think Walmart scale), so if I cannot rely on the provenance of that, and have no recourse, what am I meant to do? We have even sent the receipt, indicating the card's serial number and purchase location to Apple.
 
 [![](/account-locked.png#center)]()
 
