@@ -16,7 +16,7 @@ tags: ["apple", "megacorp", "help", "angry", "rant", "liars"]
 
 Here’s how Apple “Permanently” locked my Apple ID.
 
-I am writing this as a desperate measure. After nearly 30 years as a loyal customer, authoring technical books on Apple’s own programming languages (Objective-C and Swift), and spending over tens and tens of thousands of dollars on devices, I have been locked out of my digital life with no explanation and no recourse.
+I am writing this as a desperate measure. After nearly 30 years as a loyal customer, authoring technical books on Apple’s own programming languages (Objective-C and Swift), and spending tens upon tens upon tens of thousands of dollars on devices, apps, conferences, and services, I have been locked out of my personal and professional digital life with no explanation and no recourse.
 
 ## The Situation
 
