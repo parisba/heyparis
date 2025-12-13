@@ -1,16 +1,16 @@
 ---
-title: "20 Years of Digital Life, Gone in an Instant"
+title: "20 Years of Digital Life, Gone in an Instant, thanks to Apple"
 date: 2025-12-13
 cover:
   image: "cover.jpg"
-  alt: "20 Years of Digital Life, Gone in an Instant"
+  alt: "20 Years of Digital Life, Gone in an Instant, thanks to Apple"
   relative: true
 ShowToc: false
 params:
-  description: 20 Years of Digital Life, Gone in an Instant
+  description: 20 Years of Digital Life, Gone in an Instant, thanks to Apple
   images:
   - cover.jpg
-  title: "20 Years of Digital Life, Gone in an Instant"
+  title: "20 Years of Digital Life, Gone in an Instant, thanks to Apple"
 tags: ["apple", "megacorp", "help", "angry", "rant", "liars"]
 ---
 
@@ -22,19 +22,21 @@ I am writing this as a desperate measure. After nearly 30 years as a loyal custo
 
 My Apple ID, which I have held for around two decades, has been permanently disabled. This isn’t just an email address; it is my core digital identity. It holds terabytes of family photos, my entire message history, and is the key to syncing my work across the ecosystem.
 
-* **The Trigger:** The only recent activity on my account was a recent attempt to redeem a $500 Apple Gift Card to pay for my 6TB iCloud+ storage plan. The code failed. The vendor suggested that the card number was likely compromised and agreed to reissue it. Shortly after, my account was locked. An Apple Support representative suggested that this was the cause of the issue.
-
 [![](/cardfail.png#center)]()
 
-* **The Consequence:** My account is flagged as "closed in accordance with the Apple Media Services Terms and Conditions".
-* **The Damage:** I effectively have over $30,000 worth of previously-active “bricked" hardware. My iPhone, iPad, Watch, and Macs cannot sync, update, or function properly. I have lost access to thousands of dollars in purchased software and media.
-  * Apple representatives claim that only the “Media and Services” side of my account is blocked, but now my devices have signed me out of iMessage, and I can’t sign out of the blocked iCloud account because… it’s barred from the sign-out API, as far as I can tell.
-  * I can’t even login to the “Secure File Transfer” system Apple uses to exchange information, because it relies on an Apple ID…
+* **The Trigger:** The only recent activity on my account was a recent attempt to redeem a $500 Apple Gift Card to pay for my 6TB iCloud+ storage plan. The code failed. The vendor suggested that the card number was likely compromised and agreed to reissue it. Shortly after, my account was locked. An Apple Support representative suggested that this was the cause of the issue. The card purchased from a major brick-and-mortar retailer (Australians, think Woolworths scale; Americans, think Walmart scale), so if I cannot rely on the provenance of that, and have recourse, what am I meant to do?
 
 [![](/locked.png#center)]()
 
+* **The Consequence:** My account is flagged as "closed in accordance with the Apple Media Services Terms and Conditions".
+* **The Damage:** I effectively have over $30,000 worth of previously-active “bricked" hardware. My iPhone, iPad, Watch, and Macs cannot sync, update, or function properly. I have lost access to thousands of dollars in purchased software and media.
+  * Apple representatives claim that only the “Media and Services” side of my account is blocked, but now my devices have signed me out of iMessage (and I can't sign back in), and I can’t even sign out of the blocked iCloud account because… it’s barred from the sign-out API, as far as I can tell.
+  * I can’t even login to the “Secure File Transfer” system Apple uses to exchange information, because it relies on an Apple ID…
+
+[![](/imessage.png#center)]()
+
 ## The Support Nightmare**
-I contacted Apple Support immediately (Case ID: 102774689968). The experience was terrifyingly dismissive:
+I contacted Apple Support immediately (Case ID: 102774292094). The experience was terrifyingly dismissive:
 
 1. **No Information:** Support staff refused to tell me *why* the account was banned or provide specific details on the decision.
 2. **No Escalation:** When I begged for an escalation to Executive Customer Relations (ECR), noting that I would lose the ability to do my job and that my devices were useless, I was told that "an additional escalation won't lead to a different outcome".
@@ -48,7 +50,7 @@ Most insultingly, the official advice from the Senior Advisor was to "create a n
 This advice is technically disastrous:
 
 * **The Legal Catch:** Apple's Terms and Conditions rely on "Termination of Access." By closing my account, they have revoked my license to use their services.
-* **The Technical Trap:** If I follow their advice and create a new account on my current devices (which are likely hardware-flagged due to the gift card error), the new account will be instantly linked to the banned one and disabled for circumventing security measures.
+* **The Technical Trap:** If I follow their advice and create a new account on my current devices (which are likely hardware-flagged due to the gift card error), the new account will likely be linked to the banned one and disabled for circumventing security measures.
 * **The Developer Risk:** As a professional Apple Developer, attempting to "dodge" a ban by creating a new ID could lead to my Developer Program membership being permanently blacklisted, amongst other things.
 
 ## Who I Am
