@@ -24,9 +24,9 @@ My Apple ID, which I have held for around two decades, has been permanently disa
 
 [![](/cardfail.png#center)]()
 
-* **The Trigger:** The only recent activity on my account was a recent attempt to redeem a $500 Apple Gift Card to pay for my 6TB iCloud+ storage plan. The code failed. The vendor suggested that the card number was likely compromised and agreed to reissue it. Shortly after, my account was locked. An Apple Support representative suggested that this was the cause of the issue. The card purchased from a major brick-and-mortar retailer (Australians, think Woolworths scale; Americans, think Walmart scale), so if I cannot rely on the provenance of that, and have recourse, what am I meant to do?
+* **The Trigger:** The only recent activity on my account was a recent attempt to redeem a $500 Apple Gift Card to pay for my 6TB iCloud+ storage plan. The code failed. The vendor suggested that the card number was likely compromised and agreed to reissue it. Shortly after, my account was locked. An Apple Support representative suggested that this was the cause of the issue. The card was purchased from a major brick-and-mortar retailer (Australians, think Woolworths scale; Americans, think Walmart scale), so if I cannot rely on the provenance of that, and have no recourse, what am I meant to do?
 
-[![](/locked.png#center)]()
+[![](/account-locked.png#center)]()
 
 * **The Consequence:** My account is flagged as "closed in accordance with the Apple Media Services Terms and Conditions".
 * **The Damage:** I effectively have over $30,000 worth of previously-active “bricked" hardware. My iPhone, iPad, Watch, and Macs cannot sync, update, or function properly. I have lost access to thousands of dollars in purchased software and media.
@@ -35,7 +35,7 @@ My Apple ID, which I have held for around two decades, has been permanently disa
 
 [![](/imessage.png#center)]()
 
-## The Support Nightmare**
+## The Support Nightmare
 I contacted Apple Support immediately (Case ID: 102774292094). The experience was terrifyingly dismissive:
 
 1. **No Information:** Support staff refused to tell me *why* the account was banned or provide specific details on the decision.
