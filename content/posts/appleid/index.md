@@ -18,7 +18,8 @@ Here’s how Apple “Permanently” locked my Apple ID.
 
 I am writing this as a desperate measure. After nearly 30 years as a loyal customer, authoring technical books on Apple’s own programming languages (Objective-C and Swift), and spending over tens and tens of thousands of dollars on devices, I have been locked out of my digital life with no explanation and no recourse.
 
-**The Situation**
+## The Situation
+
 My Apple ID, which I have held for around two decades, has been permanently disabled. This isn’t just an email address; it is my core digital identity. It holds terabytes of family photos, my entire message history, and is the key to syncing my work across the ecosystem.
 
 * **The Trigger:** The only recent activity on my account was a recent attempt to redeem a $500 Apple Gift Card to pay for my 6TB iCloud+ storage plan. The code failed. The vendor suggested that the card number was likely compromised and agreed to reissue it. Shortly after, my account was locked. An Apple Support representative suggested that this was the cause of the issue.
@@ -32,7 +33,7 @@ My Apple ID, which I have held for around two decades, has been permanently disa
 
 [![](/locked.png#center)]()
 
-**The Support Nightmare**
+## The Support Nightmare**
 I contacted Apple Support immediately (Case ID: 102774689968). The experience was terrifyingly dismissive:
 
 1. **No Information:** Support staff refused to tell me *why* the account was banned or provide specific details on the decision.
@@ -41,7 +42,7 @@ I contacted Apple Support immediately (Case ID: 102774689968). The experience wa
 [![](/chat.png#center)]()
 
 
-**The "New Account" Trap**
+## The "New Account" Trap
 Most insultingly, the official advice from the Senior Advisor was to "create a new Apple account... and update the payment information".
 
 This advice is technically disastrous:
@@ -50,10 +51,10 @@ This advice is technically disastrous:
 * **The Technical Trap:** If I follow their advice and create a new account on my current devices (which are likely hardware-flagged due to the gift card error), the new account will be instantly linked to the banned one and disabled for circumventing security measures.
 * **The Developer Risk:** As a professional Apple Developer, attempting to "dodge" a ban by creating a new ID could lead to my Developer Program membership being permanently blacklisted, amongst other things.
 
-**Who I Am**
+## Who I Am
 I am not a casual user. I have literally written the book on Apple development (taking over the *Learning Cocoa with Objective-C* series, which Apple themselves used to write, for O'Reilly Media, and then 20+ books following that). I help run the longest-running Apple developer event not run by Apple themselves, /dev/world. I have effectively been an evangelist for this company’s technology for my entire professional life.
 
-**My Plea**
+## My Plea
 I am asking for a human at Apple to review this case. I suspect an automated fraud flag regarding the bad gift card triggered a nuclear response that frontline support cannot override.
 
 I am desperate to resolve this and restore my digital life. If you can help, please email paris AT paris.id.au
