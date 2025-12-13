@@ -16,11 +16,11 @@ tags: ["apple", "megacorp", "help", "angry", "rant", "liars"]
 
 Here’s how Apple “Permanently” locked my Apple ID.
 
-I am writing this as a desperate measure. After nearly 30 years as a loyal customer, authoring technical books on Apple’s own programming languages (Objective-C and Swift), and spending tens upon tens upon tens of thousands of dollars on devices, apps, conferences, and services, I have been locked out of my personal and professional digital life with no explanation and no recourse.
+I am writing this as a desperate measure. After nearly 30 years as a loyal customer, [authoring technical books on Apple’s own programming languages (Objective-C and Swift)](/books-and-events/books/#books), and spending tens upon tens upon tens of thousands of dollars on devices, apps, conferences, and services, I have been locked out of my personal and professional digital life with no explanation and no recourse.
 
 ## The Situation
 
-My Apple ID, which I have held for around two decades, has been permanently disabled. This isn’t just an email address; it is my core digital identity. It holds terabytes of family photos, my entire message history, and is the key to syncing my work across the ecosystem.
+My Apple ID, which I have held for around 25 years (it was originally a username, before they had to be email addresses; it's from the iTools era), has been permanently disabled. This isn’t just an email address; it is my core digital identity. It holds terabytes of family photos, my entire message history, and is the key to syncing my work across the ecosystem.
 
 [![](/cardfail.png#center)]()
 
