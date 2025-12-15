@@ -16,7 +16,9 @@ tags: ["apple", "megacorp", "help", "angry", "rant", "liars"]
 
 **Summary:** A major brick-and-mortar store sold an Apple Gift Card that Apple seemingly took offence to, and locked out my entire Apple ID, effectively bricking my devices and my iCloud Account, Apple Developer ID, and everything associated with it, and I have no recourse. Can you help? Email paris AT paris.id.au (and read on for the details). ❤️
 
-Here’s how Apple “Permanently” locked my Apple ID.
+**Update 14 December 2025:** Someone from Executive Relations at Apple says they're looking into it. I hope this is true. They say they'll call me back tomorrow, on 15 December 2025. In the mean time, it's been covered by [Daring Fireball](https://daringfireball.net/linked/2025/12/13/buttfield-addison-apple-account), [Apple Insider](https://appleinsider.com/articles/25/12/13/locked-out-how-a-gift-card-purchase-destroyed-an-apple-account), [Michael Tsai](https://mjtsai.com/blog/2025/12/13/locked-out-of-apple-account-due-to-gift-card/), and others, thanks folks! I've received 100s of emails of support, and will reply to you all in time, thank you. Finger's crossed Apple calls back.
+
+## Here’s how Apple “Permanently” locked my Apple ID.
 
 I am writing this as a desperate measure. After nearly 30 years as a loyal customer, [authoring technical books on Apple’s own programming languages (Objective-C and Swift)](/books-and-events/books/#books), and spending tens upon tens upon tens of thousands of dollars on devices, apps, conferences, and services, I have been locked out of my personal and professional digital life with no explanation and no recourse.
 
