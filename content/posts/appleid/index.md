@@ -22,6 +22,23 @@ tags: ["apple", "megacorp", "help", "angry", "rant", "liars"]
 
 **Update 16 December 2025:** [The Register](https://www.theregister.com/2025/12/15/apple_dev_bad_gift_card_code/) covered it. No luck yet. 
 
+## FAQ
+
+The original post continues below, but to answer some questions:
+
+* Yes, I have the receipt for the card, including the activation receipt.
+* Yes, the card was legitimately purchased, it's not from eBay.
+* Yes, I have contacted the retailer.
+* Yes, I do have backups. That isn't the point; the hardware is somewhat (MacBook Pro, iPhone) to completely (iPad, Apple Watch, AirPods, Apple TV, HomePod) useless.
+* No, I don't know why parts of the account still kinda work, and parts don't.
+* No, I didn't write this article with AI, I just tried to make it clear what was going on with headings, and I've been writing for a LONG time.
+* Yes, Apple really did use emojis in their Live Chat.
+* Yes, I am in contact with Australian Government regulators and ombudsmen, but that process takes months to allocate cases.
+* Yes, I'll write to my local Federal Member, Andrew Wilkie. He's helped me with many things before, but Apple is still Apple.
+* Yes, I have had problems with Wise and the Commonwealth Bank of Australia in the past. No, I'm not a glutton for punishment. I don't know what's going on. 
+* Yes, my business recovered their money from Wise, but the [AFCA](https://www.afca.org.au) complaint is ongoing (as I said, the process is slow).
+* WWDR, and friends in SWE/SRE at Apple haven't been able to help beyond trying to escalate.
+
 ## Here’s how Apple “Permanently” locked my Apple ID.
 
 I am writing this as a desperate measure. After nearly 30 years as a loyal customer, [authoring technical books on Apple’s own programming languages (Objective-C and Swift)](/books-and-events/books/#books), and spending tens upon tens upon tens of thousands of dollars on devices, apps, conferences, and services, I have been locked out of my personal and professional digital life with no explanation and no recourse.
