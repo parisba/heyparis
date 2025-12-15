@@ -20,6 +20,8 @@ tags: ["apple", "megacorp", "help", "angry", "rant", "liars"]
 
 **Second Update 14 December 2025:** No luck so far, and not looking good. Anyone got a good lawyer to send them a letter and/or help me sue them? paris AT paris.id.au
 
+**Update 16 December 2025:** [The Register](https://www.theregister.com/2025/12/15/apple_dev_bad_gift_card_code/) covered it. No luck yet. 
+
 ## Here’s how Apple “Permanently” locked my Apple ID.
 
 I am writing this as a desperate measure. After nearly 30 years as a loyal customer, [authoring technical books on Apple’s own programming languages (Objective-C and Swift)](/books-and-events/books/#books), and spending tens upon tens upon tens of thousands of dollars on devices, apps, conferences, and services, I have been locked out of my personal and professional digital life with no explanation and no recourse.
