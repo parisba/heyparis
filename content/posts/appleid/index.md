@@ -27,16 +27,16 @@ tags: ["apple", "megacorp", "help", "angry", "rant", "liars"]
 The original post continues below, but to answer some questions:
 
 * **Yes,** I have the receipt for the card, including the activation receipt.
-* **Yes,**, the card was legitimately purchased, it's not from eBay.
-* **Yes,**, I have contacted the retailer.
-* **Yes,**, I do have backups. That isn't the point; the hardware is somewhat (MacBook Pro, iPhone) to completely (iPad, Apple Watch, AirPods, Apple TV, HomePod) useless.
+* **Yes,** the card was legitimately purchased, it's not from eBay.
+* **Yes,** I have contacted the retailer.
+* **Yes,** I do have backups. That isn't the point; the hardware is somewhat (MacBook Pro, iPhone) to completely (iPad, Apple Watch, AirPods, Apple TV, HomePod) useless.
 * **No,** I don't know why parts of the account still kinda work, and parts don't.
 * **No,** I didn't write this article with AI, I just tried to make it clear what was going on with headings, and I've been writing for a LONG time.
-* **Yes,**, Apple really did use emojis in their Live Chat.
-* **Yes,**, I am in contact with Australian Government regulators and ombudsmen, but that process takes months to allocate cases.
-* **Yes,**, I'll write to my local Federal Member, Andrew Wilkie. He's helped me with many things before, but Apple is still Apple.
-* **Yes,**, I have had problems with Wise and the Commonwealth Bank of Australia in the past. No, I'm not a glutton for punishment. I don't know what's going on. 
-* **Yes,**, my business recovered their money from Wise, but the [AFCA](https://www.afca.org.au) complaint is ongoing (as I said, the process is slow).
+* **Yes,** Apple really did use emojis in their Live Chat.
+* **Yes,** I am in contact with Australian Government regulators and ombudsmen, but that process takes months to allocate cases.
+* **Yes,** I'll write to my local Federal Member, Andrew Wilkie. He's helped me with many things before, but Apple is still Apple.
+* **Yes,** I have had problems with Wise and the Commonwealth Bank of Australia in the past. No, I'm not a glutton for punishment. I don't know what's going on. 
+* **Yes,** my business recovered their money from Wise, but the [AFCA](https://www.afca.org.au) complaint is ongoing (as I said, the process is slow).
 * **No,** WWDR, and friends in SWE/SRE at Apple haven't been able to help beyond trying to escalate.
 
 ## Here’s how Apple “Permanently” locked my Apple ID.
@@ -68,7 +68,7 @@ My Apple ID, which I have held for around 25 years (it was originally a username
 
 [![](/imessage.png#center)]()
 
-## The Support Nightmare
+## A Support Nightmare
 I contacted Apple Support immediately (Case ID: 102774292094). The experience was terrifyingly dismissive:
 
 1. **No Information:** Support staff refused to tell me *why* the account was banned or provide specific details on the decision.
@@ -78,16 +78,16 @@ I contacted Apple Support immediately (Case ID: 102774292094). The experience wa
 [![](/chat.png#center)]()
 
 
-## The "New Account" Trap
+## "New Account" Trap
 Most insultingly, the official advice from the Senior Advisor was to "create a new Apple account... and update the payment information".
 
-This advice is technically disastrous:
+This advice is technically and legally disastrous, IMO:
 
-* **The Legal Catch:** Apple's Terms and Conditions rely on "Termination of Access." By closing my account, they have revoked my license to use their services.
-* **The Technical Trap:** If I follow their advice and create a new account on my current devices (which are likely hardware-flagged due to the gift card error), the new account will likely be linked to the banned one and disabled for circumventing security measures.
-* **The Developer Risk:** As a professional Apple Developer, attempting to "dodge" a ban by creating a new ID could lead to my Developer Program membership being permanently blacklisted, amongst other things.
+* **Legally:** Apple's Terms and Conditions rely on "Termination of Access." By closing my account, they have revoked my license to use their services.
+* **Technically:** If I follow their advice and create a new account on my current devices (which are likely hardware-flagged due to the gift card error), the new account will likely be linked to the banned one and disabled for circumventing security measures.
+* **Developer Program:** As a professional Apple Developer, attempting to "dodge" a ban by creating a new ID could lead to my Developer Program membership being permanently blacklisted, amongst other things.
 
-## Who I Am
+## Who I Am?
 I am not a casual user. I have [literally written the book on Apple development (taking over the *Learning Cocoa with Objective-C* series, which Apple themselves used to write, for O'Reilly Media, and then 20+ books following that)](/books-and-events/books/#books). I help run the longest-running Apple developer event not run by Apple themselves, [/dev/world](https://devworld.au/index.php). I have effectively been an evangelist for this company’s technology for my entire professional life. We had an app on the App Store on Day 1 in every sense of the world. 
 
 ## My Plea
