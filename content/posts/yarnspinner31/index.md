@@ -14,7 +14,7 @@ params:
 tags: ["yarn spinner"]
 ---
 
-We released Yarn Spinner 3.1 on December 3, 2025, introducing several significant improvements to our dialogue system framework. This update emphasises asynchronous operations, graceful error handling, and enhanced customisation options.
+[We released Yarn Spinner 3.1](https://yarnspinner.dev/blog/yarn-spinner-3-1-release/) on December 3, 2025, introducing several significant improvements to our dialogue system framework. This update emphasises asynchronous operations, graceful error handling, and enhanced customisation options.
 
 ## Key Features
 
@@ -38,6 +38,6 @@ Tim's also put up a great blog on [Saliency Systems and State Mutation](https://
 
 We've got big plans for 2026. You can read all about them in our [2026 Plans](https://yarnspinner.dev/2026) post, but the highlights include: a Visual Novel Kit, a rebuilt VS Code extension, native Unreal Engine support, continued Godot development, and our new Story Solver narrative debugging tool. We're also pursuing integrations with complementary tools like Rewired and i2Loc.
 
-As always, Yarn Spinner will remain free and open source at its core. We fund development through paid add-ons, web services, and client work—no closing the source code, no AI integration, no seeking acquisition, and no eliminating the free tier.
+As always, Yarn Spinner will remain free and open source at its core. We fund development through paid add-ons, web services, and client work—no closing the source code, no AI integration, no seeking acquisition, and no eliminating the free tier. We've got capacity for 2026 projects, so [get in touch](https://yarnspinner.dev/contact/) if you'd like to work with us.
 
 Get started with Yarn Spinner with our [Beginner's Guide](https://docs.yarnspinner.dev/beginners-guide), or grab it from the [Unity Asset Store](https://assetstore.unity.com/publishers/91946) or [Itch Store](http://yarnspinner.itch.io).
