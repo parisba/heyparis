@@ -22,6 +22,8 @@ tags: ["apple", "megacorp", "help", "angry", "rant", "liars"]
 
 **Update 16 December 2025:** [The Register](https://www.theregister.com/2025/12/15/apple_dev_bad_gift_card_code/) covered it. No luck yet. 
 
+**Update 18 December 2025:** We're back! A lovely man from Singapore, working for Apple Executive Relations, who has been calling me every day for 3 days, has let me know it's all fixed. It looks like the gift card I tried to redeem, which did not work for me, and did not credit my account, was already redeemed in some way (sounds like classic gift card fraud), and my account was caught by that. Obviously it's unacceptable that this can happen, and I'm still trying to get more information out of him, but at least things are now mostly working. I'll post a more substantive update soon!
+
 ## FAQ
 
 The original post continues below, but to answer some questions:
