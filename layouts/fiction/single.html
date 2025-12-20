@@ -1,0 +1,67 @@
+{{- if lt hugo.Version "0.112.4" }}
+{{- errorf "=> hugo v0.112.4 or greater is required" }}
+{{- end -}}
+
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{{ .Title }} | {{ site.Title }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+    <meta name="author" content="{{ .Params.author | default site.Params.author }}">
+
+    {{- /* Canonical URL */}}
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    {{- /* Favicons */}}
+    <link rel="icon" href="{{ "favicon.ico" | absURL }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | absURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | absURL }}">
+    <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | absURL }}">
+
+    {{- /* Fiction-specific CSS */}}
+    {{- $fictionCSS := resources.Get "css/fiction.css" }}
+    {{- if $fictionCSS }}
+    <link rel="stylesheet" href="{{ $fictionCSS.Permalink }}">
+    {{- end }}
+
+    {{- /* Theme detection script */}}
+    <script>
+        if (localStorage.getItem("pref-theme") === "dark") {
+            document.documentElement.classList.add('dark');
+        } else if (localStorage.getItem("pref-theme") === "light") {
+            document.documentElement.classList.remove('dark');
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
+</head>
+
+<body class="fiction-body">
+    <nav class="fiction-nav">
+        <a href="/books-and-events/books/#fiction" class="fiction-back" title="Back to Fiction">&larr; Back</a>
+    </nav>
+
+    <article class="fiction-article">
+        <header class="fiction-header">
+            <h1 class="fiction-title">{{ .Title }}</h1>
+            {{- if .Params.author }}
+            <p class="fiction-author">by {{ .Params.author }}</p>
+            {{- end }}
+        </header>
+
+        <div class="fiction-content">
+            {{ .Content }}
+        </div>
+
+        <footer class="fiction-footer">
+            <a href="/books-and-events/books/#fiction" class="fiction-back">&larr; More Fiction</a>
+        </footer>
+    </article>
+</body>
+
+</html>

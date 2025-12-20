@@ -1,0 +1,267 @@
+/* Fiction Book-Light View Styles */
+
+/* CSS Variables for theming */
+:root {
+    /* Light mode - warm cream paper */
+    --fiction-bg: #FAF8F5;
+    --fiction-text: #2D2A26;
+    --fiction-text-secondary: #5C5650;
+    --fiction-accent: #8B2635;
+    --fiction-border: #E5DED5;
+    --fiction-hr: #D4CBC0;
+}
+
+:root.dark {
+    /* Dark mode - dark sepia */
+    --fiction-bg: #1A1816;
+    --fiction-text: #E8E4DF;
+    --fiction-text-secondary: #A8A098;
+    --fiction-accent: #D4A55C;
+    --fiction-border: #3A3632;
+    --fiction-hr: #4A4540;
+}
+
+/* Base body styles */
+.fiction-body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--fiction-bg);
+    color: var(--fiction-text);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+}
+
+/* Navigation */
+.fiction-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 2rem;
+    background: linear-gradient(to bottom, var(--fiction-bg) 0%, var(--fiction-bg) 60%, transparent 100%);
+    z-index: 100;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.fiction-nav:hover {
+    opacity: 1;
+}
+
+.fiction-back {
+    color: var(--fiction-text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    transition: color 0.2s ease;
+}
+
+.fiction-back:hover {
+    color: var(--fiction-accent);
+}
+
+/* Article container */
+.fiction-article {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 6rem 2rem 4rem;
+}
+
+@media (max-width: 768px) {
+    .fiction-article {
+        padding: 5rem 1.5rem 3rem;
+    }
+
+    .fiction-body {
+        font-size: 17px;
+    }
+}
+
+/* Header */
+.fiction-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--fiction-border);
+}
+
+.fiction-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.5rem;
+    color: var(--fiction-text);
+    line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+    .fiction-title {
+        font-size: 2rem;
+    }
+}
+
+.fiction-author {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--fiction-text-secondary);
+    margin: 0;
+}
+
+/* Content typography */
+.fiction-content {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+.fiction-content p {
+    margin: 0 0 1.5em;
+    text-indent: 0;
+}
+
+/* First paragraph after headers - no indent, with subtle drop cap effect */
+.fiction-content > p:first-of-type::first-letter {
+    font-size: 3.2em;
+    float: left;
+    line-height: 0.8;
+    padding-right: 0.1em;
+    margin-top: 0.1em;
+    color: var(--fiction-accent);
+}
+
+/* Emphasis and links */
+.fiction-content em {
+    font-style: italic;
+}
+
+.fiction-content strong {
+    font-weight: 600;
+}
+
+.fiction-content a {
+    color: var(--fiction-accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.2s ease;
+}
+
+.fiction-content a:hover {
+    color: var(--fiction-text);
+}
+
+/* Scene breaks / horizontal rules */
+.fiction-content hr {
+    border: none;
+    text-align: center;
+    margin: 2.5em auto;
+    max-width: 100px;
+}
+
+.fiction-content hr::before {
+    content: "* * *";
+    color: var(--fiction-hr);
+    letter-spacing: 0.5em;
+    font-size: 0.9em;
+}
+
+/* Blockquotes */
+.fiction-content blockquote {
+    margin: 2em 0;
+    padding: 0 0 0 1.5em;
+    border-left: 3px solid var(--fiction-border);
+    font-style: italic;
+    color: var(--fiction-text-secondary);
+}
+
+.fiction-content blockquote p {
+    margin-bottom: 0.75em;
+}
+
+/* Headings within content */
+.fiction-content h2,
+.fiction-content h3,
+.fiction-content h4 {
+    font-weight: 400;
+    margin: 2.5em 0 1em;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.fiction-content h2 {
+    font-size: 1.5rem;
+}
+
+.fiction-content h3 {
+    font-size: 1.25rem;
+}
+
+/* Lists */
+.fiction-content ul,
+.fiction-content ol {
+    margin: 1.5em 0;
+    padding-left: 2em;
+}
+
+.fiction-content li {
+    margin-bottom: 0.5em;
+}
+
+/* Code and preformatted (unlikely in fiction, but just in case) */
+.fiction-content code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    background: var(--fiction-border);
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+}
+
+.fiction-content pre {
+    background: var(--fiction-border);
+    padding: 1em;
+    overflow-x: auto;
+    border-radius: 4px;
+    margin: 1.5em 0;
+}
+
+/* Footer */
+.fiction-footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--fiction-border);
+    text-align: center;
+}
+
+.fiction-footer .fiction-back {
+    font-size: 1rem;
+}
+
+/* Smooth scrolling */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Print styles */
+@media print {
+    .fiction-nav,
+    .fiction-footer {
+        display: none;
+    }
+
+    .fiction-article {
+        padding: 0;
+        max-width: none;
+    }
+
+    .fiction-body {
+        font-size: 12pt;
+        background: white;
+        color: black;
+    }
+}
