@@ -1,6 +1,8 @@
 ---
 title: "The Final Session"
 date: 2025-03-31
+aliases:
+  - /posts/finalsession/
 cover:
   image: "cover.jpg"
   alt: "The Final Session"
