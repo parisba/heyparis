@@ -1,0 +1,211 @@
+/* Custom site styles - resume-inspired */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/* Accent color */
+:root {
+    --accent: #0055ff;
+    --accent-rgb: 0, 85, 255;
+}
+
+:root[data-theme="dark"] {
+    --accent: #4d8eff;
+    --accent-rgb: 77, 142, 255;
+}
+
+/* Typography */
+body {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+code, pre, .post-meta, .breadcrumbs {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Top accent bar */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--accent);
+    z-index: 999;
+}
+
+header.header {
+    margin-top: 4px;
+}
+
+/* Logo/site title */
+.logo a {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* Nav links */
+#menu a:hover {
+    color: var(--accent) !important;
+}
+
+#menu .active {
+    color: var(--accent) !important;
+    font-weight: 600;
+}
+
+/* Post entries */
+.post-entry {
+    position: relative;
+    border: none;
+    border-left: 4px solid transparent;
+    padding-left: 1.25rem;
+    margin-left: -1.25rem;
+    transition: all 0.2s ease;
+}
+
+.post-entry:hover {
+    border-left-color: var(--accent);
+    background: rgba(var(--accent-rgb), 0.04);
+}
+
+.post-entry .entry-title {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.post-entry:hover .entry-title {
+    color: var(--accent);
+}
+
+/* Post and page content */
+.post-title,
+.page-title {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.post-content a,
+.page-content a,
+.main a:not(.post-entry a):not(#menu a):not(.logo a):not(.pagination a) {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.post-content a:hover,
+.page-content a:hover,
+.main a:not(.post-entry a):not(#menu a):not(.logo a):not(.pagination a):hover {
+    border-bottom-color: var(--accent);
+}
+
+/* Headings */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.page-content h1,
+.page-content h2,
+.page-content h3,
+main h1,
+main h2,
+main h3 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.post-content h1:not(.post-title),
+.post-content h2,
+.page-content h1,
+.page-content h2,
+main h2,
+article h2,
+.post-single .post-content h1:not(.post-title),
+.post-single .post-content h2 {
+    padding-left: 0.75rem !important;
+    border-left: 4px solid var(--accent) !important;
+    margin-left: -0.75rem !important;
+}
+
+/* Code */
+.post-content pre,
+.page-content pre,
+.main pre {
+    border-left: 4px solid var(--accent);
+    border-radius: 0;
+}
+
+.post-content code:not(pre code),
+.page-content code:not(pre code),
+.main code:not(pre code) {
+    background: rgba(var(--accent-rgb), 0.08);
+    color: var(--accent);
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+/* Blockquotes */
+.post-content blockquote,
+.page-content blockquote,
+.main blockquote {
+    border-left: 4px solid var(--accent);
+    background: rgba(var(--accent-rgb), 0.04);
+    padding: 1rem 1.25rem;
+    margin-left: 0;
+}
+
+/* Tags */
+.post-tags a {
+    background: rgba(var(--accent-rgb), 0.08);
+    color: var(--accent);
+    border-radius: 3px;
+    padding: 0.25rem 0.6rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    transition: all 0.2s ease;
+}
+
+.post-tags a:hover {
+    background: var(--accent);
+    color: #fff;
+}
+
+/* Pagination */
+.pagination a:hover,
+.pagination .page-number:hover {
+    background: rgba(var(--accent-rgb), 0.08);
+    color: var(--accent);
+}
+
+/* Table of contents */
+.toc a:hover {
+    color: var(--accent);
+}
+
+/* Footer */
+.footer {
+    border-top: 4px solid var(--accent);
+}
+
+/* Social icons */
+.social-icons a:hover svg {
+    fill: var(--accent);
+}
+
+/* Breadcrumbs */
+.breadcrumbs a:hover {
+    color: var(--accent);
+}
+
+/* Selection */
+::selection {
+    background: rgba(var(--accent-rgb), 0.2);
+}
+
+/* Scroll bar accent */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
