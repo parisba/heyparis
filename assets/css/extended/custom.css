@@ -2,24 +2,48 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
-/* Accent color */
+/* Colors */
 :root {
     --accent: #0055ff;
     --accent-rgb: 0, 85, 255;
+    --text-muted: #555555;
 }
 
 :root[data-theme="dark"] {
     --accent: #4d8eff;
     --accent-rgb: 77, 142, 255;
+    --text-muted: #888888;
 }
 
 /* Typography */
 body {
     font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-code, pre, .post-meta, .breadcrumbs {
+code, pre, .post-meta, .breadcrumbs, .entry-hint {
     font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Post meta - dates, reading time */
+.post-meta {
+    color: var(--accent);
+    font-size: 0.75rem;
+}
+
+.entry-footer {
+    color: var(--text-muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8rem;
+}
+
+/* Description text */
+.post-description,
+.entry-content {
+    color: var(--text-muted);
 }
 
 /* Top accent bar */
@@ -67,6 +91,7 @@ header.header {
 .post-entry:hover {
     border-left-color: var(--accent);
     background: rgba(var(--accent-rgb), 0.04);
+    transform: translateX(4px);
 }
 
 .post-entry .entry-title {
@@ -76,6 +101,36 @@ header.header {
 
 .post-entry:hover .entry-title {
     color: var(--accent);
+}
+
+/* Cover images */
+.post-entry .entry-cover img,
+.post-cover img {
+    transition: all 0.3s ease;
+}
+
+.post-entry:hover .entry-cover img {
+    transform: scale(1.02);
+}
+
+.post-cover {
+    position: relative;
+}
+
+.post-cover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--accent);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.post-cover:hover::after {
+    opacity: 1;
 }
 
 /* Post and page content */
@@ -208,4 +263,62 @@ article h2,
 /* Scroll bar accent */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--accent);
+}
+
+/* List markers */
+.post-content ul,
+.post-content ol {
+    padding-left: 1.5rem;
+}
+
+.post-content li::marker {
+    color: var(--accent);
+}
+
+/* Horizontal rules */
+.post-content hr {
+    border: none;
+    height: 4px;
+    background: var(--accent);
+    opacity: 0.3;
+    margin: 2rem 0;
+}
+
+/* Tables */
+.post-content table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.post-content th {
+    background: rgba(var(--accent-rgb), 0.08);
+    font-weight: 600;
+    text-align: left;
+}
+
+.post-content th,
+.post-content td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba(var(--accent-rgb), 0.15);
+}
+
+.post-content tr:hover {
+    background: rgba(var(--accent-rgb), 0.04);
+}
+
+/* Images in content */
+.post-content img {
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease;
+}
+
+.post-content img:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Focus states */
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
 }
