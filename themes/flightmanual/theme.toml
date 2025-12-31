@@ -1,0 +1,11 @@
+name = "Flight Manual"
+license = "MIT"
+licenselink = "https://github.com/parisba"
+description = "Technical documentation aesthetic inspired by aviation flight manuals"
+homepage = "https://hey.paris"
+tags = ["blog", "personal", "documentation", "technical"]
+features = ["responsive", "dark-mode"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

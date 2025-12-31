@@ -1,0 +1,64 @@
+{{ define "main" }}
+{{/* Section header */}}
+<div class="command-block">
+  <div class="command-block__input">cat /database/{{ .Section | default "records" }}/README</div>
+  <div class="command-block__output">
+    <h1>{{ .Title | upper }}</h1>
+    {{ with .Description }}
+    <p>{{ . }}</p>
+    {{ end }}
+  </div>
+</div>
+
+{{/* List command */}}
+<div class="command-block">
+  <div class="command-block__input">ls -la /database/{{ .Section | default "records" }}/ --sort=date</div>
+  <div class="command-block__output">
+    {{ $paginator := .Paginate .Pages 20 }}
+
+    {{/* File listing style */}}
+    <div class="file-listing">
+      <div class="file-entry file-entry--header">
+        <span class="file-entry__perms">PERMISSIONS</span>
+        <span class="file-entry__name">FILENAME</span>
+        <span class="file-entry__date">MODIFIED</span>
+      </div>
+      {{ range $paginator.Pages }}
+      <a href="{{ .Permalink }}" class="file-entry">
+        <span class="file-entry__perms">-rw-r--r--</span>
+        <span class="file-entry__name">
+          {{ .Title }}
+          {{ with .Params.tags }}
+          <span class="file-entry__type">[{{ index . 0 }}]</span>
+          {{ end }}
+        </span>
+        <span class="file-entry__date">{{ .Date.Format "Jan 02 15:04" }}</span>
+      </a>
+      {{ end }}
+    </div>
+
+    {{/* Record count */}}
+    <div class="sys-message" style="margin-top: var(--space-lg);">
+      <div class="sys-message__text">
+        Total records: {{ len .Pages }} | Displaying: {{ len $paginator.Pages }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{/* Pagination */}}
+{{ if gt $paginator.TotalPages 1 }}
+<div class="pagination">
+  {{ if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}" class="cmd-btn cmd-btn--secondary">PREV</a>
+  {{ end }}
+  <span class="data-inline">
+    <span class="data-inline__label">PAGE</span>
+    <span class="data-inline__value">{{ $paginator.PageNumber }}/{{ $paginator.TotalPages }}</span>
+  </span>
+  {{ if $paginator.HasNext }}
+  <a href="{{ $paginator.Next.URL }}" class="cmd-btn">NEXT</a>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

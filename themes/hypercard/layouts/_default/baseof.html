@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <!-- Desktop Pattern Background -->
+  <div class="desktop">
+    <!-- Menu Bar -->
+    <div class="menubar">
+      <div class="menubar__apple">&#63743;</div>
+      <div class="menubar__menus">
+        <span class="menubar__item menubar__item--active">File</span>
+        <span class="menubar__item">Edit</span>
+        <span class="menubar__item">Go</span>
+        <span class="menubar__item">Tools</span>
+        <span class="menubar__item">Objects</span>
+      </div>
+      <div class="menubar__right">
+        <span class="menubar__time" id="menubar-time"></span>
+      </div>
+    </div>
+
+    <!-- Main Window -->
+    <div class="window">
+      <div class="window__titlebar">
+        <div class="window__close"></div>
+        <div class="window__title">{{ .Site.Title }}</div>
+        <div class="window__zoom">
+          <div class="window__zoom-box"></div>
+        </div>
+      </div>
+
+      <div class="window__toolbar">
+        <a href="/" class="toolbar-btn{{ if .IsHome }} toolbar-btn--active{{ end }}">
+          <span class="toolbar-btn__icon">🏠</span>
+          <span class="toolbar-btn__label">Home</span>
+        </a>
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="toolbar-btn{{ if $.IsMenuCurrent "main" . }} toolbar-btn--active{{ end }}">
+          <span class="toolbar-btn__icon">{{ if eq .Name "About" }}👤{{ else if eq .Name "Writing" }}📚{{ else if eq .Name "Events" }}📅{{ else if eq .Name "Posts" }}📝{{ else }}📁{{ end }}</span>
+          <span class="toolbar-btn__label">{{ .Name }}</span>
+        </a>
+        {{ end }}
+      </div>
+
+      <div class="window__content">
+        {{ block "main" . }}{{ end }}
+      </div>
+
+      <div class="window__scrollbar">
+        <div class="scrollbar__track">
+          <div class="scrollbar__thumb"></div>
+        </div>
+        <div class="scrollbar__up">▲</div>
+        <div class="scrollbar__down">▼</div>
+      </div>
+    </div>
+
+    <!-- Dock / Bottom Icons -->
+    <div class="dock">
+      {{ range first 6 .Site.Params.socialIcons }}
+      <a href="{{ .url }}" class="dock__item" target="_blank" rel="noopener" title="{{ .name }}">
+        <div class="dock__icon">{{ if eq .name "Mastodon" }}🐘{{ else if eq .name "Bluesky" }}🦋{{ else if eq .name "GitHub" }}🐱{{ else if eq .name "Instagram" }}📷{{ else if eq .name "LinkedIn" }}💼{{ else if eq .name "Flickr" }}🌸{{ else if eq .name "Facebook" }}👥{{ else if eq .name "Threads" }}🧵{{ else }}🔗{{ end }}</div>
+        <div class="dock__label">{{ .name }}</div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+
+  <script>
+    // Update menu bar time
+    function updateTime() {
+      const now = new Date();
+      const time = now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+      document.getElementById('menubar-time').textContent = time;
+    }
+    updateTime();
+    setInterval(updateTime, 60000);
+  </script>
+</body>
+</html>

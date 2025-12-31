@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+
+{{ with .Description }}
+<meta name="description" content="{{ . }}">
+{{ else }}{{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}">
+{{ end }}{{ end }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Fonts */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+{{/* RSS */}}
+{{ range .AlternativeOutputFormats -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
+{{/* Styles */}}
+{{ $style := resources.Get "css/style.css" }}
+{{ if $style }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}

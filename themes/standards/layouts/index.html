@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="hero">
+  <!-- LCARS animated pills -->
+  <div class="lcars-stack">
+    <div class="lcars-pill lcars-pill--1"></div>
+    <div class="lcars-pill lcars-pill--2"></div>
+    <div class="lcars-pill lcars-pill--3"></div>
+    <div class="lcars-pill lcars-pill--4"></div>
+  </div>
+
+  <div class="hero__content">
+    <h1 class="hero__title">
+      <span class="hero__title-line">Paris</span>
+      <span class="hero__title-line hero__title-line--bold">Buttfield-Addison</span>
+    </h1>
+    <div class="hero__bar"></div>
+    <div class="hero__intro">
+      {{ with .Site.Params.homeInfoParams.Content }}{{ . | markdownify }}{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="grid">
+  <div class="grid__col grid__col--main">
+    <div class="section-head">
+      <span class="section-head__number">01</span>
+      <h2 class="section-head__title">Recent</h2>
+    </div>
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    <ul class="index-list">
+      {{ range first 6 $posts }}
+      <li class="index-list__item">
+        <a href="{{ .Permalink }}" class="index-list__link">
+          <span class="index-list__year">{{ .Date.Format "06" }}</span>
+          <span class="index-list__title">{{ .Title }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    <a href="/posts/" class="block-link">
+      <span class="block-link__text">All Writing</span>
+      <span class="block-link__arrow">→</span>
+    </a>
+  </div>
+
+  <div class="grid__col grid__col--side">
+    <div class="section-head">
+      <span class="section-head__number">02</span>
+      <h2 class="section-head__title">Links</h2>
+    </div>
+    <ul class="nav-list">
+      {{ range first 8 .Site.Params.socialIcons }}
+      <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

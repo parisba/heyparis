@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}" data-theme="light">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="site">
+    {{/* Header */}}
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__inner">
+          <a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
+
+          <nav class="site-nav">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="site-nav__link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
+            {{ end }}
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+              <span class="theme-toggle__light">Light</span>
+              <span class="theme-toggle__dark">Dark</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    {{/* Main Content */}}
+    <main class="site-content">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    {{/* Footer */}}
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__inner">
+          <div class="site-footer__copyright">
+            {{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}{{ now.Year }} {{ .Site.Title }}{{ end }}
+          </div>
+
+          {{ with .Site.Params.socialIcons }}
+          <div class="site-footer__links">
+            {{ range . }}
+            <a href="{{ .url }}" class="site-footer__link" target="_blank" rel="noopener">{{ .name }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Theme toggle
+    const toggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    const stored = localStorage.getItem('theme');
+
+    if (stored) {
+      html.setAttribute('data-theme', stored);
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      html.setAttribute('data-theme', 'dark');
+    }
+
+    toggle.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+  </script>
+</body>
+</html>

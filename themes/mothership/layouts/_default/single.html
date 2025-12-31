@@ -1,0 +1,85 @@
+{{ define "main" }}
+<article>
+  {{/* Record header */}}
+  <div class="page-header">
+    <p class="page-header__overline">{{ .Section | upper }} RECORD</p>
+    <h1 class="page-header__title">{{ .Title }}</h1>
+    <p class="page-header__meta">
+      DATE: {{ .Date.Format "2006-01-02 15:04" }} //
+      SIZE: {{ .WordCount }} WORDS //
+      TIME: {{ .ReadingTime }} MIN
+    </p>
+  </div>
+
+  {{/* Cover image */}}
+  {{ $coverImage := .Params.cover.image }}
+  {{ if $coverImage }}
+  {{ $imageURL := "" }}
+  {{ if hasPrefix $coverImage "/" }}
+    {{ $imageURL = $coverImage }}
+  {{ else }}
+    {{ $resource := .Resources.GetMatch $coverImage }}
+    {{ if $resource }}
+      {{ $imageURL = $resource.RelPermalink }}
+    {{ else }}
+      {{ $imageURL = printf "%s%s" .RelPermalink $coverImage }}
+    {{ end }}
+  {{ end }}
+  <div class="panel" style="margin-bottom: var(--space-xl);">
+    <div class="panel__header">
+      <span>VISUAL DATA</span>
+    </div>
+    <div class="record-card__image" style="aspect-ratio: 21/9;">
+      <img src="{{ $imageURL }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    {{ with .Params.cover.caption }}
+    <div class="panel__body" style="font-size: var(--text-sm); color: var(--text-dim);">
+      {{ . | safeHTML }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Tags */}}
+  {{ with .Params.tags }}
+  <div style="margin-bottom: var(--space-lg);">
+    <span style="color: var(--text-dim); font-size: var(--text-sm);">CLASSIFICATIONS: </span>
+    {{ range . }}
+    <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="sys-tag">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Content */}}
+  <div class="panel">
+    <div class="panel__header">
+      <span>RECORD CONTENT</span>
+      <span class="panel__header-id">TXT-DAT</span>
+    </div>
+    <div class="panel__body" style="text-transform: none;">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{/* Navigation */}}
+  <div class="ascii-border" style="margin-top: var(--space-xl);">
+================================================================================
+  </div>
+
+  <nav style="display: flex; justify-content: space-between; gap: var(--space-lg);">
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}" class="cmd-btn" style="flex: 1;">
+      <span style="color: var(--text-dim);">PREV:</span> {{ .Title | truncate 30 }}
+    </a>
+    {{ else }}
+    <div style="flex: 1;"></div>
+    {{ end }}
+
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}" class="cmd-btn" style="flex: 1; justify-content: flex-end;">
+      <span style="color: var(--text-dim);">NEXT:</span> {{ .Title | truncate 30 }}
+    </a>
+    {{ end }}
+  </nav>
+</article>
+{{ end }}

@@ -1,0 +1,124 @@
+/* LCARS Color Palette - TNG/DS9 Classic Era */
+:root {
+  /* Primary LCARS Colors */
+  --lcars-orange: #FF9900;
+  --lcars-orange-dark: #CC6600;
+  --lcars-tan: #FFCC99;
+  --lcars-tan-dark: #CC9966;
+  --lcars-purple: #CC99CC;
+  --lcars-lavender: #9999CC;
+  --lcars-blue: #9999FF;
+  --lcars-red: #CC4444;
+
+  /* Neutral tones */
+  --lcars-beige: #DDBBAA;
+  --lcars-peach: #FFAA90;
+
+  /* Semantic colors - Dark mode (default) */
+  --bg-primary: #000000;
+  --bg-secondary: #111111;
+  --bg-tertiary: #1a1a1a;
+  --text-primary: #FFFFFF;
+  --text-secondary: #CCCCCC;
+  --text-muted: #888888;
+
+  /* Active element */
+  --accent-primary: var(--lcars-orange);
+  --accent-secondary: var(--lcars-tan);
+  --accent-tertiary: var(--lcars-purple);
+  --accent-highlight: var(--lcars-blue);
+
+  /* Frame colors */
+  --frame-sidebar: var(--lcars-orange-dark);
+  --frame-topbar: var(--lcars-tan);
+  --frame-elbow: var(--lcars-orange);
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Border radius - LCARS signature pill shapes */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 50px;
+  --radius-elbow: 40px;
+
+  /* Frame dimensions */
+  --sidebar-width: 80px;
+  --topbar-height: 60px;
+  --frame-thickness: 24px;
+  --elbow-size: 80px;
+
+  /* Typography */
+  --font-primary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', monospace;
+  --font-serif: Georgia, 'Times New Roman', serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Content width */
+  --content-max-width: 720px;
+  --content-wide-width: 960px;
+}
+
+/* Light mode */
+[data-theme="light"] {
+  --bg-primary: #F5F5F0;
+  --bg-secondary: #FFFFFF;
+  --bg-tertiary: #EBEBEB;
+  --text-primary: #111111;
+  --text-secondary: #333333;
+  --text-muted: #666666;
+
+  /* Slightly darker frame colors for contrast */
+  --frame-sidebar: var(--lcars-orange-dark);
+  --frame-topbar: var(--lcars-tan-dark);
+  --frame-elbow: var(--lcars-orange);
+}
+
+/* Responsive breakpoints via media queries */
+@media (max-width: 768px) {
+  :root {
+    --sidebar-width: 0px;
+    --topbar-height: 50px;
+    --frame-thickness: 20px;
+    --elbow-size: 0px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  :root {
+    --sidebar-width: 60px;
+    --elbow-size: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --sidebar-width: 100px;
+    --topbar-height: 70px;
+    --elbow-size: 100px;
+  }
+}

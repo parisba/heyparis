@@ -1,0 +1,70 @@
+{{ define "main" }}
+{{/* Welcome message header */}}
+<div class="msg-headers">
+  <div class="msg-header">
+    <span class="msg-header__key">Newsgroups</span>
+    <span class="msg-header__value">alt.personal.{{ .Site.Title | urlize }}</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">From</span>
+    <span class="msg-header__value msg-header__value--email">{{ .Site.Params.author | default "webmaster" }} &lt;{{ .Site.Params.email | default "user@example.com" }}&gt;</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Subject</span>
+    <span class="msg-header__value msg-header__value--subject">Welcome to {{ .Site.Title }}</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Date</span>
+    <span class="msg-header__value">{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Message-ID</span>
+    <span class="msg-header__value">&lt;{{ now.Unix }}@{{ .Site.Title | urlize }}.local&gt;</span>
+  </div>
+</div>
+
+<div class="msg-body">
+{{ with .Site.Params.homeInfoParams.Content }}{{ . | plainify | safeHTML }}{{ else }}Welcome to my corner of usenet.{{ end }}
+</div>
+
+<div class="sig">
+{{ .Site.Params.author | default .Site.Title }}
+{{ with .Site.Params.description }}{{ . | truncate 60 }}{{ end }}
+</div>
+
+{{/* Thread listing */}}
+<div class="prompt">
+  <span class="prompt__symbol">&gt;</span>
+  <span class="prompt__text">Listing articles in alt.personal.{{ .Site.Title | urlize }}...</span>
+</div>
+
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+<div class="thread-list">
+  <div class="thread-item thread-item--header">
+    <span class="thread-item__num">#</span>
+    <span class="thread-item__subject">Subject</span>
+    <span class="thread-item__from">From</span>
+    <span class="thread-item__date">Date</span>
+  </div>
+
+  {{ range $index, $post := first 20 $posts }}
+  <a href="{{ .Permalink }}" class="thread-item{{ if lt $index 3 }} thread-item--unread{{ end }}">
+    <span class="thread-item__num">{{ add $index 1 }}</span>
+    <span class="thread-item__subject">{{ .Title }}</span>
+    <span class="thread-item__from">{{ $.Site.Params.author | default "author" }}</span>
+    <span class="thread-item__date">{{ .Date.Format "Jan 02" }}</span>
+  </a>
+  {{ end }}
+</div>
+
+<div class="pager">
+  <span>{{ len $posts }} articles</span>
+  <a href="/posts/">View all &gt;&gt;</a>
+</div>
+
+<div class="prompt">
+  <span class="prompt__symbol">&gt;</span>
+  <span class="prompt__text">Select article number or command: _</span>
+</div>
+{{ end }}

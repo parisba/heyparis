@@ -1,0 +1,90 @@
+{{ define "main" }}
+<!-- Welcome Sign -->
+<section class="sign-panel">
+  <div class="sign-panel__header">
+    <div class="sign-panel__bullets">
+      <span class="bullet bullet--0">P</span>
+      <span class="bullet bullet--1">B</span>
+      <span class="bullet bullet--2">A</span>
+    </div>
+    <h1 class="sign-panel__title">{{ .Site.Params.homeInfoParams.Title | default .Site.Title }}</h1>
+  </div>
+  <div class="sign-panel__body">
+    {{ with .Site.Params.homeInfoParams.Content }}{{ . | safeHTML }}{{ end }}
+  </div>
+</section>
+
+<!-- Connections / Links -->
+<section class="connections">
+  <div class="direction-sign">
+    <span class="direction-sign__arrow">→</span>
+    <span class="direction-sign__text">Connections</span>
+  </div>
+  <div class="connection-grid">
+    {{ range $i, $icon := .Site.Params.socialIcons }}
+    <a href="{{ .url }}" class="connection-item" target="_blank" rel="noopener">
+      <span class="bullet bullet--{{ mod $i 8 }}">{{ substr .name 0 1 | upper }}</span>
+      <span class="connection-item__name">{{ .name }}</span>
+      <span class="connection-item__arrow">↗</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Recent Posts as Train Schedule -->
+<section class="schedule">
+  <div class="direction-sign">
+    <span class="direction-sign__arrow">↓</span>
+    <span class="direction-sign__text">Recent Departures</span>
+  </div>
+
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+  <div class="schedule-board">
+    {{ range $index, $post := first 10 $posts }}
+    <a href="{{ .Permalink }}" class="schedule-row">
+      <div class="schedule-row__route">
+        <span class="bullet bullet--{{ mod $index 8 }}">{{ add $index 1 }}</span>
+      </div>
+      <div class="schedule-row__destination">
+        <span class="schedule-row__title">{{ .Title }}</span>
+        {{ with .Params.summary }}<span class="schedule-row__via">{{ . | truncate 60 }}</span>{{ end }}
+      </div>
+      <div class="schedule-row__time">
+        <span class="schedule-row__date">{{ .Date.Format "Jan 2" }}</span>
+        <span class="schedule-row__year">{{ .Date.Format "2006" }}</span>
+      </div>
+      <div class="schedule-row__status">
+        {{ if lt $index 3 }}<span class="status-dot status-dot--new"></span>{{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+
+  <a href="/posts/" class="see-all-link">
+    <span class="see-all-link__text">All Posts</span>
+    <span class="see-all-link__count">({{ len $posts }})</span>
+    <span class="see-all-link__arrow">→</span>
+  </a>
+</section>
+
+<!-- Navigation Sections -->
+<section class="route-map">
+  <div class="direction-sign">
+    <span class="direction-sign__arrow">◆</span>
+    <span class="direction-sign__text">This Station</span>
+  </div>
+
+  <div class="route-grid">
+    {{ range $i, $item := .Site.Menus.main }}
+    <a href="{{ .URL }}" class="route-card">
+      <span class="bullet bullet--{{ $i }} bullet--large">{{ substr .Name 0 1 | upper }}</span>
+      <div class="route-card__info">
+        <span class="route-card__name">{{ .Name }}</span>
+        <span class="route-card__direction">→</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

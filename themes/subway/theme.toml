@@ -1,0 +1,11 @@
+name = "Subway"
+license = "MIT"
+licenselink = "https://github.com/parisba"
+description = "New York subway signage aesthetic inspired by the Vignelli style guide"
+homepage = "https://hey.paris"
+tags = ["blog", "personal", "minimalist", "typography"]
+features = ["responsive"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

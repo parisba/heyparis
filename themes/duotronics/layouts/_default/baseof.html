@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}" data-theme="dark">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="crt-screen">
+    <div class="terminal-wrapper">
+      {{/* Terminal Header Bar */}}
+      <header class="terminal-header">
+        <div class="terminal-header__title">
+          <div class="terminal-header__icon"></div>
+          <span class="terminal-header__text">DUOTRONICS TERMINAL v2.4</span>
+        </div>
+        <div class="terminal-header__controls">
+          <div class="terminal-control terminal-control--minimize"></div>
+          <div class="terminal-control terminal-control--maximize"></div>
+          <div class="terminal-control terminal-control--close"></div>
+        </div>
+      </header>
+
+      {{/* Terminal Body */}}
+      <main class="terminal-body">
+        {{ partial "nav.html" . }}
+
+        <div class="terminal-content">
+          {{ block "main" . }}{{ end }}
+        </div>
+      </main>
+
+      {{/* Terminal Footer / Status Bar */}}
+      <footer class="terminal-footer">
+        <div class="terminal-footer__left">
+          <div class="terminal-footer__status">
+            <span class="status-dot"></span>
+            <span>CONNECTED</span>
+          </div>
+          <span>|</span>
+          <span class="terminal-footer__stardate" id="stardate"></span>
+        </div>
+        <div class="terminal-footer__right">
+          <button class="theme-toggle" id="theme-toggle">MODE: DARK</button>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // Stardate calculation
+    function calculateStardate() {
+      const now = new Date();
+      const year = now.getFullYear();
+      const start = new Date(year, 0, 0);
+      const diff = now - start;
+      const oneDay = 1000 * 60 * 60 * 24;
+      const dayOfYear = Math.floor(diff / oneDay);
+      const stardate = ((year - 1987 + 41) * 1000 + (dayOfYear / 365.25) * 1000).toFixed(1);
+      return stardate;
+    }
+    document.getElementById('stardate').textContent = 'STARDATE ' + calculateStardate();
+
+    // Theme toggle
+    const toggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+
+    toggle.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      toggle.textContent = 'MODE: ' + next.toUpperCase();
+    });
+  </script>
+</body>
+</html>

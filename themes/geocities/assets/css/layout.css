@@ -1,0 +1,261 @@
+/* Geocities - Layout */
+
+/* Main wrapper - centered table-like layout */
+.webpage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--space-md);
+}
+
+/* The classic centered content box */
+.content-box {
+  background: #000033;
+  border: 3px ridge var(--win-mid);
+  box-shadow: var(--shadow-hard);
+  margin-bottom: var(--space-lg);
+}
+
+.content-box--light {
+  background: var(--bg-gray);
+  color: #000000;
+}
+
+/* Header - Welcome to my homepage! */
+.site-header {
+  text-align: center;
+  padding: var(--space-xl);
+  background: linear-gradient(180deg, #000033 0%, #000066 50%, #000033 100%);
+  border: 3px ridge var(--win-mid);
+  margin-bottom: var(--space-lg);
+  box-shadow: var(--shadow-hard);
+}
+
+.site-header__welcome {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  color: var(--cyber-cyan);
+  margin-bottom: var(--space-md);
+}
+
+.site-header__title {
+  font-size: var(--text-5xl);
+  color: var(--yellow);
+  text-shadow:
+    3px 3px 0 var(--hot-pink),
+    6px 6px 0 var(--purple),
+    9px 9px 0 rgba(0,0,0,0.5);
+  margin: var(--space-md) 0;
+}
+
+.site-header__subtitle {
+  font-family: var(--font-times);
+  font-size: var(--text-lg);
+  font-style: italic;
+  color: #ffffff;
+}
+
+/* Navigation - Those sweet button bars */
+.site-nav {
+  background: var(--bg-gray);
+  padding: var(--space-sm);
+  border: 3px ridge var(--win-mid);
+  margin-bottom: var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-sm);
+}
+
+.site-nav__link {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-lg);
+  background: var(--win-mid);
+  box-shadow: var(--bevel-light);
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: var(--text-sm);
+}
+
+.site-nav__link:hover {
+  box-shadow: var(--bevel-dark);
+  color: var(--electric-blue);
+}
+
+.site-nav__link:active,
+.site-nav__link.active {
+  box-shadow: var(--bevel-dark);
+  background: var(--win-dark);
+  color: #ffffff;
+}
+
+/* Main content area */
+.main-content {
+  padding: var(--space-lg);
+}
+
+/* Sidebar - for webrings and links */
+.sidebar {
+  background: #000033;
+  border: 3px ridge var(--win-mid);
+  padding: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.sidebar__title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--lime-green);
+  text-align: center;
+  margin-bottom: var(--space-md);
+}
+
+/* Footer - The badges zone */
+.site-footer {
+  text-align: center;
+  padding: var(--space-xl);
+  border-top: 4px ridge var(--win-mid);
+  margin-top: var(--space-xl);
+}
+
+.site-footer__badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.site-footer__copyright {
+  font-size: var(--text-sm);
+  color: var(--cyber-cyan);
+}
+
+.site-footer__email {
+  display: block;
+  margin-top: var(--space-md);
+  font-size: var(--text-lg);
+  color: var(--hot-pink);
+}
+
+/* Under construction banner */
+.under-construction {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--yellow),
+    var(--yellow) 10px,
+    #000000 10px,
+    #000000 20px
+  );
+  padding: var(--space-sm) var(--space-lg);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+  border: 3px ridge var(--win-mid);
+}
+
+.under-construction__text {
+  background: #000000;
+  color: var(--yellow);
+  padding: var(--space-xs) var(--space-md);
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Hit counter */
+.hit-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  background: #000000;
+  padding: var(--space-xs) var(--space-sm);
+  border: 2px inset var(--win-mid);
+  font-family: var(--font-mono);
+}
+
+.hit-counter__label {
+  color: var(--cyber-cyan);
+  font-size: var(--text-sm);
+}
+
+.hit-counter__digits {
+  display: flex;
+  gap: 2px;
+}
+
+.hit-counter__digit {
+  background: #330000;
+  color: #ff0000;
+  padding: 2px 6px;
+  border: 1px inset #666;
+  font-size: var(--text-lg);
+  min-width: 1.5em;
+  text-align: center;
+}
+
+/* Guestbook teaser */
+.guestbook-cta {
+  text-align: center;
+  padding: var(--space-lg);
+  background: linear-gradient(180deg, #003366 0%, #000033 100%);
+  border: 3px ridge var(--win-mid);
+  margin: var(--space-lg) 0;
+}
+
+.guestbook-cta__title {
+  color: var(--yellow);
+  font-family: var(--font-display);
+}
+
+/* Webring */
+.webring {
+  text-align: center;
+  padding: var(--space-md);
+  background: #000033;
+  border: 2px ridge var(--win-mid);
+  margin-top: var(--space-lg);
+}
+
+.webring__title {
+  font-size: var(--text-sm);
+  color: var(--cyber-cyan);
+  margin-bottom: var(--space-sm);
+}
+
+.webring__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.webring__link {
+  font-size: var(--text-sm);
+}
+
+/* Page header */
+.page-header {
+  text-align: center;
+  padding: var(--space-xl) 0;
+  margin-bottom: var(--space-lg);
+  border-bottom: 4px ridge var(--win-mid);
+}
+
+/* Responsive - even in 1994 (okay, not really) */
+@media (max-width: 640px) {
+  .webpage {
+    padding: var(--space-sm);
+  }
+
+  .site-header__title {
+    font-size: var(--text-3xl);
+  }
+
+  .site-nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .site-nav__link {
+    text-align: center;
+  }
+}

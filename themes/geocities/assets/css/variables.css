@@ -1,0 +1,85 @@
+/* Geocities - Design Tokens */
+/* The 1994 Internet, but make it fashion */
+
+:root {
+  /* Fonts - The classics */
+  --font-display: 'Comic Neue', 'Comic Sans MS', cursive;
+  --font-body: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-times: 'Times New Roman', Times, serif;
+
+  /* Type Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-5xl: 3rem;
+
+  /* 90s Web Colors - The hits */
+  --hot-pink: #ff00ff;
+  --cyber-pink: #ff66cc;
+  --lime-green: #00ff00;
+  --electric-blue: #0066ff;
+  --cyber-cyan: #00ffff;
+  --yellow: #ffff00;
+  --orange: #ff6600;
+  --purple: #9900ff;
+  --red: #ff0000;
+
+  /* Backgrounds */
+  --bg-purple: #330066;
+  --bg-navy: #000066;
+  --bg-black: #000000;
+  --bg-gray: #c0c0c0;
+  --bg-white: #ffffff;
+
+  /* Windows 95 button colors */
+  --win-light: #ffffff;
+  --win-mid: #c0c0c0;
+  --win-dark: #808080;
+  --win-darker: #404040;
+
+  /* Semantic */
+  --bg-primary: var(--bg-navy);
+  --text-primary: var(--yellow);
+  --text-body: #ffffff;
+  --link-color: var(--cyber-cyan);
+  --link-hover: var(--hot-pink);
+  --link-visited: var(--purple);
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Effects */
+  --bevel-light: inset -2px -2px 0 var(--win-dark), inset 2px 2px 0 var(--win-light);
+  --bevel-dark: inset 2px 2px 0 var(--win-dark), inset -2px -2px 0 var(--win-light);
+  --shadow-hard: 4px 4px 0 #000000;
+
+  /* Starfield background (CSS pattern) */
+  --stars: radial-gradient(2px 2px at 20px 30px, #fff, transparent),
+           radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+           radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+           radial-gradient(2px 2px at 130px 80px, rgba(255,255,255,0.6), transparent),
+           radial-gradient(1px 1px at 160px 20px, #fff, transparent),
+           radial-gradient(2px 2px at 200px 60px, rgba(255,255,255,0.9), transparent),
+           radial-gradient(1px 1px at 50px 100px, #fff, transparent),
+           radial-gradient(2px 2px at 180px 110px, rgba(255,255,255,0.7), transparent);
+}
+
+/* Light mode - gray Windows 95 style */
+[data-theme="light"] {
+  --bg-primary: var(--bg-gray);
+  --text-primary: #000080;
+  --text-body: #000000;
+  --link-color: #0000ff;
+  --link-hover: var(--hot-pink);
+}

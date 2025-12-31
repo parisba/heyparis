@@ -1,0 +1,94 @@
+{{ define "main" }}
+{{/* Hero section - Big, bold intro */}}
+<section class="hero">
+  <div class="container">
+    <div class="hero__content animate-in">
+      <p class="page-header__overline">{{ .Site.Params.author }}</p>
+      <h1 class="hero__title">{{ with .Site.Params.homeInfoParams.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</h1>
+      {{ with .Site.Params.homeInfoParams.Content }}
+      <div class="hero__subtitle">{{ . | safeHTML }}</div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* Featured post - Big visual impact */}}
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $featured := first 1 $posts }}
+{{ range $featured }}
+{{ $page := . }}
+<section class="container">
+  <a href="{{ .Permalink }}" class="article-featured animate-in">
+    {{ $coverImage := .Params.cover.image }}
+    {{ if $coverImage }}
+    {{ $imageURL := "" }}
+    {{ if hasPrefix $coverImage "/" }}
+      {{ $imageURL = $coverImage }}
+    {{ else }}
+      {{ $resource := $page.Resources.GetMatch $coverImage }}
+      {{ if $resource }}
+        {{ $imageURL = $resource.RelPermalink }}
+      {{ else }}
+        {{ $imageURL = printf "%s%s" $page.RelPermalink $coverImage }}
+      {{ end }}
+    {{ end }}
+    <div class="article-featured__image">
+      <img src="{{ $imageURL }}" alt="{{ .Title }}">
+    </div>
+    {{ else }}
+    <div class="article-featured__image"></div>
+    {{ end }}
+    <div class="article-featured__content">
+      <p class="article-featured__overline">Latest</p>
+      <h2 class="article-featured__title">{{ .Title }}</h2>
+      {{ with .Summary }}
+      <p class="article-featured__excerpt">{{ . | plainify | truncate 180 }}</p>
+      {{ end }}
+      <p class="article-featured__meta">{{ .Date.Format "January 2, 2006" }}</p>
+    </div>
+  </a>
+</section>
+{{ end }}
+
+{{/* Recent posts - Grid with offset */}}
+<section class="container">
+  <div class="section-divider">
+    <span class="section-divider__label">Recent Writing</span>
+  </div>
+
+  <div class="grid grid--3 grid--offset stagger">
+    {{ $recent := after 1 $posts | first 6 }}
+    {{ range $recent }}
+    {{ $page := . }}
+    <a href="{{ .Permalink }}" class="article-card">
+      {{ $coverImage := .Params.cover.image }}
+      {{ if $coverImage }}
+      {{ $imageURL := "" }}
+      {{ if hasPrefix $coverImage "/" }}
+        {{ $imageURL = $coverImage }}
+      {{ else }}
+        {{ $resource := $page.Resources.GetMatch $coverImage }}
+        {{ if $resource }}
+          {{ $imageURL = $resource.RelPermalink }}
+        {{ else }}
+          {{ $imageURL = printf "%s%s" $page.RelPermalink $coverImage }}
+        {{ end }}
+      {{ end }}
+      <div class="article-card__image">
+        <img src="{{ $imageURL }}" alt="{{ .Title }}">
+      </div>
+      {{ end }}
+      <p class="article-card__meta">{{ .Date.Format "Jan 2006" }}</p>
+      <h3 class="article-card__title">{{ .Title }}</h3>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+{{/* Archive link - Strong CTA */}}
+<section class="container" style="padding: var(--space-4xl) 0;">
+  <div style="text-align: center;">
+    <a href="/posts/" class="button button--filled">View All Writing</a>
+  </div>
+</section>
+{{ end }}

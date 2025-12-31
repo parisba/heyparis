@@ -1,0 +1,11 @@
+name = "Usenet"
+license = "MIT"
+licenselink = "https://github.com/yourusername/usenet/blob/master/LICENSE"
+description = "1994 Usenet newsreader aesthetic - pure monospace, headers, quotes, .sig files"
+homepage = "https://github.com/yourusername/usenet"
+tags = ["retro", "usenet", "monospace", "text", "minimal"]
+features = ["responsive", "minimal"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

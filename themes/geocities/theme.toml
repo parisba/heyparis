@@ -1,0 +1,11 @@
+name = "Geocities"
+license = "MIT"
+licenselink = "https://github.com/yourusername/geocities/blob/master/LICENSE"
+description = "1994 internet aesthetic meets modern web - tiled backgrounds, beveled buttons, hit counters"
+homepage = "https://github.com/yourusername/geocities"
+tags = ["retro", "90s", "geocities", "nostalgic", "fun"]
+features = ["responsive", "nostalgic"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

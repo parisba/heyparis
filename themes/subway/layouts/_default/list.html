@@ -1,0 +1,73 @@
+{{ define "main" }}
+<!-- Section Header Sign -->
+<section class="sign-panel sign-panel--section">
+  <div class="sign-panel__header">
+    <div class="sign-panel__bullets">
+      <span class="bullet bullet--0">{{ substr .Title 0 1 | upper }}</span>
+    </div>
+    <h1 class="sign-panel__title">{{ .Title }}</h1>
+  </div>
+  {{ with .Description }}
+  <div class="sign-panel__body sign-panel__body--small">{{ . }}</div>
+  {{ end }}
+  {{ with .Content }}
+  <div class="sign-panel__body">{{ . }}</div>
+  {{ end }}
+</section>
+
+<!-- Listings -->
+{{ $paginator := .Paginate .Pages 15 }}
+
+<section class="schedule">
+  <div class="direction-sign">
+    <span class="direction-sign__arrow">↓</span>
+    <span class="direction-sign__text">{{ len .Pages }} Items</span>
+  </div>
+
+  <div class="schedule-board">
+    {{ range $index, $page := $paginator.Pages }}
+    <a href="{{ .Permalink }}" class="schedule-row">
+      <div class="schedule-row__route">
+        <span class="bullet bullet--{{ mod $index 8 }}">{{ add (mul (sub $paginator.PageNumber 1) 15) (add $index 1) }}</span>
+      </div>
+      <div class="schedule-row__destination">
+        <span class="schedule-row__title">{{ .Title }}</span>
+        {{ with .Params.summary }}<span class="schedule-row__via">{{ . | truncate 80 }}</span>{{ end }}
+      </div>
+      <div class="schedule-row__time">
+        <span class="schedule-row__date">{{ .Date.Format "Jan 2" }}</span>
+        <span class="schedule-row__year">{{ .Date.Format "2006" }}</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Pagination -->
+{{ if gt $paginator.TotalPages 1 }}
+<div class="pagination-strip">
+  <div class="pagination-strip__info">
+    Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+  </div>
+  <div class="pagination-strip__nav">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="pagination-btn">
+      <span class="pagination-btn__arrow">←</span>
+      <span class="pagination-btn__text">Prev</span>
+    </a>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="pagination-btn">
+      <span class="pagination-btn__text">Next</span>
+      <span class="pagination-btn__arrow">→</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+<a href="/" class="back-link">
+  <span class="back-link__arrow">←</span>
+  <span class="back-link__text">Back to Home</span>
+</a>
+{{ end }}

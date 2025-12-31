@@ -1,0 +1,101 @@
+/* Placard - Design Tokens */
+
+:root {
+  /* Typography - Elegant Serifs */
+  --font-display: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
+  --font-body: 'Source Serif Pro', 'Georgia', 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Consolas', monospace;
+
+  /* Type Scale - More Dramatic */
+  --text-xs: 0.75rem;      /* 12px */
+  --text-sm: 0.875rem;     /* 14px */
+  --text-base: 1.125rem;   /* 18px */
+  --text-lg: 1.25rem;      /* 20px */
+  --text-xl: 1.5rem;       /* 24px */
+  --text-2xl: 2rem;        /* 32px */
+  --text-3xl: 2.75rem;     /* 44px */
+  --text-4xl: 4rem;        /* 64px */
+  --text-5xl: 5.5rem;      /* 88px */
+  --text-6xl: 8rem;        /* 128px - for dramatic moments */
+
+  /* Colors - Rich & Bold */
+  --white: #ffffff;
+  --off-white: #fafaf9;
+  --cream: #f5f5f0;
+  --warm-gray-100: #e7e5e4;
+  --warm-gray-200: #d6d3d1;
+  --warm-gray-300: #a8a29e;
+  --warm-gray-400: #78716c;
+  --warm-gray-500: #57534e;
+  --warm-gray-600: #44403c;
+  --warm-gray-700: #292524;
+  --warm-gray-800: #1c1917;
+  --black: #0c0a09;
+
+  /* Accent - Bold, confident */
+  --accent: #dc2626;           /* Striking red */
+  --accent-dark: #991b1b;
+  --accent-light: #fecaca;
+
+  /* Secondary accents */
+  --gold: #ca8a04;
+  --navy: #1e3a5f;
+
+  /* Semantic Colors */
+  --bg-primary: var(--white);
+  --bg-secondary: var(--cream);
+  --bg-tertiary: var(--warm-gray-100);
+  --bg-accent: var(--black);
+  --text-primary: var(--black);
+  --text-secondary: var(--warm-gray-500);
+  --text-tertiary: var(--warm-gray-400);
+  --text-inverse: var(--white);
+  --border-color: var(--warm-gray-200);
+  --border-bold: var(--black);
+
+  /* Spacing - Generous */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+  --space-6xl: 12rem;
+
+  /* Layout */
+  --max-width-prose: 65ch;
+  --max-width-content: 1200px;
+  --max-width-wide: 1400px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-dramatic: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 600ms;
+
+  /* Shadows - More presence */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.12);
+  --shadow-dramatic: 0 30px 80px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --bg-primary: var(--warm-gray-800);
+  --bg-secondary: var(--warm-gray-700);
+  --bg-tertiary: var(--warm-gray-600);
+  --bg-accent: var(--white);
+  --text-primary: var(--off-white);
+  --text-secondary: var(--warm-gray-300);
+  --text-tertiary: var(--warm-gray-400);
+  --text-inverse: var(--black);
+  --border-color: var(--warm-gray-600);
+  --border-bold: var(--white);
+  --accent-light: rgba(220, 38, 38, 0.2);
+}

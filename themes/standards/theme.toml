@@ -1,0 +1,8 @@
+name = "Standards"
+license = "MIT"
+description = "Minimal typography-focused theme inspired by NASA Graphics Standards, Vignelli, and Saul Bass"
+homepage = "https://hey.paris"
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

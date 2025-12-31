@@ -1,0 +1,68 @@
+{{ define "main" }}
+<!-- Welcome Card -->
+<div class="card card--welcome">
+  <div class="card__header">
+    <span class="card__icon">🖐</span>
+    <span class="card__title">Welcome!</span>
+  </div>
+  <div class="card__body">
+    <div class="card__text">
+      {{ with .Site.Params.homeInfoParams.Content }}{{ . | safeHTML }}{{ end }}
+    </div>
+  </div>
+</div>
+
+<!-- Navigation Buttons -->
+<div class="button-row">
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}" class="mac-button">
+    <span class="mac-button__icon">{{ if eq .Name "About" }}👤{{ else if eq .Name "Writing" }}📚{{ else if eq .Name "Events" }}📅{{ else if eq .Name "Posts" }}📝{{ else }}📁{{ end }}</span>
+    {{ .Name }}
+  </a>
+  {{ end }}
+</div>
+
+<!-- Recent Posts Stack -->
+<div class="stack">
+  <div class="stack__header">
+    <div class="stack__icon">📇</div>
+    <div class="stack__info">
+      <div class="stack__title">Recent Posts</div>
+      <div class="stack__count">{{ len (where .Site.RegularPages "Section" "posts") }} cards in stack</div>
+    </div>
+  </div>
+
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+  <div class="stack__cards">
+    {{ range $index, $post := first 8 $posts }}
+    <a href="{{ .Permalink }}" class="stack-card" style="--i: {{ $index }}">
+      <div class="stack-card__number">#{{ add $index 1 }}</div>
+      <div class="stack-card__content">
+        <div class="stack-card__title">{{ .Title }}</div>
+        <div class="stack-card__date">{{ .Date.Format "Jan 2, 2006" }}</div>
+      </div>
+      <div class="stack-card__arrow">→</div>
+    </a>
+    {{ end }}
+  </div>
+
+  <a href="/posts/" class="mac-button mac-button--full">
+    Browse All Posts...
+  </a>
+</div>
+
+<!-- Dialog: About -->
+<div class="dialog">
+  <div class="dialog__header">
+    <div class="dialog__icon">ℹ️</div>
+    <div class="dialog__title">About This Site</div>
+  </div>
+  <div class="dialog__body">
+    <p><strong>{{ .Site.Title }}</strong></p>
+    <p>{{ .Site.Params.description }}</p>
+    <div class="dialog__divider"></div>
+    <p class="dialog__small">Built with HyperCard for Hugo<br>© {{ now.Year }} {{ .Site.Params.author }}</p>
+  </div>
+</div>
+{{ end }}

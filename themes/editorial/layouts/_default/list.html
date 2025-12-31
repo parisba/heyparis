@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    {{ $paginator := .Paginate .Pages 12 }}
+
+    <div class="posts-grid">
+      {{ range $paginator.Pages }}
+      {{ $post := . }}
+      <article class="post-card">
+        {{ with .Params.cover }}
+        {{ $imgPath := .image }}
+        {{ $isRelative := .relative }}
+        {{ if $imgPath }}
+        <a href="{{ $post.Permalink }}" class="post-card-image">
+          {{- if $isRelative -}}
+            {{- $img := $post.Resources.GetMatch $imgPath -}}
+            {{- if $img -}}
+              <img src="{{ $img.RelPermalink }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- end -}}
+          {{- else if hasPrefix $imgPath "/" -}}
+            <img src="{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+          {{- else -}}
+            <img src="/{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+          {{- end -}}
+        </a>
+        {{ end }}
+        {{ end }}
+        <div class="post-card-content">
+          <time class="post-card-date">{{ .Date.Format "January 2, 2006" }}</time>
+          <h3 class="post-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ with .Summary }}<p class="post-card-excerpt">{{ . | plainify | truncate 120 }}</p>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pagination">
+      {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" class="pagination-link">← Newer</a>{{ end }}
+      <span class="pagination-info">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+      {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="pagination-link">Older →</a>{{ end }}
+    </nav>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

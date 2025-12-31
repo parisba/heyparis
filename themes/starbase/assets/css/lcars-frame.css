@@ -1,0 +1,299 @@
+/* LCARS-inspired frame - nerdy but polished */
+
+.lcars-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header with LCARS accent bar */
+.lcars-topbar {
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-xl);
+  height: 56px;
+  background: var(--bg-secondary);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  gap: var(--space-lg);
+}
+
+/* LCARS bar on the left side of header */
+.lcars-topbar::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 140px;
+  background: var(--lcars-orange);
+  border-bottom-right-radius: 28px;
+}
+
+/* Second accent block */
+.lcars-topbar::after {
+  content: '';
+  position: absolute;
+  left: 148px;
+  top: 0;
+  bottom: 0;
+  width: 48px;
+  background: var(--lcars-tan);
+  border-radius: 0 0 14px 14px;
+}
+
+/* Left edge bracket - LCARS sidebar accent */
+.lcars-wrapper::before {
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 56px;
+  bottom: 0;
+  width: 40px;
+  background: linear-gradient(
+    to bottom,
+    var(--lcars-orange) 0%,
+    var(--lcars-orange) 30%,
+    transparent 30%,
+    transparent 32%,
+    var(--lcars-tan) 32%,
+    var(--lcars-tan) 50%,
+    transparent 50%,
+    transparent 52%,
+    var(--lcars-purple) 52%,
+    var(--lcars-purple) 70%,
+    transparent 70%,
+    transparent 72%,
+    var(--lcars-lavender) 72%,
+    var(--lcars-lavender) 85%,
+    transparent 85%
+  );
+  z-index: 50;
+  pointer-events: none;
+}
+
+/* Decorative elbow connector */
+.lcars-wrapper::after {
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 56px;
+  width: 40px;
+  height: 28px;
+  background: var(--lcars-orange);
+  border-bottom-right-radius: 20px;
+  z-index: 51;
+}
+
+/* Main content - viewscreen style */
+.lcars-main {
+  flex: 1;
+  padding: var(--space-2xl) var(--space-xl);
+  padding-left: calc(var(--space-xl) + 60px); /* Account for sidebar bracket */
+  position: relative;
+}
+
+/* Viewscreen frame corners */
+.lcars-main::before {
+  content: '';
+  position: absolute;
+  top: var(--space-lg);
+  right: var(--space-lg);
+  width: 60px;
+  height: 60px;
+  border-top: 3px solid var(--lcars-tan);
+  border-right: 3px solid var(--lcars-tan);
+  border-top-right-radius: 12px;
+  pointer-events: none;
+}
+
+.lcars-main::after {
+  content: '';
+  position: absolute;
+  bottom: var(--space-lg);
+  right: var(--space-lg);
+  width: 60px;
+  height: 60px;
+  border-bottom: 3px solid var(--lcars-purple);
+  border-right: 3px solid var(--lcars-purple);
+  border-bottom-right-radius: 12px;
+  pointer-events: none;
+}
+
+.lcars-content {
+  max-width: var(--content-max-width);
+  margin: 0;
+  position: relative;
+}
+
+.lcars-content.wide {
+  max-width: var(--content-wide-width);
+}
+
+/* Footer with LCARS touches */
+.lcars-footer {
+  background: var(--bg-secondary);
+  padding: var(--space-md) var(--space-xl);
+  padding-left: calc(var(--space-xl) + 60px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  position: relative;
+}
+
+/* Footer accent bar */
+.lcars-footer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 48px;
+  background: var(--lcars-purple);
+  border-top-right-radius: 14px;
+}
+
+.lcars-footer a {
+  color: var(--text-secondary);
+}
+
+.lcars-footer a:hover {
+  color: var(--lcars-orange);
+}
+
+/* Stardate display */
+.stardate {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--lcars-tan);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .lcars-topbar::before {
+    width: 100px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .lcars-topbar::after {
+    left: 108px;
+    width: 36px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .lcars-wrapper::before {
+    width: 28px;
+  }
+
+  .lcars-wrapper::after {
+    width: 28px;
+    height: 20px;
+    border-bottom-right-radius: 14px;
+  }
+
+  .lcars-main {
+    padding-left: calc(var(--space-lg) + 36px);
+  }
+
+  .lcars-footer {
+    padding-left: calc(var(--space-lg) + 36px);
+  }
+
+  .lcars-footer::before {
+    width: 36px;
+    border-top-right-radius: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .lcars-topbar {
+    padding: 0 var(--space-md);
+    height: 50px;
+  }
+
+  .lcars-topbar::before {
+    width: 60px;
+    border-bottom-right-radius: 16px;
+  }
+
+  .lcars-topbar::after {
+    left: 66px;
+    width: 24px;
+    border-radius: 0 0 8px 8px;
+  }
+
+  /* Simplify sidebar on mobile - just a thin accent line */
+  .lcars-wrapper::before {
+    width: 6px;
+    top: 50px;
+    background: linear-gradient(
+      to bottom,
+      var(--lcars-orange) 0%,
+      var(--lcars-orange) 40%,
+      var(--lcars-tan) 40%,
+      var(--lcars-tan) 70%,
+      var(--lcars-purple) 70%,
+      var(--lcars-purple) 100%
+    );
+  }
+
+  .lcars-wrapper::after {
+    display: none;
+  }
+
+  .lcars-main {
+    padding: var(--space-lg) var(--space-md);
+    padding-left: calc(var(--space-md) + 14px);
+  }
+
+  .lcars-footer {
+    padding: var(--space-md);
+    flex-direction: column;
+    gap: var(--space-sm);
+    text-align: center;
+  }
+
+  .lcars-footer::before {
+    display: none;
+  }
+
+  .lcars-status-panel {
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+}
+
+@media (min-width: 1200px) {
+  .lcars-topbar::before {
+    width: 180px;
+    border-bottom-right-radius: 36px;
+  }
+
+  .lcars-topbar::after {
+    left: 190px;
+    width: 64px;
+    border-radius: 0 0 18px 18px;
+  }
+
+  .lcars-main {
+    padding: var(--space-3xl);
+    padding-left: calc(var(--space-3xl) + 80px);
+  }
+
+  .lcars-footer {
+    padding-left: calc(var(--space-3xl) + 80px);
+  }
+
+  .lcars-footer::before {
+    width: 64px;
+    border-top-right-radius: 18px;
+  }
+}

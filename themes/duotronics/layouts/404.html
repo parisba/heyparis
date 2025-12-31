@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="error-404">
+  <div class="boot-sequence">
+    <div class="boot-line boot-line--ok">INITIATING SEARCH PROTOCOL</div>
+    <div class="boot-line boot-line--ok">SCANNING DATABASE SECTORS</div>
+    <div class="boot-line" style="color: var(--lcars-red);">ERROR: RECORD NOT FOUND</div>
+  </div>
+
+  <div class="error-404__code">404</div>
+
+  <div class="sys-message sys-message--error">
+    <div class="sys-message__header">
+      <span class="sys-message__icon">!</span>
+      <span>ACCESS DENIED</span>
+    </div>
+    <div class="sys-message__text">
+      The requested file does not exist in the database or has been archived.
+    </div>
+  </div>
+
+  <div class="command-block">
+    <div class="command-block__input">cat /error/404.log</div>
+    <div class="command-block__output">
+      <p>Requested path: <code>{{ .RelPermalink }}</code></p>
+      <p>Status: FILE_NOT_FOUND</p>
+      <p>Recommendation: Return to main terminal</p>
+    </div>
+  </div>
+
+  <a href="/" class="cmd-btn">RETURN TO MAIN TERMINAL</a>
+</div>
+{{ end }}

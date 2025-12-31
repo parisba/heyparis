@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div style="text-align: center; padding: var(--space-3xl) 0;">
+  <div class="alert alert--danger">
+    <h1 style="font-size: var(--text-5xl); margin-bottom: var(--space-lg);">404</h1>
+    <p>FILE NOT FOUND IN DATABASE</p>
+    <p style="color: var(--text-dim);">THE REQUESTED RECORD DOES NOT EXIST OR HAS BEEN PURGED</p>
+  </div>
+
+  <div class="boot-text" style="margin: var(--space-xl) 0;">
+    <div class="boot-text__line">SCANNING SECTORS...</div>
+    <div class="boot-text__line">QUERY FAILED: NO MATCH</div>
+    <div class="boot-text__line">RECOMMEND: RETURN TO PRIMARY INTERFACE</div>
+  </div>
+
+  <a href="/" class="cmd-btn">Return to Main Terminal</a>
+</div>
+{{ end }}

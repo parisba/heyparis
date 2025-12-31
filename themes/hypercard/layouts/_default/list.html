@@ -1,0 +1,66 @@
+{{ define "main" }}
+<!-- Section Header Card -->
+<div class="card">
+  <div class="card__header">
+    <span class="card__icon">📁</span>
+    <span class="card__title">{{ .Title }}</span>
+  </div>
+  {{ with .Description }}
+  <div class="card__body">
+    <div class="card__text">{{ . }}</div>
+  </div>
+  {{ end }}
+  {{ with .Content }}
+  <div class="card__body">
+    <div class="card__text">{{ . }}</div>
+  </div>
+  {{ end }}
+</div>
+
+<!-- Items Stack -->
+{{ $paginator := .Paginate .Pages 15 }}
+
+<div class="stack">
+  <div class="stack__header">
+    <div class="stack__icon">📇</div>
+    <div class="stack__info">
+      <div class="stack__title">{{ .Title }}</div>
+      <div class="stack__count">{{ len .Pages }} items • Page {{ $paginator.PageNumber }}/{{ $paginator.TotalPages }}</div>
+    </div>
+  </div>
+
+  <div class="stack__cards">
+    {{ range $index, $page := $paginator.Pages }}
+    <a href="{{ .Permalink }}" class="stack-card" style="--i: {{ $index }}">
+      <div class="stack-card__number">#{{ add (mul (sub $paginator.PageNumber 1) 15) (add $index 1) }}</div>
+      <div class="stack-card__content">
+        <div class="stack-card__title">{{ .Title }}</div>
+        <div class="stack-card__date">{{ .Date.Format "Jan 2, 2006" }}</div>
+      </div>
+      <div class="stack-card__arrow">→</div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+<!-- Pagination -->
+{{ if gt $paginator.TotalPages 1 }}
+<div class="pagination-bar">
+  <div class="pagination-bar__info">
+    Card {{ add (mul (sub $paginator.PageNumber 1) 15) 1 }}-{{ add (mul (sub $paginator.PageNumber 1) 15) (len $paginator.Pages) }} of {{ len .Pages }}
+  </div>
+  <div class="pagination-bar__buttons">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="mac-button mac-button--small">◀ Prev</a>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="mac-button mac-button--small">Next ▶</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+<div class="button-row">
+  <a href="/" class="mac-button">◀ Home</a>
+</div>
+{{ end }}

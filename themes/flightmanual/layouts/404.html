@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="manual-section">
+  <div class="warning-box warning-box--critical">
+    <div class="warning-box__stripe warning-box__stripe--danger"></div>
+    <div class="warning-box__content">
+      <span class="warning-box__icon">⚠</span>
+      <div class="warning-box__text">
+        <strong>CRITICAL SYSTEM ERROR</strong>
+      </div>
+    </div>
+    <div class="warning-box__stripe warning-box__stripe--danger"></div>
+  </div>
+
+  <div class="error-block">
+    <div class="error-block__code">404</div>
+    <div class="error-block__message">DOCUMENT NOT FOUND</div>
+  </div>
+
+  <div class="note-box note-box--caution">
+    <span class="note-box__label">CAUSE</span>
+    <span class="note-box__text">The requested document could not be located in the reference system. This may indicate an outdated reference, document relocation, or incorrect document identifier.</span>
+  </div>
+
+  <div class="section-header">
+    <span class="section-header__number">!</span>
+    <span class="section-header__title">CORRECTIVE ACTION</span>
+  </div>
+
+  <ol class="procedure-list">
+    <li class="procedure-list__item">
+      <span class="procedure-list__num">1</span>
+      <span class="procedure-list__text">Verify the document reference is correct</span>
+    </li>
+    <li class="procedure-list__item">
+      <span class="procedure-list__num">2</span>
+      <span class="procedure-list__text">Return to the <a href="/">main index</a> and navigate manually</span>
+    </li>
+    <li class="procedure-list__item">
+      <span class="procedure-list__num">3</span>
+      <span class="procedure-list__text">If the error persists, contact the document administrator</span>
+    </li>
+  </ol>
+
+  <div class="action-bar">
+    <a href="/" class="action-btn">◄ RETURN TO INDEX</a>
+  </div>
+</section>
+{{ end }}

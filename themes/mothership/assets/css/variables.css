@@ -1,0 +1,108 @@
+/* Mothership - Design Tokens */
+/* Inspired by Alien/Aliens era computer interfaces */
+
+@font-face {
+  font-family: 'VT323';
+  src: url('https://fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2isfFJU.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Typography - Industrial monospace */
+  --font-display: 'VT323', 'Courier New', 'Lucida Console', monospace;
+  --font-body: 'VT323', 'Courier New', 'Lucida Console', monospace;
+  --font-mono: 'VT323', 'Courier New', 'Lucida Console', monospace;
+
+  /* Type Scale - Chunky */
+  --text-xs: 0.875rem;
+  --text-sm: 1rem;
+  --text-base: 1.25rem;
+  --text-lg: 1.5rem;
+  --text-xl: 2rem;
+  --text-2xl: 2.5rem;
+  --text-3xl: 3rem;
+  --text-4xl: 4rem;
+  --text-5xl: 5rem;
+
+  /* Colors - CRT Phosphor */
+  --phosphor-amber: #ffb000;
+  --phosphor-amber-dim: #cc8800;
+  --phosphor-amber-bright: #ffc933;
+  --phosphor-green: #33ff33;
+  --phosphor-green-dim: #22aa22;
+  --phosphor-blue: #00aaff;
+
+  /* CRT Screen colors */
+  --crt-bg: #0a0a08;
+  --crt-bg-light: #141410;
+  --crt-bg-panel: #1a1a16;
+  --crt-scanline: rgba(0, 0, 0, 0.3);
+
+  /* Industrial colors */
+  --industrial-yellow: #c4a000;
+  --industrial-orange: #cc5500;
+  --industrial-red: #cc0000;
+  --industrial-gray: #3a3a38;
+  --industrial-light: #5a5a55;
+
+  /* Semantic - Amber mode (default) */
+  --text-primary: var(--phosphor-amber);
+  --text-dim: var(--phosphor-amber-dim);
+  --text-bright: var(--phosphor-amber-bright);
+  --text-glow: var(--phosphor-amber);
+  --bg-primary: var(--crt-bg);
+  --bg-panel: var(--crt-bg-panel);
+  --border-color: var(--phosphor-amber-dim);
+  --border-bright: var(--phosphor-amber);
+
+  /* Glow effects */
+  --glow-sm: 0 0 5px;
+  --glow-md: 0 0 10px;
+  --glow-lg: 0 0 20px;
+  --text-shadow-glow: 0 0 8px var(--text-glow);
+
+  /* Spacing - Industrial grid */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Borders - Chunky industrial */
+  --border-thin: 1px;
+  --border-medium: 2px;
+  --border-thick: 4px;
+
+  /* Screen effects */
+  --scanline-opacity: 0.08;
+  --flicker-intensity: 0.02;
+  --vignette-intensity: 0.4;
+
+  /* Transitions */
+  --duration-fast: 100ms;
+  --duration-normal: 200ms;
+}
+
+/* Green phosphor mode */
+[data-phosphor="green"] {
+  --text-primary: var(--phosphor-green);
+  --text-dim: var(--phosphor-green-dim);
+  --text-bright: #66ff66;
+  --text-glow: var(--phosphor-green);
+  --border-color: var(--phosphor-green-dim);
+  --border-bright: var(--phosphor-green);
+}
+
+/* Blue phosphor mode */
+[data-phosphor="blue"] {
+  --text-primary: var(--phosphor-blue);
+  --text-dim: #0088cc;
+  --text-bright: #33ccff;
+  --text-glow: var(--phosphor-blue);
+  --border-color: #0088cc;
+  --border-bright: var(--phosphor-blue);
+}

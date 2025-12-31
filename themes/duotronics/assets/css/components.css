@@ -1,0 +1,305 @@
+/* Duotronics - Components */
+
+/* Data cards - like database records */
+.data-card {
+  background: var(--term-bg-secondary);
+  border: 1px solid var(--border-color);
+  margin-bottom: var(--space-md);
+  transition: all 0.2s ease;
+}
+
+.data-card:hover {
+  border-color: var(--lcars-orange);
+  box-shadow: 0 0 20px rgba(255, 153, 0, 0.1);
+}
+
+.data-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--term-bg-panel);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.data-card__id {
+  color: var(--lcars-orange);
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
+}
+
+.data-card__type {
+  padding: 2px 8px;
+  background: var(--lcars-purple);
+  color: #000;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.data-card__body {
+  padding: var(--space-md);
+}
+
+.data-card__title {
+  color: var(--text-bright);
+  font-size: var(--text-base);
+  margin-bottom: var(--space-sm);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.data-card__meta {
+  color: var(--text-dim);
+  font-size: var(--text-xs);
+  margin-bottom: var(--space-sm);
+}
+
+.data-card__excerpt {
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
+.data-card__image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border-color);
+  filter: grayscale(30%) contrast(1.1);
+  transition: filter 0.3s ease;
+}
+
+.data-card:hover .data-card__image {
+  filter: grayscale(0%) contrast(1);
+}
+
+/* Tags as system flags */
+.sys-tag {
+  display: inline-block;
+  padding: 2px 6px;
+  background: transparent;
+  border: 1px solid var(--lcars-tan);
+  color: var(--lcars-tan);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-right: var(--space-xs);
+  margin-bottom: var(--space-xs);
+  transition: all 0.2s ease;
+}
+
+.sys-tag:hover {
+  background: var(--lcars-tan);
+  color: #000;
+}
+
+/* Command buttons */
+.cmd-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: transparent;
+  border: 1px solid var(--lcars-orange);
+  color: var(--lcars-orange);
+  font-family: var(--font-terminal);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.cmd-btn:hover {
+  background: var(--lcars-orange);
+  color: #000;
+  box-shadow: var(--glow-spread) var(--glow-color);
+}
+
+.cmd-btn::before {
+  content: '>';
+  font-weight: bold;
+}
+
+.cmd-btn--secondary {
+  border-color: var(--lcars-tan);
+  color: var(--lcars-tan);
+}
+
+.cmd-btn--secondary:hover {
+  background: var(--lcars-tan);
+  color: #000;
+}
+
+/* System message boxes */
+.sys-message {
+  padding: var(--space-md);
+  margin-bottom: var(--space-lg);
+  border-left: 3px solid var(--lcars-orange);
+  background: var(--term-bg-secondary);
+}
+
+.sys-message--warning {
+  border-left-color: var(--lcars-tan);
+}
+
+.sys-message--error {
+  border-left-color: var(--lcars-red);
+}
+
+.sys-message--success {
+  border-left-color: var(--term-green);
+}
+
+.sys-message__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.sys-message__icon {
+  color: var(--lcars-orange);
+}
+
+.sys-message__text {
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+}
+
+/* Progress/loading bar */
+.progress-bar {
+  height: 4px;
+  background: var(--border-color);
+  margin-bottom: var(--space-md);
+  overflow: hidden;
+}
+
+.progress-bar__fill {
+  height: 100%;
+  background: var(--lcars-orange);
+  animation: progress-scan 2s ease-in-out infinite;
+}
+
+@keyframes progress-scan {
+  0% { transform: translateX(-100%); width: 30%; }
+  50% { width: 60%; }
+  100% { transform: translateX(400%); width: 30%; }
+}
+
+/* Social icons */
+.social-links {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border-color);
+  color: var(--text-dim);
+  transition: all 0.2s ease;
+}
+
+.social-link:hover {
+  border-color: var(--lcars-orange);
+  color: var(--lcars-orange);
+}
+
+.social-link svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+/* Boot sequence */
+.boot-sequence {
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-xl);
+}
+
+.boot-line {
+  opacity: 0;
+  animation: boot-in 0.3s ease forwards;
+  margin-bottom: var(--space-xs);
+}
+
+.boot-line:nth-child(1) { animation-delay: 0.1s; }
+.boot-line:nth-child(2) { animation-delay: 0.3s; }
+.boot-line:nth-child(3) { animation-delay: 0.5s; }
+.boot-line:nth-child(4) { animation-delay: 0.7s; }
+.boot-line:nth-child(5) { animation-delay: 0.9s; }
+
+@keyframes boot-in {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.boot-line--ok::after {
+  content: ' [OK]';
+  color: var(--term-green);
+}
+
+.boot-line--loading::after {
+  content: ' ...';
+  animation: loading-dots 1s steps(3, end) infinite;
+}
+
+@keyframes loading-dots {
+  0% { content: ' .'; }
+  33% { content: ' ..'; }
+  66% { content: ' ...'; }
+}
+
+/* Inline data display */
+.data-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 2px 6px;
+  background: var(--term-bg-secondary);
+  border: 1px solid var(--border-color);
+  font-size: var(--text-xs);
+}
+
+.data-inline__label {
+  color: var(--text-dim);
+}
+
+.data-inline__value {
+  color: var(--lcars-orange);
+}
+
+/* ASCII art container */
+.ascii-art {
+  font-size: 10px;
+  line-height: 1.2;
+  color: var(--lcars-orange);
+  white-space: pre;
+  overflow-x: auto;
+  margin-bottom: var(--space-lg);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .crt-screen::after,
+  .boot-line,
+  .progress-bar__fill,
+  .status-dot {
+    animation: none;
+  }
+
+  .boot-line {
+    opacity: 1;
+  }
+}

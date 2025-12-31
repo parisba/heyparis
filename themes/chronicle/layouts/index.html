@@ -1,0 +1,73 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    {{ with .Site.Params.homeInfoParams }}
+    <span class="hero-label">01</span>
+    <h1 class="hero-title">{{ .Title }}</h1>
+    <div class="hero-intro">
+      {{ .Content | markdownify }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2 class="section-title">Recent Writing</h2>
+    </div>
+
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    <div class="magazine-masonry">
+      {{ range $index, $page := first 9 $posts }}
+      {{ $post := . }}
+      <article class="magazine-item">
+        <a href="{{ $post.Permalink }}" class="magazine-link">
+          {{ with .Params.cover }}
+          {{ $imgPath := .image }}
+          {{ $isRelative := .relative }}
+          {{ if $imgPath }}
+          <div class="magazine-image">
+            {{- if $isRelative -}}
+              {{- $img := $post.Resources.GetMatch $imgPath -}}
+              {{- if $img -}}
+                <img src="{{ $img.RelPermalink }}" alt="{{ $post.Title }}" loading="lazy">
+              {{- end -}}
+            {{- else if hasPrefix $imgPath "/" -}}
+              <img src="{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- else -}}
+              <img src="/{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- end -}}
+          </div>
+          {{ end }}
+          {{ end }}
+          <div class="magazine-content">
+            <time class="magazine-date">{{ .Date.Format "Jan 2006" }}</time>
+            <h3 class="magazine-title">{{ .Title }}</h3>
+          </div>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+
+    <a href="/all-posts/" class="view-all">View all posts →</a>
+  </div>
+</section>
+
+{{ with .Site.Params.socialIcons }}
+<section class="links-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2 class="section-title">Elsewhere</h2>
+    </div>
+    <div class="links-grid">
+      {{ range . }}
+      <a href="{{ .url }}" target="_blank" rel="noopener" class="link-pill">{{ .name }}</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

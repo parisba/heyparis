@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="msg-headers">
+  <div class="msg-header">
+    <span class="msg-header__key">Error</span>
+    <span class="msg-header__value msg-header__value--subject">404 - Article not found</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Path</span>
+    <span class="msg-header__value">{{ .RelPermalink }}</span>
+  </div>
+</div>
+
+<div class="msg-body">
+The requested article does not exist on this server.
+
+Possible reasons:
+  - The article has expired and been removed
+  - The Message-ID is incorrect
+  - The newsgroup has been removed
+  - You followed a dead link
+
+Please check the path and try again, or return to
+the index to browse available articles.
+</div>
+
+<div class="pager">
+  <a href="/">&lt;&lt; Return to index</a>
+</div>
+
+<div class="prompt">
+  <span class="prompt__symbol">&gt;</span>
+  <span class="prompt__text">Article not found. Press any key to continue: _</span>
+</div>
+{{ end }}

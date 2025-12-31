@@ -1,0 +1,87 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{{/* Title */}}
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+{{/* Meta description */}}
+{{ with .Description }}
+<meta name="description" content="{{ . }}">
+{{ else }}{{ with .Site.Params.description }}
+<meta name="description" content="{{ . }}">
+{{ end }}{{ end }}
+
+{{/* Author */}}
+{{ with .Site.Params.author }}
+<meta name="author" content="{{ . }}">
+{{ end }}
+
+{{/* Canonical URL */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Robots */}}
+{{ if .Site.Params.noindex }}
+<meta name="robots" content="noindex, nofollow">
+{{ else }}
+<meta name="robots" content="index, follow">
+{{ end }}
+
+{{/* Open Graph */}}
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with .Params.cover.image }}
+<meta property="og:image" content="{{ . | absURL }}">
+{{ else }}
+{{ with .Site.Params.images }}
+<meta property="og:image" content="{{ index . 0 | absURL }}">
+{{ end }}
+{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+{{/* Twitter Card */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+{{/* Favicons */}}
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+{{/* Theme color */}}
+<meta name="theme-color" content="#FF9900">
+<meta name="msapplication-TileColor" content="#000000">
+
+{{/* RSS */}}
+{{ range .AlternativeOutputFormats -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
+{{/* Styles - Bundle all CSS files */}}
+{{ $variables := resources.Get "css/variables.css" }}
+{{ $base := resources.Get "css/base.css" }}
+{{ $frame := resources.Get "css/lcars-frame.css" }}
+{{ $components := resources.Get "css/components.css" }}
+{{ $layouts := resources.Get "css/layouts.css" }}
+{{ $animations := resources.Get "css/animations.css" }}
+
+{{ if and $variables $base $frame $components $layouts $animations }}
+{{ $bundle := slice $variables $base $frame $components $layouts $animations | resources.Concat "css/starbase.css" }}
+<link rel="stylesheet" href="{{ $bundle.Permalink }}">
+{{ end }}
+
+{{/* Analytics */}}
+{{ with site.Config.Services.GoogleAnalytics.ID }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ . }}');
+</script>
+{{ end }}

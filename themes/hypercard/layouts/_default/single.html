@@ -1,0 +1,83 @@
+{{ define "main" }}
+<!-- Article Card -->
+<div class="card card--article">
+  <div class="card__header">
+    <span class="card__icon">📄</span>
+    <span class="card__title">{{ .Title }}</span>
+  </div>
+
+  <div class="card__meta">
+    <span class="meta-badge">
+      <span class="meta-badge__icon">📅</span>
+      {{ .Date.Format "January 2, 2006" }}
+    </span>
+    {{ with .Section }}
+    <span class="meta-badge">
+      <span class="meta-badge__icon">📁</span>
+      {{ . | title }}
+    </span>
+    {{ end }}
+  </div>
+
+  {{ with .Params.tags }}
+  <div class="card__tags">
+    {{ range . }}
+    <span class="tag">{{ . }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- TOC Dialog -->
+  {{ if .Params.toc | default .Site.Params.ShowToc }}
+  {{ if .TableOfContents }}
+  <div class="toc-dialog">
+    <div class="toc-dialog__header">
+      <span class="toc-dialog__icon">≡</span>
+      <span class="toc-dialog__title">Contents</span>
+    </div>
+    <div class="toc-dialog__body">
+      {{ .TableOfContents }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ if .Params.cover.image }}
+  <div class="card__image">
+    <img src="{{ .Params.cover.image }}" alt="{{ .Title }}">
+    {{ with .Params.cover.caption }}
+    <div class="card__caption">{{ . }}</div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="card__body card__body--article">
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+
+<!-- Navigation Buttons -->
+<div class="nav-buttons">
+  {{ with .PrevInSection }}
+  <a href="{{ .Permalink }}" class="mac-button">
+    ◀ {{ .Title | truncate 25 }}
+  </a>
+  {{ else }}
+  <div></div>
+  {{ end }}
+
+  <a href="{{ .Section | relURL }}" class="mac-button">
+    ▲ Back to {{ .Section | title }}
+  </a>
+
+  {{ with .NextInSection }}
+  <a href="{{ .Permalink }}" class="mac-button">
+    {{ .Title | truncate 25 }} ▶
+  </a>
+  {{ else }}
+  <div></div>
+  {{ end }}
+</div>
+{{ end }}

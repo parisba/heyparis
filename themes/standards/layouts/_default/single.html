@@ -1,0 +1,53 @@
+{{ define "main" }}
+<article class="article">
+  <header class="article__header">
+    <h1 class="article__title">{{ .Title }}</h1>
+    {{ if eq .Section "posts" }}
+    <div class="article__meta">
+      <span><strong>Date</strong> {{ .Date.Format "January 2, 2006" }}</span>
+    </div>
+    {{ end }}
+  </header>
+
+  {{ with .Params.cover }}
+  {{ if .image }}
+  <figure class="article__figure">
+    {{- if .relative -}}
+      {{- $resource := $.Resources.GetMatch .image -}}
+      {{- if $resource -}}
+        <img src="{{ $resource.RelPermalink }}" alt="{{ .alt | default $.Title }}">
+      {{- else -}}
+        <img src="{{ $.RelPermalink }}{{ .image }}" alt="{{ .alt | default $.Title }}">
+      {{- end -}}
+    {{- else -}}
+      {{- if hasPrefix .image "/" -}}
+        <img src="{{ .image }}" alt="{{ .alt | default $.Title }}">
+      {{- else -}}
+        <img src="/{{ .image }}" alt="{{ .alt | default $.Title }}">
+      {{- end -}}
+    {{- end -}}
+    {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+  {{ end }}
+
+  <div class="article__body">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.tags }}
+  <footer class="article__footer">
+    <ul class="tag-list">
+      {{ range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </footer>
+  {{ end }}
+</article>
+
+{{ if eq .Section "posts" }}
+<nav class="article-nav">
+  {{ with .PrevInSection }}<a href="{{ .Permalink }}" class="article-nav__prev">← {{ .Title | truncate 50 }}</a>{{ end }}
+  {{ with .NextInSection }}<a href="{{ .Permalink }}" class="article-nav__next">{{ .Title | truncate 50 }} →</a>{{ end }}
+</nav>
+{{ end }}
+{{ end }}

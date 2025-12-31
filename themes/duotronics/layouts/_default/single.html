@@ -1,0 +1,89 @@
+{{ define "main" }}
+<article class="post">
+  {{/* Access panel header */}}
+  <div class="access-panel">
+    <div class="access-panel__header">
+      <span class="access-panel__title">FILE ACCESS RECORD</span>
+      <span class="access-panel__status">CLEARANCE: PUBLIC</span>
+    </div>
+    <div class="access-panel__content">
+      <div class="access-panel__field">
+        <span class="access-panel__label">Record ID</span>
+        <span class="access-panel__value">{{ .File.UniqueID | default (printf "REC-%s" (.Date.Format "060102-1504")) }}</span>
+      </div>
+      <div class="access-panel__field">
+        <span class="access-panel__label">Timestamp</span>
+        <span class="access-panel__value">{{ .Date.Format "2006-01-02 15:04:05" }}</span>
+      </div>
+      <div class="access-panel__field">
+        <span class="access-panel__label">Classification</span>
+        <span class="access-panel__value">{{ .Section | upper | default "GENERAL" }}</span>
+      </div>
+      <div class="access-panel__field">
+        <span class="access-panel__label">Word Count</span>
+        <span class="access-panel__value">{{ .WordCount }}</span>
+      </div>
+    </div>
+  </div>
+
+  {{/* Post title */}}
+  <header class="post__header">
+    <h1 class="post__title">{{ .Title }}</h1>
+    {{ with .Params.description }}
+    <p class="post__description">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{/* Cover image */}}
+  {{ $coverImage := .Params.cover.image }}
+  {{ if $coverImage }}
+  {{ $imageURL := "" }}
+  {{ if hasPrefix $coverImage "/" }}
+    {{ $imageURL = $coverImage }}
+  {{ else }}
+    {{ $resource := .Resources.GetMatch $coverImage }}
+    {{ if $resource }}
+      {{ $imageURL = $resource.RelPermalink }}
+    {{ else }}
+      {{ $imageURL = printf "%s%s" .RelPermalink $coverImage }}
+    {{ end }}
+  {{ end }}
+  {{ if $imageURL }}
+  <figure class="post__cover">
+    <img src="{{ $imageURL }}" alt="{{ .Title }}" class="post__cover-image">
+    {{ with .Params.cover.caption }}
+    <figcaption class="post__cover-caption">{{ . }}</figcaption>
+    {{ end }}
+  </figure>
+  {{ end }}
+  {{ end }}
+
+  {{/* Tags */}}
+  {{ with .Params.tags }}
+  <div class="post__tags">
+    {{ range . }}
+    <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="sys-tag">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Content */}}
+  <div class="post__content prose">
+    {{ .Content }}
+  </div>
+
+  {{/* Navigation */}}
+  <nav class="post__nav">
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}" class="cmd-btn cmd-btn--secondary">
+      <span class="cmd-btn__label">PREV: {{ .Title | truncate 30 }}</span>
+    </a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}" class="cmd-btn">
+      <span class="cmd-btn__label">NEXT: {{ .Title | truncate 30 }}</span>
+    </a>
+    {{ end }}
+  </nav>
+</article>
+{{ end }}

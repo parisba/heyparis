@@ -1,0 +1,67 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      {{ with .Site.Params.homeInfoParams }}
+      <h1 class="hero-title">{{ .Title }}</h1>
+      <div class="hero-intro">
+        {{ .Content | markdownify }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    <h2 class="section-title">Recent Writing</h2>
+
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    <div class="posts-grid">
+      {{ range first 6 $posts }}
+      {{ $post := . }}
+      <article class="post-card">
+        {{ with .Params.cover }}
+        {{ $imgPath := .image }}
+        {{ $isRelative := .relative }}
+        {{ if $imgPath }}
+        <a href="{{ $post.Permalink }}" class="post-card-image">
+          {{- if $isRelative -}}
+            {{- $img := $post.Resources.GetMatch $imgPath -}}
+            {{- if $img -}}
+              <img src="{{ $img.RelPermalink }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- end -}}
+          {{- else if hasPrefix $imgPath "/" -}}
+            <img src="{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+          {{- else -}}
+            <img src="/{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+          {{- end -}}
+        </a>
+        {{ end }}
+        {{ end }}
+        <div class="post-card-content">
+          <time class="post-card-date">{{ .Date.Format "January 2, 2006" }}</time>
+          <h3 class="post-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ with .Summary }}<p class="post-card-excerpt">{{ . | plainify | truncate 120 }}</p>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+
+    <a href="/all-posts/" class="view-all">View all posts →</a>
+  </div>
+</section>
+
+{{ with .Site.Params.socialIcons }}
+<section class="links-section">
+  <div class="container">
+    <h2 class="section-title">Elsewhere</h2>
+    <div class="links-list">
+      {{ range . }}
+      <a href="{{ .url }}" target="_blank" rel="noopener" class="link-item">{{ .name }}</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

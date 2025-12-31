@@ -1,0 +1,96 @@
+{{ define "main" }}
+{{/* Boot sequence intro */}}
+<div class="boot-sequence">
+  <div class="boot-line boot-line--ok">DUOTRONICS MEMORY CORE ONLINE</div>
+  <div class="boot-line boot-line--ok">LCARS INTERFACE LOADED</div>
+  <div class="boot-line boot-line--ok">DATABASE CONNECTION ESTABLISHED</div>
+  <div class="boot-line boot-line--ok">USER AUTHENTICATED: GUEST</div>
+  <div class="boot-line boot-line--ok">READY FOR INPUT</div>
+</div>
+
+{{/* System welcome message */}}
+<div class="sys-message">
+  <div class="sys-message__header">
+    <span class="sys-message__icon">&gt;</span>
+    <span>SYSTEM NOTICE</span>
+  </div>
+  <div class="sys-message__text">
+    {{ with .Site.Params.description }}{{ . }}{{ else }}Welcome to the terminal. Access personal logs and database records below.{{ end }}
+  </div>
+</div>
+
+{{/* Command block for recent entries */}}
+<div class="command-block">
+  <div class="command-block__input">ls -la /database/logs --recent</div>
+  <div class="command-block__output">
+    <div class="file-listing">
+      {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") 10 }}
+      {{ range $paginator.Pages }}
+      <a href="{{ .Permalink }}" class="file-entry">
+        <span class="file-entry__perms">-rw-r--r--</span>
+        <span class="file-entry__name">{{ .Title }}</span>
+        <span class="file-entry__date">{{ .Date.Format "Jan 02, 2006" }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{/* Pagination */}}
+{{ if gt $paginator.TotalPages 1 }}
+<div class="pagination">
+  {{ if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}" class="cmd-btn cmd-btn--secondary">PREV</a>
+  {{ end }}
+  <span class="data-inline">
+    <span class="data-inline__label">PAGE</span>
+    <span class="data-inline__value">{{ $paginator.PageNumber }}/{{ $paginator.TotalPages }}</span>
+  </span>
+  {{ if $paginator.HasNext }}
+  <a href="{{ $paginator.Next.URL }}" class="cmd-btn">NEXT</a>
+  {{ end }}
+</div>
+{{ end }}
+
+{{/* Data cards for featured/recent posts with images */}}
+{{ $featured := first 3 (where .Site.RegularPages "Params.featured" true) }}
+{{ if $featured }}
+<h2 class="section-header">// FEATURED RECORDS</h2>
+<div class="data-grid">
+  {{ range $featured }}
+  {{ $page := . }}
+  <article class="data-card">
+    {{ $coverImage := .Params.cover.image }}
+    {{ if $coverImage }}
+    {{ $imageURL := "" }}
+    {{ if hasPrefix $coverImage "/" }}
+      {{ $imageURL = $coverImage }}
+    {{ else }}
+      {{ $resource := $page.Resources.GetMatch $coverImage }}
+      {{ if $resource }}
+        {{ $imageURL = $resource.RelPermalink }}
+      {{ else }}
+        {{ $imageURL = printf "%s%s" $page.RelPermalink $coverImage }}
+      {{ end }}
+    {{ end }}
+    {{ if $imageURL }}
+    <img src="{{ $imageURL }}" alt="{{ .Title }}" class="data-card__image">
+    {{ end }}
+    {{ end }}
+    <div class="data-card__header">
+      <span class="data-card__id">REC-{{ .Date.Format "060102" }}</span>
+      <span class="data-card__type">{{ .Section | default "LOG" }}</span>
+    </div>
+    <div class="data-card__body">
+      <h3 class="data-card__title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <div class="data-card__meta">{{ .Date.Format "Stardate 2006.002" }}</div>
+      {{ with .Summary }}
+      <p class="data-card__excerpt">{{ . | truncate 120 }}</p>
+      {{ end }}
+    </div>
+  </article>
+  {{ end }}
+</div>
+{{ end }}
+
+{{ end }}

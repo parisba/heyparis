@@ -1,0 +1,11 @@
+name = "Chronicle"
+license = "MIT"
+licenselink = "https://github.com/yourname/chronicle/blob/master/LICENSE"
+description = "A clean, professional theme inspired by resume styling with IBM Plex fonts and accent colors"
+homepage = "https://github.com/yourname/chronicle"
+tags = ["minimal", "professional", "blog", "portfolio"]
+features = ["IBM Plex fonts", "accent color bar", "numbered sections", "timeline styling"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris"

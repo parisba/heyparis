@@ -1,0 +1,131 @@
+{{ define "main" }}
+<!-- Section 1: Operator Information -->
+<section class="manual-section">
+  <div class="section-header">
+    <span class="section-header__number">1.0</span>
+    <span class="section-header__title">OPERATOR INFORMATION</span>
+  </div>
+
+  <div class="info-block">
+    <div class="info-block__content">
+      {{ with .Site.Params.homeInfoParams.Content }}{{ . | safeHTML }}{{ end }}
+    </div>
+  </div>
+
+  <!-- Quick Reference Box -->
+  <div class="ref-box">
+    <div class="ref-box__header">
+      <span class="ref-box__icon">i</span>
+      <span class="ref-box__title">QUICK REFERENCE</span>
+    </div>
+    <div class="ref-box__content">
+      <table class="spec-table">
+        <tr>
+          <td class="spec-table__label">Primary Role</td>
+          <td class="spec-table__value">Technical Author, Game Developer, Product Leader</td>
+        </tr>
+        <tr>
+          <td class="spec-table__label">Organizations</td>
+          <td class="spec-table__value">Secret Lab, Yarn Spinner, /dev/world</td>
+        </tr>
+        <tr>
+          <td class="spec-table__label">Publications</td>
+          <td class="spec-table__value">20+ Technical Books</td>
+        </tr>
+        <tr>
+          <td class="spec-table__label">Location</td>
+          <td class="spec-table__value">lutruwita / Tasmania</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: Communications Index -->
+<section class="manual-section">
+  <div class="section-header">
+    <span class="section-header__number">2.0</span>
+    <span class="section-header__title">COMMUNICATIONS INDEX</span>
+  </div>
+
+  <div class="social-grid">
+    {{ range .Site.Params.socialIcons }}
+    <a href="{{ .url }}" class="social-item" target="_blank" rel="noopener">
+      <span class="social-item__code">{{ .name | upper | truncate 4 "" }}</span>
+      <span class="social-item__name">{{ .name }}</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Section 3: Recent Transmissions -->
+<section class="manual-section">
+  <div class="section-header">
+    <span class="section-header__number">3.0</span>
+    <span class="section-header__title">RECENT TRANSMISSIONS</span>
+  </div>
+
+  <div class="note-box note-box--info">
+    <span class="note-box__label">NOTE</span>
+    <span class="note-box__text">Latest entries from the operational log. Select entry for full transmission.</span>
+  </div>
+
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+  <div class="transmission-log">
+    <div class="transmission-log__header">
+      <span class="transmission-log__col transmission-log__col--ref">REF</span>
+      <span class="transmission-log__col transmission-log__col--date">DATE</span>
+      <span class="transmission-log__col transmission-log__col--subject">SUBJECT</span>
+      <span class="transmission-log__col transmission-log__col--status">STATUS</span>
+    </div>
+
+    {{ range $index, $post := first 15 $posts }}
+    <a href="{{ .Permalink }}" class="transmission-log__row">
+      <span class="transmission-log__col transmission-log__col--ref">TX-{{ printf "%03d" (add $index 1) }}</span>
+      <span class="transmission-log__col transmission-log__col--date">{{ .Date.Format "02 JAN 06" }}</span>
+      <span class="transmission-log__col transmission-log__col--subject">{{ .Title }}</span>
+      <span class="transmission-log__col transmission-log__col--status">
+        {{ if lt $index 3 }}<span class="status-badge status-badge--new">NEW</span>{{ else }}<span class="status-badge status-badge--read">ARCHIVED</span>{{ end }}
+      </span>
+    </a>
+    {{ end }}
+  </div>
+
+  <div class="action-bar">
+    <a href="/posts/" class="action-btn">VIEW ALL TRANSMISSIONS ({{ len $posts }})</a>
+  </div>
+</section>
+
+<!-- Section 4: Navigation Reference -->
+<section class="manual-section">
+  <div class="section-header">
+    <span class="section-header__number">4.0</span>
+    <span class="section-header__title">SECTION REFERENCE</span>
+  </div>
+
+  <div class="nav-grid">
+    {{ range .Site.Menus.main }}
+    <a href="{{ .URL }}" class="nav-card">
+      <span class="nav-card__number">§{{ .Weight }}</span>
+      <span class="nav-card__title">{{ .Name | upper }}</span>
+      <span class="nav-card__arrow">→</span>
+    </a>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Warning Block -->
+<div class="warning-box">
+  <div class="warning-box__stripe"></div>
+  <div class="warning-box__content">
+    <span class="warning-box__icon">⚠</span>
+    <div class="warning-box__text">
+      <strong>NOTICE:</strong> This document is maintained for personal reference purposes.
+      Information contained herein reflects the author's views and experiences.
+      For official inquiries, refer to designated communication channels in Section 2.0.
+    </div>
+  </div>
+  <div class="warning-box__stripe"></div>
+</div>
+{{ end }}

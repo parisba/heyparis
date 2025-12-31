@@ -1,0 +1,88 @@
+{{ define "main" }}
+<article class="article">
+  {{/* Article header - Dramatic */}}
+  <header class="page-header page-header--centered">
+    <div class="container container--narrow">
+      <p class="page-header__overline" style="justify-content: center;">{{ .Section | title }}</p>
+      <h1 class="page-header__title" style="max-width: 16ch;">{{ .Title }}</h1>
+      {{ with .Description }}
+      <p class="page-header__description">{{ . }}</p>
+      {{ end }}
+      <p class="small-caps" style="margin-top: var(--space-xl);">{{ .Date.Format "January 2, 2006" }}</p>
+    </div>
+  </header>
+
+  {{/* Cover image - Full width */}}
+  {{ $coverImage := .Params.cover.image }}
+  {{ if $coverImage }}
+  {{ $imageURL := "" }}
+  {{ if hasPrefix $coverImage "/" }}
+    {{ $imageURL = $coverImage }}
+  {{ else }}
+    {{ $resource := .Resources.GetMatch $coverImage }}
+    {{ if $resource }}
+      {{ $imageURL = $resource.RelPermalink }}
+    {{ else }}
+      {{ $imageURL = printf "%s%s" .RelPermalink $coverImage }}
+    {{ end }}
+  {{ end }}
+  <figure class="container container--wide" style="margin-bottom: var(--space-4xl);">
+    <div class="image-frame">
+      <img src="{{ $imageURL }}" alt="{{ .Title }}" style="width: 100%;">
+    </div>
+    {{ with .Params.cover.caption }}
+    <figcaption style="max-width: var(--max-width-prose); margin: var(--space-lg) auto 0;">{{ . | safeHTML }}</figcaption>
+    {{ end }}
+  </figure>
+  {{ end }}
+
+  {{/* Article content */}}
+  <div class="container container--narrow">
+    {{/* Tags */}}
+    {{ with .Params.tags }}
+    <div class="tags" style="margin-bottom: var(--space-2xl);">
+      {{ range . }}
+      <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Content with drop cap */}}
+    <div class="article__content drop-cap">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{/* Article footer */}}
+  <footer class="container container--narrow" style="margin-top: var(--space-4xl);">
+    <hr>
+
+    {{/* Author bio */}}
+    {{ with .Site.Params.author }}
+    <div class="info-block" style="margin: var(--space-2xl) 0;">
+      <p class="info-block__title">About the Author</p>
+      <p class="info-block__text">{{ $.Site.Params.description }}</p>
+    </div>
+    {{ end }}
+
+    {{/* Post navigation */}}
+    <nav style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2xl); margin-top: var(--space-3xl); padding-top: var(--space-2xl); border-top: 1px solid var(--border-color);">
+      {{ with .PrevInSection }}
+      <a href="{{ .Permalink }}" class="link-subtle" style="display: block;">
+        <p class="small-caps" style="margin-bottom: var(--space-xs);">Previous</p>
+        <p style="font-family: var(--font-display); font-size: var(--text-lg); color: var(--text-primary);">{{ .Title | truncate 50 }}</p>
+      </a>
+      {{ else }}
+      <div></div>
+      {{ end }}
+
+      {{ with .NextInSection }}
+      <a href="{{ .Permalink }}" class="link-subtle" style="display: block; text-align: right;">
+        <p class="small-caps" style="margin-bottom: var(--space-xs);">Next</p>
+        <p style="font-family: var(--font-display); font-size: var(--text-lg); color: var(--text-primary);">{{ .Title | truncate 50 }}</p>
+      </a>
+      {{ end }}
+    </nav>
+  </footer>
+</article>
+{{ end }}

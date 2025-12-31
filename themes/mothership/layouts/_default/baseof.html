@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}" data-phosphor="amber">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="crt-container">
+    <div class="crt-vignette"></div>
+
+    <div class="ship-interface">
+      {{/* Header */}}
+      <header class="ship-header">
+        <div class="ship-header__top">
+          <span class="ship-header__id">USCSS NOSTROMO // 180286</span>
+          <div class="ship-header__status">
+            <div class="status-light"></div>
+            <span>SYSTEM ACTIVE</span>
+          </div>
+        </div>
+        <div class="ship-header__main">
+          <a href="{{ .Site.BaseURL }}" class="ship-header__title">{{ .Site.Title }}</a>
+          <nav class="ship-nav">
+            {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="ship-nav__link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
+            {{ end }}
+          </nav>
+        </div>
+      </header>
+
+      {{/* Main Content */}}
+      <main class="ship-content">
+        <div class="ship-content__header">
+          <span>MU/TH/UR 6000 INTERFACE</span>
+          <span id="datetime"></span>
+        </div>
+        <div class="ship-content__body">
+          {{ block "main" . }}{{ end }}
+        </div>
+      </main>
+
+      {{/* Footer */}}
+      <footer class="ship-footer">
+        <div class="ship-footer__left">
+          <span>WEYLAND-YUTANI CORP</span>
+          <span>{{ now.Year }}</span>
+        </div>
+        <div class="ship-footer__right">
+          <div class="phosphor-toggle">
+            <button class="phosphor-btn phosphor-btn--amber active" data-phosphor="amber" title="Amber"></button>
+            <button class="phosphor-btn phosphor-btn--green" data-phosphor="green" title="Green"></button>
+            <button class="phosphor-btn phosphor-btn--blue" data-phosphor="blue" title="Blue"></button>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // Update datetime
+    function updateDateTime() {
+      const now = new Date();
+      const formatted = now.toISOString().slice(0, 19).replace('T', ' ');
+      document.getElementById('datetime').textContent = formatted;
+    }
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+
+    // Phosphor toggle
+    document.querySelectorAll('.phosphor-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const phosphor = btn.dataset.phosphor;
+        document.documentElement.setAttribute('data-phosphor', phosphor);
+        document.querySelectorAll('.phosphor-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        localStorage.setItem('phosphor', phosphor);
+      });
+    });
+
+    // Load saved phosphor
+    const savedPhosphor = localStorage.getItem('phosphor');
+    if (savedPhosphor) {
+      document.documentElement.setAttribute('data-phosphor', savedPhosphor);
+      document.querySelectorAll('.phosphor-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.phosphor === savedPhosphor);
+      });
+    }
+  </script>
+</body>
+</html>

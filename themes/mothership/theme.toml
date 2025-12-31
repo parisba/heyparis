@@ -1,0 +1,11 @@
+name = "Mothership"
+license = "MIT"
+licenselink = "https://github.com/yourusername/mothership/blob/master/LICENSE"
+description = "Retro sci-fi terminal theme inspired by Alien-era computer interfaces"
+homepage = "https://github.com/yourusername/mothership"
+tags = ["retro", "sci-fi", "terminal", "crt", "industrial"]
+features = ["responsive", "dark"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

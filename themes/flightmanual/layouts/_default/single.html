@@ -1,0 +1,122 @@
+{{ define "main" }}
+<!-- Document Info Header -->
+<div class="doc-info">
+  <div class="doc-info__row">
+    <span class="doc-info__label">DOCUMENT</span>
+    <span class="doc-info__value">{{ .Title }}</span>
+  </div>
+  <div class="doc-info__row">
+    <span class="doc-info__label">DATE</span>
+    <span class="doc-info__value">{{ .Date.Format "02 JANUARY 2006" }}</span>
+  </div>
+  <div class="doc-info__row">
+    <span class="doc-info__label">SECTION</span>
+    <span class="doc-info__value">{{ with .Section }}{{ . | upper }}{{ else }}GENERAL{{ end }}</span>
+  </div>
+  {{ with .Params.tags }}
+  <div class="doc-info__row">
+    <span class="doc-info__label">TAGS</span>
+    <span class="doc-info__value">{{ range $i, $tag := . }}{{ if $i }}, {{ end }}{{ $tag | upper }}{{ end }}</span>
+  </div>
+  {{ end }}
+</div>
+
+<section class="manual-section">
+  <div class="section-header">
+    <span class="section-header__number">1.0</span>
+    <span class="section-header__title">{{ .Title | upper }}</span>
+  </div>
+
+  {{ with .Params.summary }}
+  <div class="note-box note-box--info">
+    <span class="note-box__label">ABSTRACT</span>
+    <span class="note-box__text">{{ . }}</span>
+  </div>
+  {{ end }}
+
+  {{ if .Params.cover.image }}
+  <figure class="figure">
+    <img src="{{ .Params.cover.image }}" alt="{{ .Title }}" class="figure__img">
+    {{ with .Params.cover.caption }}
+    <figcaption class="figure__caption">Figure 1.1 — {{ . }}</figcaption>
+    {{ end }}
+  </figure>
+  {{ end }}
+
+  <!-- Table of Contents -->
+  {{ if .Params.toc | default .Site.Params.ShowToc }}
+  {{ if .TableOfContents }}
+  <div class="toc-box">
+    <div class="toc-box__header">
+      <span class="toc-box__icon">≡</span>
+      <span class="toc-box__title">TABLE OF CONTENTS</span>
+    </div>
+    <div class="toc-box__content">
+      {{ .TableOfContents }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  <article class="manual-content">
+    {{ .Content }}
+  </article>
+</section>
+
+<!-- Revision Block -->
+<div class="revision-block">
+  <div class="revision-block__header">DOCUMENT HISTORY</div>
+  <table class="revision-table">
+    <tr>
+      <th>REV</th>
+      <th>DATE</th>
+      <th>DESCRIPTION</th>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>{{ .Date.Format "02 JAN 2006" }}</td>
+      <td>Initial release</td>
+    </tr>
+    {{ with .Lastmod }}
+    {{ if ne $.Date . }}
+    <tr>
+      <td>B</td>
+      <td>{{ .Format "02 JAN 2006" }}</td>
+      <td>Content revision</td>
+    </tr>
+    {{ end }}
+    {{ end }}
+  </table>
+</div>
+
+<!-- Navigation -->
+<div class="nav-footer">
+  <div class="nav-footer__section">
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}" class="nav-footer__link">
+      <span class="nav-footer__arrow">◄</span>
+      <span class="nav-footer__text">
+        <span class="nav-footer__label">PREVIOUS</span>
+        <span class="nav-footer__title">{{ .Title | truncate 40 }}</span>
+      </span>
+    </a>
+    {{ end }}
+  </div>
+
+  <a href="{{ .Section | relURL }}" class="nav-footer__index">
+    <span>▲ SECTION INDEX</span>
+  </a>
+
+  <div class="nav-footer__section nav-footer__section--right">
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}" class="nav-footer__link">
+      <span class="nav-footer__text">
+        <span class="nav-footer__label">NEXT</span>
+        <span class="nav-footer__title">{{ .Title | truncate 40 }}</span>
+      </span>
+      <span class="nav-footer__arrow">►</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

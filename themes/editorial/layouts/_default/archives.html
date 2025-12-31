@@ -1,0 +1,44 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1 class="page-title">{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+    <div class="posts-grid">
+      {{ range $posts.ByDate.Reverse }}
+      {{ $post := . }}
+      <article class="post-card">
+        {{ with .Params.cover }}
+        {{ $imgPath := .image }}
+        {{ $isRelative := .relative }}
+        {{ if $imgPath }}
+        <a href="{{ $post.Permalink }}" class="post-card-image">
+          {{- if $isRelative -}}
+            {{- $img := $post.Resources.GetMatch $imgPath -}}
+            {{- if $img -}}
+              <img src="{{ $img.RelPermalink }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- end -}}
+          {{- else if hasPrefix $imgPath "/" -}}
+            <img src="{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+          {{- else -}}
+            <img src="/{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+          {{- end -}}
+        </a>
+        {{ end }}
+        {{ end }}
+        <div class="post-card-content">
+          <time class="post-card-date">{{ .Date.Format "January 2, 2006" }}</time>
+          <h3 class="post-card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ with .Summary }}<p class="post-card-excerpt">{{ . | plainify | truncate 120 }}</p>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

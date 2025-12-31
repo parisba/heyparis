@@ -1,14 +1,131 @@
 ---
 title: Writing
 id: books
-author: 
+author:
 weight: 2
 ShowToc: false
 cover:
   image: "books-and-events/images/cover-books.jpeg"
   alt: "Book collection"
   relative: false
+  hidden: true
 ---
+
+<section class="books-showcase">
+<div class="books-grid">
+
+<a href="https://www.oreilly.com/library/view/unity-development-cookbook/9781098113704/" class="book-item">
+<img src="/images/books/unity-cookbook-2.jpg" alt="Unity Development Cookbook"><span class="book-title">Unity Development Cookbook, 2nd Ed.</span>
+</a>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/practical-simulations-ml-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/practical-simulations-for/9781492089919/" class="book-item book-main">
+<img src="/images/books/practical-simulations-ml.jpg" alt="Practical Simulations for ML"><span class="book-title">Practical Simulations for Machine Learning</span>
+</a>
+</div>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/head-first-swift-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/head-first-swift/9781491923184/" class="book-item book-main">
+<img src="/images/books/head-first-swift.jpg" alt="Head First Swift"><span class="book-title">Head First Swift</span>
+</a>
+</div>
+
+<a href="https://www.oreilly.com/library/view/unity-game-development/9781491999141/" class="book-item">
+<img src="/images/books/unity-cookbook-1.jpg" alt="Unity Game Development Cookbook"><span class="book-title">Unity Game Development Cookbook</span>
+</a>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/practical-ai-swift-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/practical-artificial-intelligence/9781492044802/" class="book-item book-main">
+<img src="/images/books/practical-ai-swift.jpg" alt="Practical AI with Swift"><span class="book-title">Practical Artificial Intelligence with Swift</span>
+</a>
+</div>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/ios-swift-game-cookbook-3-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/ios-swift-game/9781491999073/" class="book-item book-main">
+<img src="/images/books/ios-swift-game-cookbook-3.jpg" alt="iOS Swift Game Dev Cookbook"><span class="book-title">iOS Swift Game Development Cookbook, 3rd Ed.</span>
+</a>
+</div>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/learning-swift-3-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/learning-swift-3rd/9781491987568/" class="book-item book-main">
+<img src="/images/books/learning-swift-3.jpg" alt="Learning Swift"><span class="book-title">Learning Swift, 3rd Ed.</span>
+</a>
+</div>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/mobile-game-unity-ja.jpg" alt="Japanese"></span>
+<span class="book-translation"><img src="/images/books/mobile-game-unity-pl.jpg" alt="Polish"></span>
+<span class="book-translation"><img src="/images/books/mobile-game-unity-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/mobile-game-development/9781491944738/" class="book-item book-main">
+<img src="/images/books/mobile-game-unity.jpg" alt="Mobile Game Dev with Unity"><span class="book-title">Mobile Game Development with Unity</span>
+</a>
+</div>
+
+<a href="https://www.oreilly.com/library/view/learning-swift-2nd/9781491967058/" class="book-item">
+<img src="/images/books/learning-swift-2.jpg" alt="Learning Swift"><span class="book-title">Learning Swift, 2nd Ed.</span>
+</a>
+
+<a href="https://www.oreilly.com/library/view/the-kerbal-players/9781491913475/" class="book-item">
+<img src="/images/books/kerbal-guide.jpg" alt="The Kerbal Player's Guide"><span class="book-title">The Kerbal Player's Guide</span>
+</a>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/learning-swift-1-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/learning-swift/9781491940730/" class="book-item book-main">
+<img src="/images/books/learning-swift-1.jpg" alt="Learning Swift"><span class="book-title">Learning Swift, 1st Ed.</span>
+</a>
+</div>
+
+<a href="https://www.oreilly.com/library/view/whats-new-in/9781492049050/" class="book-item">
+<img src="/images/books/whats-new-swift-3.jpg" alt="What's New in Swift 3"><span class="book-title">What's New in Swift 3</span>
+</a>
+
+<a href="https://www.oreilly.com/library/view/swift-development-for/9781491925263/" class="book-item">
+<img src="/images/books/swift-apple-watch.jpg" alt="Swift Dev for Apple Watch"><span class="book-title">Swift Development for the Apple Watch</span>
+</a>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/ios-swift-game-cookbook-2-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/ios-swift-game/9781491920794/" class="book-item book-main">
+<img src="/images/books/ios-swift-game-cookbook-2.jpg" alt="iOS Swift Game Dev Cookbook"><span class="book-title">iOS Swift Game Development Cookbook, 2nd Ed.</span>
+</a>
+</div>
+
+<a href="https://www.oreilly.com/library/view/swift-development-with/9781491909683/" class="book-item">
+<img src="/images/books/swift-cocoa.jpg" alt="Swift Development with Cocoa"><span class="book-title">Swift Development with Cocoa</span>
+</a>
+
+<a href="https://www.oreilly.com/library/view/ios-game-development/9781449369644/" class="book-item">
+<img src="/images/books/ios-game-cookbook-1.jpg" alt="iOS Game Development Cookbook"><span class="book-title">iOS Game Development Cookbook</span>
+</a>
+
+<a href="https://www.oreilly.com/library/view/learning-cocoa-with/9781491901380/" class="book-item">
+<img src="/images/books/learning-cocoa-4.jpg" alt="Learning Cocoa with Objective-C"><span class="book-title">Learning Cocoa with Objective-C, 4th Ed.</span>
+</a>
+
+<div class="book-stack">
+<span class="book-translation"><img src="/images/books/learning-cocoa-3-pt.jpg" alt="Portuguese"></span>
+<span class="book-translation"><img src="/images/books/learning-cocoa-3-zh.jpg" alt="Chinese"></span>
+<a href="https://www.oreilly.com/library/view/learning-cocoa-with/9781449355432/" class="book-item book-main">
+<img src="/images/books/learning-cocoa-3.jpg" alt="Learning Cocoa with Objective-C"><span class="book-title">Learning Cocoa with Objective-C, 3rd Ed.</span>
+</a>
+</div>
+
+<a href="https://www.wiley.com/en-us/Unity+Mobile+Game+Development+for+Dummies-p-9780470937662" class="book-item">
+<img src="/images/books/unity-dummies.jpg" alt="Unity Mobile Game Dev For Dummies"><span class="book-title">Unity Mobile Game Development For Dummies</span>
+</a>
+
+<a href="https://www.wiley.com/en-gb/iPhone+and+iPad+Game+Development+For+Dummies-p-9780470599105" class="book-item">
+<img src="/images/books/iphone-ipad-dummies.jpg" alt="iPhone & iPad Game Dev For Dummies"><span class="book-title">iPhone & iPad Game Development For Dummies</span>
+</a>
+
+</div>
+</section>
 
 # Fiction
 

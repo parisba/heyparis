@@ -1,0 +1,57 @@
+{{ define "main" }}
+{{/* Page header */}}
+<div class="page-header">
+  <p class="page-header__overline">DATABASE ACCESS</p>
+  <h1 class="page-header__title">{{ .Title }}</h1>
+  {{ with .Description }}
+  <p class="page-header__meta">{{ . }}</p>
+  {{ end }}
+</div>
+
+{{/* File listing */}}
+<div class="panel">
+  <div class="panel__header">
+    <span>DIRECTORY LISTING</span>
+    <span class="panel__header-id">{{ len .Pages }} RECORDS</span>
+  </div>
+  <div class="panel__body" style="padding: 0;">
+    {{ $paginator := .Paginate .Pages 20 }}
+
+    {{/* Header row */}}
+    <div class="data-entry" style="background: var(--crt-bg-light); color: var(--text-bright);">
+      <span class="data-entry__icon">TYP</span>
+      <span class="data-entry__title">FILENAME</span>
+      <span class="data-entry__meta">DATE</span>
+      <span class="data-entry__size">SIZE</span>
+    </div>
+
+    {{ range $paginator.Pages }}
+    <a href="{{ .Permalink }}" class="data-entry">
+      <span class="data-entry__icon">[F]</span>
+      <span class="data-entry__title">{{ .Title }}</span>
+      <span class="data-entry__meta">{{ .Date.Format "2006-01-02" }}</span>
+      <span class="data-entry__size">{{ .WordCount }}W</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+{{/* Pagination */}}
+{{ if gt $paginator.TotalPages 1 }}
+<nav class="pagination">
+  {{ if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}" class="pagination__link">&lt; PREV</a>
+  {{ end }}
+
+  <span class="pagination__current">PAGE {{ $paginator.PageNumber }} OF {{ $paginator.TotalPages }}</span>
+
+  {{ if $paginator.HasNext }}
+  <a href="{{ $paginator.Next.URL }}" class="pagination__link">NEXT &gt;</a>
+  {{ end }}
+</nav>
+{{ end }}
+
+<div class="ascii-border">
+================================================================================
+</div>
+{{ end }}

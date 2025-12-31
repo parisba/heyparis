@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="accent-bar"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ "/" | relURL }}" class="site-title">{{ .Site.Title }}</a>
+      <nav class="site-nav">
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>{{ with .Site.Params.copyright }}{{ . | markdownify }}{{ else }}&copy; {{ now.Year }} {{ .Site.Title }}{{ end }}</p>
+    </div>
+  </footer>
+</body>
+</html>

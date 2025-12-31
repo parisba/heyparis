@@ -1,0 +1,262 @@
+/* Mothership - Base Styles */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.4;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  min-height: 100vh;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* CRT Screen Container */
+.crt-container {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Scanlines */
+.crt-container::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 1px,
+    var(--crt-scanline) 1px,
+    var(--crt-scanline) 2px
+  );
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* Screen flicker */
+.crt-container::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  pointer-events: none;
+  z-index: 999;
+  animation: screen-flicker 0.1s infinite;
+  opacity: var(--flicker-intensity);
+}
+
+@keyframes screen-flicker {
+  0%, 100% { background: transparent; }
+  50% { background: rgba(255, 176, 0, 0.01); }
+}
+
+/* Vignette effect */
+.crt-vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 0%,
+    transparent 60%,
+    rgba(0, 0, 0, var(--vignette-intensity)) 100%
+  );
+  pointer-events: none;
+  z-index: 998;
+}
+
+/* Selection */
+::selection {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-bright);
+  text-shadow: var(--text-shadow-glow);
+}
+
+h1 {
+  font-size: var(--text-4xl);
+  margin-bottom: var(--space-lg);
+}
+
+h2 {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-md);
+}
+
+p {
+  margin-bottom: var(--space-md);
+  text-shadow: var(--glow-sm) var(--text-glow);
+}
+
+/* Links */
+a {
+  color: var(--text-bright);
+  text-decoration: none;
+  text-shadow: var(--text-shadow-glow);
+  transition: all var(--duration-fast);
+  border-bottom: var(--border-thin) solid transparent;
+}
+
+a:hover {
+  color: var(--text-bright);
+  border-bottom-color: var(--text-bright);
+  text-shadow: var(--glow-md) var(--text-glow);
+}
+
+/* Blinking cursor */
+.cursor {
+  display: inline-block;
+  width: 0.6em;
+  height: 1em;
+  background: var(--text-primary);
+  animation: cursor-blink 1s step-end infinite;
+  vertical-align: text-bottom;
+  box-shadow: var(--glow-sm) var(--text-glow);
+}
+
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Code/Pre */
+code, pre {
+  font-family: var(--font-mono);
+  background: var(--bg-panel);
+  border: var(--border-thin) solid var(--border-color);
+}
+
+code {
+  padding: 0.1em 0.3em;
+}
+
+pre {
+  padding: var(--space-md);
+  margin: var(--space-lg) 0;
+  overflow-x: auto;
+  border-left: var(--border-thick) solid var(--text-primary);
+}
+
+/* Blockquote - System message style */
+blockquote {
+  background: var(--bg-panel);
+  border: var(--border-medium) solid var(--border-color);
+  padding: var(--space-md);
+  margin: var(--space-lg) 0;
+  position: relative;
+}
+
+blockquote::before {
+  content: '> SYSTEM MESSAGE';
+  display: block;
+  color: var(--text-dim);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.15em;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+
+li {
+  margin-bottom: var(--space-xs);
+}
+
+li::marker {
+  color: var(--text-dim);
+}
+
+ul li::marker {
+  content: '> ';
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  height: var(--border-medium);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--border-color) 10%,
+    var(--border-color) 90%,
+    transparent
+  );
+  margin: var(--space-2xl) 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  filter: contrast(1.1) brightness(0.9);
+  border: var(--border-medium) solid var(--border-color);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-lg) 0;
+  font-size: var(--text-sm);
+}
+
+th, td {
+  padding: var(--space-sm);
+  border: var(--border-thin) solid var(--border-color);
+  text-align: left;
+}
+
+th {
+  background: var(--bg-panel);
+  color: var(--text-bright);
+}
+
+/* Focus */
+:focus-visible {
+  outline: var(--border-medium) solid var(--text-primary);
+  outline-offset: 2px;
+  box-shadow: var(--glow-md) var(--text-glow);
+}
+
+/* Utility */
+.text-dim { color: var(--text-dim); }
+.text-bright { color: var(--text-bright); text-shadow: var(--text-shadow-glow); }
+.glow { text-shadow: var(--glow-lg) var(--text-glow); }

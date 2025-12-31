@@ -1,0 +1,16 @@
+{{/* Terminal-style navigation */}}
+<div class="terminal-nav">
+  <div class="terminal-id">
+    <span class="terminal-id__badge">SYS</span>
+    <a href="{{ .Site.BaseURL }}" class="terminal-id__name">{{ .Site.Title }}</a>
+  </div>
+
+  <div class="terminal-nav__prompt">{{ .Site.Params.author | default "guest" }}@mainframe</div>
+
+  <nav class="terminal-nav__links">
+    <a href="/" class="terminal-nav__link{{ if .IsHome }} active{{ end }}">[HOME]</a>
+    {{ range .Site.Menus.main }}
+    <a href="{{ .URL }}" class="terminal-nav__link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">[{{ .Name | upper }}]</a>
+    {{ end }}
+  </nav>
+</div>

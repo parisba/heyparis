@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+  {{/* Resume-specific styles */}}
+  <style>
+    :root {
+      --resume-bg: #FFFFFF;
+      --resume-text: #1a1a1a;
+      --resume-accent: var(--lcars-orange);
+      --resume-muted: #666666;
+      --resume-border: #e0e0e0;
+    }
+
+    [data-theme="dark"] {
+      --resume-bg: #111111;
+      --resume-text: #f0f0f0;
+      --resume-muted: #999999;
+      --resume-border: #333333;
+    }
+
+    body.resume-body {
+      background: var(--resume-bg);
+      color: var(--resume-text);
+      font-family: var(--font-primary);
+      line-height: 1.6;
+    }
+
+    .resume-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: var(--lcars-orange-dark);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    .resume-nav a,
+    .resume-nav button {
+      color: #000;
+      text-decoration: none;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 0.5rem 1rem;
+      background: var(--lcars-tan);
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    .resume-nav a:hover,
+    .resume-nav button:hover {
+      background: var(--lcars-orange);
+    }
+
+    .resume-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 3rem;
+    }
+
+    .resume-hero {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 4px solid var(--resume-accent);
+    }
+
+    .resume-hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .resume-hero .subtitle {
+      font-size: 1.125rem;
+      color: var(--resume-muted);
+    }
+
+    .resume-section {
+      margin-bottom: 2.5rem;
+    }
+
+    .resume-section-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      gap: 1rem;
+    }
+
+    .resume-section-header::before {
+      content: '';
+      width: 8px;
+      height: 24px;
+      background: var(--resume-accent);
+      border-radius: 4px;
+    }
+
+    .resume-section-header h2 {
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 0;
+    }
+
+    .resume-entry {
+      margin-bottom: 1.5rem;
+      padding-left: 1rem;
+      border-left: 2px solid var(--resume-border);
+    }
+
+    .resume-entry-title {
+      font-weight: 600;
+      font-size: 1.125rem;
+    }
+
+    .resume-entry-org {
+      color: var(--lcars-tan-dark);
+    }
+
+    .resume-entry-date {
+      font-family: var(--font-mono);
+      font-size: 0.875rem;
+      color: var(--resume-muted);
+    }
+
+    .resume-entry-description {
+      margin-top: 0.5rem;
+      color: var(--resume-text);
+    }
+
+    @media print {
+      .resume-nav { display: none; }
+      .resume-container { padding: 0; }
+      body.resume-body { background: white; color: black; }
+    }
+  </style>
+</head>
+<body class="resume-body">
+  <nav class="resume-nav">
+    <a href="{{ .Site.BaseURL }}">&larr; Back to Site</a>
+    <button onclick="window.print()">Print / Save PDF</button>
+  </nav>
+
+  <div class="resume-container">
+    {{ .Content }}
+  </div>
+
+  <script>
+    const theme = localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  </script>
+</body>
+</html>

@@ -1,0 +1,460 @@
+/* Star Trek-style animations */
+
+/* Page load - LCARS "power on" sweep */
+@keyframes lcars-sweep {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes lcars-fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Header bar sweep animation */
+.lcars-topbar::before {
+  animation: lcars-sweep 0.4s ease-out forwards;
+}
+
+.lcars-topbar::after {
+  animation: lcars-sweep 0.5s ease-out 0.1s forwards;
+  clip-path: inset(0 100% 0 0);
+}
+
+/* Content fade in */
+.lcars-content {
+  animation: lcars-fade-up 0.5s ease-out 0.2s forwards;
+  opacity: 0;
+}
+
+/* Footer bar */
+.lcars-footer::before {
+  animation: lcars-sweep 0.3s ease-out 0.3s forwards;
+  clip-path: inset(0 100% 0 0);
+}
+
+/* Nav pills stagger in */
+.lcars-pill {
+  animation: lcars-fade-up 0.3s ease-out backwards;
+}
+
+.lcars-nav .lcars-pill:nth-child(1) { animation-delay: 0.15s; }
+.lcars-nav .lcars-pill:nth-child(2) { animation-delay: 0.2s; }
+.lcars-nav .lcars-pill:nth-child(3) { animation-delay: 0.25s; }
+.lcars-nav .lcars-pill:nth-child(4) { animation-delay: 0.3s; }
+.lcars-nav .lcars-pill:nth-child(5) { animation-delay: 0.35s; }
+
+/* LCARS data blink - subtle "processing" effect */
+@keyframes data-blink {
+  0%, 90%, 100% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 0.6;
+  }
+}
+
+.stardate {
+  animation: data-blink 4s ease-in-out infinite;
+}
+
+/* Post cards stagger in */
+.post-card {
+  animation: card-materialize 0.5s ease-out backwards;
+}
+
+@keyframes card-materialize {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.post-card:nth-child(1) { animation-delay: 0.3s; }
+.post-card:nth-child(2) { animation-delay: 0.4s; }
+.post-card:nth-child(3) { animation-delay: 0.5s; }
+.post-card:nth-child(4) { animation-delay: 0.6s; }
+.post-card:nth-child(5) { animation-delay: 0.7s; }
+.post-card:nth-child(6) { animation-delay: 0.8s; }
+
+/* Post entries stagger */
+.post-entry {
+  animation: lcars-fade-up 0.4s ease-out backwards;
+}
+
+.post-entry:nth-child(1) { animation-delay: 0.3s; }
+.post-entry:nth-child(2) { animation-delay: 0.35s; }
+.post-entry:nth-child(3) { animation-delay: 0.4s; }
+.post-entry:nth-child(4) { animation-delay: 0.45s; }
+.post-entry:nth-child(5) { animation-delay: 0.5s; }
+.post-entry:nth-child(n+6) { animation-delay: 0.55s; }
+
+/* Pill hover - quick flash effect */
+@keyframes pill-flash {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.3);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+
+.lcars-pill:hover {
+  animation: pill-flash 0.2s ease-out;
+}
+
+/* Data block pulse on hover */
+@keyframes data-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255, 153, 0, 0);
+  }
+  50% {
+    box-shadow: 0 0 8px 2px rgba(255, 153, 0, 0.4);
+  }
+}
+
+.lcars-data-block:hover {
+  animation: data-pulse 0.6s ease-out;
+}
+
+/* Theme toggle spin */
+.theme-toggle:active {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-out;
+}
+
+/* Social icon hover bounce */
+@keyframes icon-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.social-icon:hover {
+  animation: icon-bounce 0.3s ease-out;
+}
+
+/* Tag scan effect on hover */
+@keyframes tag-scan {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.tag {
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    90deg,
+    var(--bg-tertiary) 0%,
+    var(--bg-tertiary) 40%,
+    rgba(255, 153, 0, 0.3) 50%,
+    var(--bg-tertiary) 60%,
+    var(--bg-tertiary) 100%
+  );
+}
+
+.tag:hover {
+  animation: tag-scan 0.6s ease-out;
+  background-image: linear-gradient(
+    90deg,
+    var(--lcars-orange) 0%,
+    var(--lcars-orange) 40%,
+    rgba(255, 255, 255, 0.4) 50%,
+    var(--lcars-orange) 60%,
+    var(--lcars-orange) 100%
+  );
+}
+
+/* Section header bar draw */
+@keyframes draw-line {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+}
+
+.section-header__bar {
+  animation: draw-line 0.6s ease-out 0.4s forwards;
+  transform: scaleX(0);
+}
+
+/* Cover image fade */
+.cover-image {
+  animation: lcars-fade-up 0.6s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+/* Cursor blink for code/mono elements */
+@keyframes cursor-blink {
+  0%, 49% {
+    border-right: 2px solid var(--lcars-orange);
+  }
+  50%, 100% {
+    border-right: 2px solid transparent;
+  }
+}
+
+/* Optional: Add blinking cursor effect to active elements */
+.post-entry__meta::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  animation: cursor-blink 1s step-end infinite;
+  margin-left: 2px;
+}
+
+/* Link hover sweep */
+.post-content a {
+  background: linear-gradient(
+    90deg,
+    var(--lcars-orange) 0%,
+    var(--lcars-orange) 100%
+  );
+  background-size: 0% 2px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease-out;
+}
+
+.post-content a:hover {
+  background-size: 100% 2px;
+}
+
+/* Sidebar scan line effect */
+@keyframes sidebar-scan {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 100vh; }
+}
+
+.lcars-wrapper::before {
+  background-image:
+    linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(255, 255, 255, 0.1) 50%,
+      transparent 100%
+    ),
+    linear-gradient(
+      to bottom,
+      var(--lcars-orange) 0%,
+      var(--lcars-orange) 30%,
+      transparent 30%,
+      transparent 32%,
+      var(--lcars-tan) 32%,
+      var(--lcars-tan) 50%,
+      transparent 50%,
+      transparent 52%,
+      var(--lcars-purple) 52%,
+      var(--lcars-purple) 70%,
+      transparent 70%,
+      transparent 72%,
+      var(--lcars-lavender) 72%,
+      var(--lcars-lavender) 85%,
+      transparent 85%
+    );
+  background-size: 100% 50px, 100% 100%;
+  animation: sidebar-scan 8s linear infinite;
+}
+
+/* Elbow connector sweep */
+.lcars-wrapper::after {
+  animation: lcars-sweep 0.5s ease-out 0.15s forwards;
+  clip-path: inset(0 100% 0 0);
+}
+
+/* Starfield twinkle effect for individual stars */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* Status panel slide in */
+.lcars-status-panel {
+  animation: lcars-fade-up 0.4s ease-out 0.3s backwards;
+}
+
+/* Computer panel sweep in */
+.lcars-computer-panel {
+  animation: lcars-sweep 0.6s ease-out 0.2s forwards;
+  clip-path: inset(0 100% 0 0);
+}
+
+/* File panel fade */
+.lcars-file-panel {
+  animation: lcars-fade-up 0.4s ease-out 0.15s backwards;
+}
+
+/* Section bar animations */
+.lcars-section-bar {
+  animation: lcars-fade-up 0.4s ease-out 0.4s backwards;
+}
+
+.section-bar__elbow {
+  animation: lcars-sweep 0.3s ease-out 0.5s forwards;
+  clip-path: inset(0 100% 0 0);
+}
+
+.section-bar__line {
+  animation: draw-line 0.5s ease-out 0.6s forwards;
+  transform: scaleX(0);
+}
+
+.mini-block {
+  animation: lcars-fade-up 0.2s ease-out backwards;
+}
+
+.mini-block:nth-child(1) { animation-delay: 0.7s; }
+.mini-block:nth-child(2) { animation-delay: 0.75s; }
+.mini-block:nth-child(3) { animation-delay: 0.8s; }
+
+/* Access indicator pulse */
+.access-indicator {
+  animation: pulse-glow 2s ease-in-out infinite, lcars-fade-up 0.3s ease-out 0.3s backwards;
+}
+
+/* Viewscreen corners fade in */
+.lcars-main::before {
+  animation: lcars-fade-up 0.5s ease-out 0.4s backwards;
+}
+
+.lcars-main::after {
+  animation: lcars-fade-up 0.5s ease-out 0.5s backwards;
+}
+
+/* Warp flash transition - engage! */
+.warp-flash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.8) 45%,
+    rgba(153, 153, 255, 0.9) 50%,
+    rgba(255, 255, 255, 0.8) 55%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+}
+
+.warp-flash.active {
+  animation: warp-engage 0.25s ease-out forwards;
+}
+
+@keyframes warp-engage {
+  0% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+}
+
+/* Console beep indicator - header status lights */
+.lcars-topbar .console-lights {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  margin-right: var(--space-md);
+  z-index: 1;
+}
+
+.console-light {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--lcars-tan);
+}
+
+.console-light--active {
+  background: #00ff88;
+  box-shadow: 0 0 4px #00ff88;
+  animation: light-blink 2s ease-in-out infinite;
+}
+
+.console-light--warning {
+  background: var(--lcars-orange);
+  box-shadow: 0 0 4px var(--lcars-orange);
+  animation: light-blink 1.5s ease-in-out infinite 0.5s;
+}
+
+.console-light--idle {
+  background: var(--lcars-blue);
+  box-shadow: 0 0 4px var(--lcars-blue);
+  animation: light-blink 3s ease-in-out infinite 1s;
+}
+
+@keyframes light-blink {
+  0%, 70%, 100% { opacity: 1; }
+  75%, 95% { opacity: 0.3; }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .lcars-content,
+  .post-entry,
+  .lcars-pill,
+  .cover-image,
+  .lcars-status-panel {
+    opacity: 1;
+  }
+
+  .lcars-topbar::before,
+  .lcars-topbar::after,
+  .lcars-footer::before,
+  .lcars-wrapper::before,
+  .lcars-wrapper::after,
+  .section-header__bar {
+    clip-path: none;
+    transform: none;
+  }
+
+  .starfield,
+  .starfield::before,
+  .starfield::after,
+  .starfield .stars-layer {
+    animation: none;
+  }
+}

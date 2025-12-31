@@ -1,0 +1,51 @@
+{{ define "main" }}
+<div class="list-page">
+  {{/* LCARS info bar */}}
+  <div class="lcars-info-bar">
+    <span class="info-bar__label">DATABASE</span>
+    <span class="info-bar__divider">◆</span>
+    <span class="info-bar__value">{{ len .Pages }} RECORDS</span>
+  </div>
+
+  {{/* List header */}}
+  <header class="list-header">
+    <h1 class="list-header__title">{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="list-header__description">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{/* Content (if any) */}}
+  {{ if .Content }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  {{/* Posts list */}}
+  {{ if .Pages }}
+  <div class="posts-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <a href="{{ .Permalink }}" class="post-entry">
+      <h3 class="post-entry__title">{{ .Title }}</h3>
+      <div class="post-entry__meta">
+        {{ if not .Date.IsZero }}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+        {{ end }}
+        {{ with .Params.tags }}
+        <span class="post-entry__separator">//</span>
+        <span>{{ index . 0 | upper }}</span>
+        {{ end }}
+      </div>
+      {{ with .Summary }}
+      <p class="post-entry__excerpt">{{ . | plainify | truncate 150 }}</p>
+      {{ end }}
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Pagination */}}
+  {{ template "_internal/pagination.html" . }}
+</div>
+{{ end }}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+  {{/* Fiction-specific styles */}}
+  <style>
+    :root {
+      --fiction-bg: #FAF8F5;
+      --fiction-text: #2D2A26;
+      --fiction-accent: #8B2635;
+      --fiction-muted: #6B6560;
+    }
+
+    [data-theme="dark"] {
+      --fiction-bg: #1A1816;
+      --fiction-text: #E8E4DF;
+      --fiction-accent: #D4A55C;
+      --fiction-muted: #8B8580;
+    }
+
+    body.fiction-body {
+      background: var(--fiction-bg);
+      color: var(--fiction-text);
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.8;
+    }
+
+    .fiction-nav {
+      background: var(--lcars-orange-dark);
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .fiction-nav a {
+      color: #000;
+      text-decoration: none;
+      font-family: var(--font-primary);
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 0.5rem 1rem;
+      background: var(--lcars-tan);
+      border-radius: 50px;
+    }
+
+    .fiction-nav a:hover {
+      background: var(--lcars-orange);
+    }
+
+    .fiction-container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    .fiction-title {
+      font-size: 2.5rem;
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 2rem;
+      letter-spacing: 0.02em;
+    }
+
+    .fiction-meta {
+      text-align: center;
+      font-size: 0.875rem;
+      color: var(--fiction-muted);
+      margin-bottom: 3rem;
+      font-style: italic;
+    }
+
+    .fiction-content {
+      font-size: 1.125rem;
+      text-align: justify;
+      hyphens: auto;
+    }
+
+    .fiction-content p:first-of-type::first-letter {
+      float: left;
+      font-size: 3.5rem;
+      line-height: 1;
+      padding-right: 0.5rem;
+      padding-top: 0.25rem;
+      color: var(--fiction-accent);
+      font-weight: 400;
+    }
+
+    .fiction-content p {
+      margin-bottom: 1.5em;
+      text-indent: 1.5em;
+    }
+
+    .fiction-content p:first-of-type {
+      text-indent: 0;
+    }
+
+    .fiction-content hr {
+      border: none;
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .fiction-content hr::before {
+      content: "* * *";
+      color: var(--fiction-muted);
+      letter-spacing: 0.5em;
+    }
+
+    .fiction-content blockquote {
+      font-style: italic;
+      border-left: 3px solid var(--fiction-accent);
+      padding-left: 1.5rem;
+      margin: 1.5rem 0;
+      color: var(--fiction-muted);
+    }
+
+    .fiction-footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--fiction-muted);
+      text-align: center;
+    }
+
+    @media print {
+      .fiction-nav { display: none; }
+      .fiction-container { padding: 0; }
+    }
+  </style>
+</head>
+<body class="fiction-body">
+  <nav class="fiction-nav">
+    <a href="/books-and-events/books#fiction">&larr; Back to Fiction</a>
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+  </nav>
+
+  <article class="fiction-container">
+    <h1 class="fiction-title">{{ .Title }}</h1>
+
+    <div class="fiction-meta">
+      {{ with .Params.author }}by {{ . }}{{ end }}
+      {{ if .Params.tags }}
+      &middot;
+      {{ range first 1 .Params.tags }}{{ . }}{{ end }}
+      {{ end }}
+    </div>
+
+    <div class="fiction-content">
+      {{ .Content }}
+    </div>
+
+    <footer class="fiction-footer">
+      <a href="/books-and-events/books#fiction" class="lcars-pill">&larr; More Fiction</a>
+    </footer>
+  </article>
+
+  <script>
+    // Inherit theme from main site
+    const theme = localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  </script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+{{ define "main" }}
+{{/* LCARS Computer Header Panel */}}
+<div class="lcars-computer-panel">
+  <div class="computer-panel__header">
+    <span class="panel-label">PERSONAL DATABASE</span>
+    <span class="panel-divider">◆</span>
+    <span class="panel-sublabel">FEDERATION PERSONNEL FILE</span>
+  </div>
+  <div class="computer-panel__readouts">
+    <div class="readout-block">
+      <span class="readout-block__label">STATUS</span>
+      <span class="readout-block__value readout-block__value--active">● ACTIVE</span>
+    </div>
+    <div class="readout-block">
+      <span class="readout-block__label">CLEARANCE</span>
+      <span class="readout-block__value">ALPHA-7</span>
+    </div>
+    <div class="readout-block">
+      <span class="readout-block__label">SECTOR</span>
+      <span class="readout-block__value">001</span>
+    </div>
+    <div class="readout-block">
+      <span class="readout-block__label">COMM LINK</span>
+      <span class="readout-block__value signal-strength">████████░░</span>
+    </div>
+  </div>
+</div>
+
+<article class="home-hero">
+  {{/* Hero section */}}
+  <h1 class="home-hero__name">{{ .Site.Params.homeInfoParams.Title | default .Site.Title }}</h1>
+
+  {{/* Tagline pills */}}
+  <div class="home-hero__tagline">
+    <span class="lcars-data-block">Author</span>
+    <span class="lcars-data-block lcars-data-block--tan">Game Dev</span>
+    <span class="lcars-data-block lcars-data-block--purple">Speaker</span>
+    <span class="lcars-data-block lcars-data-block--blue">Researcher</span>
+  </div>
+
+  {{/* Intro content */}}
+  {{ with .Site.Params.homeInfoParams.Content }}
+  <div class="home-hero__intro">
+    {{ . | safeHTML }}
+  </div>
+  {{ end }}
+
+  {{/* Social icons */}}
+  {{ with .Site.Params.socialIcons }}
+  <div class="social-icons" style="margin-top: var(--space-xl);">
+    {{ range . }}
+    <a href="{{ .url }}" class="social-icon" title="{{ .name }}" target="_blank" rel="noopener noreferrer">
+      {{ partial "social-icon.html" . }}
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</article>
+
+{{/* Recent Posts Section */}}
+<section class="recent-posts">
+  <div class="lcars-section-bar">
+    <div class="section-bar__elbow"></div>
+    <div class="section-bar__label">SUBSPACE TRANSMISSIONS</div>
+    <div class="section-bar__line"></div>
+    <div class="section-bar__blocks">
+      <span class="mini-block"></span>
+      <span class="mini-block"></span>
+      <span class="mini-block"></span>
+    </div>
+  </div>
+
+  <div class="posts-grid">
+    {{ $pages := where .Site.RegularPages "Section" "posts" }}
+    {{ range first 6 $pages.ByDate.Reverse }}
+    {{ $page := . }}
+    <a href="{{ .Permalink }}" class="post-card">
+      {{/* LCARS Image Frame */}}
+      <div class="post-card__image-frame">
+        <div class="image-frame__top-bar">
+          <span class="frame-block frame-block--orange"></span>
+          <span class="frame-block frame-block--tan"></span>
+          <span class="frame-id">{{ .Date.Format "0102" }}</span>
+        </div>
+        {{/* Get cover image - handles page bundles, absolute paths, and resources */}}
+        {{ $coverImage := .Params.cover.image }}
+        {{ $imageURL := "" }}
+        {{ if $coverImage }}
+          {{ if hasPrefix $coverImage "/" }}
+            {{ $imageURL = $coverImage }}
+          {{ else }}
+            {{ $resource := $page.Resources.GetMatch $coverImage }}
+            {{ if $resource }}
+              {{ $imageURL = $resource.RelPermalink }}
+            {{ else }}
+              {{ $imageURL = printf "%s%s" $page.RelPermalink $coverImage }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if $imageURL }}
+        <div class="post-card__image" style="background-image: url('{{ $imageURL }}');"></div>
+        {{ else }}
+        <div class="post-card__image post-card__image--placeholder">
+          <span class="placeholder-text">NO VISUAL DATA</span>
+        </div>
+        {{ end }}
+        <div class="image-frame__scan-line"></div>
+      </div>
+
+      {{/* Card Content */}}
+      <div class="post-card__content">
+        <div class="post-card__type">
+          {{ with .Params.tags }}{{ index . 0 | upper }}{{ else }}LOG{{ end }}
+        </div>
+        <h3 class="post-card__title">{{ .Title }}</h3>
+        <div class="post-card__meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">SD {{ .Date.Format "2006.01.02" }}</time>
+        </div>
+        {{ with .Summary }}
+        <p class="post-card__excerpt">{{ . | plainify | truncate 100 }}</p>
+        {{ end }}
+      </div>
+
+      {{/* LCARS Bottom Accent */}}
+      <div class="post-card__accent">
+        <span class="accent-dot"></span>
+        <span class="accent-line"></span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+
+  <div class="posts-cta">
+    <div class="cta-line"></div>
+    <a href="/all-posts" class="lcars-pill lcars-pill--cta">
+      <span class="cta-icon">▶</span>
+      Access Full Archive
+    </a>
+    <div class="cta-line"></div>
+  </div>
+</section>
+{{ end }}

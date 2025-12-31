@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="webpage">
+    {{/* Marquee welcome */}}
+    <div class="marquee" style="background: #000; padding: var(--space-xs); margin-bottom: var(--space-md); border: 2px ridge var(--win-mid);">
+      <span class="marquee__content" style="color: var(--cyber-cyan);">
+        ~*~*~ Welcome to my corner of the World Wide Web! ~*~*~ You are visitor #{{ now.Unix | mod 99999 | add 10000 }} ~*~*~ Last updated: {{ now.Format "January 2, 2006" }} ~*~*~
+      </span>
+    </div>
+
+    {{/* Header */}}
+    <header class="site-header">
+      <p class="site-header__welcome">~*~ Welcome to ~*~</p>
+      <h1 class="site-header__title sparkle">{{ .Site.Title }}</h1>
+      <p class="site-header__subtitle">{{ .Site.Params.description | truncate 80 }}</p>
+    </header>
+
+    {{/* Navigation */}}
+    <nav class="site-nav">
+      <a href="/" class="site-nav__link{{ if .IsHome }} active{{ end }}">Home</a>
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}" class="site-nav__link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Name }}</a>
+      {{ end }}
+      <a href="mailto:{{ .Site.Params.email | default "webmaster@example.com" }}" class="site-nav__link">Email Me!</a>
+    </nav>
+
+    {{/* Under Construction Banner - Optional */}}
+    {{/*
+    <div class="under-construction">
+      <span class="under-construction__text">UNDER CONSTRUCTION - CHECK BACK SOON!</span>
+    </div>
+    */}}
+
+    {{/* Main Content */}}
+    <main class="content-box">
+      <div class="main-content">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+
+    {{/* Guestbook CTA */}}
+    <div class="guestbook-cta">
+      <h3 class="guestbook-cta__title">Thanks for visiting! <span class="blink">Sign my guestbook!</span></h3>
+      <p style="color: var(--cyber-cyan); font-size: var(--text-sm);">Just kidding, guestbooks are so 1997. But leave a comment maybe?</p>
+    </div>
+
+    {{/* Footer */}}
+    <footer class="site-footer">
+      {{/* Badges */}}
+      <div class="site-footer__badges">
+        <span class="badge badge--text">Made with Hugo</span>
+        <span class="badge badge--text">HTML 5.0</span>
+        <span class="badge badge--text">CSS 3</span>
+        <span class="badge badge--text">No Flash!</span>
+        <span class="badge badge--text">Y2K OK</span>
+      </div>
+
+      {{/* Hit Counter */}}
+      <div style="margin-bottom: var(--space-lg);">
+        <div class="hit-counter">
+          <span class="hit-counter__label">You are visitor:</span>
+          <div class="hit-counter__digits">
+            {{ $count := now.Unix | mod 99999 | add 10000 | string }}
+            {{ range (split $count "") }}
+            <span class="hit-counter__digit">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      {{/* Webring */}}
+      <div class="webring">
+        <p class="webring__title">~ Part of the Personal Websites Webring ~</p>
+        <nav class="webring__nav">
+          <a href="#" class="webring__link">&lt;&lt; Previous</a>
+          <span style="color: var(--hot-pink);">|</span>
+          <a href="#" class="webring__link">Random</a>
+          <span style="color: var(--hot-pink);">|</span>
+          <a href="#" class="webring__link">Next &gt;&gt;</a>
+        </nav>
+      </div>
+
+      <hr class="fancy">
+
+      <p class="site-footer__copyright">
+        {{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}&copy; {{ now.Year }} {{ .Site.Title }}{{ end }}
+      </p>
+
+      <p style="font-size: var(--text-xs); color: var(--lime-green); margin-top: var(--space-md);">
+        Best viewed with ANY browser! The web is for everyone!
+      </p>
+
+      <a href="mailto:{{ .Site.Params.email | default "webmaster@example.com" }}" class="site-footer__email">
+        <span class="email-icon">&#x2709;</span> Email the Webmaster <span class="email-icon">&#x2709;</span>
+      </a>
+    </footer>
+  </div>
+</body>
+</html>

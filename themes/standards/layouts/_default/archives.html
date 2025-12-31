@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="page">
+  <header class="page__header">
+    <h1 class="page__title">{{ .Title }}</h1>
+    <div class="page__bar"></div>
+    {{ with .Content }}<div class="page__intro">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+  <div class="section-head">
+    <span class="section-head__number">{{ len $posts }}</span>
+    <h2 class="section-head__title">Posts</h2>
+  </div>
+
+  <ul class="post-list">
+    {{ range $posts.ByDate.Reverse }}
+    <li class="post-list__item">
+      <a href="{{ .Permalink }}" class="post-list__link">
+        <span class="post-list__title">{{ .Title }}</span>
+        <span class="post-list__date">{{ .Date.Format "Jan 2006" }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

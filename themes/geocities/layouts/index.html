@@ -1,0 +1,107 @@
+{{ define "main" }}
+{{/* Welcome section */}}
+<div style="text-align: center; margin-bottom: var(--space-xl);">
+  <h2 class="rainbow">~*~ WELCOME TO MY HOMEPAGE ~*~</h2>
+  <p class="divider-stars">* * * * * * * * * *</p>
+</div>
+
+{{/* About section */}}
+<div class="info-box">
+  <span class="info-box__icon">&#x1F44B;</span>
+  <div class="info-box__content">
+    <p class="info-box__title">{{ .Site.Params.homeInfoParams.Title | default "About Me" }}</p>
+    <div style="font-size: var(--text-sm);">
+      {{ with .Site.Params.homeInfoParams.Content }}{{ . | safeHTML }}{{ else }}Welcome to my little corner of the Internet!{{ end }}
+    </div>
+  </div>
+</div>
+
+<hr>
+
+{{/* Recent Posts */}}
+<h2>
+  <span class="new-burst">NEW!</span>
+  Recent Updates
+</h2>
+
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $recent := first 5 $posts }}
+
+<ul class="post-list">
+  {{ range $index, $post := $recent }}
+  <li class="post-list__item">
+    <span>
+      {{ if eq $index 0 }}<span class="post-list__new">NEW!</span>{{ end }}
+      <a href="{{ .Permalink }}" class="post-list__link">{{ .Title }}</a>
+    </span>
+    <span class="post-list__date">{{ .Date.Format "01/02/06" }}</span>
+  </li>
+  {{ end }}
+</ul>
+
+<p style="text-align: center;">
+  <a href="/posts/" class="btn-3d btn-3d--big">Click here for ALL my posts!</a>
+</p>
+
+<p class="divider-tilde">~*~*~*~*~*~*~*~*~*~*~</p>
+
+{{/* Posts with images */}}
+{{ $featured := first 3 (where .Site.RegularPages "Params.cover.image" "!=" nil) }}
+{{ if $featured }}
+<h2>Featured Posts <span class="blink" style="color: var(--red);">HOT!</span></h2>
+
+<div class="post-grid">
+  {{ range $featured }}
+  {{ $page := . }}
+  <article class="post-card">
+    {{ $coverImage := .Params.cover.image }}
+    {{ if $coverImage }}
+    {{ $imageURL := "" }}
+    {{ if hasPrefix $coverImage "/" }}
+      {{ $imageURL = $coverImage }}
+    {{ else }}
+      {{ $resource := $page.Resources.GetMatch $coverImage }}
+      {{ if $resource }}
+        {{ $imageURL = $resource.RelPermalink }}
+      {{ else }}
+        {{ $imageURL = printf "%s%s" $page.RelPermalink $coverImage }}
+      {{ end }}
+    {{ end }}
+    <div class="post-card__image">
+      <img src="{{ $imageURL }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+    <div class="post-card__body">
+      <p class="post-card__date">{{ .Date.Format "January 02, 2006" }}</p>
+      <h3 class="post-card__title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        {{ if (time .Date).After (now.AddDate 0 0 -7) }}
+        <span class="post-card__new">NEW!</span>
+        {{ end }}
+      </h3>
+    </div>
+  </article>
+  {{ end }}
+</div>
+{{ end }}
+
+<hr>
+
+{{/* Cool Links section */}}
+<h2>Cool Links</h2>
+<div class="sidebar">
+  <p class="sidebar__title">~*~ My Favorite Sites ~*~</p>
+  <ul>
+    {{ range .Site.Params.socialIcons }}
+    <li><a href="{{ .url }}" target="_blank">{{ .name }}</a></li>
+    {{ end }}
+  </ul>
+</div>
+
+<p class="divider-stars">* * * * * * * * * *</p>
+
+<p style="text-align: center; font-size: var(--text-sm); color: var(--cyber-cyan);">
+  This page was created with love (and probably too much coffee).<br>
+  Thanks for stopping by my homepage! <span class="rainbow">Come back soon!</span>
+</p>
+{{ end }}

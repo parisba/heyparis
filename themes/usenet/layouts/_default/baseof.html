@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}" data-theme="dark">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="reader">
+    {{/* ASCII art header */}}
+    <pre class="ascii-header">
+ _   _ ___  ___ _ __   ___| |_
+| | | / __|/ _ \ '_ \ / _ \ __|
+| |_| \__ \  __/ | | |  __/ |_
+ \__,_|___/\___|_| |_|\___|\__|  news reader v0.9.4
+    </pre>
+
+    {{/* Status bar */}}
+    <div class="status-bar">
+      <div class="status-bar__left">
+        <span class="status-bar__group">{{ .Site.Title }}</span>
+      </div>
+      <div class="status-bar__right">
+        <button class="theme-toggle" id="theme-toggle">[ theme ]</button>
+      </div>
+    </div>
+
+    {{/* Navigation */}}
+    <nav class="nav-bar">
+      <a href="/" {{ if .IsHome }}class="active"{{ end }}>[index]</a>
+      {{ range .Site.Menus.main }}
+      <a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>[{{ .Name | lower }}]</a>
+      {{ end }}
+      <a href="/posts/">[all posts]</a>
+    </nav>
+
+    {{/* Main Content */}}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    {{/* Footer */}}
+    <footer class="reader-footer">
+      <p>{{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}{{ now.Year }} {{ .Site.Title }}{{ end }}</p>
+      <p>-- <br>
+      End of messages. Press 'q' to quit.</p>
+    </footer>
+  </div>
+
+  <script>
+    // Theme toggle
+    const toggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    const stored = localStorage.getItem('usenet-theme');
+
+    if (stored) {
+      html.setAttribute('data-theme', stored);
+    }
+
+    toggle.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('usenet-theme', next);
+    });
+  </script>
+</body>
+</html>

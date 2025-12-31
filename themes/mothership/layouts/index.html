@@ -1,0 +1,97 @@
+{{ define "main" }}
+{{/* Boot sequence */}}
+<div class="boot-text">
+  <div class="boot-text__line boot-text__line--ok">INTERFACE 2037 READY FOR INQUIRY</div>
+  <div class="boot-text__line boot-text__line--ok">MEMORY: 64K OK</div>
+  <div class="boot-text__line boot-text__line--ok">PERSONNEL FILE LOADED</div>
+  <div class="boot-text__line boot-text__line--ok">DATA UPLINK ACTIVE</div>
+</div>
+
+{{/* Welcome panel */}}
+<div class="panel">
+  <div class="panel__header">
+    <span>CREW MANIFEST // PRIMARY</span>
+    <span class="panel__header-id">REC-001</span>
+  </div>
+  <div class="panel__body">
+    <h1>{{ with .Site.Params.homeInfoParams.Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</h1>
+    {{ with .Site.Params.homeInfoParams.Content }}
+    <div style="text-transform: none; color: var(--text-dim); margin-top: var(--space-md);">
+      {{ . | safeHTML }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+{{/* Recent records */}}
+<div class="panel">
+  <div class="panel__header">
+    <span>SHIP LOG // RECENT ENTRIES</span>
+    <span class="panel__header-id">DIR /LOGS</span>
+  </div>
+  <div class="panel__body" style="padding: 0;">
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ range first 10 $posts }}
+    <a href="{{ .Permalink }}" class="data-entry">
+      <span class="data-entry__icon">[F]</span>
+      <span class="data-entry__title">{{ .Title }}</span>
+      <span class="data-entry__meta">{{ .Date.Format "2006-01-02" }}</span>
+      <span class="data-entry__size">{{ .WordCount }}W</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+{{/* View all */}}
+<div style="text-align: center; padding: var(--space-lg) 0;">
+  <a href="/posts/" class="cmd-btn">Access Full Archive</a>
+</div>
+
+{{/* Featured with images */}}
+{{ $featured := first 3 (where .Site.RegularPages "Params.cover.image" "!=" nil) }}
+{{ if $featured }}
+<div class="panel">
+  <div class="panel__header">
+    <span>VISUAL RECORDS</span>
+    <span class="panel__header-id">IMG-DAT</span>
+  </div>
+  <div class="panel__body">
+    <div class="grid grid--3">
+      {{ range $featured }}
+      {{ $page := . }}
+      <a href="{{ .Permalink }}" class="record-card">
+        {{ $coverImage := .Params.cover.image }}
+        {{ if $coverImage }}
+        {{ $imageURL := "" }}
+        {{ if hasPrefix $coverImage "/" }}
+          {{ $imageURL = $coverImage }}
+        {{ else }}
+          {{ $resource := $page.Resources.GetMatch $coverImage }}
+          {{ if $resource }}
+            {{ $imageURL = $resource.RelPermalink }}
+          {{ else }}
+            {{ $imageURL = printf "%s%s" $page.RelPermalink $coverImage }}
+          {{ end }}
+        {{ end }}
+        <div class="record-card__image">
+          <img src="{{ $imageURL }}" alt="{{ .Title }}">
+        </div>
+        {{ end }}
+        <div class="record-card__header">
+          <span class="record-card__id">{{ .Date.Format "060102" }}</span>
+          <span class="record-card__status">ACTIVE</span>
+        </div>
+        <div class="record-card__body">
+          <h3 class="record-card__title">{{ .Title }}</h3>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+<div class="ascii-border">
+================================================================================
+</div>
+{{ end }}

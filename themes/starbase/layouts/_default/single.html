@@ -1,0 +1,68 @@
+{{ define "main" }}
+<article class="post">
+  {{/* LCARS File Access Panel */}}
+  <div class="lcars-file-panel">
+    <div class="file-panel__bar">
+      <span class="file-panel__type">{{ with .Params.tags }}{{ index . 0 | upper }}{{ else }}LOG ENTRY{{ end }}</span>
+      <span class="file-panel__id">FILE {{ .Date.Format "20060102" }}-{{ substr (md5 .Title) 0 4 | upper }}</span>
+    </div>
+    <div class="file-panel__access">
+      <span class="access-label">ACCESS GRANTED</span>
+      <span class="access-indicator"></span>
+    </div>
+  </div>
+
+  {{/* Post header */}}
+  <header class="post-header">
+    <h1 class="post-header__title">{{ .Title }}</h1>
+
+    <div class="post-header__meta">
+      {{ if not .Date.IsZero }}
+      <span class="meta-label">STARDATE</span>
+      <time class="post-header__date" datetime="{{ .Date.Format "2006-01-02" }}">
+        {{ .Date.Format "2006.01.02" }}
+      </time>
+      <span class="post-header__separator">◆</span>
+      {{ end }}
+
+      {{ with .Params.tags }}
+      {{ range first 2 . }}
+      <span class="tag">{{ . }}</span>
+      {{ end }}
+      {{ end }}
+    </div>
+  </header>
+
+  {{/* Cover image */}}
+  {{ with .Params.cover }}
+  {{ with .image }}
+  <img class="cover-image" src="{{ . | absURL }}" alt="{{ $.Params.cover.alt | default $.Title }}">
+  {{ end }}
+  {{ end }}
+
+  {{/* Table of contents */}}
+  {{ if and .Params.ShowToc .TableOfContents }}
+  <nav class="toc">
+    <div class="toc__title">Contents</div>
+    {{ .TableOfContents }}
+  </nav>
+  {{ end }}
+
+  {{/* Post content */}}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  {{/* Post footer */}}
+  <footer class="post-footer">
+    {{/* Tags */}}
+    {{ with .Params.tags }}
+    <div class="tags">
+      {{ range . }}
+      <a href="{{ "tags/" | absURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </footer>
+</article>
+{{ end }}

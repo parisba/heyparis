@@ -1,0 +1,15 @@
+# Starbase - LCARS-inspired Hugo Theme
+# Inspired by Star Trek's Library Computer Access/Retrieval System
+
+name = "Starbase"
+license = "MIT"
+licenselink = "https://github.com/parisba/starbase/blob/main/LICENSE"
+description = "A minimal, LCARS-inspired Hugo theme with TNG/DS9 era aesthetics"
+homepage = "https://hey.paris"
+
+[author]
+  name = "Paris Buttfield-Addison"
+  homepage = "https://hey.paris"
+
+[params]
+  version = "1.0.0"

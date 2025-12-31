@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="station">
+    <!-- Top Bar - like platform edge -->
+    <div class="platform-edge"></div>
+
+    <!-- Header / Station Sign -->
+    <header class="station-header">
+      <div class="station-header__inner">
+        <a href="/" class="station-name">
+          <span class="station-name__text">{{ .Site.Title }}</span>
+        </a>
+        <nav class="wayfinding">
+          {{ range $i, $item := .Site.Menus.main }}
+          <a href="{{ .URL }}" class="wayfinding__item{{ if $.IsMenuCurrent "main" . }} wayfinding__item--active{{ end }}">
+            <span class="bullet bullet--{{ $i }}">{{ substr .Name 0 1 | upper }}</span>
+            <span class="wayfinding__label">{{ .Name }}</span>
+          </a>
+          {{ end }}
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="platform">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- Footer -->
+    <footer class="station-footer">
+      <div class="station-footer__inner">
+        <div class="footer-sign">
+          <div class="footer-sign__route">
+            {{ range $i, $icon := first 4 .Site.Params.socialIcons }}
+            <a href="{{ .url }}" class="bullet bullet--{{ $i }} bullet--small" target="_blank" rel="noopener" title="{{ .name }}">{{ substr .name 0 1 | upper }}</a>
+            {{ end }}
+          </div>
+          <div class="footer-sign__text">
+            {{ with .Site.Copyright }}{{ . | safeHTML }}{{ end }}
+          </div>
+        </div>
+        <div class="footer-meta">
+          <span class="footer-meta__item">Service Status: Active</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bottom platform edge -->
+    <div class="platform-edge"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}" data-theme="light">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <div class="manual">
+    <!-- Document Header Band -->
+    <header class="doc-header">
+      <div class="doc-header__classification">PERSONAL REFERENCE DOCUMENT</div>
+      <div class="doc-header__id">
+        <span class="doc-header__docnum">PRD-{{ now.Year }}-001</span>
+        <span class="doc-header__rev">REV {{ now.Format "2006.01" }}</span>
+      </div>
+    </header>
+
+    <!-- Title Block -->
+    <div class="title-block">
+      <div class="title-block__main">
+        <div class="title-block__number">1</div>
+        <div class="title-block__content">
+          <h1 class="title-block__title">{{ .Site.Title }}</h1>
+          <div class="title-block__subtitle">OPERATIONAL REFERENCE MANUAL</div>
+        </div>
+      </div>
+      <div class="title-block__meta">
+        <div class="meta-item">
+          <span class="meta-item__label">AUTHOR</span>
+          <span class="meta-item__value">{{ .Site.Params.author }}</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-item__label">EFFECTIVE</span>
+          <span class="meta-item__value">{{ now.Format "02 JAN 2006" }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-strip">
+      <div class="nav-strip__section">
+        <span class="nav-strip__label">SECTIONS:</span>
+        <a href="/" class="nav-strip__link{{ if .IsHome }} nav-strip__link--active{{ end }}">INDEX</a>
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="nav-strip__link{{ if $.IsMenuCurrent "main" . }} nav-strip__link--active{{ end }}">{{ .Name | upper }}</a>
+        {{ end }}
+      </div>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle display mode">
+        <span class="theme-toggle__icon">◐</span>
+      </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- Footer -->
+    <footer class="doc-footer">
+      <div class="doc-footer__left">
+        <span class="doc-footer__warning">FOR PERSONAL REFERENCE ONLY</span>
+      </div>
+      <div class="doc-footer__center">
+        {{ with .Site.Copyright }}{{ . | safeHTML }}{{ end }}
+      </div>
+      <div class="doc-footer__right">
+        <span class="doc-footer__page">PAGE <span id="current-section">1</span></span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Theme toggle
+    const toggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    const stored = localStorage.getItem('flightmanual-theme');
+    if (stored) html.setAttribute('data-theme', stored);
+
+    toggle.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('flightmanual-theme', next);
+    });
+  </script>
+</body>
+</html>

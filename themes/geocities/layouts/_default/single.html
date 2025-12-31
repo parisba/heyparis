@@ -1,0 +1,82 @@
+{{ define "main" }}
+<article>
+  {{/* Header */}}
+  <div class="page-header">
+    <p style="color: var(--cyber-cyan); font-size: var(--text-sm);">
+      [ {{ .Section | upper }} ]
+    </p>
+    <h1>{{ .Title }}</h1>
+    <p style="color: var(--lime-green); font-family: var(--font-mono); font-size: var(--text-sm);">
+      Posted: {{ .Date.Format "January 02, 2006" }} |
+      {{ .WordCount }} words |
+      {{ .ReadingTime }} min read
+    </p>
+  </div>
+
+  {{/* Cover image */}}
+  {{ $coverImage := .Params.cover.image }}
+  {{ if $coverImage }}
+  {{ $imageURL := "" }}
+  {{ if hasPrefix $coverImage "/" }}
+    {{ $imageURL = $coverImage }}
+  {{ else }}
+    {{ $resource := .Resources.GetMatch $coverImage }}
+    {{ if $resource }}
+      {{ $imageURL = $resource.RelPermalink }}
+    {{ else }}
+      {{ $imageURL = printf "%s%s" .RelPermalink $coverImage }}
+    {{ end }}
+  {{ end }}
+  <div style="text-align: center; margin-bottom: var(--space-xl);">
+    <img src="{{ $imageURL }}" alt="{{ .Title }}" style="max-width: 100%; border: 5px ridge var(--win-mid);">
+    {{ with .Params.cover.caption }}
+    <p style="font-size: var(--text-sm); color: var(--cyber-cyan); font-style: italic;">{{ . }}</p>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Tags */}}
+  {{ with .Params.tags }}
+  <div class="tags" style="margin-bottom: var(--space-lg);">
+    <span style="color: var(--yellow); font-size: var(--text-sm);">Keywords:</span>
+    {{ range . }}
+    <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <hr>
+
+  {{/* Content */}}
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+
+  <hr class="fancy">
+
+  {{/* Navigation */}}
+  <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: var(--space-md);">
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}" class="btn-3d">
+      &lt;&lt; {{ .Title | truncate 25 }}
+    </a>
+    {{ else }}
+    <span></span>
+    {{ end }}
+
+    <a href="/posts/" class="btn-3d">Back to All Posts</a>
+
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}" class="btn-3d">
+      {{ .Title | truncate 25 }} &gt;&gt;
+    </a>
+    {{ end }}
+  </div>
+
+  <p class="divider-tilde">~*~*~*~*~*~*~*~*~*~*~</p>
+
+  <p style="text-align: center; color: var(--cyber-cyan); font-size: var(--text-sm);">
+    Thanks for reading! <a href="javascript:history.back()">Click here to go back</a>
+  </p>
+</article>
+{{ end }}

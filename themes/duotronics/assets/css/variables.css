@@ -1,0 +1,72 @@
+/* Duotronics Terminal Theme - CSS Variables */
+
+:root {
+  /* LCARS Color Palette */
+  --lcars-orange: #FF9900;
+  --lcars-orange-dark: #CC6600;
+  --lcars-tan: #FFCC99;
+  --lcars-tan-dark: #CC9966;
+  --lcars-purple: #CC99CC;
+  --lcars-lavender: #9999CC;
+  --lcars-blue: #9999FF;
+  --lcars-red: #CC6666;
+
+  /* Terminal Colors */
+  --term-bg: #0a0a0a;
+  --term-bg-secondary: #111111;
+  --term-bg-panel: #0d0d0d;
+  --term-green: #33ff33;
+  --term-amber: #ffcc00;
+  --term-cyan: #00ffff;
+
+  /* Text Colors */
+  --text-primary: #cccccc;
+  --text-bright: #ffffff;
+  --text-dim: #666666;
+  --text-terminal: var(--lcars-tan);
+
+  /* Functional Colors */
+  --accent-primary: var(--lcars-orange);
+  --accent-secondary: var(--lcars-tan);
+  --accent-tertiary: var(--lcars-purple);
+  --border-color: #333333;
+  --glow-color: rgba(255, 153, 0, 0.5);
+
+  /* Typography */
+  --font-mono: 'SF Mono', 'Fira Code', 'Consolas', 'Monaco', monospace;
+  --font-terminal: var(--font-mono);
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Effects */
+  --scanline-opacity: 0.03;
+  --crt-curve: 2px;
+  --glow-spread: 0 0 10px;
+}
+
+/* Light mode overrides - amber terminal style */
+[data-theme="light"] {
+  --term-bg: #1a1a10;
+  --term-bg-secondary: #222215;
+  --term-bg-panel: #1d1d12;
+  --text-primary: #ccbb99;
+  --text-bright: #ffeecc;
+  --text-dim: #776644;
+  --text-terminal: var(--term-amber);
+  --accent-primary: var(--term-amber);
+}

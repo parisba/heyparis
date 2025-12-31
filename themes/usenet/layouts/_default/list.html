@@ -1,0 +1,69 @@
+{{ define "main" }}
+{{/* Group header */}}
+<div class="msg-headers">
+  <div class="msg-header">
+    <span class="msg-header__key">Newsgroup</span>
+    <span class="msg-header__value">alt.personal.{{ .Site.Title | urlize }}.{{ .Title | urlize }}</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Description</span>
+    <span class="msg-header__value">{{ with .Description }}{{ . }}{{ else }}Articles from {{ .Title }}{{ end }}</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Articles</span>
+    <span class="msg-header__value">{{ len .Pages }} total</span>
+  </div>
+</div>
+
+<div class="prompt">
+  <span class="prompt__symbol">&gt;</span>
+  <span class="prompt__text">Reading alt.personal.{{ .Site.Title | urlize }}.{{ .Title | urlize }}...</span>
+</div>
+
+{{ $paginator := .Paginate .Pages 25 }}
+
+<div class="thread-list">
+  <div class="thread-item thread-item--header">
+    <span class="thread-item__num">#</span>
+    <span class="thread-item__subject">Subject</span>
+    <span class="thread-item__from">From</span>
+    <span class="thread-item__date">Date</span>
+  </div>
+
+  {{ range $index, $post := $paginator.Pages }}
+  <a href="{{ .Permalink }}" class="thread-item{{ if lt $index 5 }} thread-item--unread{{ end }}">
+    <span class="thread-item__num">{{ add (mul (sub $paginator.PageNumber 1) 25) (add $index 1) }}</span>
+    <span class="thread-item__subject">{{ .Title }}</span>
+    <span class="thread-item__from">{{ $.Site.Params.author | default "author" }}</span>
+    <span class="thread-item__date">{{ .Date.Format "Jan 02" }}</span>
+  </a>
+  {{ end }}
+</div>
+
+{{/* Pagination */}}
+{{ if gt $paginator.TotalPages 1 }}
+<div class="pager">
+  <div>
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">&lt;&lt; Prev</a>
+    {{ end }}
+  </div>
+  <span>Page {{ $paginator.PageNumber }}/{{ $paginator.TotalPages }} ({{ len .Pages }} articles)</span>
+  <div>
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">Next &gt;&gt;</a>
+    {{ end }}
+  </div>
+</div>
+{{ else }}
+<div class="pager">
+  <span>{{ len .Pages }} articles</span>
+  <a href="/">[back to index]</a>
+</div>
+{{ end }}
+
+<div class="prompt">
+  <span class="prompt__symbol">&gt;</span>
+  <span class="prompt__text">Select article number: _</span>
+</div>
+{{ end }}

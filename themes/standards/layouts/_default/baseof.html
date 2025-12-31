@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <!-- Floating geometric accents -->
+  <div class="geo geo--1"></div>
+  <div class="geo geo--2"></div>
+  <div class="geo geo--3"></div>
+
+  <div class="frame">
+    <header class="header">
+      <a href="/" class="logo">
+        <span class="logo__mark"></span>
+        <span class="logo__text">Paris Buttfield-Addison</span>
+      </a>
+      <nav class="nav">
+        {{ range .Site.Menus.main }}<a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>{{ end }}
+      </nav>
+    </header>
+
+    <main class="main">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="footer">
+      <div class="footer__rule"></div>
+      <div class="footer__content">
+        <span class="footer__author">Paris Buttfield-Addison</span>
+        <span class="footer__year">© {{ now.Year }}</span>
+      </div>
+    </footer>
+  </div>
+
+  <div class="edge edge--left"></div>
+  <div class="edge edge--right"></div>
+</body>
+</html>

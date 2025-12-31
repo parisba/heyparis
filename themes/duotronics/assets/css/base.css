@@ -1,0 +1,241 @@
+/* Duotronics Terminal - Base Styles */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-terminal);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--text-terminal);
+  background-color: var(--term-bg);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* CRT Screen Effect Container */
+.crt-screen {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Scanlines overlay */
+.crt-screen::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, var(--scanline-opacity)),
+    rgba(0, 0, 0, var(--scanline-opacity)) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* CRT flicker effect */
+.crt-screen::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 16, 16, 0);
+  pointer-events: none;
+  z-index: 999;
+  animation: flicker 0.15s infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 0.27861; }
+  5% { opacity: 0.34769; }
+  10% { opacity: 0.23604; }
+  15% { opacity: 0.90626; }
+  20% { opacity: 0.18128; }
+  25% { opacity: 0.83891; }
+  30% { opacity: 0.65583; }
+  35% { opacity: 0.67807; }
+  40% { opacity: 0.26559; }
+  45% { opacity: 0.84693; }
+  50% { opacity: 0.96019; }
+  55% { opacity: 0.08594; }
+  60% { opacity: 0.20313; }
+  65% { opacity: 0.71988; }
+  70% { opacity: 0.53455; }
+  75% { opacity: 0.37288; }
+  80% { opacity: 0.71428; }
+  85% { opacity: 0.70419; }
+  90% { opacity: 0.7003; }
+  95% { opacity: 0.36108; }
+  100% { opacity: 0.24387; }
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-terminal);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-md);
+}
+
+h1 {
+  font-size: var(--text-2xl);
+  color: var(--lcars-orange);
+  text-shadow: var(--glow-spread) var(--glow-color);
+}
+
+h2 {
+  font-size: var(--text-xl);
+  color: var(--lcars-tan);
+}
+
+h3 {
+  font-size: var(--text-lg);
+  color: var(--lcars-purple);
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+a {
+  color: var(--lcars-blue);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--lcars-orange);
+  text-shadow: var(--glow-spread) var(--glow-color);
+}
+
+/* Code blocks - native terminal look */
+code {
+  font-family: var(--font-terminal);
+  background: var(--term-bg-secondary);
+  padding: 0.2em 0.4em;
+  border: 1px solid var(--border-color);
+  color: var(--term-green);
+}
+
+pre {
+  background: var(--term-bg-secondary);
+  padding: var(--space-md);
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--lcars-orange);
+  overflow-x: auto;
+  margin-bottom: var(--space-lg);
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* Blockquotes as system messages */
+blockquote {
+  background: var(--term-bg-panel);
+  border-left: 3px solid var(--lcars-purple);
+  padding: var(--space-md);
+  margin: var(--space-lg) 0;
+  color: var(--text-dim);
+}
+
+blockquote::before {
+  content: '[SYSTEM MESSAGE]';
+  display: block;
+  color: var(--lcars-purple);
+  font-size: var(--text-xs);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.15em;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+
+li {
+  margin-bottom: var(--space-xs);
+}
+
+li::marker {
+  color: var(--lcars-orange);
+}
+
+/* Horizontal rule - terminal divider */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--lcars-tan) 20%,
+    var(--lcars-tan) 80%,
+    transparent
+  );
+  margin: var(--space-xl) 0;
+}
+
+/* Selection */
+::selection {
+  background: var(--lcars-orange);
+  color: #000;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 1px solid var(--lcars-orange);
+  outline-offset: 2px;
+}
+
+/* Cursor blink */
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor {
+  display: inline-block;
+  width: 0.6em;
+  height: 1.2em;
+  background: var(--lcars-orange);
+  animation: cursor-blink 1s step-end infinite;
+  vertical-align: text-bottom;
+  margin-left: 2px;
+}
+
+/* Terminal prompt prefix */
+.prompt::before {
+  content: '> ';
+  color: var(--lcars-orange);
+}
+
+/* Typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.typing-text {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(40, end);
+}

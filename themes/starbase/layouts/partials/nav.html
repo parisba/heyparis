@@ -1,0 +1,32 @@
+{{/* Mobile nav toggle */}}
+<button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+  <span></span>
+</button>
+
+{{/* Site title */}}
+<a href="{{ .Site.BaseURL }}" class="site-title">{{ .Site.Title }}</a>
+
+{{/* Main navigation */}}
+<nav class="lcars-nav" id="main-nav">
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}" class="lcars-pill{{ if $.IsMenuCurrent "main" . }} active{{ end }}"
+     {{ if $.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>
+    {{ .Name }}
+  </a>
+  {{ end }}
+</nav>
+
+{{/* Console status lights - decorative */}}
+<div class="console-lights">
+  <span class="console-light console-light--active" title="System active"></span>
+  <span class="console-light console-light--warning" title="Comms"></span>
+  <span class="console-light console-light--idle" title="Standby"></span>
+</div>
+
+{{/* Theme toggle */}}
+<button class="theme-toggle" aria-label="Toggle theme" title="Toggle dark/light mode">
+  <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="5"/>
+    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+  </svg>
+</button>

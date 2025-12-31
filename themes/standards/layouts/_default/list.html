@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="page">
+  <header class="page__header">
+    <h1 class="page__title">{{ .Title }}</h1>
+    <div class="page__bar"></div>
+    {{ with .Content }}<div class="page__intro">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ $paginator := .Paginate .Pages 20 }}
+
+  <div class="section-head">
+    <span class="section-head__number">{{ len .Pages }}</span>
+    <h2 class="section-head__title">Items</h2>
+  </div>
+
+  <ul class="post-list">
+    {{ range $paginator.Pages }}
+    <li class="post-list__item">
+      <a href="{{ .Permalink }}" class="post-list__link">
+        <span class="post-list__title">{{ .Title }}</span>
+        <span class="post-list__date">{{ .Date.Format "Jan 2006" }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">← Previous</a>{{ end }}
+    <span class="pagination__info">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+    {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">Next →</a>{{ end }}
+  </nav>
+  {{ end }}
+</section>
+{{ end }}

@@ -1,0 +1,94 @@
+{{ define "main" }}
+<!-- Article Header -->
+<article class="article">
+  <header class="article-header">
+    <div class="article-header__route">
+      <span class="bullet bullet--0 bullet--large">{{ substr .Section 0 1 | upper }}</span>
+    </div>
+    <div class="article-header__info">
+      <h1 class="article-header__title">{{ .Title }}</h1>
+      <div class="article-header__meta">
+        <span class="meta-item">
+          <span class="meta-item__label">Date</span>
+          <span class="meta-item__value">{{ .Date.Format "January 2, 2006" }}</span>
+        </span>
+        <span class="meta-item">
+          <span class="meta-item__label">Section</span>
+          <span class="meta-item__value">{{ .Section | title }}</span>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  {{ with .Params.tags }}
+  <div class="tag-strip">
+    {{ range $i, $tag := . }}
+    <span class="tag-bullet">
+      <span class="bullet bullet--{{ mod $i 8 }} bullet--tiny">{{ substr $tag 0 1 | upper }}</span>
+      <span class="tag-bullet__text">{{ $tag }}</span>
+    </span>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <!-- TOC -->
+  {{ if .Params.toc | default .Site.Params.ShowToc }}
+  {{ if .TableOfContents }}
+  <div class="toc-panel">
+    <div class="toc-panel__header">
+      <span class="direction-sign__arrow">≡</span>
+      <span>Contents</span>
+    </div>
+    <div class="toc-panel__body">
+      {{ .TableOfContents }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ if .Params.cover.image }}
+  <figure class="article-figure">
+    <img src="{{ .Params.cover.image }}" alt="{{ .Title }}" class="article-figure__img">
+    {{ with .Params.cover.caption }}
+    <figcaption class="article-figure__caption">{{ . }}</figcaption>
+    {{ end }}
+  </figure>
+  {{ end }}
+
+  <div class="article-body">
+    {{ .Content }}
+  </div>
+</article>
+
+<!-- Navigation -->
+<nav class="article-nav">
+  {{ with .PrevInSection }}
+  <a href="{{ .Permalink }}" class="article-nav__link article-nav__link--prev">
+    <span class="article-nav__arrow">←</span>
+    <div class="article-nav__info">
+      <span class="article-nav__label">Previous</span>
+      <span class="article-nav__title">{{ .Title | truncate 40 }}</span>
+    </div>
+  </a>
+  {{ else }}
+  <div class="article-nav__link article-nav__link--empty"></div>
+  {{ end }}
+
+  <a href="{{ .Section | relURL }}" class="article-nav__link article-nav__link--up">
+    <span class="bullet bullet--0">{{ substr .Section 0 1 | upper }}</span>
+    <span class="article-nav__label">All {{ .Section | title }}</span>
+  </a>
+
+  {{ with .NextInSection }}
+  <a href="{{ .Permalink }}" class="article-nav__link article-nav__link--next">
+    <div class="article-nav__info">
+      <span class="article-nav__label">Next</span>
+      <span class="article-nav__title">{{ .Title | truncate 40 }}</span>
+    </div>
+    <span class="article-nav__arrow">→</span>
+  </a>
+  {{ else }}
+  <div class="article-nav__link article-nav__link--empty"></div>
+  {{ end }}
+</nav>
+{{ end }}

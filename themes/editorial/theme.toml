@@ -1,0 +1,10 @@
+name = "Editorial"
+license = "MIT"
+licenselink = "https://github.com/yourusername/editorial/blob/master/LICENSE"
+description = "A minimalist, typography-centered theme"
+tags = ["minimal", "typography", "clean", "responsive"]
+features = ["typography", "minimal", "images"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

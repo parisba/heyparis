@@ -1,0 +1,15 @@
+# Duotronics - A terminal-style Hugo theme with LCARS aesthetics
+# Like accessing a Federation starship computer terminal
+
+name = "Duotronics"
+license = "MIT"
+licenselink = "https://github.com/yourname/duotronics/blob/master/LICENSE"
+description = "Terminal-style theme with Star Trek LCARS color palette"
+homepage = "https://github.com/yourname/duotronics"
+tags = ["terminal", "lcars", "star-trek", "minimal", "dark"]
+features = ["terminal-ui", "crt-effects", "lcars-colors"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"
+  homepage = "https://hey.paris"

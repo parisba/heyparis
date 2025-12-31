@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <span class="section-number">01</span>
+    <h1 class="page-title">{{ .Title }}</h1>
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+    <div class="posts-timeline">
+      {{ range $posts.ByDate.Reverse }}
+      {{ $post := . }}
+      <article class="post-entry">
+        <div class="post-date">
+          <span class="post-month">{{ .Date.Format "Jan" }}</span>
+          <span class="post-year">{{ .Date.Format "2006" }}</span>
+        </div>
+        <div class="post-content">
+          {{ with .Params.cover }}
+          {{ $imgPath := .image }}
+          {{ $isRelative := .relative }}
+          {{ if $imgPath }}
+          <a href="{{ $post.Permalink }}" class="post-image">
+            {{- if $isRelative -}}
+              {{- $img := $post.Resources.GetMatch $imgPath -}}
+              {{- if $img -}}
+                <img src="{{ $img.RelPermalink }}" alt="{{ $post.Title }}" loading="lazy">
+              {{- end -}}
+            {{- else if hasPrefix $imgPath "/" -}}
+              <img src="{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- else -}}
+              <img src="/{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- end -}}
+          </a>
+          {{ end }}
+          {{ end }}
+          <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ with .Summary }}<p class="post-excerpt">{{ . | plainify | truncate 150 }}</p>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

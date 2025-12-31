@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="container">
+  {{/* Page header */}}
+  <header class="page-header">
+    <p class="page-header__overline">Archive</p>
+    <h1 class="page-header__title">{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="page-header__description">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{/* Posts list with numbers */}}
+  {{ $paginator := .Paginate .Pages 20 }}
+
+  <div class="stagger">
+    {{ range $index, $page := $paginator.Pages }}
+    <a href="{{ .Permalink }}" class="article-list-item">
+      <span class="article-list-item__number">{{ printf "%02d" (add $index 1) }}</span>
+      <h2 class="article-list-item__title">{{ .Title }}</h2>
+      <time class="article-list-item__date">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </a>
+    {{ end }}
+  </div>
+
+  {{/* Pagination */}}
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="pagination__link">← Previous</a>
+    {{ end }}
+
+    <span class="pagination__current">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="pagination__link">Next →</a>
+    {{ end }}
+  </nav>
+  {{ end }}
+</div>
+{{ end }}

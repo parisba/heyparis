@@ -1,0 +1,11 @@
+name = "Placard"
+license = "MIT"
+licenselink = "https://github.com/yourusername/placard/blob/master/LICENSE"
+description = "Museum-editorial theme with refined serif typography"
+homepage = "https://github.com/yourusername/placard"
+tags = ["editorial", "museum", "serif", "minimal", "elegant"]
+features = ["responsive", "minimal"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

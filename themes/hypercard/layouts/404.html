@@ -1,0 +1,34 @@
+{{ define "main" }}
+<!-- Error Dialog -->
+<div class="dialog dialog--error dialog--centered">
+  <div class="dialog__header">
+    <div class="dialog__icon dialog__icon--error">⚠️</div>
+    <div class="dialog__title">Error</div>
+  </div>
+  <div class="dialog__body">
+    <p class="dialog__message">The card you requested could not be found.</p>
+    <p class="dialog__code">Error -404: Card not in stack</p>
+    <div class="dialog__divider"></div>
+    <p>The card may have been moved, deleted, or the address may be incorrect.</p>
+  </div>
+  <div class="dialog__buttons">
+    <a href="/" class="mac-button mac-button--default">Go Home</a>
+  </div>
+</div>
+
+<!-- Sad Mac -->
+<div class="sad-mac">
+  <pre class="sad-mac__face">
+    ┌─────────────────┐
+    │                 │
+    │   ╔═══════╗     │
+    │   ║ ×   × ║     │
+    │   ║       ║     │
+    │   ║  ───  ║     │
+    │   ╚═══════╝     │
+    │                 │
+    │    404 :(       │
+    └─────────────────┘
+  </pre>
+</div>
+{{ end }}

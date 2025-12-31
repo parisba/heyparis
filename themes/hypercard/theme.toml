@@ -1,0 +1,11 @@
+name = "HyperCard"
+license = "MIT"
+licenselink = "https://github.com/parisba"
+description = "Classic Macintosh System 7 and HyperCard aesthetic"
+homepage = "https://hey.paris"
+tags = ["blog", "personal", "retro", "macintosh"]
+features = ["responsive"]
+min_version = "0.112.0"
+
+[author]
+  name = "Paris Buttfield-Addison"

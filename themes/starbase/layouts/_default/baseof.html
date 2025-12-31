@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}" {{ if eq (.Site.Params.defaultTheme | default "auto") "dark" }}data-theme="dark"{{ end }}>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{/* Animated starfield background */}}
+  <div class="starfield"><div class="stars-layer"></div></div>
+
+  <div class="lcars-wrapper">
+    {{/* Top Navigation Bar with LCARS accents */}}
+    <header class="lcars-topbar">
+      {{ partial "nav.html" . }}
+    </header>
+
+    {{/* Main Content */}}
+    <main class="lcars-main">
+      <div class="lcars-content {{ if .IsHome }}wide{{ end }}">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+
+    {{/* Footer */}}
+    <footer class="lcars-footer">
+      {{ partial "footer.html" . }}
+    </footer>
+  </div>
+
+  {{/* Warp flash overlay for page transitions */}}
+  <div class="warp-flash" id="warp-flash"></div>
+
+  {{/* Theme toggle script */}}
+  <script>
+    // Theme handling
+    const themeToggle = document.querySelector('.theme-toggle');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function getTheme() {
+      const stored = localStorage.getItem('theme');
+      if (stored) return stored;
+      return prefersDark.matches ? 'dark' : 'light';
+    }
+
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+
+    // Initialize
+    setTheme(getTheme());
+
+    // Toggle handler
+    themeToggle.addEventListener('click', () => {
+      const current = document.documentElement.getAttribute('data-theme');
+      setTheme(current === 'dark' ? 'light' : 'dark');
+    });
+
+    // Mobile nav toggle
+    const mobileToggle = document.querySelector('.mobile-nav-toggle');
+    const mainNav = document.getElementById('main-nav');
+
+    if (mobileToggle && mainNav) {
+      mobileToggle.addEventListener('click', () => {
+        const isOpen = mainNav.classList.toggle('open');
+        mobileToggle.setAttribute('aria-expanded', isOpen);
+      });
+    }
+
+    // Warp flash effect on internal navigation
+    const warpFlash = document.getElementById('warp-flash');
+    const internalLinks = document.querySelectorAll('a[href^="/"], a[href^="{{ .Site.BaseURL }}"]');
+
+    internalLinks.forEach(link => {
+      // Skip if it's a hash link or external
+      if (link.getAttribute('href').startsWith('#')) return;
+      if (link.target === '_blank') return;
+
+      link.addEventListener('click', (e) => {
+        // Check for reduced motion preference
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        e.preventDefault();
+        const href = link.getAttribute('href');
+
+        warpFlash.classList.add('active');
+
+        setTimeout(() => {
+          window.location.href = href;
+        }, 200);
+      });
+    });
+  </script>
+</body>
+</html>

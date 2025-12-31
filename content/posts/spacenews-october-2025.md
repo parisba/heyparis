@@ -1,0 +1,77 @@
+---
+title: "Space News, October 2025"
+date: 2025-10-05
+draft: false
+ShowToc: false
+aliases:
+  - /posts/spacenews/10052025/
+cover:
+    image: "space-cover.jpg"
+tags: ["space news", "abc radio", "radio"]
+params:
+    description: "Space News, October 2025"
+    images:
+      - "/space-cover.jpg"
+---
+
+_These are my notes and expanded thoughts from this month's Space News segment on ABC Radio Hobart and ABC Northern Tasmania. Every month I join [Lucie Cutting on Sunday mornings](https://www.abc.net.au/listen/programs/hobart-sundays) to chat about what's happening above and beyond._
+
+Here's what we discussed, plus some of my notes, and expanded thoughts from [this edition of the programme](https://www.abc.net.au/listen/programs/hobart-sundays):
+
+## The World's Space Community Came to Sydney
+
+The 76th International Astronautical Congress wrapped up in Sydney this month, bringing thousands and thousands of attendees from most countries. It's the largest global gathering of space professionals, and this year's theme was "Sustainable Space: Resilient Earth."
+
+The Australian government made some significant announcements. The Australasian Space Innovation Institute launches in January 2026, building on the SmartSat CRC's $245 million foundation. Four flagship programs caught my attention:
+
+The **Australian Agriculture National Digital Twin** will create a virtual replica of the entire agricultural sector, updated in real-time via satellite data. Think drought prediction 6-8 weeks in advance, precision water allocation, and pest outbreak modelling for a $20+ billion sector.
+
+**Takahē**, named after the New Zealand flightless bird, is a synthetic aperture radar satellite for maritime surveillance. Australia has 60,000 kilometres of coastline and illegal fishing costs $600+ million annually. This is about knowing what's happening in our waters.
+
+A **Digital Disaster Management Infrastructure** will integrate satellite imagery with ground sensors and emergency response systems. After the 2019-20 bushfires cost $100+ billion in economic damage, early warning systems aren't optional.
+
+And **Space Tech for Regional Communities** addresses the reality that 30% of Australians live outside major cities. Low Earth orbit satellite broadband for medical services, education, and emergency response, particularly for Indigenous communities.
+
+Australia also signed a formal framework with NASA for collaboration beyond the existing Deep Space Network agreements. An Australian lunar rover will carry NASA instruments late this decade. The European Space Agency is negotiating potential Associate Member status for Australia, which would give us access to Copernicus Earth observation data and ESA technology programs.
+
+## Tasmania: Quietly Becoming a Space Powerhouse, sort of
+
+The University of Tasmania operates a continental-scale antenna network—six radio telescopes across Australia, all controlled from Hobart. No other university on Earth does this. These aren't just for research. They've provided mission-critical support for the Huygens landing on Titan, space telescopes, and commercial operations for SpaceX and more. Students here operate real mission infrastructure, not simulations. It's astonishingly cool.
+
+HENSOLDT's Southern Guardian is the largest private radio frequency antenna network in the southern hemisphere, providing space domain awareness—tracking what's in orbit, preventing collisions, identifying potential threats. With 10,000 satellites now in orbit and, like, 60,000+ projected by 2030, this is rather important!
+
+The Centre for Antarctic, Remote & Maritime Medicine is doing something unique: using Antarctica as a Mars analogue for NASA's Translational Research Institute for Space Health. Isolation psychology, extreme cold physiology, limited medical evacuation, telemedicine necessity… Antarctica gives us all of it.
+
+The Royal Hobart Hospital has the only dual hyperbaric/hypobaric chamber in the southern hemisphere. It can replicate Mars atmospheric pressure (which is around 0.6% of Earth's) for equipment and human testing. They're running a postgraduate "Humans in Space" healthcare program taught by physician astronauts and spaceflight surgeons.
+
+Annnnnd… Tasmanian companies are building actual space technology. FortifyEdge AI monitors cognitive load in astronauts and mission control operators. Geoneon uses satellite imagery and AI for wildfire prediction, which is particularly crucial after 2019-20 burned 18.6 million hectares (it was not fun being in Sydney at the time). We also, obviously, have Antarctic expedition logistics which is useful for space equipment field testing.
+
+Tasmania's geography really does help here. 42°S is optimal for polar orbit tracking, thin ionosphere means less radio signal distortion, and low population density means minimal interference. We're legitimately building capabilities nobody else has in the southern hemisphere.
+
+## JWST Caught a Planet Growing Its Moons
+
+The JWST observed something we've probably never seen before: a planet actively forming its moons, 625 light-years away.
+
+CT Chamaeleontis b orbits a star that's only 2 million years old (our Sun is 4.6 billion). Webb detected seven carbon-bearing molecules in the moon-forming disk surrounding this young planet—the first chemical inventory of an exoplanet's circumplanetary disk. The planet's moon disk is carbon-rich, while the star's planet-forming disk is water-rich. That chemical evolution happened in a mere 2 million years.
+
+This is potentially our only chance to witness moon formation in action, as when Jupiter's Galilean moons formed from a similar disk 4.5 billion years ago, we sadly missed it. This is a time machine showing us the process that created Europa, Ganymede, and potentially thousands of habitable moons throughout the galaxy.
+
+Understanding moon disk chemistry might tell us which moons could harbour life. Europa and Enceladus have subsurface oceans right now in our solar system. Moons may outnumber planets in the galaxy, and we're just starting to understand how they form. Also rather important!
+
+## Wind-Powered Mars Rovers
+
+Engineers are testing 16-foot inflatable spheres that tumble across Mars powered by wind. No engines, minimal batteries, just sensors embedded throughout the structure capturing data as they roll.
+
+The Netherlands tested a half-scale prototype in April. Denmark ran wind tunnel tests in July, simulating Mars's thin atmosphere. These tumbleweeds can move at 30-33 feet per second winds and climb slopes equivalent to 30° on Mars.
+
+A 100-sol mission (Mars days are 24 hours 39 minutes) could cover 422 kilometres on average, with a maximum range of 2,800 kilometres under favourable winds. Compare that to Opportunity, which travelled 45 kilometres over 14 years.
+
+You can't steer them—wind determines the path. But deploy 10-20 for the cost of one traditional rover (Perseverance cost $2.7 billion), and losing a few becomes acceptable. They reach areas too risky for expensive rovers: steep slopes, rough terrain, regions we'd never risk a multi-billion dollar mission.
+
+At end of life, they collapse into stationary platforms continuing as weather stations and seismometers. This is the stuff of Federation colonies in Star Trek.
+
+November brings full-scale testing in Chile's Atacama Desert. If a space agency adopts the concept, we could see tumbleweeds on Mars in the 2030s… dozens of them, creating a distributed sensor network covering more ground than every rover we've ever sent combined.
+
+*Next month I'll be back on ABC Radio Hobart and ABC Northern Tasmania with Lucie for more space news.*
+
+View the [archive of Space News](/tags/space-news/).

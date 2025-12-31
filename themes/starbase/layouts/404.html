@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="error-page">
+  <div class="error-page__alert">
+    <span class="alert-light alert-light--warning"></span>
+    <span class="alert-text">NAVIGATION ERROR</span>
+  </div>
+  <div class="error-page__code">404</div>
+  <h1 class="error-page__title">Sector Not Found</h1>
+  <p class="error-page__message">
+    The coordinates you've entered do not correspond to any known location in this database.
+  </p>
+  <div class="error-page__diagnostic">
+    <div class="diagnostic-line"><span class="diag-label">STATUS</span><span class="diag-value diag-value--error">FAILED</span></div>
+    <div class="diagnostic-line"><span class="diag-label">SCAN</span><span class="diag-value">NEGATIVE</span></div>
+    <div class="diagnostic-line"><span class="diag-label">REROUTE</span><span class="diag-value diag-value--success">AVAILABLE</span></div>
+  </div>
+  <a href="{{ .Site.BaseURL }}" class="lcars-pill">
+    Return to Main Bridge
+  </a>
+</div>
+{{ end }}

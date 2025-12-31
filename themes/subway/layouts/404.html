@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="error-panel">
+  <div class="error-panel__sign">
+    <div class="error-panel__bullets">
+      <span class="bullet bullet--alert">!</span>
+    </div>
+    <div class="error-panel__code">404</div>
+  </div>
+
+  <div class="error-panel__message">
+    <h1 class="error-panel__title">Service Suspended</h1>
+    <p class="error-panel__text">The page you're looking for is not in service.</p>
+  </div>
+
+  <div class="error-panel__notice">
+    <div class="direction-sign">
+      <span class="direction-sign__arrow">!</span>
+      <span class="direction-sign__text">Service Notice</span>
+    </div>
+    <p>This route may have been discontinued, rerouted, or the address may be incorrect. Please check the station map for available connections.</p>
+  </div>
+
+  <a href="/" class="back-link back-link--large">
+    <span class="back-link__arrow">←</span>
+    <span class="back-link__text">Return to Home Station</span>
+  </a>
+</section>
+{{ end }}

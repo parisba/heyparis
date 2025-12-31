@@ -1,0 +1,75 @@
+{{ define "main" }}
+{{/* Message headers */}}
+<div class="msg-headers">
+  <div class="msg-header">
+    <span class="msg-header__key">Newsgroups</span>
+    <span class="msg-header__value">alt.personal.{{ .Site.Title | urlize }}.{{ .Section | urlize }}</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">From</span>
+    <span class="msg-header__value msg-header__value--email">{{ .Site.Params.author | default "author" }} &lt;{{ .Site.Params.email | default "user@example.com" }}&gt;</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Subject</span>
+    <span class="msg-header__value msg-header__value--subject">{{ .Title }}</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Date</span>
+    <span class="msg-header__value">{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</span>
+  </div>
+  <div class="msg-header">
+    <span class="msg-header__key">Message-ID</span>
+    <span class="msg-header__value">&lt;{{ .Date.Unix }}.{{ .File.UniqueID | default "msg" }}@{{ .Site.Title | urlize }}.local&gt;</span>
+  </div>
+  {{ with .Params.tags }}
+  <div class="msg-header">
+    <span class="msg-header__key">Keywords</span>
+    <span class="msg-header__value">{{ delimit . ", " }}</span>
+  </div>
+  {{ end }}
+  <div class="msg-header">
+    <span class="msg-header__key">Lines</span>
+    <span class="msg-header__value">{{ .WordCount }} words, {{ .ReadingTime }} min read</span>
+  </div>
+</div>
+
+{{/* Article body */}}
+<article class="article-content">
+  {{ .Content }}
+</article>
+
+{{/* Signature */}}
+<div class="sig">
+{{ .Site.Params.author | default .Site.Title }}
+{{ with .Site.Params.description }}{{ . | truncate 60 }}{{ end }}
+{{ with .Site.Params.socialIcons }}
+{{ range first 3 . }}{{ .url }}
+{{ end }}{{ end }}
+</div>
+
+{{/* Navigation */}}
+<div class="pager">
+  <div>
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}">&lt;&lt; {{ .Title | truncate 30 }}</a>
+    {{ else }}
+    <span style="color: var(--text-dim);">(first article)</span>
+    {{ end }}
+  </div>
+  <div>
+    <a href="/{{ .Section }}/">[back to list]</a>
+  </div>
+  <div>
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}">{{ .Title | truncate 30 }} &gt;&gt;</a>
+    {{ else }}
+    <span style="color: var(--text-dim);">(last article)</span>
+    {{ end }}
+  </div>
+</div>
+
+<div class="prompt">
+  <span class="prompt__symbol">&gt;</span>
+  <span class="prompt__text">n=next p=prev q=quit r=reply: _</span>
+</div>
+{{ end }}

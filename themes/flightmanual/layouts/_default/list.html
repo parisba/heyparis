@@ -1,0 +1,63 @@
+{{ define "main" }}
+<section class="manual-section">
+  <div class="section-header">
+    <span class="section-header__number">§</span>
+    <span class="section-header__title">{{ .Title | upper }}</span>
+  </div>
+
+  {{ with .Description }}
+  <div class="info-block">
+    <div class="info-block__content">{{ . }}</div>
+  </div>
+  {{ end }}
+
+  {{ with .Content }}
+  <div class="manual-content">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  <div class="note-box note-box--info">
+    <span class="note-box__label">CONTENTS</span>
+    <span class="note-box__text">{{ len .Pages }} items in this section</span>
+  </div>
+
+  {{ $paginator := .Paginate .Pages 20 }}
+
+  <div class="transmission-log">
+    <div class="transmission-log__header">
+      <span class="transmission-log__col transmission-log__col--ref">REF</span>
+      <span class="transmission-log__col transmission-log__col--date">DATE</span>
+      <span class="transmission-log__col transmission-log__col--subject">SUBJECT</span>
+    </div>
+
+    {{ range $index, $page := $paginator.Pages }}
+    <a href="{{ .Permalink }}" class="transmission-log__row">
+      <span class="transmission-log__col transmission-log__col--ref">{{ printf "%03d" (add (mul (sub $paginator.PageNumber 1) 20) (add $index 1)) }}</span>
+      <span class="transmission-log__col transmission-log__col--date">{{ .Date.Format "02 JAN 06" }}</span>
+      <span class="transmission-log__col transmission-log__col--subject">{{ .Title }}</span>
+    </a>
+    {{ end }}
+  </div>
+
+  {{ if gt $paginator.TotalPages 1 }}
+  <div class="pagination">
+    <div class="pagination__info">
+      PAGE {{ $paginator.PageNumber }} OF {{ $paginator.TotalPages }}
+    </div>
+    <div class="pagination__controls">
+      {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" class="pagination__btn">◄ PREV</a>
+      {{ end }}
+      {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" class="pagination__btn">NEXT ►</a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<div class="action-bar">
+  <a href="/" class="action-btn">◄ RETURN TO INDEX</a>
+</div>
+{{ end }}
