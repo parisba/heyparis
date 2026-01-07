@@ -1,5 +1,6 @@
 ---
 title: "Back to Linux"
+draft: true
 date: 2026-01-05
 cover:
   image: "cover.jpg"
