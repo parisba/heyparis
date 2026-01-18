@@ -15,6 +15,8 @@ params:
 tags: ["ai", "ai safety", "australia", "policy", "auspol", "analysis", "uk", "us", "international", "aisi"]
 ---
 
+> **Related:** This article examines what Australia can learn from international AI safety institutes. For analysis of Australia's broader AI governance challenges, see [Slop for the People](/posts/govai/).
+
 On 25 November 2025, Minister for Industry and Innovation Tim Ayres [announced the establishment of the Australian AI Safety Institute (AISI)](https://www.minister.industry.gov.au/ministers/timayres/media-releases/establishment-australian-ai-safety-institute). With a [$29.9 million commitment](https://www.gadens.com/legal-insights/australia-launches-ai-safety-institute-and-releases-national-ai-plan/) and operations commencing "early 2026", Australia will become the latest nation to join the [International Network of AI Safety Institutes](https://www.nist.gov/system/files/documents/2024/11/20/Mission%20Statement%20-%20International%20Network%20of%20AISIs.pdf).
 
 The UK's AI Safety Institute (now rebranded as the "[AI Security Institute](https://www.aisi.gov.uk/)") has been operational for over two years. The US AI Safety Institute has been gutted by the Trump administration and [rebranded as the "Center for AI Standards and Innovation"](https://fedscoop.com/trump-administration-rebrands-ai-safety-institute-aisi-caisi/), with "safety" explicitly excised from both its name and mission. Australia is entering a field where the two supposed leaders are heading in opposite directions.

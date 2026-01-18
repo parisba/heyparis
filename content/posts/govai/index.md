@@ -14,6 +14,8 @@ params:
 tags: ["ai", "generative ai", "australia", "politics", "policy", "auspol", "analyis", "idiots", "angry", "rant", "microsoft"]
 ---
 
+> **Related:** This article examines Australia's AI governance failures in practice. For context on the newly announced AI Safety Institute and what it might learn from international examples, see [Australia's AI Safety Institute: Lessons from the UK and US](/posts/aisi-international-comparison/).
+
 The Australian Public Service's (APS) official culture of AI adoption is not found in the [glossy press releases of its ministers](https://ministers.finance.gov.au/financeminister/media-release/2025/11/12/whole-government-ai-plan-released). But we'll get to that shortly.
 
 The real story of AI adoption is revealed in the quiet, conflicting, and deeply secretive actions of its most senior bureaucrats. A case in point: [Hamish Hansford](https://www.homeaffairs.gov.au/about-us/who-we-are/our-senior-staff/hamish-hansford). Hansford is not a mid-level manager; he is the Department of Home Affairs' Head of National Security, the Commonwealth Counter-Terrorism Coordinator, and the National Counter Foreign Interference Coordinator.
