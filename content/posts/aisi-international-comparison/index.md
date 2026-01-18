@@ -1,6 +1,6 @@
 ---
 title: "Australia's AI Safety Institute: Lessons from the UK and US"
-draft: true
+draft: false
 date: 2026-01-07
 cover:
   image: "cover.webp"
