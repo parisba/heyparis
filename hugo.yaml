@@ -76,17 +76,13 @@ params:
   homeInfoParams:
     Title: "Paris Buttfield-Addison"
     Content: |
-      Hi, I'm Dr Paris Buttfield-Addison 👋
+      Hi! I'm a computer scientist, technical product leader, and author based in Hobart. I work at the intersection of technology, policy, and human behaviour. I co-founded [Secret Lab](https://secretlab.games), the indie studio behind BAFTA-winning *Night in the Woods* and the ABC Play School games. I also co-founded [Yarn Spinner](https://yarnspinner.dev), narrative tools used in [thousands of games](https://www.yarnspinner.dev/showcase/) played by millions including *DREDGE*, *A Short Hike*, and *Venba*.
       <br /><br />
-      I co-founded [Secret Lab](https://secretlab.games) (indie games studio behind the ABC Play School games, and BAFTA and IGF-winning *Night in the Woods*) and [Yarn Spinner](https://yarnspinner.dev)—narrative tools powering thousands of games played by millions, including *DREDGE*, *A Short Hike*, *Venba*, and *Unbeatable*.
+      I've [written over 20 technical books](/books-and-events/books/) on AI, machine learning, and software development. I'm completing a law degree because I wanted to understand how regulation works, particularly for AI. I do independent research on [AI governance](/tags/ai/), analysing gaps between policy, law, and how people actually behave when using these systems.
       <br /><br />
-      I'm a technical product leader with a multidisciplinary background: law degree, history major, trained engineer. I've worked at Meebo (acquired by Google), [authored over 20 technical books on software development, game design, artificial intelligence, and machine learning](/books-and-events/books/). I've delivered [keynotes, presentations, and workshops at conferences worldwide](/books-and-events/events/), and [host a radio show covering space news](/tags/space-news/). I build products at the intersection of technology, policy, storytelling, and human behavior, helping to translate complex systems into experiences and tools that millions of people actually use. 
+      I help run [/dev/world](https://devworld.au) (longest-running Apple developer event not run by Apple, since 2008), serve as President of [Tasmanian Game Makers](https://www.tasgamemakers.com), and [host a radio show on space news](/tags/space-news/). I've worked at Meebo (acquired by Google) and delivered [keynotes and workshops worldwide](/books-and-events/events/).
       <br /><br />
-      I run [/dev/world](https://devworld.au), the longest-running Apple developer event not run by Apple (since 2008), serve as Secretary of the [AUC](https://www.auc.edu.au), and lead Tasmania's game development ecosystem as President of [Tasmanian Game Makers, Inc.](https://www.tasgamemakers.com) and coordinator of the [Tasmanian Games Incubator](https://secretlab.games/incubator).
-      <br /><br />
-      I'm also a [fiction writer](/books-and-events/books/#fiction), [occasional academic](https://scholar.google.com/citations?user=rJGJ8f8AAAAJ&hl=en&oi=ao), teacher, and enthusiastic amateur [photographer](https://www.flickr.com/photos/parisba/).
-      <br /><br />
-      [Learn more about me](/about). If you're looking for my amazing wife, Mars, you can find her [here](https://themartianlife.com).
+      [Learn more about me](/about). My amazing wife Mars is [here](https://themartianlife.com).
 
   socialIcons:
     - name: "Mastodon"

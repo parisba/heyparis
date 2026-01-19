@@ -322,3 +322,31 @@ button:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
 }
+
+/* Books grid - break out of narrow container to match header image width */
+/* Override article-body constraints for books page */
+.article-body:has(.books-showcase) {
+    max-width: none !important;
+    overflow-x: visible !important;
+}
+
+.article .container:has(.books-showcase) {
+    max-width: none !important;
+}
+
+.books-showcase {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    padding: calc(var(--space) * 2) var(--space);
+    box-sizing: border-box;
+}
+
+.books-grid {
+    max-width: var(--container);
+    margin: 0 auto;
+    width: 100%;
+}

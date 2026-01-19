@@ -1,0 +1,62 @@
+{{ define "main" }}
+<article class="article">
+  <header class="article-header">
+    <div class="container">
+      {{ if eq .Section "posts" }}
+      <div class="article-meta">
+        <time class="article-date">{{ .Date.Format "January 2, 2006" }}</time>
+      </div>
+      {{ end }}
+      <h1 class="article-title">{{ .Title }}</h1>
+    </div>
+  </header>
+
+  {{ with .Params.cover }}{{ if not .hidden }}{{ with .image }}
+  <figure class="article-cover">
+    {{- if $.Params.cover.relative -}}
+      {{- $img := $.Resources.GetMatch . -}}
+      {{- if $img -}}
+        <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
+      {{- end -}}
+    {{- else if hasPrefix . "/" -}}
+      <img src="{{ . }}" alt="{{ $.Title }}">
+    {{- else -}}
+      <img src="/{{ . }}" alt="{{ $.Title }}">
+    {{- end -}}
+  </figure>
+  {{ end }}{{ end }}{{ end }}
+
+  <div class="article-body container">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.tags }}
+  <footer class="article-footer container">
+    <div class="article-tags">
+      {{- $tagMap := dict "ai" "AI" "nsw" "NSW" "uk" "UK" "us" "US" "auspol" "AusPol" "hci" "HCI" "ml" "ML" "api" "API" "ios" "iOS" "macos" "macOS" "gdc" "GDC" "ui" "UI" "ux" "UX" "aisi" "AISI" -}}
+      {{ range . }}
+        {{- $displayTag := index $tagMap . | default (title .) -}}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag-pill">{{ $displayTag }}</a>
+      {{- end }}
+    </div>
+  </footer>
+  {{ end }}
+
+  {{ if eq .Section "posts" }}
+  <nav class="article-nav container">
+    {{ with .PrevInSection }}
+    <a href="{{ .Permalink }}" class="nav-link nav-link--prev">
+      <span class="nav-label">← Previous</span>
+      <span class="nav-title">{{ .Title | truncate 50 }}</span>
+    </a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a href="{{ .Permalink }}" class="nav-link nav-link--next">
+      <span class="nav-label">Next →</span>
+      <span class="nav-title">{{ .Title | truncate 50 }}</span>
+    </a>
+    {{ end }}
+  </nav>
+  {{ end }}
+</article>
+{{ end }}

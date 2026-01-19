@@ -1,0 +1,62 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <span class="section-number">01</span>
+    {{- $displayTitle := .Title -}}
+    {{- if eq .Type "tags" -}}
+      {{- $tagMap := dict "Ai" "AI" "Nsw" "NSW" "Uk" "UK" "Us" "US" "Auspol" "AusPol" "Hci" "HCI" "Ml" "ML" "Api" "API" "Ios" "iOS" "Macos" "macOS" "Gdc" "GDC" "Ui" "UI" "Ux" "UX" "Aisi" "AISI" -}}
+      {{- $displayTitle = index $tagMap .Title | default .Title -}}
+    {{- end -}}
+    <h1 class="page-title">{{ $displayTitle }}</h1>
+    {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+  </div>
+</section>
+
+<section class="posts-section">
+  <div class="container">
+    {{ $paginator := .Paginate .Pages 12 }}
+
+    <div class="posts-timeline">
+      {{ range $paginator.Pages }}
+      {{ $post := . }}
+      <article class="post-entry">
+        <div class="post-date">
+          <span class="post-month">{{ .Date.Format "Jan" }}</span>
+          <span class="post-year">{{ .Date.Format "2006" }}</span>
+        </div>
+        <div class="post-content">
+          {{ with .Params.cover }}
+          {{ $imgPath := .image }}
+          {{ $isRelative := .relative }}
+          {{ if $imgPath }}
+          <a href="{{ $post.Permalink }}" class="post-image">
+            {{- if $isRelative -}}
+              {{- $img := $post.Resources.GetMatch $imgPath -}}
+              {{- if $img -}}
+                <img src="{{ $img.RelPermalink }}" alt="{{ $post.Title }}" loading="lazy">
+              {{- end -}}
+            {{- else if hasPrefix $imgPath "/" -}}
+              <img src="{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- else -}}
+              <img src="/{{ $imgPath }}" alt="{{ $post.Title }}" loading="lazy">
+            {{- end -}}
+          </a>
+          {{ end }}
+          {{ end }}
+          <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ with .Summary }}<p class="post-excerpt">{{ . | plainify | truncate 150 }}</p>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="pagination">
+      {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" class="pagination-link">← Newer</a>{{ end }}
+      <span class="pagination-info">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+      {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="pagination-link">Older →</a>{{ end }}
+    </nav>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
