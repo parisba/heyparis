@@ -14,7 +14,7 @@ params:
 tags: ["ai", "generative ai", "australia", "politics", "policy", "auspol", "analyis", "idiots", "angry", "rant", "microsoft"]
 ---
 
-> **Related:** This article examines Australia's AI governance failures in practice. For context on the newly announced AI Safety Institute and what it might learn from international examples, see [Australia's AI Safety Institute: Lessons from the UK and US](/posts/aisi-international-comparison/).
+> **Related:** This article examines the Commonwealth's AI governance failures in practice. For context on the newly announced federal AI Safety Institute, see [Australia's AI Safety Institute: Lessons from the UK and US](/posts/aisi-international-comparison/). For state-level AI governance, see [State of Play: How Australian States Are (Not) Governing AI](/posts/state-ai-governance/).
 
 The Australian Public Service's (APS) official culture of AI adoption is not found in the [glossy press releases of its ministers](https://ministers.finance.gov.au/financeminister/media-release/2025/11/12/whole-government-ai-plan-released). But we'll get to that shortly.
 

@@ -15,7 +15,7 @@ params:
 tags: ["ai", "ai safety", "australia", "policy", "auspol", "analysis", "uk", "us", "international", "aisi"]
 ---
 
-> **Related:** This article examines what Australia can learn from international AI safety institutes. For analysis of Australia's broader AI governance challenges, see [Slop for the People](/posts/govai/).
+> **Related:** This article examines what Australia can learn from international AI safety institutes. For analysis of the Commonwealth's AI governance failures, see [Slop for the People](/posts/govai/). For state-level AI governance, see [State of Play: How Australian States Are (Not) Governing AI](/posts/state-ai-governance/).
 
 On 25 November 2025, Minister for Industry and Innovation Tim Ayres [announced the establishment of the Australian AI Safety Institute (AISI)](https://www.minister.industry.gov.au/ministers/timayres/media-releases/establishment-australian-ai-safety-institute). With a [$29.9 million commitment](https://www.gadens.com/legal-insights/australia-launches-ai-safety-institute-and-releases-national-ai-plan/) and operations commencing "early 2026", Australia will become the latest nation to join the [International Network of AI Safety Institutes](https://www.nist.gov/system/files/documents/2024/11/20/Mission%20Statement%20-%20International%20Network%20of%20AISIs.pdf).
 
