@@ -16,11 +16,10 @@ tags: ["yarn spinner", "games", "secret lab", "hint line 93", "acmi", "project",
 
 I'm so proud of this.
 
-[Hint Line '93](https://www.acmi.net.au/works/125408--hint-line-93/), a game we made at [Yarn Spinner](https://yarnspinner.dev), is now on display at ACMI's [Game Worlds](https://www.acmi.net.au/whats-on/game-worlds/) exhibition.
+[Hint Line '93](https://www.acmi.net.au/works/125408--hint-line-93/), a game we made at [Yarn Spinner](https://yarnspinner.dev), is now on display at ACMI's [Game Worlds](https://www.acmi.net.au/whats-on/game-worlds/) exhibition. We put up a [big behind-the-scenes post on the Yarn Spinner blog](https://yarnspinner.dev/blog/hint-line-93), so go read that...
 
 For those who don't know, early last year ACMI (the Australian Centre for the Moving Image, a museum of screen culture in Melbourne) put out a call for commissioned microgames. They wanted playable experiences for a museum context: 5-10 minutes, compelling world-building, accessible to a wide variety of visitors.
 
-We put up a [big behind-the-scenes post on the Yarn Spinner blog](https://yarnspinner.dev/blog/hint-line-93).
 
 We pitched something ridiculous (that I came up with!): a hint line simulator with a 300-page physical binder.
 
@@ -35,6 +34,8 @@ We built the whole thing in two months. Jon Manning, Tim Nugent, Mars Buttfield-
 Meghann interviewed Brian Costelloe and Tim Gadler, who actually worked Sega's Australian tip line from 1992 to 1995. Their stories helped take our concept from nostalgia pastiche into something grounded.
 
 The dialogue system uses [Yarn Spinner](https://yarnspinner.dev) (naturally), and we shot photos of real Tasmanian performers for the character portraits, capturing every emotional beat a hint line conversation could hit: confused, frustrated, desperately confused, so confused they might cry.
+
+![The cast of Hint Line '93](cast.jpg)
 
 ACMI built a complete 1990s office environment for the installation, with a vintage cubicle setup, modern hardware hidden inside a beige desktop computer, a CRT monitor, a Newton's cradle desk toy, and a strategically placed dead plant. Perfect corporate wasteland aesthetic.
 
