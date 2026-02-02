@@ -42,7 +42,7 @@ Two Australians have been to space, but both had to become American to do it.
 
 **Paul Scully-Power** (born Sydney, 1944) flew on Space Shuttle Challenger in October 1984 as a civilian oceanographer. US citizen from 1982. Also the first astronaut with a beard — NASA expected him to shave, but he showed it didn't affect his helmet seal, so they let him keep it. He confirmed from orbit that spiral eddies exist in the ocean (you can see them with the naked eye from up there), which matters for climate modelling given two-thirds of Earth's surface is water.
 
-**Andy Thomas** (born Adelaide, 1951) became a US citizen in 1986 to join NASA. Four space flights between 1996-2005, 141 days on Mir, spacewalks on the ISS. His [Andy Thomas Foundation](https://andythomasfoundation.org/) now works on space education in Australia.
+**Andy Thomas** (born Adelaide, 1951) became a US citizen in 1986 to join NASA. Four space flights between 1996-2005, 141 days on Mir, spacewalks on the ISS. His [Andy Thomas Foundation](https://andythomas.foundation) now works on space education in Australia.
 
 Bennell-Pegg is the first to officially represent Australia. Hopefully she'll also get to go to space!
 
