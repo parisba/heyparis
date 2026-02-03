@@ -1,6 +1,6 @@
 <style>
   #callout {
-    background: #F9F9F9;
+    background: rgba(var(--accent-rgb), 0.08);
     padding: 1.5em 1.25em;
     border-radius: 3px;
     display: flex;
@@ -22,6 +22,6 @@
 <div id="callout" style="">
   <div>{{ .Get "emoji" }}</div>
 	<div id="callout-inner">
-    {{ .Get "text" }}
+    {{ .Get "text" | safeHTML }}
   </div>
 </div>

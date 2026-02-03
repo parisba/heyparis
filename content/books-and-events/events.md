@@ -10,7 +10,7 @@ cover:
   alt: "Paris speaking"
   relative: false
 ---
-**Please note:** With the exception of some existing commitments, I will not be travelling out of Tasmania for events for a year or two. Please feel free to invite me to events within Tasmania, or held remotely/online! I'll update this message when I'm travelling again! Invite me then!_—- Paris, August 2025_
+{{< callout emoji="📌" text="<strong>Please note:</strong> With the exception of some existing commitments, I will not be travelling out of Tasmania for events for a year or two. Please feel free to invite me to events within Tasmania, or held remotely/online! I'll update this message when I'm travelling again! Invite me then! <em>—- Paris, August 2025</em>" >}}
 
 I'm happy to be **invited to speak** at events on a range of topics, including but not limited to artifical intelligence, the intersection and implications of technology and creativity, work, and culture, the intersection of technology and creativity, game development and design, creative arts, writing, space, technology, and beyond. Email me at paris AT paris.id.au to chat. You can find a bio and headshots [here](#speaker-information). 
 
