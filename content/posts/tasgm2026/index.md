@@ -1,6 +1,6 @@
 ---
 title: "Tas Game Makers 2026"
-date: 2026-02-09
+date: 2026-02-08
 cover:
   image: "cover.png"
   alt: "Tas Game Makers 2026"
