@@ -1484,6 +1484,31 @@ a.entity-card-link {
   background: var(--accent-tertiary);
 }
 
+.entity-icon--meebo {
+  background: #fff;
+  position: relative;
+}
+
+.entity-icon--meebo .meebo-original {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.entity-icon--meebo .meebo-current {
+  transition: opacity 0.3s ease;
+}
+
+.entity-card:hover .meebo-original {
+  opacity: 1;
+}
+
+.entity-card:hover .meebo-current {
+  opacity: 0;
+}
+
 .entity-body {
   min-width: 0;
 }

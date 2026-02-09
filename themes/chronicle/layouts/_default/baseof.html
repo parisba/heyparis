@@ -26,7 +26,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>{{ with .Site.Params.copyright }}{{ . | markdownify }}{{ else }}&copy; {{ now.Year }} {{ .Site.Title }}{{ end }}</p>
+      <p>{{ with .Site.Params.copyright }}{{ . | markdownify }}{{ else }}&copy; {{ now.Year }} {{ .Site.Title }}{{ end }} · <a href="/privacy/">Privacy</a></p>
     </div>
   </footer>
 

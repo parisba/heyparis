@@ -11,7 +11,7 @@ cover:
 
 Paris is a computer scientist, game developer, and author, based in Hobart, Tasmania. He's also doing a law degree, because apparently he didn't have enough on.
 
-He co-founded [Secret Lab](https://secretlab.games) — the studio behind the BAFTA-winning [Night in the Woods](https://nightinthewoods.com) — and [Yarn Spinner](https://yarnspinner.dev), the narrative tools that power *DREDGE*, *A Short Hike*, *Little Kitty Big City*, and thousands more games. He's written [over 20 books](/books-and-events/books) for O'Reilly and Wiley, talks about [space on ABC Radio](/tags/space-news/), teaches at the University of Tasmania, and has a PhD in Computing and a degree in medieval history (which is more useful than it sounds).
+He co-founded [Secret Lab](https://secretlab.games) — the studio behind the beloved ABC Play School games, best known for working on the BAFTA-winning [Night in the Woods](https://nightinthewoods.com) and creating [Yarn Spinner](https://yarnspinner.dev), the narrative tools that power *DREDGE*, *A Short Hike*, *Little Kitty Big City*, and thousands more games. He's written [over 20 books](/books-and-events/books) for O'Reilly and Wiley, talks about [space on ABC Radio](/tags/space-news/), teaches at the University of Tasmania, and has a PhD in Computing and a degree in medieval history (which is more useful than it sounds).
 
 When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemakers.com), helps run [/dev/world](https://devworld.com.au) (the longest-running Apple developer conference not run by Apple), and co-founded a [space centre](https://westcoastspacecentre.com) with his [wife](https://themartianlife.com). He lives in Hobart with said wife and serves as butler to three chihuahuas and a whippet.
 
@@ -101,7 +101,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 
 <a class="entity-card-link" href="https://en.wikipedia.org/wiki/Meebo">
 <div class="entity-card entity-card--past">
-<div class="entity-icon"><img src="images/meebo.jpeg" alt="Meebo"></div>
+<div class="entity-icon entity-icon--meebo"><img src="images/meebo.jpeg" alt="Meebo" class="meebo-current"><img src="images/meebo-original.png" alt="Meebo (original logo)" class="meebo-original"></div>
 <div class="entity-body">
 <p class="entity-name">Meebo</p>
 <p class="entity-role">Product Manager · 2007–2013</p>
@@ -314,7 +314,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/hintline93.png" alt="Hint Line '93"></div>
 <div class="project-body">
-<p class="project-client">Secret Lab</p>
+<p class="project-client">Secret Lab &amp; Yarn Spinner</p>
 <p class="project-name">Hint Line '93</p>
 <p class="project-desc">A retro video game hint line experience, featured at ACMI.</p>
 </div>
@@ -439,7 +439,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <div class="project-body">
 <p class="project-client">Australian Government</p>
 <p class="project-name">National Science Week Apps</p>
-<p class="project-desc">The official National Science Week apps for Australia, built for many years running. Most recent versions by Mars.</p>
+<p class="project-desc">The official National Science Week apps for Australia, built for many years running. Most recent versions by <a href="https://themartianlife.com">Mars</a>.</p>
 </div>
 </div>
 </a>
@@ -527,8 +527,8 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <div class="award-row">
 <span class="award-year">2021</span>
 <div class="award-details">
-<p class="award-name">Best ICT Solution</p>
-<p class="award-note">Yarn Spinner</p>
+<p class="award-name">Best Customer Service or Solution</p>
+<p class="award-note">Educational Games for CoRE Learning Foundation</p>
 </div>
 <span class="award-org">TasICT</span>
 </div>
