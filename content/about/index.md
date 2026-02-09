@@ -11,7 +11,7 @@ cover:
 
 Paris is a computer scientist, game developer, and author, based in Hobart, Tasmania. He's also doing a law degree, because apparently he didn't have enough on.
 
-He co-founded [Secret Lab](https://secretlab.games) — the studio behind the beloved ABC Play School games, best known for working on the BAFTA-winning [Night in the Woods](https://nightinthewoods.com) and creating [Yarn Spinner](https://yarnspinner.dev), the narrative tools that power *DREDGE*, *A Short Hike*, *Little Kitty Big City*, and thousands more games. He's written [over 20 books](/books-and-events/books) for O'Reilly and Wiley, talks about [space on ABC Radio](/tags/space-news/), teaches at the University of Tasmania, and has a PhD in Computing and a degree in medieval history (which is more useful than it sounds).
+He co-founded [Secret Lab](https://secretlab.games) — the studio behind the beloved ABC Play School games, best known for working on the BAFTA-winning [Night in the Woods](https://nightinthewoods.com) and creating [Yarn Spinner](https://yarnspinner.dev), the narrative tools that power *DREDGE*, *A Short Hike*, *Little Kitty Big City*, and thousands more games. He's written [over 20 books](/books-and-events/books) for O'Reilly and Wiley, talks about [space on ABC Radio](/tags/space-news/), occasionally teaches at the University of Tasmania, and has a PhD in Computing and a degree in medieval history (which is more useful than it sounds).
 
 When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemakers.com), helps run [/dev/world](https://devworld.com.au) (the longest-running Apple developer conference not run by Apple), and co-founded a [space centre](https://westcoastspacecentre.com) with his [wife](https://themartianlife.com). He lives in Hobart with said wife and serves as butler to three chihuahuas and a whippet.
 
@@ -55,7 +55,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </a>
 
-<a class="entity-card-link" href="/tags/space-news/">
+<a class="entity-card-link entity-card-link--full" href="/tags/space-news/">
 <div class="entity-card">
 <div class="entity-icon"><img src="images/abc.jpeg" alt="ABC"></div>
 <div class="entity-body">
@@ -138,7 +138,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 
 <div class="entities-grid">
 
-<a class="entity-card-link" href="https://tasgamemakers.com/">
+<a class="entity-card-link entity-card-link--full" href="https://tasgamemakers.com/">
 <div class="entity-card">
 <div class="entity-icon"><img src="images/tasgm.jpeg" alt="Tasmanian Game Makers"></div>
 <div class="entity-body">
@@ -149,7 +149,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </a>
 
-<a class="entity-card-link" href="https://auc.edu.au/">
+<a class="entity-card-link entity-card-link--full" href="https://auc.edu.au/">
 <div class="entity-card">
 <div class="entity-icon entity-icon--white"><img src="images/auc.png" alt="AUC"></div>
 <div class="entity-body">
@@ -305,6 +305,18 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Yarn Spinner</p>
 <p class="project-name">Yarn Spinner</p>
 <p class="project-desc">The industry-standard narrative tool for games. Powers DREDGE, Venba, A Short Hike, Little Kitty Big City, NORCO, Luma Island, and thousands more.</p>
+<div class="project-subproducts">
+<span class="project-subproduct project-subproduct--label">Products:</span>
+<span class="project-subproduct">Yarn Spinner for Unity</span>
+<span class="project-subproduct">Yarn Spinner for Godot</span>
+<span class="project-subproduct">Yarn Spinner for Unreal</span>
+<span class="project-subproduct">VS Code Extension</span>
+<span class="project-subproduct">Try Yarn Spinner</span>
+<span class="project-subproduct">Core Compiler</span>
+<span class="project-subproduct">Yarn Spinner Playground</span>
+<span class="project-subproduct">Story Solver</span>
+<span class="project-subproduct">+ more</span>
+</div>
 <a class="project-award" href="#awards">Minister's STEM Innovation 2025</a>
 </div>
 </div>
@@ -351,6 +363,17 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </div>
 
+<a class="project-card-link project-card-link--full" href="https://web.archive.org/web/20080724122546/http://secretlab.com.au/culture/">
+<div class="project-card project-card--featured">
+<div class="project-icon"><img src="images/culture.png" alt="Culture"></div>
+<div class="project-body">
+<p class="project-client">Secret Lab</p>
+<p class="project-name">Culture</p>
+<p class="project-desc">One of the first games on the iOS (then iPhone) App Store.</p>
+</div>
+</div>
+</a>
+
 </div>
 </section>
 
@@ -358,12 +381,14 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <h2 class="projects-section-title projects-section-title--secondary" id="work-for-hire">Work-for-hire</h2>
 <div class="projects-grid">
 
+<div class="project-card-wrap--full">
 <div class="project-card project-card--nda">
 <div class="project-icon project-icon--nda"><img src="images/yarn-spinner.jpeg" alt="NDA Project"></div>
 <div class="project-body">
 <p class="project-client"><span class="redacted">A Well-Known Company</span></p>
 <p class="project-name"><span class="redacted">Redacted</span></p>
 <p class="project-desc">A game to teach children <span class="redacted">important skills</span> built for <span class="redacted">a major client</span>.</p>
+</div>
 </div>
 </div>
 
@@ -433,16 +458,14 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </div>
 
-<a class="project-card-link" href="https://www.scienceweek.net.au/">
 <div class="project-card">
 <div class="project-icon"><img src="images/scienceweek.png" alt="National Science Week"></div>
 <div class="project-body">
 <p class="project-client">Australian Government</p>
 <p class="project-name">National Science Week Apps</p>
-<p class="project-desc">The official National Science Week apps for Australia, built for many years running. Most recent versions by <a href="https://themartianlife.com">Mars</a>.</p>
+<p class="project-desc">The official <a href="https://www.scienceweek.net.au/">National Science Week</a> apps for Australia, built for many years running. Most recent versions by <a href="https://themartianlife.com">Mars</a>.</p>
 </div>
 </div>
-</a>
 
 <div class="project-card">
 <div class="project-icon"><img src="images/portarthur.jpeg" alt="Port Arthur Historic Site"></div>
@@ -457,7 +480,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <div class="project-icon"><img src="images/fastmail.jpeg" alt="Fastmail"></div>
 <div class="project-body">
 <p class="project-client">Fastmail</p>
-<p class="project-name">Client Projects</p>
+<p class="project-name">iPhone and Android App</p>
 <p class="project-desc">Work for the most amazing email provider on the planet.</p>
 </div>
 </div>
@@ -468,6 +491,15 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Mighty Games Group</p>
 <p class="project-name">Client Projects</p>
 <p class="project-desc">Projects for the Australian game development powerhouse.</p>
+</div>
+</div>
+
+<div class="project-card">
+<div class="project-icon"><img src="images/frog.png" alt="Feed a Frog"></div>
+<div class="project-body">
+<p class="project-client">Studyladder</p>
+<p class="project-name">Feed a Frog</p>
+<p class="project-desc">An engaging educational game for children, tied into Studyladder's classroom rewards system.</p>
 </div>
 </div>
 

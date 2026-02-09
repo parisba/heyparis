@@ -1775,6 +1775,34 @@ a.project-award:hover {
   color: #fff;
 }
 
+.project-subproducts {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.project-subproduct {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  background: rgba(var(--accent-rgb), 0.05);
+  border: 1px solid var(--border);
+  padding: 0.15rem 0.45rem;
+  line-height: 1;
+}
+
+.project-subproduct--label {
+  background: none;
+  border: none;
+  padding-left: 0;
+  font-weight: 600;
+  color: var(--accent);
+}
+
 /* ── Books about section ── */
 .books-about-section {
   margin-bottom: 2rem;
