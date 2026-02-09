@@ -380,7 +380,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 
 <div class="project-card project-card--featured">
-<div class="project-icon"><img src="images/nitw.webp" alt="Night in the Woods"></div>
+<div class="project-icon"><img src="images/nitw.jpg" alt="Night in the Woods"></div>
 <div class="project-body">
 <p class="project-client">Secret Lab</p>
 <p class="project-name">Night in the Woods</p>
@@ -487,7 +487,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 
 <div class="project-card">
-<div class="project-icon"><img src="images/billshock.webp" alt="Bill Shock"></div>
+<div class="project-icon"><img src="images/billshock.jpg" alt="Bill Shock"></div>
 <div class="project-body">
 <p class="project-client">TasNetworks</p>
 <p class="project-name">Bill Shock</p>
