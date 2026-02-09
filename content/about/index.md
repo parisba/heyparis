@@ -25,7 +25,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <a class="about-jump-link" href="#work-for-hire">Work-for-hire</a>
 <a class="about-jump-link" href="#books">Books</a>
 <a class="about-jump-link" href="#awards">Awards</a>
-<a class="about-jump-link about-jump-link--more" href="/about/bio/">More detailed info →</a>
+<a class="about-jump-link about-jump-link--more" href="/bio/">More detailed info →</a>
 </nav>
 
 <section class="entities-section">

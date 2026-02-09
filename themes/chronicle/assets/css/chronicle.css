@@ -1368,8 +1368,8 @@ body {
 .about-jump-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin: 0 0 2rem 0;
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem 0;
 }
 
 .about-jump-link {

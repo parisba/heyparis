@@ -3,9 +3,9 @@ title: Bio
 author:
 ShowToc: false
 cover:
-  image: "../images/mountain.jpeg"
+  image: "/about/images/mountain.jpeg"
   alt: "Paris"
-  relative: true
+  relative: false
 ---
 
 Dr Paris Buttfield-Addison is a technical product leader, author, and computer scientist based in Hobart, Tasmania. His work sits at the intersection of technology, policy, and human behaviour, drawing on a background in computer science, law, and medieval history. He's completing a law degree because he wanted to understand how regulation actually works, particularly for AI.
