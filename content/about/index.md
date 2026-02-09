@@ -151,7 +151,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 
 <a class="entity-card-link entity-card-link--full" href="https://tasgamemakers.com/">
 <div class="entity-card">
-<div class="entity-icon"><img src="images/tasgm.jpeg" alt="Tasmanian Game Makers"></div>
+<div class="entity-icon entity-icon--white"><img src="images/tasgm.png" alt="Tasmanian Game Makers"></div>
 <div class="entity-body">
 <p class="entity-name">Tasmanian Game Makers</p>
 <p class="entity-role">President · 2019–present</p>
@@ -208,6 +208,15 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </div>
 
+<div class="entity-card" style="grid-column: 1 / -1">
+<div class="entity-icon"><img src="images/tasmanian-leaders.jpeg" alt="Tasmanian Leaders"></div>
+<div class="entity-body">
+<p class="entity-name">Tasmanian Leaders</p>
+<p class="entity-role">Graduate TLP12 · 2018</p>
+<p class="entity-desc">Intensive year-long program developing high-potential leaders</p>
+</div>
+</div>
+
 <div class="entity-card">
 <div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
 <div class="entity-body">
@@ -244,15 +253,6 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </div>
 
-<div class="entity-card" style="grid-column: 1 / -1">
-<div class="entity-icon"><img src="images/tasmanian-leaders.jpeg" alt="Tasmanian Leaders"></div>
-<div class="entity-body">
-<p class="entity-name">Tasmanian Leaders</p>
-<p class="entity-role">Graduate TLP12 · 2018</p>
-<p class="entity-desc">Intensive year-long program developing high-potential leaders</p>
-</div>
-</div>
-
 </div>
 </section>
 
@@ -285,6 +285,17 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Tasmanian Game Makers</p>
 <p class="project-name">Level Up Tasmania</p>
 <p class="project-desc">Tasmania's game development conference and showcase.</p>
+</div>
+</div>
+</a>
+
+<a class="project-card-link project-card-link--full" href="https://narrascope.org/">
+<div class="project-card project-card--featured">
+<div class="project-icon"><img src="images/narrascope.png" alt="NarraScope"></div>
+<div class="project-body">
+<p class="project-client">IFTF</p>
+<p class="project-name">NarraScope 2026</p>
+<p class="project-desc">Interactive narrative and storytelling conference. Part of the Programming Group.</p>
 </div>
 </div>
 </a>
