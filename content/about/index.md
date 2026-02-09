@@ -309,7 +309,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <h2 class="projects-section-title" id="products">Products &amp; Projects</h2>
 <div class="projects-grid">
 
-<div class="project-card-wrap--full">
+<a class="project-card-link project-card-link--full" href="https://www.yarnspinner.dev/">
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/yarn-spinner.jpeg" alt="Yarn Spinner"></div>
 <div class="project-body">
@@ -332,7 +332,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <a class="project-award" href="#awards">Minister's STEM Innovation 2025</a>
 </div>
 </div>
-</div>
+</a>
 
 <a class="project-card-link" href="https://www.yarnspinner.dev/blog/hint-line-93/">
 <div class="project-card project-card--featured">

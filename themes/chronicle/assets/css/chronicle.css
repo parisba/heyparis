@@ -1773,9 +1773,28 @@ a.project-card-link {
 }
 
 .redacted {
-  filter: blur(5px);
+  color: transparent;
+  text-shadow: 0 0 8px var(--text);
   user-select: none;
   display: inline-block;
+  position: relative;
+}
+
+.redacted::after {
+  content: 'Under NDA';
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-shadow: none;
+  pointer-events: none;
 }
 
 .project-card--nda {
