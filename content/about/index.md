@@ -199,10 +199,10 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 
 <div class="entities-grid">
 
-<div class="entity-card">
+<div class="entity-card" style="grid-column: 1 / -1">
 <div class="entity-icon"><img src="images/une.jpeg" alt="University of New England"></div>
 <div class="entity-body">
-<p class="entity-name">University of New England (AU)</p>
+<p class="entity-name">University of New England</p>
 <p class="entity-role">Bachelor of Laws (LLB) · 2018–present</p>
 <p class="entity-desc">Understanding how regulation actually works, particularly for AI</p>
 </div>
@@ -244,7 +244,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </div>
 
-<div class="entity-card">
+<div class="entity-card" style="grid-column: 1 / -1">
 <div class="entity-icon"><img src="images/tasmanian-leaders.jpeg" alt="Tasmanian Leaders"></div>
 <div class="entity-body">
 <p class="entity-name">Tasmanian Leaders</p>
@@ -267,18 +267,18 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <h2 class="projects-section-title" id="events">Events</h2>
 <div class="projects-grid">
 
-<a class="project-card-link" href="https://devworld.com.au">
+<a class="project-card-link project-card-link--full" href="https://devworld.com.au">
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/devworld.jpg" alt="/dev/world"></div>
 <div class="project-body">
 <p class="project-client">AUC</p>
-<p class="project-name">/dev/world</p>
+<p class="project-name">/dev/world + X World</p>
 <p class="project-desc">The longest-running Apple developer conference not run by Apple, since 2008.</p>
 </div>
 </div>
 </a>
 
-<a class="project-card-link" href="https://leveluptasmania.com">
+<a class="project-card-link project-card-link--full" href="https://leveluptasmania.com">
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/levelup.png" alt="Level Up Tasmania"></div>
 <div class="project-body">
@@ -289,7 +289,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </a>
 
-<a class="project-card-link" href="https://inspiringtas.org.au/2024/07/west-coast-space-show/">
+<a class="project-card-link project-card-link--full" href="https://inspiringtas.org.au/2024/07/west-coast-space-show/">
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/wcsc.jpeg" alt="West Coast Space Show"></div>
 <div class="project-body">
@@ -309,12 +309,12 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <h2 class="projects-section-title" id="products">Products &amp; Projects</h2>
 <div class="projects-grid">
 
-<a class="project-card-link project-card-link--full" href="https://www.yarnspinner.dev/">
+<div class="project-card-wrap--full">
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/yarn-spinner.jpeg" alt="Yarn Spinner"></div>
 <div class="project-body">
 <p class="project-client">Yarn Spinner</p>
-<p class="project-name">Yarn Spinner</p>
+<p class="project-name"><a href="https://www.yarnspinner.dev/" style="color:inherit;text-decoration:none">Yarn Spinner</a></p>
 <p class="project-desc">The industry-standard narrative tool for games. Powers DREDGE, Venba, A Short Hike, Little Kitty Big City, NORCO, Luma Island, and thousands more.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 <div class="project-subproducts">
@@ -332,7 +332,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <a class="project-award" href="#awards">Minister's STEM Innovation 2025</a>
 </div>
 </div>
-</a>
+</div>
 
 <a class="project-card-link" href="https://www.yarnspinner.dev/blog/hint-line-93/">
 <div class="project-card project-card--featured">
