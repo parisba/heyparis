@@ -1364,6 +1364,52 @@ body {
   }
 }
 
+/* ── About jump nav ── */
+.about-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 2rem 0;
+}
+
+.about-jump-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  padding: 0.35rem 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.about-jump-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.about-jump-link:nth-child(3n+1) { border-top: 2px solid var(--accent); }
+.about-jump-link:nth-child(3n+2) { border-top: 2px solid var(--accent-secondary); }
+.about-jump-link:nth-child(3n)   { border-top: 2px solid var(--accent-tertiary); }
+
+.about-jump-link--more {
+  background: none;
+  border: 1px solid transparent;
+  border-top: 2px solid transparent;
+  color: var(--accent);
+  font-style: italic;
+}
+
+.about-jump-link--more:hover {
+  border-color: transparent;
+  border-top-color: transparent;
+  color: var(--accent-secondary);
+}
+
 /* ── Entities section (About page) ── */
 .entities-section {
   margin-bottom: 2rem;
@@ -1773,6 +1819,26 @@ a.project-card-link {
 a.project-award:hover {
   background: var(--accent);
   color: #fff;
+}
+
+.project-roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-top: 0.35rem;
+}
+
+.project-role {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(var(--accent-rgb), 0.08);
+  padding: 0.15rem 0.4rem;
+  line-height: 1;
 }
 
 .project-subproducts {

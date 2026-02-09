@@ -15,7 +15,18 @@ He co-founded [Secret Lab](https://secretlab.games) — the studio behind the be
 
 When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemakers.com), helps run [/dev/world](https://devworld.com.au) (the longest-running Apple developer conference not run by Apple), and co-founded a [space centre](https://westcoastspacecentre.com) with his [wife](https://themartianlife.com). He lives in Hobart with said wife and serves as butler to three chihuahuas and a whippet.
 
-[Work](#work) · [Community](#community) · [Education](#education) · [Skills](#skills) · [Events](#events) · [Products](#products) · [Work-for-hire](#work-for-hire) · [Books](#books) · [Awards](#awards) · [Want more detailed info?](/about/bio/)
+<nav class="about-jump-nav">
+<a class="about-jump-link" href="#work">Work</a>
+<a class="about-jump-link" href="#community">Community</a>
+<a class="about-jump-link" href="#education">Education</a>
+<a class="about-jump-link" href="#skills">Skills</a>
+<a class="about-jump-link" href="#events">Events</a>
+<a class="about-jump-link" href="#products">Products</a>
+<a class="about-jump-link" href="#work-for-hire">Work-for-hire</a>
+<a class="about-jump-link" href="#books">Books</a>
+<a class="about-jump-link" href="#awards">Awards</a>
+<a class="about-jump-link about-jump-link--more" href="/about/bio/">More detailed info →</a>
+</nav>
 
 <section class="entities-section">
 <h2 class="entities-section-title" id="work">Work</h2>
@@ -305,6 +316,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Yarn Spinner</p>
 <p class="project-name">Yarn Spinner</p>
 <p class="project-desc">The industry-standard narrative tool for games. Powers DREDGE, Venba, A Short Hike, Little Kitty Big City, NORCO, Luma Island, and thousands more.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 <div class="project-subproducts">
 <span class="project-subproduct project-subproduct--label">Products:</span>
 <span class="project-subproduct">Yarn Spinner for Unity</span>
@@ -329,6 +341,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Secret Lab &amp; Yarn Spinner</p>
 <p class="project-name">Hint Line '93</p>
 <p class="project-desc">A retro video game hint line experience, featured at ACMI.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Writing</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 </a>
@@ -340,6 +353,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Secret Lab</p>
 <p class="project-name">I Feel Fine</p>
 <p class="project-desc">A narrative adventure game about the end of the world, built with Yarn Spinner.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 </div>
 </div>
 </a>
@@ -350,6 +364,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Secret Lab</p>
 <p class="project-name">Leonardo's Moon Ship</p>
 <p class="project-desc">An adventure game about helping Leonardo da Vinci reach the moon.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Writing</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 
@@ -359,7 +374,20 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Secret Lab</p>
 <p class="project-name">Night in the Woods</p>
 <p class="project-desc">BAFTA- and IGF-winning adventure game about a college dropout returning to her crumbling hometown. Praised for its writing, art, and unflinching look at small-town life.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 <a class="project-award" href="#awards">BAFTA 2018</a> <a class="project-award" href="#awards">IGF 2018</a>
+</div>
+</div>
+
+<div class="project-card-wrap--full">
+<div class="project-card project-card--featured project-card--nda">
+<div class="project-icon"><img src="images/mtpleasant.jpg" alt="Mt Pleasant"></div>
+<div class="project-body">
+<p class="project-client">Secret Lab</p>
+<p class="project-name">Mt Pleasant</p>
+<p class="project-desc">Early, early pre-production for a workplace TV sitcom set at a radio observatory in rural Tasmania.</p>
+<div class="project-roles"><span class="project-role">Writer</span> <span class="project-role">Creator</span></div>
+</div>
 </div>
 </div>
 
@@ -370,6 +398,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Secret Lab</p>
 <p class="project-name">Culture</p>
 <p class="project-desc">One of the first games on the iOS (then iPhone) App Store.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 </a>
@@ -388,6 +417,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client"><span class="redacted">A Well-Known Company</span></p>
 <p class="project-name"><span class="redacted">Redacted</span></p>
 <p class="project-desc">A game to teach children <span class="redacted">important skills</span> built for <span class="redacted">a major client</span>.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 </div>
@@ -398,6 +428,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">ABC</p>
 <p class="project-name">Play School Games</p>
 <p class="project-desc">Official games for Australia's beloved children's TV show, Play School, for the Australian Broadcasting Corporation.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 <a class="project-award" href="#awards">AIMIA Best of Tablet</a> <a class="project-award" href="#awards">TasICT 2013</a>
 </div>
 </div>
@@ -408,6 +439,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">ABC</p>
 <p class="project-name">Art Maker</p>
 <p class="project-desc">Creative art-making app for kids, part of the ABC Play School suite.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 <a class="project-award" href="#awards">AIMIA Effectiveness</a> <a class="project-award" href="#awards">AIMIA Best Tablet App</a> <a class="project-award" href="#awards">AIMIA Best Children's</a>
 </div>
 </div>
@@ -418,6 +450,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Qantas</p>
 <p class="project-name">Joey Playbox</p>
 <p class="project-desc">Creative children's entertainment for in-flight use on one of the oldest and most respected airlines in the world.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 <a class="project-award" href="#awards">iAward Mobility Innovation 2016</a>
 </div>
 </div>
@@ -428,6 +461,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">CSIRO</p>
 <p class="project-name">Physical Activity Games</p>
 <p class="project-desc">Exploring whether video games can help motivate people's fitness, for Australia's national laboratory.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 
@@ -437,6 +471,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">National Museum of Australia</p>
 <p class="project-name">The Museum Game</p>
 <p class="project-desc">An interactive experience that has helped thousands of school children explore and engage with the museum's collection.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 
@@ -446,6 +481,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">TasNetworks</p>
 <p class="project-name">Bill Shock</p>
 <p class="project-desc">A game to help people understand how their appliance use impacts their energy costs.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 
@@ -455,6 +491,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">CoRE Learning Foundation</p>
 <p class="project-name">Old as Dirt &amp; Resource, Respond Rescue!</p>
 <p class="project-desc">Award-winning party games and custom Minecraft: Education Edition content to teach the next generation of STEM leaders. Minecraft content by <a href="https://themartianlife.com">Mars</a>.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 
@@ -464,6 +501,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Australian Government</p>
 <p class="project-name">National Science Week Apps</p>
 <p class="project-desc">The official <a href="https://www.scienceweek.net.au/">National Science Week</a> apps for Australia, built for many years running. Most recent versions by <a href="https://themartianlife.com">Mars</a>.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 </div>
 </div>
 
@@ -473,6 +511,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Port Arthur Historic Site</p>
 <p class="project-name">Guide App</p>
 <p class="project-desc">Visitor guide app for one of Australia's most significant heritage sites.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 </div>
 </div>
 
@@ -482,6 +521,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Fastmail</p>
 <p class="project-name">iPhone and Android App</p>
 <p class="project-desc">Work for the most amazing email provider on the planet.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 </div>
 </div>
 
@@ -491,6 +531,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Mighty Games Group</p>
 <p class="project-name">Client Projects</p>
 <p class="project-desc">Projects for the Australian game development powerhouse.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 
@@ -500,6 +541,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-client">Studyladder</p>
 <p class="project-name">Feed a Frog</p>
 <p class="project-desc">An engaging educational game for children, tied into Studyladder's classroom rewards system.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
 
