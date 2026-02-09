@@ -13,7 +13,6 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts", "papermod"]
-googleAnalytics: G-FMR8Q48WG5
 
 minify:
   disableXML: true
@@ -69,9 +68,6 @@ params:
   images:
     - /hobart.jpg
 
-  analytics:
-    google:
-      SiteVerificationTag: "G-FMR8Q48WG5"
 
   homeInfoParams:
     Title: "Paris Buttfield-Addison"

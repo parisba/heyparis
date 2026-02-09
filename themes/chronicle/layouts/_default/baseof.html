@@ -29,5 +29,46 @@
       <p>{{ with .Site.Params.copyright }}{{ . | markdownify }}{{ else }}&copy; {{ now.Year }} {{ .Site.Title }}{{ end }}</p>
     </div>
   </footer>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Track outbound link clicks
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest('a[href]');
+      if (!link) return;
+      var href = link.getAttribute('href');
+      if (href && href.startsWith('http') && !href.includes(location.hostname)) {
+        umami.track('outbound-click', { url: href });
+      }
+    });
+
+    // Track nav menu clicks
+    document.querySelectorAll('.site-nav a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        umami.track('nav-click', { page: a.textContent.trim() });
+      });
+    });
+
+    // Track section jump link clicks (on /about/)
+    document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        umami.track('section-jump', { target: a.getAttribute('href') });
+      });
+    });
+
+    // Track scroll depth (25%, 50%, 75%, 100%)
+    var depths = [25, 50, 75, 100];
+    var fired = {};
+    window.addEventListener('scroll', function () {
+      var scrollPct = Math.round(100 * (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight);
+      depths.forEach(function (d) {
+        if (scrollPct >= d && !fired[d]) {
+          fired[d] = true;
+          umami.track('scroll-depth', { depth: d });
+        }
+      });
+    }, { passive: true });
+  });
+  </script>
 </body>
 </html>

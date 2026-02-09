@@ -1363,3 +1363,561 @@ body {
     display: none;
   }
 }
+
+/* ── Entities section (About page) ── */
+.entities-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.entities-section:last-of-type {
+  border-bottom: none;
+}
+
+.article-body .entities-section-title {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem 0;
+  padding: 0.25rem 0;
+  border-left: none !important;
+}
+
+.entities-subsection-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin: 0 0 0.6rem 0;
+}
+
+.entities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  align-items: stretch;
+}
+
+a.entity-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.entity-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  min-height: 100px;
+  height: 100%;
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.entity-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.entity-card-link--full {
+  grid-column: 1 / -1;
+}
+
+.entity-card--past {
+  position: relative;
+  overflow: hidden;
+}
+
+.entity-card--past::after {
+  content: 'PAST';
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: var(--text-muted);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  line-height: 1;
+}
+
+.entity-icon {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+}
+
+.entity-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.entity-icon--white {
+  background: #fff;
+}
+
+.entity-icon--secondary {
+  background: var(--accent-secondary);
+}
+
+.entity-icon--tertiary {
+  background: var(--accent-tertiary);
+}
+
+.entity-body {
+  min-width: 0;
+}
+
+.entity-name {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.entity-role {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  margin: 0.15rem 0 0 0;
+}
+
+.entity-desc {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin: 0.25rem 0 0 0;
+}
+
+@media (max-width: 640px) {
+  .entities-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Skills section ── */
+.skills-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-body .skills-section-title {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem 0;
+  padding: 0.25rem 0;
+  border-left: none !important;
+}
+
+.skills-line {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin: 0 0 0.4rem 0;
+}
+
+.skills-line:last-child {
+  margin-bottom: 0;
+}
+
+.skills-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+.skills-label--tech {
+  color: var(--accent);
+}
+
+.skills-label--research {
+  color: var(--accent-secondary);
+}
+
+.skills-label--leadership {
+  color: var(--accent-tertiary);
+}
+
+/* ── Projects sections ── */
+.projects-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.projects-section:last-of-type {
+  border-bottom: none;
+}
+
+.article-body .projects-section-title {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem 0;
+  padding: 0.25rem 0;
+  border-left: none !important;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  min-height: 100px;
+  height: 100%;
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.project-icon {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.project-body {
+  min-width: 0;
+}
+
+.project-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+a.project-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-client {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  margin: 0 0 0.2rem 0;
+}
+
+.project-name {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 0.3rem 0;
+}
+
+.project-desc {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Featured product cards */
+.project-card--featured {
+}
+
+.project-card-link--full,
+.project-card-wrap--full {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.projects-nda-note {
+  grid-column: 1 / -1;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+/* ── NDA / redacted styles ── */
+.project-icon--nda {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-icon--nda img {
+  filter: blur(6px) brightness(2);
+  opacity: 0.5;
+}
+
+.redacted {
+  filter: blur(5px);
+  user-select: none;
+  display: inline-block;
+}
+
+.project-card--nda {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card--nda::after {
+  content: 'SOON';
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  line-height: 1;
+}
+
+/* ── Project award tags ── */
+.project-award {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  background: rgba(var(--accent-rgb), 0.08);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.35rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a.project-award:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ── Books about section ── */
+.books-about-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-body .books-about-section-title {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem 0;
+  padding: 0.25rem 0;
+  border-left: none !important;
+}
+
+.books-about-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.book-about-item {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s ease;
+}
+
+.book-about-item:hover {
+  transform: translateY(-3px);
+}
+
+.book-about-cover-wrap {
+  height: 140px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.book-about-cover {
+  max-width: 100%;
+  max-height: 140px;
+  object-fit: contain;
+  transition: all 0.2s ease;
+}
+
+.book-about-item:hover .book-about-cover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.book-about-title {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  line-height: 1.3;
+  color: var(--text-muted);
+  margin-top: 0.35rem;
+}
+
+.book-about-publisher {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-top: 0.15rem;
+}
+
+.books-about-more {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.books-about-more:hover {
+  border-bottom-color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .books-about-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ── Awards section ── */
+.awards-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-body .awards-section-title {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem 0;
+  padding: 0.25rem 0;
+  border-left: none !important;
+}
+
+.awards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.award-row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr auto;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.award-row:last-child {
+  border-bottom: none;
+}
+
+.award-year {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.award-details {
+  min-width: 0;
+}
+
+.award-name {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.award-note {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0.1rem 0 0 0;
+}
+
+.award-org {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .award-row {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+  .award-org {
+    text-align: left;
+  }
+}
