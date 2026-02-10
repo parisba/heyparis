@@ -32,13 +32,15 @@
 
   <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // Track outbound link clicks
+    // Track outbound link clicks (with page context to distinguish post vs non-post)
     document.addEventListener('click', function (e) {
       var link = e.target.closest('a[href]');
       if (!link) return;
       var href = link.getAttribute('href');
       if (href && href.startsWith('http') && !href.includes(location.hostname)) {
-        umami.track('outbound-click', { url: href });
+        var path = location.pathname;
+        var section = path.startsWith('/posts/') ? 'post' : path.replace(/^\/|\/$/g, '').split('/')[0] || 'home';
+        umami.track('outbound-click', { url: href, page: path, section: section });
       }
     });
 
