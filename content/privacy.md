@@ -7,7 +7,7 @@ Hey! This is a personal website run by me, Paris Buttfield-Addison, from Hobart,
 
 **Cookies.** This site sets zero cookies. None. You can check your browser's developer tools right now — there won't be any from this domain.
 
-**Analytics.** This site uses [Umami](https://umami.is), a privacy-focused, cookie-free analytics tool. It collects anonymous, aggregated data — things like which pages get visited and what country visitors are in. No cookies, no fingerprinting, no tracking across sites, no personally identifiable information. The analytics data is hosted by Umami Cloud in the EU. You can't be identified from it and neither can I.
+**Analytics.** This site uses [Umami](https://umami.is), a privacy-focused, cookie-free analytics tool. It collects anonymous, aggregated data — things like which pages get visited, what country visitors are in, which outbound links are clicked, and how far down a page people scroll. No cookies, no fingerprinting, no tracking across sites, no personally identifiable information. The analytics data is hosted by Umami Cloud in the EU. You can't be identified from it and neither can I.
 
 **Hosting.** This site is hosted on [GitHub Pages](https://pages.github.com), which is operated by GitHub (owned by Microsoft). GitHub may collect technical information like your IP address and browser details in their server logs as part of delivering the site to you. That's between you and GitHub — I don't have access to those logs. You can read [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) for details.
 
