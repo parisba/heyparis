@@ -9,7 +9,7 @@ cover:
   relative: true
 ---
 
-Paris is a computer scientist, game developer, and author, based in Hobart, Tasmania. He's also doing a law degree, because apparently he didn't have enough on.
+Paris is a computer scientist, game designer, writer, and artist, based in Hobart, Tasmania. He's also doing a law degree, because apparently he didn't have enough on.
 
 He co-founded [Secret Lab](https://secretlab.games) — the studio behind the beloved ABC Play School games, best known for working on the BAFTA-winning [Night in the Woods](https://nightinthewoods.com) and creating [Yarn Spinner](https://yarnspinner.dev), the narrative tools that power *DREDGE*, *A Short Hike*, *Little Kitty Big City*, and thousands more games. He's written [over 20 books](/books-and-events/books) for O'Reilly and Wiley, talks about [space on ABC Radio](/tags/space-news/), occasionally teaches at the University of Tasmania, and has a PhD in Computing and a degree in medieval history (which is more useful than it sounds).
 

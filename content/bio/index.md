@@ -8,7 +8,7 @@ cover:
   relative: false
 ---
 
-Dr Paris Buttfield-Addison is a technical product leader, author, and computer scientist based in Hobart, Tasmania. His work sits at the intersection of technology, policy, and human behaviour, drawing on a background in computer science, law, and medieval history. He's completing a law degree because he wanted to understand how regulation actually works, particularly for AI.
+Dr Paris Buttfield-Addison is a game designer, writer, artist, technical product leader, and computer scientist based in Hobart, Tasmania. His work sits at the intersection of technology, policy, and human behaviour, drawing on a background in computer science, law, and medieval history. He's completing a law degree because he wanted to understand how regulation actually works, particularly for AI.
 
 Paris is the co-founder of [Secret Lab Pty. Ltd.](https://secretlab.games), an award-winning game development studio best known for the BAFTA- and IGF-winning [Night in the Woods](https://nightinthewoods.com), as well as developing iPad games for ABC Play School and the 'Joey Playbox' for Qantas.
 
