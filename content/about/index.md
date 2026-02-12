@@ -13,7 +13,7 @@ Paris is a computer scientist, game designer, writer, and artist, based in Hobar
 
 He co-founded [Secret Lab](https://secretlab.games) — the studio behind the beloved ABC Play School games, best known for working on the BAFTA-winning [Night in the Woods](https://nightinthewoods.com) and creating [Yarn Spinner](https://yarnspinner.dev), the narrative tools that power *DREDGE*, *A Short Hike*, *Little Kitty Big City*, and thousands more games. He's written [over 20 books](/books-and-events/books) for O'Reilly and Wiley, talks about [space on ABC Radio](/tags/space-news/), occasionally teaches at the University of Tasmania, and has a PhD in Computing and a degree in medieval history (which is more useful than it sounds).
 
-When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemakers.com), helps run [/dev/world](https://devworld.com.au) (the longest-running Apple developer conference not run by Apple), and co-founded a [space centre](https://westcoastspacecentre.com) with his [wife](https://themartianlife.com). He lives in Hobart with said wife and serves as butler to three chihuahuas and a whippet.
+When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgamemakers.com) (as President), helps run [/dev/world](https://devworld.com.au) (the longest-running Apple developer conference not run by Apple), and co-founded a [space centre](https://westcoastspacecentre.com) with his [wife](https://themartianlife.com). He lives in Hobart with said wife and serves as butler to three chihuahuas and a whippet.
 
 <nav class="about-jump-nav">
 <a class="about-jump-link" href="#products">Products</a>
@@ -314,7 +314,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </div>
 
-<p class="projects-nda-note">Plus a bunch of projects I can't talk about, including work for Google, Apple, a rather <em>marvel</em>lous superhero comics publisher, a beloved cooking app for the ABC, educational games for courseware companies, and hundreds more.</p>
+<p class="projects-nda-note">Plus hundreds more projects I can't talk about, including work for Google, Apple, a rather <em>marvel</em>lous superhero comics publisher, a beloved cooking app for the ABC, educational games for courseware companies, and hundreds more.</p>
 
 </div>
 </section>
