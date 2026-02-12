@@ -1533,6 +1533,57 @@ a.entity-card-link {
   }
 }
 
+/* Publisher cards with book cover fling effect */
+.entity-card--with-books {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.entity-card--with-books:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  z-index: 100;
+}
+
+.entity-card--with-books .entity-card-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Override overflow:hidden from --past so books can fly out */
+.entity-card--with-books.entity-card--past {
+  overflow: visible;
+}
+
+.books-hover-strip {
+  display: none;
+}
+
+.book-flung {
+  position: absolute;
+  height: 140px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 3px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  margin-top: -70px;
+  margin-left: -46px;
+  transform: scale(0) rotate(0deg);
+  z-index: 10;
+}
+
 .entity-card--past {
   position: relative;
   overflow: hidden;

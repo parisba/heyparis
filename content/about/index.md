@@ -16,349 +16,17 @@ He co-founded [Secret Lab](https://secretlab.games) — the studio behind the be
 When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemakers.com), helps run [/dev/world](https://devworld.com.au) (the longest-running Apple developer conference not run by Apple), and co-founded a [space centre](https://westcoastspacecentre.com) with his [wife](https://themartianlife.com). He lives in Hobart with said wife and serves as butler to three chihuahuas and a whippet.
 
 <nav class="about-jump-nav">
-<a class="about-jump-link" href="#work">Work</a>
-<a class="about-jump-link" href="#community">Community</a>
-<a class="about-jump-link" href="#education">Education</a>
-<a class="about-jump-link" href="#skills">Skills</a>
-<a class="about-jump-link" href="#events">Events</a>
 <a class="about-jump-link" href="#products">Products</a>
-<a class="about-jump-link" href="#work-for-hire">Work-for-hire</a>
 <a class="about-jump-link" href="#books">Books</a>
+<a class="about-jump-link" href="#work">Work</a>
+<a class="about-jump-link" href="#events">Events</a>
+<a class="about-jump-link" href="#community">Community</a>
+<a class="about-jump-link" href="#skills">Skills</a>
+<a class="about-jump-link" href="#education">Education</a>
 <a class="about-jump-link" href="#awards">Awards</a>
 <a class="about-jump-link about-jump-link--more" href="/bio/">More detailed info →</a>
 </nav>
 
-<section class="entities-section">
-<h2 class="entities-section-title" id="work">Work</h2>
-
-<div class="entities-grid">
-
-<div class="entity-card-link entity-card-link--full">
-<div class="entity-card entity-card--with-games">
-<a href="https://yarnspinner.dev" class="entity-card-main">
-<div class="entity-icon"><img src="images/yarn-spinner.jpeg" alt="Yarn Spinner"></div>
-<div class="entity-body">
-<p class="entity-name">Yarn Spinner</p>
-<p class="entity-role">Head of Product, Research &amp; Analytics · 2023–present</p>
-<p class="entity-desc">Narrative game tools used by thousands of games played by millions</p>
-</div>
-</a>
-<a class="ys-games-strip" href="https://www.yarnspinner.dev/showcase/" title="View all games on the Yarn Spinner Showcase">
-<img src="/images/games/nitw.webp" alt="Night in the Woods">
-<img src="/images/games/dredge.webp" alt="DREDGE">
-<img src="/images/games/venba.webp" alt="Venba">
-<img src="/images/games/a-short-hike.webp" alt="A Short Hike">
-<img src="/images/games/little-kitty.webp" alt="Little Kitty, Big City">
-<img src="/images/games/norco.webp" alt="NORCO">
-<img src="/images/games/rift-necrodancer.webp" alt="Rift of the NecroDancer">
-<img src="/images/games/demonschool.webp" alt="Demonschool">
-<img src="/images/games/lost-in-random.webp" alt="Lost in Random">
-<img src="/images/games/frog-detective.webp" alt="Frog Detective">
-<img src="/images/games/escape-academy.webp" alt="Escape Academy">
-<img src="/images/games/lil-guardsman.webp" alt="Lil' Guardsman">
-<img src="/images/games/unbeatable.webp" alt="UNBEATABLE">
-<img src="/images/games/skate-story.webp" alt="Skate Story">
-<img src="/images/games/south-of-the-circle.webp" alt="South of the Circle">
-<img src="/images/games/rogue-prince-of-persia.webp" alt="The Rogue Prince of Persia">
-<img src="/images/games/button-city.webp" alt="Button City">
-<img src="/images/games/welcome-to-elk.webp" alt="Welcome to Elk">
-<img src="/images/games/ena-dream-bbq.webp" alt="ENA: Dream BBQ">
-<img src="/images/games/tiny-bookshop.webp" alt="Tiny Bookshop">
-<img src="/images/games/cabernet.webp" alt="Cabernet">
-<img src="/images/games/cozy-caravan.webp" alt="Cozy Caravan">
-<img src="/images/games/goodnight-universe.webp" alt="Goodnight Universe">
-<img src="/images/games/letters-to-arralla.webp" alt="Letters to Arralla">
-<img src="/images/games/shelflife.webp" alt="ShelfLife">
-<img src="/images/games/afterlove-ep.webp" alt="Afterlove EP">
-<img src="/images/games/burger-bois.webp" alt="Burger Bois">
-<img src="/images/games/dead-pets.webp" alt="Dead Pets">
-<img src="/images/games/dead-watch.webp" alt="Dead Watch">
-<img src="/images/games/i-feel-fine.webp" alt="I Feel Fine">
-<img src="/images/games/imprinted.webp" alt="Imprinted">
-<img src="/images/games/janet-demornay.webp" alt="Janet DeMornay">
-<img src="/images/games/mayor-may-knott.webp" alt="Mayor May Knott">
-<img src="/images/games/my-arms-are-longer-now.webp" alt="My Arms Are Longer Now">
-<img src="/images/games/nullstar-solus.webp" alt="Nullstar Solus">
-<img src="/images/games/outcore.webp" alt="Outcore">
-<img src="/images/games/project-lexa.webp" alt="Project Lexa">
-<img src="/images/games/big-hops.webp" alt="Big Hops">
-<img src="/images/games/star-trek-infection.webp" alt="Star Trek: Infection">
-<img src="/images/games/young-suns.webp" alt="Young Suns">
-</a>
-</div>
-</div>
-
-<a class="entity-card-link entity-card-link--full" href="https://secretlab.games">
-<div class="entity-card">
-<div class="entity-icon"><img src="images/secretlab.jpeg" alt="Secret Lab"></div>
-<div class="entity-body">
-<p class="entity-name">Secret Lab</p>
-<p class="entity-role">Head of Product &amp; Creative · 2008–present</p>
-<p class="entity-desc">Award-winning game development studio (Night in the Woods)</p>
-</div>
-</div>
-</a>
-
-<a class="entity-card-link entity-card-link--full" href="https://westcoastspacecentre.com">
-<div class="entity-card">
-<div class="entity-icon"><img src="images/wcsc.jpeg" alt="West Coast Space Centre"></div>
-<div class="entity-body">
-<p class="entity-name">West Coast Space Centre</p>
-<p class="entity-role">Chair · 2023–present</p>
-<p class="entity-desc">Not-for-profit STEM engagement initiative</p>
-</div>
-</div>
-</a>
-
-<a class="entity-card-link entity-card-link--full" href="/tags/space-news/">
-<div class="entity-card">
-<div class="entity-icon"><img src="images/abc.jpeg" alt="ABC"></div>
-<div class="entity-body">
-<p class="entity-name">ABC</p>
-<p class="entity-role">Space News Presenter · 2025–present</p>
-<p class="entity-desc">Monthly radio segment on space news, ABC Radio Hobart</p>
-</div>
-</div>
-</a>
-
-<a class="entity-card-link" href="https://utas.edu.au">
-<div class="entity-card">
-<div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
-<div class="entity-body">
-<p class="entity-name">University of Tasmania</p>
-<p class="entity-role">Sessional Academic · 2008–present</p>
-<p class="entity-desc">Teaching and research in computing</p>
-</div>
-</div>
-</a>
-
-<a class="entity-card-link" href="/books-and-events/books/">
-<div class="entity-card entity-card--past">
-<div class="entity-icon"><img src="images/oreilly.jpeg" alt="O'Reilly Media"></div>
-<div class="entity-body">
-<p class="entity-name">O'Reilly Media</p>
-<p class="entity-role">Technical Author · 2011–2023</p>
-<p class="entity-desc">Author of books on mobile dev, AI, game design, and Swift</p>
-</div>
-</div>
-</a>
-
-<a class="entity-card-link" href="/books-and-events/books/">
-<div class="entity-card entity-card--past">
-<div class="entity-icon"><img src="images/wiley.jpeg" alt="Wiley"></div>
-<div class="entity-body">
-<p class="entity-name">Wiley</p>
-<p class="entity-role">Technical Author · 2009–2011</p>
-<p class="entity-desc">For Dummies imprint, including iPhone &amp; iPad Game Dev</p>
-</div>
-</div>
-</a>
-
-<a class="entity-card-link" href="https://en.wikipedia.org/wiki/Meebo">
-<div class="entity-card entity-card--past">
-<div class="entity-icon entity-icon--meebo"><img src="images/meebo.jpeg" alt="Meebo" class="meebo-current"><img src="images/meebo-original.png" alt="Meebo (original logo)" class="meebo-original"></div>
-<div class="entity-body">
-<p class="entity-name">Meebo</p>
-<p class="entity-role">Product Manager · 2007–2013</p>
-<p class="entity-desc">Consumer web platform, acquired by Google for $100M</p>
-</div>
-</div>
-</a>
-
-<a class="entity-card-link" href="https://en.wikipedia.org/wiki/GovHack">
-<div class="entity-card entity-card--past">
-<div class="entity-icon"><img src="images/govhack.jpeg" alt="GovHack"></div>
-<div class="entity-body">
-<p class="entity-name">GovHack</p>
-<p class="entity-role">Program Manager · 2018</p>
-<p class="entity-desc">National open-data hackathon competition</p>
-</div>
-</div>
-</a>
-
-<div class="entity-card entity-card--past">
-<div class="entity-icon">IT</div>
-<div class="entity-body">
-<p class="entity-name">ITHINKITWORKS</p>
-<p class="entity-role">Software Engineer · 2001–2007</p>
-<p class="entity-desc">Software engineering and consulting</p>
-</div>
-</div>
-
-</div>
-</section>
-
-<section class="entities-section">
-<h2 class="entities-section-title entities-section-title--community" id="community">Community</h2>
-
-<div class="entities-grid">
-
-<a class="entity-card-link entity-card-link--full" href="https://tasgamemakers.com/">
-<div class="entity-card">
-<div class="entity-icon entity-icon--white"><img src="images/tasgm.png" alt="Tasmanian Game Makers"></div>
-<div class="entity-body">
-<p class="entity-name">Tasmanian Game Makers</p>
-<p class="entity-role">President · 2019–present</p>
-<p class="entity-desc">Government advocacy securing policy changes and sector funding</p>
-</div>
-</div>
-</a>
-
-<a class="entity-card-link entity-card-link--full" href="https://auc.edu.au/">
-<div class="entity-card">
-<div class="entity-icon entity-icon--white"><img src="images/auc.png" alt="AUC"></div>
-<div class="entity-body">
-<p class="entity-name">AUC</p>
-<p class="entity-role">Secretary of Executive · 2014–present</p>
-<p class="entity-desc">Australasian Apple University Consortium, runs /dev/world</p>
-</div>
-</div>
-</a>
-
-<div class="entity-card">
-<div class="entity-icon"><img src="images/pearcey.jpeg" alt="Pearcey Foundation"></div>
-<div class="entity-body">
-<p class="entity-name">Pearcey Foundation</p>
-<p class="entity-role">Committee Member · 2014–present</p>
-<p class="entity-desc">Recognising contributions to the Australian ICT sector</p>
-</div>
-</div>
-
-<a class="entity-card-link" href="https://www.acs.org.au/">
-<div class="entity-card entity-card--past">
-<div class="entity-icon"><img src="images/acs.jpeg" alt="ACS"></div>
-<div class="entity-body">
-<p class="entity-name">ACS</p>
-<p class="entity-role">Executive Committee Member · 2008–2020</p>
-<p class="entity-desc">Australian Computer Society, Gold Disruptor 2016</p>
-</div>
-</div>
-</a>
-
-</div>
-</section>
-
-<section class="entities-section">
-<h2 class="entities-section-title entities-section-title--education" id="education">Education</h2>
-
-<div class="entities-grid">
-
-<div class="entity-card" style="grid-column: 1 / -1">
-<div class="entity-icon"><img src="images/une.jpeg" alt="University of New England"></div>
-<div class="entity-body">
-<p class="entity-name">University of New England</p>
-<p class="entity-role">Bachelor of Laws (LLB) · 2018–present</p>
-<p class="entity-desc">Understanding how regulation actually works, particularly for AI</p>
-</div>
-</div>
-
-<div class="entity-card" style="grid-column: 1 / -1">
-<div class="entity-icon"><img src="images/tasmanian-leaders.jpeg" alt="Tasmanian Leaders"></div>
-<div class="entity-body">
-<p class="entity-name">Tasmanian Leaders</p>
-<p class="entity-role">Graduate TLP12 · 2018</p>
-<p class="entity-desc">Intensive year-long program developing high-potential leaders</p>
-</div>
-</div>
-
-<div class="entity-card">
-<div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
-<div class="entity-body">
-<p class="entity-name">University of Tasmania</p>
-<p class="entity-role">PhD, Computer Science · 2009–2012</p>
-<p class="entity-desc">Managing personal information across multiple platforms</p>
-</div>
-</div>
-
-<div class="entity-card">
-<div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
-<div class="entity-body">
-<p class="entity-name">University of Tasmania</p>
-<p class="entity-role">BComp (Hons), Computing · First Class Honours</p>
-<p class="entity-desc">Thesis: See Through Paper — Exploring PIM with RFID</p>
-</div>
-</div>
-
-<div class="entity-card">
-<div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
-<div class="entity-body">
-<p class="entity-name">University of Tasmania</p>
-<p class="entity-role">BA-BComp, Medieval &amp; Modern History, CS</p>
-<p class="entity-desc">Double degree in history and computer science</p>
-</div>
-</div>
-
-<div class="entity-card">
-<div class="entity-icon"><img src="images/hutchins.jpeg" alt="The Hutchins School"></div>
-<div class="entity-body">
-<p class="entity-name">The Hutchins School</p>
-<p class="entity-role">Secondary Education</p>
-<p class="entity-desc">Hobart, Tasmania</p>
-</div>
-</div>
-
-</div>
-</section>
-
-<section class="skills-section">
-<h2 class="skills-section-title" id="skills">Skills</h2>
-<p class="skills-line"><span class="skills-label skills-label--tech">Technical</span> · Product Strategy · Swift · C# · C++ · C · Rust · Python · React · TypeScript · Vite · Unity · Godot · Unreal Engine · Phaser.js · Game Development · Narrative Systems · Yarn Spinner · Ink · Mobile Dev · Android · Apple Platforms · Machine Learning · AI · Data Science · Language Design</p>
-<p class="skills-line"><span class="skills-label skills-label--research">Research &amp; Writing</span> · Qualitative Research · Quantitative Research · AI Governance · Technical Writing · HCI Research · Policy Analysis · Information Management · Public Speaking · Science Communication · Broadcasting · Administrative Law</p>
-<p class="skills-line"><span class="skills-label skills-label--leadership">Leadership</span> · Government Advocacy · Community Building · Board Governance · Stakeholder Engagement · Event Organisation · Funding Strategy · Education · Cross-functional Teams</p>
-</section>
-
-<section class="projects-section">
-<h2 class="projects-section-title" id="events">Events</h2>
-<div class="projects-grid">
-
-<a class="project-card-link project-card-link--full" href="https://devworld.au/index.php">
-<div class="project-card project-card--featured">
-<div class="project-icon"><img src="images/devworld.jpg" alt="/dev/world"></div>
-<div class="project-body">
-<p class="project-client">AUC</p>
-<p class="project-name">/dev/world + X World</p>
-<p class="project-desc">The longest-running Apple developer conference not run by Apple, since 2008.</p>
-</div>
-</div>
-</a>
-
-<a class="project-card-link project-card-link--full" href="https://leveluptasmania.com">
-<div class="project-card project-card--featured">
-<div class="project-icon"><img src="images/levelup.png" alt="Level Up Tasmania"></div>
-<div class="project-body">
-<p class="project-client">Tasmanian Game Makers</p>
-<p class="project-name">Level Up Tasmania</p>
-<p class="project-desc">Tasmania's game development conference and showcase.</p>
-</div>
-</div>
-</a>
-
-<a class="project-card-link project-card-link--full" href="https://narrascope.org/">
-<div class="project-card project-card--featured">
-<div class="project-icon"><img src="images/narrascope.png" alt="NarraScope"></div>
-<div class="project-body">
-<p class="project-client">IFTF</p>
-<p class="project-name">NarraScope 2026</p>
-<p class="project-desc">Interactive narrative and storytelling conference. Part of the Programming Group.</p>
-</div>
-</div>
-</a>
-
-<a class="project-card-link project-card-link--full" href="https://inspiringtas.org.au/2024/07/west-coast-space-show/">
-<div class="project-card project-card--featured">
-<div class="project-icon"><img src="images/wcsc.jpeg" alt="West Coast Space Show"></div>
-<div class="project-body">
-<p class="project-client">West Coast Space Centre</p>
-<p class="project-name">West Coast Space Show</p>
-<p class="project-desc">A live space show bringing STEM engagement to regional Tasmania.</p>
-</div>
-</div>
-</a>
-
-<p class="projects-nda-note">And hundreds of events, including corporate training for Apple, Google, Microsoft, and everyone in between, plus regular meetups for Tasmanian Game Makers, Inc., AUC events like XWorld and CreateWorld, and all manner of workshops. <a href="/books-and-events/events/">More on speaking appearances and events.</a></p>
-
-</div>
-</section>
 
 <section class="projects-section">
 <h2 class="projects-section-title" id="products">Products &amp; Projects</h2>
@@ -511,13 +179,6 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </a>
 
-</div>
-</section>
-
-<section class="projects-section">
-<h2 class="projects-section-title projects-section-title--secondary" id="work-for-hire">Work-for-hire</h2>
-<div class="projects-grid">
-
 <div class="project-card-wrap--full">
 <div class="project-card project-card--nda">
 <div class="project-icon project-icon--nda"><img src="images/yarn-spinner.jpeg" alt="NDA Project"></div>
@@ -533,7 +194,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <div class="project-card">
 <div class="project-icon"><img src="images/playschool.jpg" alt="Play School Games"></div>
 <div class="project-body">
-<p class="project-client">ABC</p>
+<p class="project-client">Australian Broadcasting Corporation (ABC)</p>
 <p class="project-name">Play School Games</p>
 <p class="project-desc">Official games for Australia's beloved children's TV show, Play School, for the Australian Broadcasting Corporation.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
@@ -544,7 +205,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <div class="project-card">
 <div class="project-icon"><img src="images/artmaker.jpg" alt="Art Maker"></div>
 <div class="project-body">
-<p class="project-client">ABC</p>
+<p class="project-client">Australian Broadcasting Corporation (ABC)</p>
 <p class="project-name">Art Maker</p>
 <p class="project-desc">Creative art-making app for kids, part of the ABC Play School suite.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
@@ -683,6 +344,366 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <a href="https://www.wiley.com/en-gb/iPhone+and+iPad+Game+Development+For+Dummies-p-9780470599105" class="book-about-item"><img class="book-about-cover" src="/images/books/iphone-ipad-dummies.jpg" alt="iPhone &amp; iPad Game Development For Dummies — Wiley, 2010"></a>
 </div>
 <a class="books-about-more" href="/books-and-events/books/">All books, translations &amp; fiction →</a>
+</section>
+
+<section class="entities-section">
+<h2 class="entities-section-title" id="work">Work</h2>
+
+<div class="entities-grid">
+
+<div class="entity-card-link entity-card-link--full">
+<div class="entity-card entity-card--with-games">
+<a href="https://yarnspinner.dev" class="entity-card-main">
+<div class="entity-icon"><img src="images/yarn-spinner.jpeg" alt="Yarn Spinner"></div>
+<div class="entity-body">
+<p class="entity-name">Yarn Spinner</p>
+<p class="entity-role">Head of Product, Research &amp; Analytics · 2023–present</p>
+<p class="entity-desc">Narrative game tools used by thousands of games played by millions</p>
+</div>
+</a>
+<a class="ys-games-strip" href="https://www.yarnspinner.dev/showcase/" title="View all games on the Yarn Spinner Showcase">
+<img src="/images/games/nitw.webp" alt="Night in the Woods">
+<img src="/images/games/dredge.webp" alt="DREDGE">
+<img src="/images/games/venba.webp" alt="Venba">
+<img src="/images/games/a-short-hike.webp" alt="A Short Hike">
+<img src="/images/games/little-kitty.webp" alt="Little Kitty, Big City">
+<img src="/images/games/norco.webp" alt="NORCO">
+<img src="/images/games/rift-necrodancer.webp" alt="Rift of the NecroDancer">
+<img src="/images/games/demonschool.webp" alt="Demonschool">
+<img src="/images/games/lost-in-random.webp" alt="Lost in Random">
+<img src="/images/games/frog-detective.webp" alt="Frog Detective">
+<img src="/images/games/escape-academy.webp" alt="Escape Academy">
+<img src="/images/games/lil-guardsman.webp" alt="Lil' Guardsman">
+<img src="/images/games/unbeatable.webp" alt="UNBEATABLE">
+<img src="/images/games/skate-story.webp" alt="Skate Story">
+<img src="/images/games/south-of-the-circle.webp" alt="South of the Circle">
+<img src="/images/games/rogue-prince-of-persia.webp" alt="The Rogue Prince of Persia">
+<img src="/images/games/button-city.webp" alt="Button City">
+<img src="/images/games/welcome-to-elk.webp" alt="Welcome to Elk">
+<img src="/images/games/ena-dream-bbq.webp" alt="ENA: Dream BBQ">
+<img src="/images/games/tiny-bookshop.webp" alt="Tiny Bookshop">
+<img src="/images/games/cabernet.webp" alt="Cabernet">
+<img src="/images/games/cozy-caravan.webp" alt="Cozy Caravan">
+<img src="/images/games/goodnight-universe.webp" alt="Goodnight Universe">
+<img src="/images/games/letters-to-arralla.webp" alt="Letters to Arralla">
+<img src="/images/games/shelflife.webp" alt="ShelfLife">
+<img src="/images/games/afterlove-ep.webp" alt="Afterlove EP">
+<img src="/images/games/burger-bois.webp" alt="Burger Bois">
+<img src="/images/games/dead-pets.webp" alt="Dead Pets">
+<img src="/images/games/dead-watch.webp" alt="Dead Watch">
+<img src="/images/games/i-feel-fine.webp" alt="I Feel Fine">
+<img src="/images/games/imprinted.webp" alt="Imprinted">
+<img src="/images/games/janet-demornay.webp" alt="Janet DeMornay">
+<img src="/images/games/mayor-may-knott.webp" alt="Mayor May Knott">
+<img src="/images/games/my-arms-are-longer-now.webp" alt="My Arms Are Longer Now">
+<img src="/images/games/nullstar-solus.webp" alt="Nullstar Solus">
+<img src="/images/games/outcore.webp" alt="Outcore">
+<img src="/images/games/project-lexa.webp" alt="Project Lexa">
+<img src="/images/games/big-hops.webp" alt="Big Hops">
+<img src="/images/games/star-trek-infection.webp" alt="Star Trek: Infection">
+<img src="/images/games/young-suns.webp" alt="Young Suns">
+</a>
+</div>
+</div>
+
+<a class="entity-card-link entity-card-link--full" href="https://secretlab.games">
+<div class="entity-card">
+<div class="entity-icon"><img src="images/secretlab.jpeg" alt="Secret Lab"></div>
+<div class="entity-body">
+<p class="entity-name">Secret Lab</p>
+<p class="entity-role">Head of Product &amp; Creative · 2008–present</p>
+<p class="entity-desc">Award-winning game development studio (Night in the Woods)</p>
+</div>
+</div>
+</a>
+
+<a class="entity-card-link entity-card-link--full" href="https://westcoastspacecentre.com">
+<div class="entity-card">
+<div class="entity-icon"><img src="images/wcsc.jpeg" alt="West Coast Space Centre"></div>
+<div class="entity-body">
+<p class="entity-name">West Coast Space Centre</p>
+<p class="entity-role">Chair · 2023–present</p>
+<p class="entity-desc">Not-for-profit STEM engagement initiative</p>
+</div>
+</div>
+</a>
+
+<a class="entity-card-link entity-card-link--full" href="/tags/space-news/">
+<div class="entity-card">
+<div class="entity-icon"><img src="images/abc.jpeg" alt="ABC"></div>
+<div class="entity-body">
+<p class="entity-name">ABC</p>
+<p class="entity-role">Space News Presenter · 2025–present</p>
+<p class="entity-desc">Monthly radio segment on space news, ABC Radio Hobart</p>
+</div>
+</div>
+</a>
+
+<a class="entity-card-link" href="https://utas.edu.au">
+<div class="entity-card">
+<div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
+<div class="entity-body">
+<p class="entity-name">University of Tasmania</p>
+<p class="entity-role">Sessional Academic · 2008–present</p>
+<p class="entity-desc">Teaching and research in computing</p>
+</div>
+</div>
+</a>
+
+<div class="entity-card-link">
+<div class="entity-card entity-card--past entity-card--with-books">
+<a href="/books-and-events/books/" class="entity-card-main">
+<div class="entity-icon"><img src="images/oreilly.jpeg" alt="O'Reilly Media"></div>
+<div class="entity-body">
+<p class="entity-name">O'Reilly Media</p>
+<p class="entity-role">Technical Author · 2011–2023</p>
+<p class="entity-desc">Author of books on mobile dev, AI, game design, and Swift</p>
+</div>
+</a>
+<a class="books-hover-strip" href="/books-and-events/books/">
+<img src="/images/books/unity-cookbook-2.jpg" alt="Unity Development Cookbook, 2nd Ed.">
+<img src="/images/books/practical-simulations-ml.jpg" alt="Practical Simulations for ML">
+<img src="/images/books/head-first-swift.jpg" alt="Head First Swift">
+<img src="/images/books/unity-cookbook-1.jpg" alt="Unity Game Development Cookbook">
+<img src="/images/books/practical-ai-swift.jpg" alt="Practical AI with Swift">
+<img src="/images/books/ios-swift-game-cookbook-3.jpg" alt="iOS Swift Game Dev Cookbook, 3rd Ed.">
+<img src="/images/books/learning-swift-3.jpg" alt="Learning Swift, 3rd Ed.">
+<img src="/images/books/mobile-game-unity.jpg" alt="Mobile Game Dev with Unity">
+<img src="/images/books/learning-swift-2.jpg" alt="Learning Swift, 2nd Ed.">
+<img src="/images/books/kerbal-guide.jpg" alt="The Kerbal Player's Guide">
+<img src="/images/books/learning-swift-1.jpg" alt="Learning Swift, 1st Ed.">
+<img src="/images/books/whats-new-swift-3.jpg" alt="What's New in Swift 3">
+<img src="/images/books/swift-apple-watch.jpg" alt="Swift Dev for Apple Watch">
+<img src="/images/books/ios-swift-game-cookbook-2.jpg" alt="iOS Swift Game Dev Cookbook, 2nd Ed.">
+<img src="/images/books/swift-cocoa.jpg" alt="Swift Development with Cocoa">
+<img src="/images/books/ios-game-cookbook-1.jpg" alt="iOS Game Development Cookbook">
+<img src="/images/books/learning-cocoa-4.jpg" alt="Learning Cocoa, 4th Ed.">
+<img src="/images/books/learning-cocoa-3.jpg" alt="Learning Cocoa, 3rd Ed.">
+</a>
+</div>
+</div>
+
+<div class="entity-card-link">
+<div class="entity-card entity-card--past entity-card--with-books">
+<a href="/books-and-events/books/" class="entity-card-main">
+<div class="entity-icon"><img src="images/wiley.jpeg" alt="Wiley"></div>
+<div class="entity-body">
+<p class="entity-name">Wiley</p>
+<p class="entity-role">Technical Author · 2009–2011</p>
+<p class="entity-desc">For Dummies imprint, including iPhone &amp; iPad Game Dev</p>
+</div>
+</a>
+<a class="books-hover-strip" href="/books-and-events/books/">
+<img src="/images/books/unity-dummies.jpg" alt="Unity Mobile Game Dev For Dummies">
+<img src="/images/books/iphone-ipad-dummies.jpg" alt="iPhone & iPad Game Dev For Dummies">
+</a>
+</div>
+</div>
+
+<a class="entity-card-link" href="https://en.wikipedia.org/wiki/Meebo">
+<div class="entity-card entity-card--past">
+<div class="entity-icon entity-icon--meebo"><img src="images/meebo.jpeg" alt="Meebo" class="meebo-current"><img src="images/meebo-original.png" alt="Meebo (original logo)" class="meebo-original"></div>
+<div class="entity-body">
+<p class="entity-name">Meebo</p>
+<p class="entity-role">Product Manager · 2007–2013</p>
+<p class="entity-desc">Consumer web platform, acquired by Google for $100M</p>
+</div>
+</div>
+</a>
+
+<a class="entity-card-link" href="https://en.wikipedia.org/wiki/GovHack">
+<div class="entity-card entity-card--past">
+<div class="entity-icon"><img src="images/govhack.jpeg" alt="GovHack"></div>
+<div class="entity-body">
+<p class="entity-name">GovHack</p>
+<p class="entity-role">Program Manager · 2018</p>
+<p class="entity-desc">National open-data hackathon competition</p>
+</div>
+</div>
+</a>
+
+<div class="entity-card entity-card--past">
+<div class="entity-icon">IT</div>
+<div class="entity-body">
+<p class="entity-name">ITHINKITWORKS</p>
+<p class="entity-role">Software Engineer · 2001–2007</p>
+<p class="entity-desc">Software engineering and consulting</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="projects-section">
+<h2 class="projects-section-title" id="events">Events</h2>
+<div class="projects-grid">
+
+<a class="project-card-link project-card-link--full" href="https://devworld.au/index.php">
+<div class="project-card project-card--featured">
+<div class="project-icon"><img src="images/devworld.jpg" alt="/dev/world"></div>
+<div class="project-body">
+<p class="project-client">AUC</p>
+<p class="project-name">/dev/world + X World</p>
+<p class="project-desc">The longest-running Apple developer conference not run by Apple, since 2008.</p>
+</div>
+</div>
+</a>
+
+<a class="project-card-link project-card-link--full" href="https://leveluptasmania.com">
+<div class="project-card project-card--featured">
+<div class="project-icon"><img src="images/levelup.png" alt="Level Up Tasmania"></div>
+<div class="project-body">
+<p class="project-client">Tasmanian Game Makers</p>
+<p class="project-name">Level Up Tasmania</p>
+<p class="project-desc">Tasmania's game development conference and showcase.</p>
+</div>
+</div>
+</a>
+
+<a class="project-card-link project-card-link--full" href="https://narrascope.org/">
+<div class="project-card project-card--featured">
+<div class="project-icon"><img src="images/narrascope.png" alt="NarraScope"></div>
+<div class="project-body">
+<p class="project-client">IFTF</p>
+<p class="project-name">NarraScope 2026</p>
+<p class="project-desc">Interactive narrative and storytelling conference. Part of the Programming Group.</p>
+</div>
+</div>
+</a>
+
+<a class="project-card-link project-card-link--full" href="https://inspiringtas.org.au/2024/07/west-coast-space-show/">
+<div class="project-card project-card--featured">
+<div class="project-icon"><img src="images/wcsc.jpeg" alt="West Coast Space Show"></div>
+<div class="project-body">
+<p class="project-client">West Coast Space Centre</p>
+<p class="project-name">West Coast Space Show</p>
+<p class="project-desc">A live space show bringing STEM engagement to regional Tasmania.</p>
+</div>
+</div>
+</a>
+
+<p class="projects-nda-note">And hundreds of events, including corporate training for Apple, Google, Microsoft, and everyone in between, plus regular meetups for Tasmanian Game Makers, Inc., AUC events like XWorld and CreateWorld, and all manner of workshops. <a href="/books-and-events/events/">More on speaking appearances and events.</a></p>
+
+</div>
+</section>
+
+<section class="entities-section">
+<h2 class="entities-section-title entities-section-title--community" id="community">Community</h2>
+
+<div class="entities-grid">
+
+<a class="entity-card-link entity-card-link--full" href="https://tasgamemakers.com/">
+<div class="entity-card">
+<div class="entity-icon entity-icon--white"><img src="images/tasgm.png" alt="Tasmanian Game Makers"></div>
+<div class="entity-body">
+<p class="entity-name">Tasmanian Game Makers</p>
+<p class="entity-role">President · 2019–present</p>
+<p class="entity-desc">Government advocacy securing policy changes and sector funding</p>
+</div>
+</div>
+</a>
+
+<a class="entity-card-link entity-card-link--full" href="https://auc.edu.au/">
+<div class="entity-card">
+<div class="entity-icon entity-icon--white"><img src="images/auc.png" alt="AUC"></div>
+<div class="entity-body">
+<p class="entity-name">AUC</p>
+<p class="entity-role">Secretary of Executive · 2014–present</p>
+<p class="entity-desc">Australasian Apple University Consortium, runs /dev/world</p>
+</div>
+</div>
+</a>
+
+<div class="entity-card">
+<div class="entity-icon"><img src="images/pearcey.jpeg" alt="Pearcey Foundation"></div>
+<div class="entity-body">
+<p class="entity-name">Pearcey Foundation</p>
+<p class="entity-role">Committee Member · 2014–present</p>
+<p class="entity-desc">Recognising contributions to the Australian ICT sector</p>
+</div>
+</div>
+
+<a class="entity-card-link" href="https://www.acs.org.au/">
+<div class="entity-card entity-card--past">
+<div class="entity-icon"><img src="images/acs.jpeg" alt="ACS"></div>
+<div class="entity-body">
+<p class="entity-name">ACS</p>
+<p class="entity-role">Executive Committee Member · 2008–2020</p>
+<p class="entity-desc">Australian Computer Society, Gold Disruptor 2016</p>
+</div>
+</div>
+</a>
+
+</div>
+</section>
+
+<section class="skills-section">
+<h2 class="skills-section-title" id="skills">Skills</h2>
+<p class="skills-line"><span class="skills-label skills-label--tech">Technical</span> · Product Strategy · Swift · C# · C++ · C · Rust · Python · React · TypeScript · Vite · Unity · Godot · Unreal Engine · Phaser.js · Game Development · Narrative Systems · Yarn Spinner · Ink · Mobile Dev · Android · Apple Platforms · Machine Learning · AI · Data Science · Language Design</p>
+<p class="skills-line"><span class="skills-label skills-label--research">Research &amp; Writing</span> · Qualitative Research · Quantitative Research · AI Governance · Technical Writing · HCI Research · Policy Analysis · Information Management · Public Speaking · Science Communication · Broadcasting · Administrative Law</p>
+<p class="skills-line"><span class="skills-label skills-label--leadership">Leadership</span> · Government Advocacy · Community Building · Board Governance · Stakeholder Engagement · Event Organisation · Funding Strategy · Education · Cross-functional Teams</p>
+</section>
+
+<section class="entities-section">
+<h2 class="entities-section-title entities-section-title--education" id="education">Education</h2>
+
+<div class="entities-grid">
+
+<div class="entity-card" style="grid-column: 1 / -1">
+<div class="entity-icon"><img src="images/une.jpeg" alt="University of New England"></div>
+<div class="entity-body">
+<p class="entity-name">University of New England</p>
+<p class="entity-role">Bachelor of Laws (LLB) · 2018–present</p>
+<p class="entity-desc">Understanding how regulation actually works, particularly for AI</p>
+</div>
+</div>
+
+<div class="entity-card" style="grid-column: 1 / -1">
+<div class="entity-icon"><img src="images/tasmanian-leaders.jpeg" alt="Tasmanian Leaders"></div>
+<div class="entity-body">
+<p class="entity-name">Tasmanian Leaders</p>
+<p class="entity-role">Graduate TLP12 · 2018</p>
+<p class="entity-desc">Intensive year-long program developing high-potential leaders</p>
+</div>
+</div>
+
+<div class="entity-card">
+<div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
+<div class="entity-body">
+<p class="entity-name">University of Tasmania</p>
+<p class="entity-role">PhD, Computer Science · 2009–2012</p>
+<p class="entity-desc">Managing personal information across multiple platforms</p>
+</div>
+</div>
+
+<div class="entity-card">
+<div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
+<div class="entity-body">
+<p class="entity-name">University of Tasmania</p>
+<p class="entity-role">BComp (Hons), Computing · First Class Honours</p>
+<p class="entity-desc">Thesis: See Through Paper — Exploring PIM with RFID</p>
+</div>
+</div>
+
+<div class="entity-card">
+<div class="entity-icon"><img src="images/utas.jpeg" alt="University of Tasmania"></div>
+<div class="entity-body">
+<p class="entity-name">University of Tasmania</p>
+<p class="entity-role">BA-BComp, Medieval &amp; Modern History, CS</p>
+<p class="entity-desc">Double degree in history and computer science</p>
+</div>
+</div>
+
+<div class="entity-card">
+<div class="entity-icon"><img src="images/hutchins.jpeg" alt="The Hutchins School"></div>
+<div class="entity-body">
+<p class="entity-name">The Hutchins School</p>
+<p class="entity-role">Secondary Education</p>
+<p class="entity-desc">Hobart, Tasmania</p>
+</div>
+</div>
+
+</div>
 </section>
 
 <section class="awards-section">
