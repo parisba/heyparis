@@ -311,7 +311,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <h2 class="projects-section-title" id="events">Events</h2>
 <div class="projects-grid">
 
-<a class="project-card-link project-card-link--full" href="https://devworld.com.au">
+<a class="project-card-link project-card-link--full" href="https://devworld.au/index.php">
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/devworld.jpg" alt="/dev/world"></div>
 <div class="project-body">
@@ -434,8 +434,8 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 
 <a class="project-card-link project-card-link--full" href="https://www.yarnspinner.dev/blog/hint-line-93/">
-<div class="project-card project-card--featured">
-<div class="project-icon"><img src="images/hintline93.png" alt="Hint Line '93"></div>
+<div class="project-card project-card--featured project-card--hintline">
+<div class="project-icon project-icon--hintline"><img src="images/hintline93.png" alt="Hint Line '93"></div>
 <div class="project-body">
 <p class="project-client">Secret Lab &amp; Yarn Spinner</p>
 <p class="project-name">Hint Line '93</p>
@@ -446,14 +446,16 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </a>
 
 <a class="project-card-link project-card-link--full" href="https://store.steampowered.com/app/2150850/I_Feel_Fine/">
-<div class="project-card project-card--featured project-card--nda">
+<div class="project-card project-card--featured project-card--nda project-card--iff">
+<video class="iff-hover-video" src="/images/iff-hover.mp4" muted loop playsinline preload="none"></video>
 <div class="project-icon"><img src="images/iff.png" alt="I Feel Fine"></div>
 <div class="project-body">
 <p class="project-client">Secret Lab</p>
 <p class="project-name">I Feel Fine</p>
-<p class="project-desc">A narrative adventure game about the end of the world, built with Yarn Spinner.</p>
+<p class="project-desc">A narrative adventure game about the end of the world, written by Eisner-winner Ryan North, built with Yarn Spinner. Funded by Screen Tasmania.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 </div>
+<img class="iff-keyart" src="/images/iff-keyart.webp" alt="I Feel Fine key art">
 </div>
 </a>
 
@@ -463,28 +465,29 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <div class="project-body">
 <p class="project-client">Secret Lab</p>
 <p class="project-name">Leonardo's Moon Ship</p>
-<p class="project-desc">An adventure game about helping Leonardo da Vinci reach the moon.</p>
+<p class="project-desc">An adventure game about helping Leonardo da Vinci reach the moon. Character and world created by <a href="https://en.wikipedia.org/wiki/Jim_Capobianco">Jim Capobianco</a>, powered by Yarn Spinner, and partially funded by Screen Tasmania and Screen Australia.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Writing</span> <span class="project-role">Game Design</span></div>
 </div>
 <div class="leo-walker"></div>
 </div>
 </div>
 
-<div class="project-card-wrap--full">
-<div class="project-card project-card--featured">
+<div class="project-card-wrap--full project-card-wrap--nitw">
+<div class="project-card project-card--featured project-card--nitw">
 <div class="project-icon"><img src="images/nitw.jpg" alt="Night in the Woods"></div>
 <div class="project-body">
 <p class="project-client">Secret Lab</p>
 <p class="project-name">Night in the Woods</p>
-<p class="project-desc">BAFTA- and IGF-winning adventure game about a college dropout returning to her crumbling hometown. Praised for its writing, art, and unflinching look at small-town life.</p>
+<p class="project-desc">BAFTA- and IGF-winning adventure game about a college dropout returning to her crumbling hometown. Praised for its writing, art, and unflinching look at small-town life. We created Yarn Spinner for Night in the Woods.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 <a class="project-award" href="#awards">BAFTA 2018</a> <a class="project-award" href="#awards">IGF 2018</a>
 </div>
 </div>
 </div>
 
-<div class="project-card-wrap--full">
-<div class="project-card project-card--featured project-card--nda">
+<div class="project-card-wrap--full project-card-wrap--mtpleasant">
+<div class="project-card project-card--featured project-card--nda project-card--mtpleasant">
+<canvas class="mtpleasant-starfield"></canvas>
 <div class="project-icon"><img src="images/mtpleasant.jpg" alt="Mt Pleasant"></div>
 <div class="project-body">
 <p class="project-client">Secret Lab</p>
@@ -495,13 +498,14 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </div>
 
-<a class="project-card-link project-card-link--full" href="https://web.archive.org/web/20080724122546/http://secretlab.com.au/culture/">
-<div class="project-card project-card--featured">
+<a class="project-card-link project-card-link--full project-card-wrap--culture" href="https://web.archive.org/web/20080724122546/http://secretlab.com.au/culture/">
+<div class="project-card project-card--featured project-card--culture">
+<canvas class="culture-canvas"></canvas>
 <div class="project-icon"><img src="images/culture.png" alt="Culture"></div>
 <div class="project-body">
 <p class="project-client">Secret Lab</p>
 <p class="project-name">Culture</p>
-<p class="project-desc">One of the first games on the iOS (then iPhone) App Store.</p>
+<p class="project-desc">One of the first games on the iOS (then iPhone) App Store, all the way back in 2008.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
@@ -979,6 +983,204 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 
   card.addEventListener('mouseenter', function() {
     if (!running) animate();
+  });
+})();
+
+(function() {
+  var iffCard = document.querySelector('.project-card--iff');
+  if (!iffCard) return;
+  var video = iffCard.querySelector('.iff-hover-video');
+  if (!video) return;
+  var link = iffCard.closest('.project-card-link');
+  if (!link) return;
+  link.addEventListener('mouseenter', function() {
+    video.play();
+  });
+  link.addEventListener('mouseleave', function() {
+    video.pause();
+    video.currentTime = 0;
+  });
+})();
+
+// From user magic_mouse_97 on GDAU discord, thanks
+(function() {
+  var wrap = document.querySelector('.project-card-wrap--mtpleasant');
+  if (!wrap) return;
+  var canvas = wrap.querySelector('.mtpleasant-starfield');
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var stars = [];
+  var NUM = 200;
+  var animId = null;
+  var active = false;
+
+  function init() {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+    stars = [];
+    for (var i = 0; i < NUM; i++) {
+      stars.push({
+        x: (Math.random() - 0.5) * canvas.width,
+        y: (Math.random() - 0.5) * canvas.height,
+        z: Math.random() * canvas.width
+      });
+    }
+  }
+
+  function draw() {
+    if (!active) return;
+    ctx.fillStyle = '#000';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    var cx = canvas.width / 2;
+    var cy = canvas.height / 2;
+    for (var i = 0; i < stars.length; i++) {
+      var s = stars[i];
+      s.z -= 3;
+      if (s.z <= 0) {
+        s.x = (Math.random() - 0.5) * canvas.width;
+        s.y = (Math.random() - 0.5) * canvas.height;
+        s.z = canvas.width;
+      }
+      var sx = (s.x / s.z) * canvas.width + cx;
+      var sy = (s.y / s.z) * canvas.height + cy;
+      var r = Math.max(0, (1 - s.z / canvas.width) * 2.5);
+      var bright = Math.max(0, Math.min(255, Math.round((1 - s.z / canvas.width) * 255)));
+      ctx.fillStyle = 'rgb(' + bright + ',' + bright + ',' + bright + ')';
+      ctx.fillRect(sx, sy, r, r);
+    }
+    animId = requestAnimationFrame(draw);
+  }
+
+  wrap.addEventListener('mouseenter', function() {
+    active = true;
+    init();
+    draw();
+  });
+  wrap.addEventListener('mouseleave', function() {
+    active = false;
+    if (animId) cancelAnimationFrame(animId);
+  });
+})();
+
+(function() {
+  var wrap = document.querySelector('.project-card-wrap--culture');
+  if (!wrap) return;
+  var canvas = wrap.querySelector('.culture-canvas');
+  if (!canvas) return;
+  var ctx = canvas.getContext('2d');
+  var grid = [];
+  var COLS = 9, ROWS = 3;
+  var animId = null;
+  var active = false;
+  var bgImg = new Image();
+  bgImg.src = '/images/culture/game_background.webp';
+  var spriteMap = {};
+  var spritesLoaded = 0;
+  var spriteNames = [
+    'cell_x_0',
+    'cell_0_1','cell_0_2','cell_0_3','cell_0_4',
+    'cell_1_1','cell_1_2','cell_1_3','cell_1_4'
+  ];
+  var totalSprites = spriteNames.length;
+  spriteNames.forEach(function(name) {
+    var img = new Image();
+    img.src = '/images/culture/' + name + '.png';
+    img.onload = function() { spritesLoaded++; };
+    spriteMap[name] = img;
+  });
+
+  function init() {
+    canvas.width = canvas.offsetWidth * 2;
+    canvas.height = canvas.offsetHeight * 2;
+    grid = [];
+    for (var y = 0; y < ROWS; y++) {
+      for (var x = 0; x < COLS; x++) {
+        var r = Math.random();
+        var owner, stage;
+        if (r < 0.3) { owner = -1; stage = 0; }
+        else if (r < 0.65) { owner = 0; stage = Math.floor(Math.random() * 4); }
+        else { owner = 1; stage = Math.floor(Math.random() * 4); }
+        grid.push({
+          owner: owner, stage: stage,
+          pulseOffset: Math.random() * Math.PI * 2,
+          growTimer: Math.random() * 300 + 120,
+          growCount: 0
+        });
+      }
+    }
+  }
+
+  function spriteName(cell) {
+    if (cell.owner === -1) return 'cell_x_0';
+    return 'cell_' + cell.owner + '_' + (cell.stage + 1);
+  }
+
+  function draw() {
+    if (!active) return;
+    if (spritesLoaded < totalSprites) { animId = requestAnimationFrame(draw); return; }
+    var w = canvas.width, h = canvas.height;
+    if (bgImg.complete && bgImg.naturalWidth) {
+      var bw = bgImg.naturalWidth * 2, bh = bgImg.naturalHeight * 2;
+      for (var bx = 0; bx < w; bx += bw)
+        for (var by = 0; by < h; by += bh)
+          ctx.drawImage(bgImg, bx, by, bw, bh);
+    } else {
+      ctx.fillStyle = '#0a1a2a';
+      ctx.fillRect(0, 0, w, h);
+    }
+    var cellSize = Math.min(w * 0.9 / COLS, h * 0.9 / ROWS);
+    var ox = (w - COLS * cellSize) / 2;
+    var oy = (h - ROWS * cellSize) / 2;
+    var time = Date.now() * 0.001;
+    var margin = 4;
+    for (var i = 0; i < grid.length; i++) {
+      var c = grid[i];
+      var gx = i % COLS, gy = Math.floor(i / COLS);
+      var cx = ox + gx * cellSize + cellSize / 2;
+      var cy = oy + gy * cellSize + cellSize / 2;
+      var spr = spriteMap[spriteName(c)];
+      if (!spr) continue;
+      var pulse = 1 + 0.04 * Math.sin(time * 2.5 + c.pulseOffset);
+      var sz = (cellSize - margin) * pulse;
+      ctx.drawImage(spr, cx - sz / 2, cy - sz / 2, sz, sz);
+      // occasionally grow or change
+      c.growCount++;
+      if (c.growCount >= c.growTimer) {
+        c.growCount = 0;
+        c.growTimer = Math.random() * 300 + 120;
+        if (c.owner === -1) {
+          c.owner = Math.random() < 0.5 ? 0 : 1;
+          c.stage = 0;
+        } else if (c.stage < 3) {
+          c.stage++;
+        } else {
+          // expand: reset this cell and bump neighbors
+          c.stage = 0;
+          var nx = i % COLS, ny = Math.floor(i / COLS);
+          var neighbors = [];
+          if (nx > 0) neighbors.push(i - 1);
+          if (nx < COLS - 1) neighbors.push(i + 1);
+          if (ny > 0) neighbors.push(i - COLS);
+          if (ny < ROWS - 1) neighbors.push(i + COLS);
+          for (var n = 0; n < neighbors.length; n++) {
+            var nb = grid[neighbors[n]];
+            nb.owner = c.owner;
+            if (nb.stage < 3) nb.stage++;
+          }
+        }
+      }
+    }
+    animId = requestAnimationFrame(draw);
+  }
+
+  wrap.addEventListener('mouseenter', function() {
+    active = true;
+    init();
+    draw();
+  });
+  wrap.addEventListener('mouseleave', function() {
+    active = false;
+    if (animId) cancelAnimationFrame(animId);
   });
 })();
 </script>

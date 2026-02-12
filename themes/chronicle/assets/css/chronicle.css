@@ -1748,6 +1748,232 @@ a.entity-card-link {
   object-fit: contain;
 }
 
+/* Hint Line '93 — VHS effect */
+.project-card--hintline {
+  position: relative;
+}
+
+.project-card-link:hover .project-card--hintline {
+  background: #fff;
+  border-color: #fff;
+  box-shadow: none;
+  transform: none;
+}
+
+.project-card-link:hover .project-card--hintline .project-body {
+  opacity: 0;
+}
+
+.project-card-link:hover .project-icon--hintline {
+  position: absolute;
+  inset: 0;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.project-card-link:hover .project-icon--hintline img {
+  width: 60%;
+  height: auto;
+  object-fit: contain;
+  animation: vhs-glitch 0.4s steps(1) infinite;
+}
+
+.project-card--hintline::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0px,
+    transparent 2px,
+    rgba(0,0,0,0.08) 2px,
+    rgba(0,0,0,0.08) 4px
+  );
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0;
+}
+
+.project-card-link:hover .project-card--hintline::after {
+  opacity: 1;
+}
+
+@keyframes vhs-glitch {
+  0%   { transform: translate(0, 0);    filter: none; }
+  10%  { transform: translate(-3px, 0); filter: drop-shadow(3px 0 0 #ff0040) drop-shadow(-3px 0 0 #00ffff); }
+  20%  { transform: translate(2px, 1px); filter: drop-shadow(2px 0 0 #ff0040) drop-shadow(-2px 0 0 #00ffff); }
+  30%  { transform: translate(0, 0);    filter: none; }
+  40%  { transform: translate(0, 0);    filter: none; }
+  50%  { transform: translate(-2px, 0); filter: drop-shadow(2px 0 0 #ff0040) drop-shadow(-2px 0 0 #00ffff) brightness(1.8); }
+  55%  { transform: translate(4px, 0);  filter: drop-shadow(-3px 0 0 #ff0040) drop-shadow(3px 0 0 #00ffff); }
+  60%  { transform: translate(0, 0);    filter: none; }
+  100% { transform: translate(0, 0);    filter: none; }
+}
+
+/* Night in the Woods — GIF hover */
+.project-card--nitw {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card--nitw::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/images/nitw-hover.gif') center 85% / cover no-repeat;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.project-card-wrap--nitw:hover .project-card--nitw {
+  border-color: #4a6b6f;
+  box-shadow: none;
+  transform: none;
+}
+
+.project-card-wrap--nitw:hover .project-card--nitw::before {
+  opacity: 1;
+}
+
+.project-card-wrap--nitw:hover .project-card--nitw .project-body,
+.project-card-wrap--nitw:hover .project-card--nitw .project-icon {
+  visibility: hidden;
+}
+
+/* I Feel Fine — video hover */
+.project-card--iff {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card--iff .project-icon {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.project-card--iff .project-body {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.iff-keyart {
+  grid-row: 2;
+  grid-column: 1 / -1;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.project-card-link:hover .project-card--iff .iff-keyart {
+  visibility: hidden;
+}
+
+.iff-hover-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project-card-link:hover .project-card--iff .iff-hover-video {
+  opacity: 1;
+}
+
+.project-card-link:hover .project-card--iff {
+  border-color: #0d0a18;
+  background: #0d0a18;
+  box-shadow: none;
+  transform: none;
+}
+
+.project-card-link:hover .project-card--iff .project-body,
+.project-card-link:hover .project-card--iff .project-icon {
+  visibility: hidden;
+}
+
+.project-card-link:hover .project-card--iff .project-card--nda::after {
+  opacity: 0;
+}
+
+/* Mt Pleasant — starfield hover */
+.project-card--mtpleasant {
+  position: relative;
+  overflow: hidden;
+}
+
+.mtpleasant-starfield {
+  position: absolute;
+  inset: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background: #000;
+}
+
+.project-card-wrap--mtpleasant:hover .project-card--mtpleasant {
+  border-color: #000;
+  background: #000;
+  box-shadow: none;
+  transform: none;
+}
+
+.project-card-wrap--mtpleasant:hover .mtpleasant-starfield {
+  opacity: 1;
+}
+
+.project-card-wrap--mtpleasant:hover .project-card--mtpleasant .project-body,
+.project-card-wrap--mtpleasant:hover .project-card--mtpleasant .project-icon {
+  visibility: hidden;
+}
+
+/* Culture — cell petri dish hover */
+.project-card--culture {
+  position: relative;
+  overflow: hidden;
+}
+
+.culture-canvas {
+  position: absolute;
+  inset: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project-card-wrap--culture:hover .project-card--culture {
+  border-color: #0a1a2a;
+  background: #0a1a2a;
+  box-shadow: none;
+  transform: none;
+}
+
+.project-card-wrap--culture:hover .culture-canvas {
+  opacity: 1;
+}
+
+.project-card-wrap--culture:hover .project-card--culture .project-body,
+.project-card-wrap--culture:hover .project-card--culture .project-icon {
+  visibility: hidden;
+}
+
 .project-body {
   min-width: 0;
 }
@@ -1905,11 +2131,10 @@ a.project-card-link {
 }
 
 .project-card--nda::after {
-  content: 'LATER ON';
+  content: 'SOON';
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
-  background: linear-gradient(135deg, #7c3aed, #a855f7);
   color: #fff;
   font-family: var(--font-mono);
   font-size: 0.6rem;
@@ -1918,6 +2143,13 @@ a.project-card-link {
   text-transform: uppercase;
   padding: 0.2rem 0.5rem;
   line-height: 1;
+  background: linear-gradient(135deg, #e67e22, #f39c12);
+}
+
+.project-card--leo::after,
+.project-card--mtpleasant::after {
+  content: 'LATER ON';
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
 }
 
 /* ── Project award tags ── */
