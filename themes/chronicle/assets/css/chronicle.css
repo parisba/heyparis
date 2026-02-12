@@ -1477,6 +1477,62 @@ a.entity-card-link {
   grid-column: 1 / -1;
 }
 
+/* Yarn Spinner card with embedded games strip */
+.entity-card--with-games {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.entity-card--with-games:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.entity-card--with-games .entity-card-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.ys-games-strip {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 3px;
+  padding: 0 1rem 0.75rem;
+  text-decoration: none;
+}
+
+.ys-games-strip img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 2px;
+  opacity: 0.8;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.ys-games-strip:hover img {
+  opacity: 1;
+}
+
+.ys-games-strip img:hover {
+  transform: scale(1.15);
+  z-index: 1;
+}
+
+@media (max-width: 640px) {
+  .ys-games-strip {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
 .entity-card--past {
   position: relative;
   overflow: hidden;
@@ -1742,6 +1798,52 @@ a.project-card-link {
   grid-column: 1 / -1;
 }
 
+/* Leonardo walk animation */
+.project-card--leo {
+  position: relative;
+  overflow: hidden;
+}
+
+.leo-walker {
+  position: absolute;
+  bottom: 0;
+  left: -94px;
+  width: 94px;
+  height: 100px;
+  background: url('/images/leo-combined.webp') 0 0 no-repeat;
+  background-size: 6392px 100px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.project-card--leo .project-icon {
+  transition: opacity 0.3s ease;
+}
+
+.project-card--leo.leo-active .project-icon {
+  opacity: 0;
+}
+
+.project-card--leo.leo-done .project-icon {
+  opacity: 1;
+}
+
+.project-card--with-games {
+  flex-direction: column;
+  padding: 0;
+}
+
+.project-card--with-games .project-card-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.project-card--with-games .ys-games-strip {
+  padding: 0 1rem 0.75rem;
+}
+
 @media (max-width: 640px) {
   .projects-grid {
     grid-template-columns: 1fr;
@@ -1803,7 +1905,7 @@ a.project-card-link {
 }
 
 .project-card--nda::after {
-  content: 'SOON';
+  content: 'LATER ON';
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;

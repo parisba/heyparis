@@ -33,16 +33,60 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 
 <div class="entities-grid">
 
-<a class="entity-card-link entity-card-link--full" href="https://yarnspinner.dev">
-<div class="entity-card">
+<div class="entity-card-link entity-card-link--full">
+<div class="entity-card entity-card--with-games">
+<a href="https://yarnspinner.dev" class="entity-card-main">
 <div class="entity-icon"><img src="images/yarn-spinner.jpeg" alt="Yarn Spinner"></div>
 <div class="entity-body">
 <p class="entity-name">Yarn Spinner</p>
 <p class="entity-role">Head of Product, Research &amp; Analytics · 2023–present</p>
 <p class="entity-desc">Narrative game tools used by thousands of games played by millions</p>
 </div>
-</div>
 </a>
+<a class="ys-games-strip" href="https://www.yarnspinner.dev/showcase/" title="View all games on the Yarn Spinner Showcase">
+<img src="/images/games/nitw.webp" alt="Night in the Woods">
+<img src="/images/games/dredge.webp" alt="DREDGE">
+<img src="/images/games/venba.webp" alt="Venba">
+<img src="/images/games/a-short-hike.webp" alt="A Short Hike">
+<img src="/images/games/little-kitty.webp" alt="Little Kitty, Big City">
+<img src="/images/games/norco.webp" alt="NORCO">
+<img src="/images/games/rift-necrodancer.webp" alt="Rift of the NecroDancer">
+<img src="/images/games/demonschool.webp" alt="Demonschool">
+<img src="/images/games/lost-in-random.webp" alt="Lost in Random">
+<img src="/images/games/frog-detective.webp" alt="Frog Detective">
+<img src="/images/games/escape-academy.webp" alt="Escape Academy">
+<img src="/images/games/lil-guardsman.webp" alt="Lil' Guardsman">
+<img src="/images/games/unbeatable.webp" alt="UNBEATABLE">
+<img src="/images/games/skate-story.webp" alt="Skate Story">
+<img src="/images/games/south-of-the-circle.webp" alt="South of the Circle">
+<img src="/images/games/rogue-prince-of-persia.webp" alt="The Rogue Prince of Persia">
+<img src="/images/games/button-city.webp" alt="Button City">
+<img src="/images/games/welcome-to-elk.webp" alt="Welcome to Elk">
+<img src="/images/games/ena-dream-bbq.webp" alt="ENA: Dream BBQ">
+<img src="/images/games/tiny-bookshop.webp" alt="Tiny Bookshop">
+<img src="/images/games/cabernet.webp" alt="Cabernet">
+<img src="/images/games/cozy-caravan.webp" alt="Cozy Caravan">
+<img src="/images/games/goodnight-universe.webp" alt="Goodnight Universe">
+<img src="/images/games/letters-to-arralla.webp" alt="Letters to Arralla">
+<img src="/images/games/shelflife.webp" alt="ShelfLife">
+<img src="/images/games/afterlove-ep.webp" alt="Afterlove EP">
+<img src="/images/games/burger-bois.webp" alt="Burger Bois">
+<img src="/images/games/dead-pets.webp" alt="Dead Pets">
+<img src="/images/games/dead-watch.webp" alt="Dead Watch">
+<img src="/images/games/i-feel-fine.webp" alt="I Feel Fine">
+<img src="/images/games/imprinted.webp" alt="Imprinted">
+<img src="/images/games/janet-demornay.webp" alt="Janet DeMornay">
+<img src="/images/games/mayor-may-knott.webp" alt="Mayor May Knott">
+<img src="/images/games/my-arms-are-longer-now.webp" alt="My Arms Are Longer Now">
+<img src="/images/games/nullstar-solus.webp" alt="Nullstar Solus">
+<img src="/images/games/outcore.webp" alt="Outcore">
+<img src="/images/games/project-lexa.webp" alt="Project Lexa">
+<img src="/images/games/big-hops.webp" alt="Big Hops">
+<img src="/images/games/star-trek-infection.webp" alt="Star Trek: Infection">
+<img src="/images/games/young-suns.webp" alt="Young Suns">
+</a>
+</div>
+</div>
 
 <a class="entity-card-link entity-card-link--full" href="https://secretlab.games">
 <div class="entity-card">
@@ -321,7 +365,8 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <div class="projects-grid">
 
 <div class="project-card-wrap--full">
-<div class="project-card project-card--featured">
+<div class="project-card project-card--featured project-card--with-games">
+<div class="project-card-main">
 <div class="project-icon"><img src="images/yarn-spinner.jpeg" alt="Yarn Spinner"></div>
 <div class="project-body">
 <p class="project-client">Yarn Spinner</p>
@@ -343,9 +388,52 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <a class="project-award" href="#awards">Minister's STEM Innovation 2025</a>
 </div>
 </div>
+<a class="ys-games-strip" href="https://www.yarnspinner.dev/showcase/" title="View all games on the Yarn Spinner Showcase">
+<img src="/images/games/nitw.webp" alt="Night in the Woods">
+<img src="/images/games/dredge.webp" alt="DREDGE">
+<img src="/images/games/venba.webp" alt="Venba">
+<img src="/images/games/a-short-hike.webp" alt="A Short Hike">
+<img src="/images/games/little-kitty.webp" alt="Little Kitty, Big City">
+<img src="/images/games/norco.webp" alt="NORCO">
+<img src="/images/games/rift-necrodancer.webp" alt="Rift of the NecroDancer">
+<img src="/images/games/demonschool.webp" alt="Demonschool">
+<img src="/images/games/lost-in-random.webp" alt="Lost in Random">
+<img src="/images/games/frog-detective.webp" alt="Frog Detective">
+<img src="/images/games/escape-academy.webp" alt="Escape Academy">
+<img src="/images/games/lil-guardsman.webp" alt="Lil' Guardsman">
+<img src="/images/games/unbeatable.webp" alt="UNBEATABLE">
+<img src="/images/games/skate-story.webp" alt="Skate Story">
+<img src="/images/games/south-of-the-circle.webp" alt="South of the Circle">
+<img src="/images/games/rogue-prince-of-persia.webp" alt="The Rogue Prince of Persia">
+<img src="/images/games/button-city.webp" alt="Button City">
+<img src="/images/games/welcome-to-elk.webp" alt="Welcome to Elk">
+<img src="/images/games/ena-dream-bbq.webp" alt="ENA: Dream BBQ">
+<img src="/images/games/tiny-bookshop.webp" alt="Tiny Bookshop">
+<img src="/images/games/cabernet.webp" alt="Cabernet">
+<img src="/images/games/cozy-caravan.webp" alt="Cozy Caravan">
+<img src="/images/games/goodnight-universe.webp" alt="Goodnight Universe">
+<img src="/images/games/letters-to-arralla.webp" alt="Letters to Arralla">
+<img src="/images/games/shelflife.webp" alt="ShelfLife">
+<img src="/images/games/afterlove-ep.webp" alt="Afterlove EP">
+<img src="/images/games/burger-bois.webp" alt="Burger Bois">
+<img src="/images/games/dead-pets.webp" alt="Dead Pets">
+<img src="/images/games/dead-watch.webp" alt="Dead Watch">
+<img src="/images/games/i-feel-fine.webp" alt="I Feel Fine">
+<img src="/images/games/imprinted.webp" alt="Imprinted">
+<img src="/images/games/janet-demornay.webp" alt="Janet DeMornay">
+<img src="/images/games/mayor-may-knott.webp" alt="Mayor May Knott">
+<img src="/images/games/my-arms-are-longer-now.webp" alt="My Arms Are Longer Now">
+<img src="/images/games/nullstar-solus.webp" alt="Nullstar Solus">
+<img src="/images/games/outcore.webp" alt="Outcore">
+<img src="/images/games/project-lexa.webp" alt="Project Lexa">
+<img src="/images/games/big-hops.webp" alt="Big Hops">
+<img src="/images/games/star-trek-infection.webp" alt="Star Trek: Infection">
+<img src="/images/games/young-suns.webp" alt="Young Suns">
+</a>
+</div>
 </div>
 
-<a class="project-card-link" href="https://www.yarnspinner.dev/blog/hint-line-93/">
+<a class="project-card-link project-card-link--full" href="https://www.yarnspinner.dev/blog/hint-line-93/">
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/hintline93.png" alt="Hint Line '93"></div>
 <div class="project-body">
@@ -357,7 +445,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </a>
 
-<a class="project-card-link" href="https://store.steampowered.com/app/2150850/I_Feel_Fine/">
+<a class="project-card-link project-card-link--full" href="https://store.steampowered.com/app/2150850/I_Feel_Fine/">
 <div class="project-card project-card--featured project-card--nda">
 <div class="project-icon"><img src="images/iff.png" alt="I Feel Fine"></div>
 <div class="project-body">
@@ -369,7 +457,8 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 </div>
 </a>
 
-<div class="project-card project-card--featured project-card--nda">
+<div class="project-card-wrap--full">
+<div class="project-card project-card--featured project-card--nda project-card--leo">
 <div class="project-icon"><img src="images/leonardos-moon-ship.png" alt="Leonardo's Moon Ship"></div>
 <div class="project-body">
 <p class="project-client">Secret Lab</p>
@@ -377,8 +466,11 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-desc">An adventure game about helping Leonardo da Vinci reach the moon.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Writing</span> <span class="project-role">Game Design</span></div>
 </div>
+<div class="leo-walker"></div>
+</div>
 </div>
 
+<div class="project-card-wrap--full">
 <div class="project-card project-card--featured">
 <div class="project-icon"><img src="images/nitw.jpg" alt="Night in the Woods"></div>
 <div class="project-body">
@@ -387,6 +479,7 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 <p class="project-desc">BAFTA- and IGF-winning adventure game about a college dropout returning to her crumbling hometown. Praised for its writing, art, and unflinching look at small-town life.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
 <a class="project-award" href="#awards">BAFTA 2018</a> <a class="project-award" href="#awards">IGF 2018</a>
+</div>
 </div>
 </div>
 
@@ -803,3 +896,89 @@ When not doing any of that, he runs [Tasmanian Game Makers](https://tasgamemaker
 
 </div>
 </section>
+
+<script>
+(function() {
+  var card = document.querySelector('.project-card--leo');
+  if (!card) return;
+  var walker = card.querySelector('.leo-walker');
+  if (!walker) return;
+
+  var FW = 94;
+  var phases = {
+    walk:  { start: 0,  count: 24 },
+    stop:  { start: 24, count: 5  },
+    shrug: { start: 29, count: 34 },
+    begin: { start: 63, count: 5  }
+  };
+
+  var running = false;
+  var FPS = 15;
+  var FRAME_MS = 1000 / FPS;
+
+  function showFrame(idx) {
+    walker.style.backgroundPosition = (-idx * FW) + 'px 0';
+  }
+
+  function animate() {
+    running = true;
+    walker.style.opacity = '1';
+    card.classList.add('leo-active');
+    card.classList.remove('leo-done');
+
+    var cardW = card.offsetWidth;
+    var centerX = (cardW / 2) - (FW / 2);
+    var x = -FW;
+    var walkSpeed = 5;
+    var phase = 'walk-in';
+    var frame = 0;
+    var lastTime = 0;
+
+    function step(ts) {
+      if (!running) return;
+      if (ts - lastTime < FRAME_MS) { requestAnimationFrame(step); return; }
+      lastTime = ts;
+
+      if (phase === 'walk-in') {
+        showFrame(phases.walk.start + (frame % phases.walk.count));
+        x += walkSpeed;
+        walker.style.left = x + 'px';
+        frame++;
+        if (x >= centerX) { phase = 'stop'; frame = 0; }
+      } else if (phase === 'stop') {
+        showFrame(phases.stop.start + frame);
+        frame++;
+        if (frame >= phases.stop.count) { phase = 'shrug'; frame = 0; }
+      } else if (phase === 'shrug') {
+        showFrame(phases.shrug.start + frame);
+        frame++;
+        if (frame >= phases.shrug.count) { phase = 'begin'; frame = 0; }
+      } else if (phase === 'begin') {
+        showFrame(phases.begin.start + frame);
+        frame++;
+        if (frame >= phases.begin.count) { phase = 'walk-out'; frame = 0; }
+      } else if (phase === 'walk-out') {
+        showFrame(phases.walk.start + (frame % phases.walk.count));
+        x += walkSpeed;
+        walker.style.left = x + 'px';
+        frame++;
+        if (x > cardW) {
+          running = false;
+          walker.style.opacity = '0';
+          walker.style.left = -FW + 'px';
+          card.classList.remove('leo-active');
+          card.classList.add('leo-done');
+          setTimeout(function() { card.classList.remove('leo-done'); }, 400);
+          return;
+        }
+      }
+      requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  card.addEventListener('mouseenter', function() {
+    if (!running) animate();
+  });
+})();
+</script>
