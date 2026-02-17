@@ -53,7 +53,11 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <span class="project-subproduct">Story Solver</span>
 <span class="project-subproduct">+ more</span>
 </div>
+<div class="project-awards">
+<span class="project-awards-label">Awards:</span>
 <a class="project-award" href="#awards">Minister's STEM Innovation 2025</a>
+<a class="project-award" href="#awards">TasICT 2017</a>
+</div>
 </div>
 </div>
 <a class="ys-games-strip" href="https://www.yarnspinner.dev/showcase/" title="View all games on the Yarn Spinner Showcase">
@@ -148,7 +152,11 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <p class="project-name">Night in the Woods</p>
 <p class="project-desc">BAFTA- and IGF-winning adventure game about a college dropout returning to her crumbling hometown. Praised for its writing, art, and unflinching look at small-town life. We created Yarn Spinner for Night in the Woods.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
-<a class="project-award" href="#awards">BAFTA 2018</a> <a class="project-award" href="#awards">IGF 2018</a>
+<div class="project-awards">
+<span class="project-awards-label">Awards:</span>
+<a class="project-award" href="#awards">BAFTA 2018</a>
+<a class="project-award" href="#awards">IGF 2018</a>
+</div>
 </div>
 </div>
 </div>
@@ -192,24 +200,33 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 </div>
 
 <div class="project-card">
-<div class="project-icon"><img src="images/playschool.jpg" alt="Play School Games"></div>
+<div class="project-icon"><img src="images/playschool.jpg" alt="Play School Play Time"></div>
 <div class="project-body">
 <p class="project-client">Australian Broadcasting Corporation (ABC)</p>
-<p class="project-name">Play School Games</p>
+<p class="project-name">Play School Play Time</p>
 <p class="project-desc">Official games for Australia's beloved children's TV show, Play School, for the Australian Broadcasting Corporation.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
-<a class="project-award" href="#awards">AIMIA Best of Tablet</a> <a class="project-award" href="#awards">TasICT 2013</a>
+<div class="project-awards">
+<span class="project-awards-label">Awards:</span>
+<a class="project-award" href="#awards">AIMIA Best of Tablet</a>
+<a class="project-award" href="#awards">TasICT 2013</a>
+</div>
 </div>
 </div>
 
 <div class="project-card">
-<div class="project-icon"><img src="images/artmaker.jpg" alt="Art Maker"></div>
+<div class="project-icon"><img src="images/artmaker.jpg" alt="Play School Art Maker"></div>
 <div class="project-body">
 <p class="project-client">Australian Broadcasting Corporation (ABC)</p>
-<p class="project-name">Art Maker</p>
+<p class="project-name">Play School Art Maker</p>
 <p class="project-desc">Creative art-making app for kids, part of the ABC Play School suite.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span></div>
-<a class="project-award" href="#awards">AIMIA Effectiveness</a> <a class="project-award" href="#awards">AIMIA Best Tablet App</a> <a class="project-award" href="#awards">AIMIA Best Children's</a>
+<div class="project-awards">
+<span class="project-awards-label">Awards:</span>
+<a class="project-award" href="#awards">AIMIA Effectiveness</a>
+<a class="project-award" href="#awards">AIMIA Best Tablet App</a>
+<a class="project-award" href="#awards">AIMIA Best Children's</a>
+</div>
 </div>
 </div>
 
@@ -220,7 +237,10 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <p class="project-name">Joey Playbox</p>
 <p class="project-desc">Creative children's entertainment for in-flight use on one of the oldest and most respected airlines in the world.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
+<div class="project-awards">
+<span class="project-awards-label">Awards:</span>
 <a class="project-award" href="#awards">iAward Mobility Innovation 2016</a>
+</div>
 </div>
 </div>
 

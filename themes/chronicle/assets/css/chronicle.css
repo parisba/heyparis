@@ -2204,6 +2204,24 @@ a.project-card-link {
 }
 
 /* ── Project award tags ── */
+.project-awards {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.project-awards-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-right: 0.2rem;
+}
+
 .project-award {
   display: inline-block;
   font-family: var(--font-mono);
@@ -2246,31 +2264,57 @@ a.project-award:hover {
 }
 
 .project-subproducts {
-  margin-top: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
+  margin-top: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
 }
 
 .project-subproduct {
-  display: inline-block;
-  font-family: var(--font-mono);
-  font-size: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--text-muted);
-  background: rgba(var(--accent-rgb), 0.05);
+  letter-spacing: 0;
+  color: var(--text);
+  background: var(--bg);
   border: 1px solid var(--border);
-  padding: 0.15rem 0.45rem;
-  line-height: 1;
+  padding: 0.6rem 0.75rem;
+  line-height: 1.3;
+  transition: all 0.2s ease;
+}
+
+.project-subproduct:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  border-color: var(--accent);
 }
 
 .project-subproduct--label {
+  grid-column: 1 / -1;
   background: none;
   border: none;
-  padding-left: 0;
+  border-top: none;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
   font-weight: 600;
   color: var(--accent);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.project-subproduct--label:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+@media (max-width: 640px) {
+  .project-subproducts {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* ── Books about section ── */
