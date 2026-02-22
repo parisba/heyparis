@@ -144,6 +144,31 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 </div>
 </div>
 
+<div class="project-card-wrap--full project-card-wrap--mtpleasant">
+<div class="project-card project-card--featured project-card--nda project-card--mtpleasant">
+<canvas class="mtpleasant-starfield"></canvas>
+<div class="project-icon"><img src="images/mtpleasant.jpg" alt="Mt Pleasant"></div>
+<div class="project-body">
+<p class="project-client">Secret Lab</p>
+<p class="project-name">Mt Pleasant</p>
+<p class="project-desc">Early, early pre-production for a workplace TV sitcom set at a radio observatory in rural Tasmania.</p>
+<div class="project-roles"><span class="project-role">Writer</span> <span class="project-role">Creator</span></div>
+</div>
+</div>
+</div>
+
+<a class="project-card-link project-card-link--full" href="https://theunconformity.com.au/explorations/moonland-rover-lab/">
+<div class="project-card project-card--featured">
+<div class="project-icon"><img src="images/moonland-rover-lab.png" alt="Moonland Rover Lab"></div>
+<div class="project-body">
+<p class="project-client">The Unconformity</p>
+<p class="project-name">Moonland Rover Lab</p>
+<p class="project-desc">An exploration for The Unconformity.</p>
+<div class="project-roles"><span class="project-role">Software Engineering</span> <span class="project-role">Writing</span> <span class="project-role">Education</span> <span class="project-role">Game Design</span></div>
+</div>
+</div>
+</a>
+
 <div class="project-card-wrap--full project-card-wrap--nitw">
 <div class="project-card project-card--featured project-card--nitw">
 <div class="project-icon"><img src="images/nitw.jpg" alt="Night in the Woods"></div>
@@ -157,19 +182,6 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <a class="project-award" href="#awards">BAFTA 2018</a>
 <a class="project-award" href="#awards">IGF 2018</a>
 </div>
-</div>
-</div>
-</div>
-
-<div class="project-card-wrap--full project-card-wrap--mtpleasant">
-<div class="project-card project-card--featured project-card--nda project-card--mtpleasant">
-<canvas class="mtpleasant-starfield"></canvas>
-<div class="project-icon"><img src="images/mtpleasant.jpg" alt="Mt Pleasant"></div>
-<div class="project-body">
-<p class="project-client">Secret Lab</p>
-<p class="project-name">Mt Pleasant</p>
-<p class="project-desc">Early, early pre-production for a workplace TV sitcom set at a radio observatory in rural Tasmania.</p>
-<div class="project-roles"><span class="project-role">Writer</span> <span class="project-role">Creator</span></div>
 </div>
 </div>
 </div>
