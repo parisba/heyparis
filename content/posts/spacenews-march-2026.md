@@ -32,7 +32,7 @@ And the result: 12 billion candidate signals. Tiny blips of energy at particular
 
 Almost certainly not. The team fully expects them to turn out to be interference they haven't been able to identify yet. But the analysis isn't complete. China's [FAST telescope](https://fast.bao.ac.cn/) — 500 metres across, now the world's largest dish — has been re-observing each of those 100 spots since July 2025. Fifteen minutes per target. Results haven't been published yet. Two papers appeared in *The Astronomical Journal* in 2025, but technically the book isn't closed.
 
-And you can't go back and check with Arecibo. It [collapsed on 1 December 2020](https://www.nytimes.com/2020/12/01/science/arecibo-telescope-collapse.html) — two support cables failed and the 900-tonne instrument platform crashed into the dish. If you've seen *GoldenEye* or *Contact*, that's Arecibo. Gone.
+And you can't go back and check with Arecibo. It [collapsed on 1 December 2020](https://www.nytimes.com/2020/12/01/science/space/arecibo-telescope-puerto-rico.html) — two support cables failed and the 900-tonne instrument platform crashed into the dish. If you've seen *GoldenEye* or *Contact*, that's Arecibo. Gone.
 
 Even if they find nothing, the project set a benchmark. As co-founder David Anderson put it: if there were a signal above a certain power level, they would have found it. A null result is still scientifically valuable — it tells us what's *not* out there. And the software platform they built, BOINC, now powers dozens of other projects, from protein folding to gravitational wave searches.
 
