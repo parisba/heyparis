@@ -14,6 +14,10 @@ cover:
 <section class="books-showcase">
 <div class="books-grid">
 
+<a href="https://www.inklestudios.com/kaleidoscope/" class="book-item">
+<img src="/images/books/kaleidoscope.jpg" alt="The Game Narrative Kaleidoscope"><span class="book-title">The Game Narrative Kaleidoscope</span>
+</a>
+
 <a href="https://www.oreilly.com/library/view/unity-development-cookbook/9781098113704/" class="book-item">
 <img src="/images/books/unity-cookbook-2.jpg" alt="Unity Development Cookbook"><span class="book-title">Unity Development Cookbook, 2nd Ed.</span>
 </a>
@@ -139,6 +143,9 @@ Occasionally (more often than not, lately) I pretend I can write fiction:
 # Books
 
 For nearly 15 years, I wrote _a lot_ of technical books, initially for Wiley, and then for O'Reilly Media. I'm currently taking a deliberate break from writing books, but hope to return to it in the future.
+
+* **The Game Narrative Kaleidoscope**
+  * [The Game Narrative Kaleidoscope](https://www.inklestudios.com/kaleidoscope/) (inkle, 2026) — 100+ essays on the craft of game writing, collated by Jon Ingold.
 
 * **Unity Development Cookbook Second Edition**
   * English: [Unity Development Cookbook Second Edition](https://www.oreilly.com/library/view/unity-development-cookbook/9781098113704/) (O'Reilly Media, 2023)

@@ -354,6 +354,7 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <section class="books-about-section">
 <h2 class="books-about-section-title" id="books">Books</h2>
 <div class="books-about-grid">
+<a href="https://www.inklestudios.com/kaleidoscope/" class="book-about-item"><img class="book-about-cover" src="/images/books/kaleidoscope.jpg" alt="The Game Narrative Kaleidoscope — inkle, 2026"></a>
 <a href="https://www.oreilly.com/library/view/unity-development-cookbook/9781098113704/" class="book-about-item"><img class="book-about-cover" src="/images/books/unity-cookbook-2.jpg" alt="Unity Development Cookbook, 2nd Ed. — O'Reilly, 2023"></a>
 <a href="https://www.oreilly.com/library/view/practical-simulations-for/9781492089919/" class="book-about-item"><img class="book-about-cover" src="/images/books/practical-simulations-ml.jpg" alt="Practical Simulations for Machine Learning — O'Reilly, 2022"></a>
 <a href="https://www.oreilly.com/library/view/head-first-swift/9781491923184/" class="book-about-item"><img class="book-about-cover" src="/images/books/head-first-swift.jpg" alt="Head First Swift — O'Reilly, 2021"></a>
