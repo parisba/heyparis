@@ -112,6 +112,10 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <p class="project-client">Secret Lab &amp; Yarn Spinner</p>
 <p class="project-name">Hint Line '93</p>
 <p class="project-desc">A retro video game hint line experience, featured at ACMI.</p>
+<div class="project-awards">
+<span class="project-awards-label">Awards:</span>
+<span class="project-award">Diemen Award 2026</span>
+</div>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Writing</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
@@ -742,6 +746,15 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <section class="awards-section">
 <h2 class="awards-section-title" id="awards">Awards</h2>
 <div class="awards-list">
+
+<div class="award-row">
+<span class="award-year">2026</span>
+<div class="award-details">
+<p class="award-name"><a href="https://diemenawards.com.au/archive/12th-annual-2/hint-line-93/">Diemen Award</a></p>
+<p class="award-note">Hint Line '93</p>
+</div>
+<span class="award-org">Diemen Awards</span>
+</div>
 
 <div class="award-row">
 <span class="award-year">2025</span>
