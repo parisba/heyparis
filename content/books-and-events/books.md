@@ -139,6 +139,7 @@ Occasionally (more often than not, lately) I pretend I can write fiction:
 * [Bolted Down](/fiction/bolted-down) (short story)
 * [The Last Session](/posts/finalsession/) (short story)
 * [Signal to Noise](/fiction/signal-to-noise) (short story, 2025)
+* [Gerrik of Puddle](/fiction/gerrik-of-puddle) (short story, 2026)
 
 # Books
 
