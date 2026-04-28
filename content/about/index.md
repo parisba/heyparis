@@ -173,6 +173,18 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 </div>
 </a>
 
+<a class="project-card-link project-card-link--full" href="https://apps.apple.com/au/app/big-plans/id6758355932">
+<div class="project-card project-card--featured">
+<div class="project-icon"><img src="images/big-plans.png" alt="Big Plans"></div>
+<div class="project-body">
+<p class="project-client">Bank of us</p>
+<p class="project-name">Big Plans</p>
+<p class="project-desc">An iOS and Android game for children aged 5–8, designed to teach financial literacy. Built for the Tasmanian customer-owned bank, Bank of us.</p>
+<div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
+</div>
+</div>
+</a>
+
 <div class="project-card-wrap--full project-card-wrap--nitw">
 <div class="project-card project-card--featured project-card--nitw">
 <div class="project-icon"><img src="images/nitw.jpg" alt="Night in the Woods"></div>
@@ -209,7 +221,7 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <div class="project-body">
 <p class="project-client"><span class="redacted">A Well-Known Company</span></p>
 <p class="project-name"><span class="redacted">Redacted</span></p>
-<p class="project-desc">A game to teach children <span class="redacted">important skills</span> built for <span class="redacted">a major client</span>.</p>
+<p class="project-desc"><span class="redacted">Secret project</span>.</p>
 <div class="project-roles"><span class="project-role">Producing</span> <span class="project-role">Software Engineering</span> <span class="project-role">Game Design</span></div>
 </div>
 </div>
@@ -472,6 +484,17 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <p class="entity-name">ABC</p>
 <p class="entity-role">Space News Presenter · 2025–present</p>
 <p class="entity-desc">Monthly radio segment on space news, ABC Radio Hobart</p>
+</div>
+</div>
+</a>
+
+<a class="entity-card-link entity-card-link--full" href="https://libraries.tas.gov.au/slat/fellowship/recipients/">
+<div class="entity-card">
+<div class="entity-icon"><img src="images/libraries-tasmania.png" alt="Libraries Tasmania"></div>
+<div class="entity-body">
+<p class="entity-name">Libraries Tasmania</p>
+<p class="entity-role">Research Fellow · 2026</p>
+<p class="entity-desc">Researching Tasmania's space history, from Rossbank Observatory (1840) to contemporary interplanetary spacecraft tracking</p>
 </div>
 </div>
 </a>
@@ -746,6 +769,15 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 <section class="awards-section">
 <h2 class="awards-section-title" id="awards">Awards</h2>
 <div class="awards-list">
+
+<div class="award-row">
+<span class="award-year">2026</span>
+<div class="award-details">
+<p class="award-name"><a href="https://www.premier.tas.gov.au/latest-news/2026/april/libraries-tasmania-2026-fellowships-announced">Research Fellowship</a></p>
+<p class="award-note">Tasmania's space history, from Rossbank Observatory to today</p>
+</div>
+<span class="award-org">Libraries Tasmania</span>
+</div>
 
 <div class="award-row">
 <span class="award-year">2026</span>
