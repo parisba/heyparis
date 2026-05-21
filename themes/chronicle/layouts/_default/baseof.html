@@ -9,7 +9,9 @@
   <header class="site-header">
     <div class="container">
       <div class="site-title-group">
-        <a href="{{ "/" | relURL }}" class="site-title">{{ .Site.Title }}</a>
+        <a href="{{ "/" | relURL }}" class="site-title" aria-label="{{ .Site.Title }} — home">
+          <span class="site-title-text">{{ strings.TrimPrefix "Dr " .Site.Title }}</span>
+        </a>
         <span class="site-tagline">Technology · Policy · Games · Arts · Education · Writing</span>
       </div>
       <nav class="site-nav">
@@ -32,6 +34,12 @@
 
   <script>
   document.addEventListener('DOMContentLoaded', function () {
+    // Hoist data-lang from inner code up to .highlight wrapper so CSS can render the language pill
+    document.querySelectorAll('.highlight').forEach(function (wrap) {
+      var c = wrap.querySelector('code[data-lang]');
+      if (c) wrap.setAttribute('data-lang', c.getAttribute('data-lang'));
+    });
+
     // Track outbound link clicks (with page context to distinguish post vs non-post)
     document.addEventListener('click', function (e) {
       var link = e.target.closest('a[href]');

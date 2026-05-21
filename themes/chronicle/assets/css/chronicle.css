@@ -1,33 +1,44 @@
-/* Chronicle — Resume-inspired clean typography theme */
+/* Chronicle — Editorial typography with LCARS DNA */
 
 :root {
-  --bg: #ffffff;
-  --bg-alt: #f5f5f3;
+  --bg: #fbf7f1;           /* warm cream/parchment */
+  --bg-alt: #f3ede2;
+  --bg-paper: #ffffff;     /* pure white when paper-feel needed (article cards) */
   --text: #111111;
   --text-muted: #555555;
   --accent: #cc6699;
   --accent-secondary: #ff9966;
   --accent-tertiary: #9999cc;
-  --border: #e5e5e5;
+  --accent-rgb: 204, 102, 153;
+  --border: #e5dccb;
 
+  --font-display: 'Space Grotesk', 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
 
   --container: 1200px;
-  --container-narrow: 720px;
+  --container-narrow: 680px;
   --space: 1.5rem;
+  --space-sm: 0.75rem;
+  --space-lg: 3rem;
+
+  --pill-radius: 999px;
+  --focus-ring: 0 0 0 3px rgba(204, 102, 153, 0.35);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0a0a0a;
-    --bg-alt: #111111;
-    --text: #e5e5e5;
-    --text-muted: #888888;
-    --accent: #cc6699;
-    --accent-secondary: #ff9966;
-    --accent-tertiary: #9999cc;
-    --border: #222222;
+    --bg: #15110d;          /* warm near-black */
+    --bg-alt: #1f1812;
+    --bg-paper: #1a1410;
+    --text: #ece4d6;
+    --text-muted: #8a8275;
+    --accent: #d97aa8;        /* slightly desaturated mauve */
+    --accent-secondary: #f0a37a; /* warmer peach */
+    --accent-tertiary: #a8a8d0;  /* softer blue */
+    --accent-rgb: 217, 122, 168;
+    --border: #2a221b;
+    --focus-ring: 0 0 0 3px rgba(217, 122, 168, 0.45);
   }
 }
 
@@ -58,9 +69,9 @@ body {
   flex-direction: column;
 }
 
-/* Accent Bar - LCARS multi-color */
+/* Accent Bar — LCARS three-color signature, now load-bearing */
 .accent-bar {
-  height: 4px;
+  height: 6px;
   background: linear-gradient(90deg,
     var(--accent) 0%,
     var(--accent) 33%,
@@ -82,29 +93,14 @@ body {
   padding: 0 var(--space);
 }
 
-/* Site Header */
+/* Site Header — flat warm band, no glassmorphism */
 .site-header {
   padding: var(--space) 0;
   border-bottom: 1px solid var(--border);
-  background: linear-gradient(135deg,
-    rgba(204, 102, 153, 0.08) 0%,
-    rgba(255, 153, 102, 0.06) 50%,
-    rgba(153, 153, 204, 0.08) 100%
-  );
-  backdrop-filter: blur(8px);
+  background: var(--bg-alt);
   position: sticky;
-  top: 4px;
+  top: 6px;
   z-index: 100;
-}
-
-@media (prefers-color-scheme: dark) {
-  .site-header {
-    background: linear-gradient(135deg,
-      rgba(204, 102, 153, 0.15) 0%,
-      rgba(255, 153, 102, 0.1) 50%,
-      rgba(153, 153, 204, 0.15) 100%
-    );
-  }
 }
 
 .site-header .container {
@@ -115,35 +111,85 @@ body {
   gap: 1rem;
 }
 
+/* Site Title — LCARS wordmark with end-cap pill */
 .site-title {
-  font-family: var(--font-sans);
-  font-size: 1.1rem;
-  font-weight: 600;
+  display: inline-flex;
+  align-items: stretch;
+  gap: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
   color: var(--text);
   text-decoration: none;
   letter-spacing: -0.01em;
+  line-height: 1;
 }
 
-.site-title:hover {
-  color: var(--accent);
+.site-title::before {
+  content: 'DR';
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #1a1410;
+  background: var(--accent);
+  padding: 0.45rem 0.75rem;
+  border-radius: var(--pill-radius) 0 0 var(--pill-radius);
 }
+
+.site-title-text {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.65rem;
+  background: var(--bg);
+  font-size: 0.95rem;
+}
+
+.site-title::after {
+  content: '·';
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  background: var(--bg);
+  padding: 0 0.65rem 0 0;
+  border-radius: 0 var(--pill-radius) var(--pill-radius) 0;
+}
+
+.site-title:hover .site-title-text { color: var(--accent); }
 
 .site-nav {
   display: flex;
-  gap: 2rem;
+  gap: 0.4rem;
 }
 
 .site-nav a {
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   color: var(--text-muted);
   text-decoration: none;
-  transition: color 0.2s;
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--pill-radius);
+  background: transparent;
+  transition: background 0.15s, color 0.15s;
+  line-height: 1;
 }
 
-.site-nav a:hover,
+.site-nav a:hover {
+  color: var(--text);
+  background: var(--bg);
+}
+
 .site-nav a.active {
-  color: var(--accent);
+  color: #1a1410;
+  background: var(--accent-tertiary);
 }
 
 /* Site Main */
@@ -164,66 +210,149 @@ body {
   color: var(--text-muted);
 }
 
+/* =============================================
+   LCARS END-CAP PILL VOCABULARY
+   The signature shape — half-round end-cap with
+   a mono-coded label, sitting flush to a horizontal bar.
+   ============================================= */
+
+.lcars-cap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1a1410;
+  background: var(--accent);
+  padding: 0.3rem 0.85rem;
+  border-radius: var(--pill-radius);
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.lcars-cap--secondary { background: var(--accent-secondary); }
+.lcars-cap--tertiary  { background: var(--accent-tertiary); }
+
+/* End-cap rail: pill on the left, hairline rule extending right,
+   title flush left after the rule. Used for section + hero + page heads. */
+.lcars-rail {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 1.25rem;
+}
+
+.lcars-rail::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background: var(--border);
+  border-radius: 1px;
+}
+
 /* Hero Section */
 .hero {
-  padding: calc(var(--space) * 4) 0;
+  padding: calc(var(--space) * 4) 0 calc(var(--space) * 3);
   border-bottom: 1px solid var(--border);
   position: relative;
 }
 
 .hero-label {
-  display: block;
+  /* Becomes an end-cap pill */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-mono);
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--accent);
-  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1a1410;
+  background: var(--accent-secondary);
+  padding: 0.35rem 0.95rem;
+  border-radius: var(--pill-radius);
+  margin-bottom: 1.5rem;
+  line-height: 1;
 }
 
+/* Hero label shows just the number */
+
 .hero-title {
-  font-family: var(--font-sans);
-  font-size: 3rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem);
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: -0.03em;
-  margin-bottom: 1.5rem;
-  padding-left: 1.5rem;
-  border-left: 4px solid var(--accent-secondary);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.75rem;
 }
 
 .hero-intro {
-  font-size: 1.15rem;
-  line-height: 1.8;
+  font-size: 1.1rem;
+  line-height: 1.75;
   color: var(--text-muted);
+  max-width: 62ch;
 }
 
 .hero-intro a {
   color: var(--accent);
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
 }
 
-/* Section Header */
+/* Section Header — pill end-cap + horizontal rail */
 .section-header {
-  margin-bottom: calc(var(--space) * 2);
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: calc(var(--space) * 1.75);
+}
+
+.section-header::after {
+  content: '';
+  flex: 1;
+  height: 2px;
+  background: var(--border);
+  border-radius: 1px;
 }
 
 .section-number {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-mono);
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--accent);
-  margin-bottom: 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1a1410;
+  background: var(--accent);
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--pill-radius);
+  margin: 0;
+  line-height: 1;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
+/* Section pill shows just the number — let the shape speak */
+
+/* Cycle pill colors across sections to echo the accent bar */
+section:nth-of-type(3n+1) .section-number { background: var(--accent); }
+section:nth-of-type(3n+2) .section-number { background: var(--accent-secondary); }
+section:nth-of-type(3n)   .section-number { background: var(--accent-tertiary); }
+
 .section-title {
-  font-family: var(--font-sans);
-  font-size: 1.5rem;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: -0.01em;
-  padding-left: 1rem;
-  border-left: 3px solid var(--accent-tertiary);
+  margin: 0;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* Posts Section */
@@ -238,22 +367,34 @@ body {
 .magazine-masonry {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
+  grid-auto-rows: 1fr;
   gap: 1.25rem;
-  align-items: start;
+  align-items: stretch;
 }
 
-/* Magazine Item */
+/* Magazine Item — image on top, info panel below.
+   Title is always in the same place across cards.
+   Accent stripe color rotates to keep visual rhythm. */
 .magazine-item {
   position: relative;
   overflow: hidden;
+  border-radius: 6px;
+  background: var(--bg-alt);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.magazine-item:hover {
+  transform: translateY(-3px);
 }
 
 .magazine-link {
-  display: block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   color: inherit;
+  height: 100%;
 }
 
 .magazine-image {
@@ -262,19 +403,6 @@ body {
   aspect-ratio: 16 / 10;
   overflow: hidden;
   background: linear-gradient(135deg, var(--bg-alt) 0%, var(--border) 100%);
-}
-
-.magazine-image::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.3) 50%,
-    transparent 100%
-  );
-  transition: opacity 0.4s ease;
 }
 
 .magazine-image img {
@@ -286,78 +414,72 @@ body {
 }
 
 .magazine-item:hover .magazine-image img {
-  transform: scale(1.05);
+  transform: scale(1.04);
 }
 
-/* Content overlay */
+/* Info panel below image — fixed height keeps all tiles equal */
 .magazine-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 1.25rem;
-  z-index: 2;
-  transform: translateY(0);
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 0.95rem 1.15rem 1.15rem;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-height: 7.5rem;
 }
 
-.magazine-item:hover .magazine-content {
-  transform: translateY(-4px);
+/* Short accent stripe at top of info panel — color rotates per card */
+.magazine-content::before {
+  content: '';
+  display: block;
+  width: 2.5rem;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin-bottom: 0.35rem;
 }
+
+.magazine-item:nth-child(3n+1) .magazine-content::before { background: var(--accent); }
+.magazine-item:nth-child(3n+2) .magazine-content::before { background: var(--accent-secondary); }
+.magazine-item:nth-child(3n)   .magazine-content::before { background: var(--accent-tertiary); }
 
 .magazine-date {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
   font-family: var(--font-mono);
-  font-size: 0.7rem;
-  font-weight: 500;
+  font-size: 0.66rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #000;
-  background: var(--accent-secondary);
-  padding: 0.2rem 0.5rem;
-  margin-bottom: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
 }
+
+.magazine-item:nth-child(3n+1) .magazine-date { color: var(--accent); }
+.magazine-item:nth-child(3n+2) .magazine-date { color: var(--accent-secondary); }
+.magazine-item:nth-child(3n)   .magazine-date { color: var(--accent-tertiary); }
 
 .magazine-title {
-  font-family: var(--font-sans);
-  font-size: 1.1rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.3;
   letter-spacing: -0.01em;
-  color: #fff;
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+  color: var(--text);
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
-/* Accent line on hover - cycle LCARS colors */
-.magazine-item::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: var(--accent);
-  z-index: 3;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.magazine-item:nth-child(3n+1)::before {
-  background: var(--accent);
-}
-
-.magazine-item:nth-child(3n+2)::before {
-  background: var(--accent-secondary);
-}
-
-.magazine-item:nth-child(3n)::before {
-  background: var(--accent-tertiary);
-}
-
-.magazine-item:hover::before {
-  transform: scaleX(1);
+.magazine-item:hover .magazine-title {
+  color: var(--accent);
 }
 
 /* Responsive grid */
@@ -481,23 +603,29 @@ body {
   line-height: 1.6;
 }
 
-/* View All Link */
+/* View All Link — pill with end-cap */
 .view-all {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   margin-top: calc(var(--space) * 2);
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: #000;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1a1410;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.55rem 1.1rem;
   background: var(--accent-tertiary);
-  border: none;
-  transition: all 0.2s;
+  border-radius: var(--pill-radius);
+  transition: filter 0.15s, transform 0.15s;
+  line-height: 1;
 }
 
 .view-all:hover {
-  background: var(--accent);
-  color: #fff;
+  filter: brightness(1.08);
+  transform: translateY(-1px);
 }
 
 /* Links Section */
@@ -513,31 +641,27 @@ body {
 }
 
 .link-pill {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #000;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1a1410;
   text-decoration: none;
   padding: 0.5rem 1rem;
   background: var(--accent);
   border: none;
-  border-radius: 2px;
-  transition: all 0.2s;
+  border-radius: var(--pill-radius);
+  transition: filter 0.15s, transform 0.15s;
+  line-height: 1;
 }
 
-.link-pill:nth-child(3n+1) {
-  background: var(--accent);
-}
-
-.link-pill:nth-child(3n+2) {
-  background: var(--accent-secondary);
-}
-
-.link-pill:nth-child(3n) {
-  background: var(--accent-tertiary);
-}
+.link-pill:nth-child(3n+1) { background: var(--accent); }
+.link-pill:nth-child(3n+2) { background: var(--accent-secondary); }
+.link-pill:nth-child(3n)   { background: var(--accent-tertiary); }
 
 .link-pill:hover {
-  filter: brightness(1.15);
+  filter: brightness(1.1);
   transform: translateY(-2px);
 }
 
@@ -548,49 +672,57 @@ body {
 }
 
 .page-title {
-  font-family: var(--font-sans);
-  font-size: 2.25rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.85rem, 3.5vw, 2.4rem);
   font-weight: 700;
   letter-spacing: -0.02em;
-  padding-left: 1.5rem;
-  border-left: 4px solid var(--accent-secondary);
+  margin: 0;
 }
 
 .page-intro {
   margin-top: 1rem;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
   color: var(--text-muted);
-  max-width: 600px;
+  max-width: 60ch;
 }
 
-/* Pagination */
+/* Pagination — LCARS pill controls */
 .pagination {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.25rem;
   margin-top: calc(var(--space) * 3);
   padding-top: calc(var(--space) * 2);
   border-top: 1px solid var(--border);
 }
 
 .pagination-link {
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: #000;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1a1410;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.55rem 1.1rem;
   background: var(--accent-secondary);
   border: none;
-  transition: all 0.2s;
+  border-radius: var(--pill-radius);
+  transition: filter 0.15s, transform 0.15s;
+  line-height: 1;
 }
 
 .pagination-link:hover {
-  background: var(--accent);
+  filter: brightness(1.1);
+  transform: translateY(-1px);
 }
 
 .pagination-info {
-  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
   color: var(--text-muted);
 }
 
@@ -605,22 +737,36 @@ body {
 }
 
 .article-meta {
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
 }
 
+/* Date becomes an end-cap pill */
 .article-date {
+  display: inline-flex;
+  align-items: center;
   font-family: var(--font-mono);
-  font-size: 0.85rem;
-  color: var(--accent-secondary);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1a1410;
+  background: var(--accent-secondary);
+  padding: 0.4rem 1rem;
+  border-radius: var(--pill-radius);
+  line-height: 1;
 }
+
+/* Article date pill shows just the formatted date */
 
 .article-title {
-  font-family: var(--font-sans);
-  font-size: 2.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4.5vw, 3rem);
   font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  max-width: 900px;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  max-width: 22ch;
   margin: 0 auto;
 }
 
@@ -633,61 +779,94 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 4px;
 }
 
-/* Article Body */
+/* Article Body — long-form reading optimized */
 .article-body {
   max-width: var(--container-narrow);
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--text);
 }
 
 .article-body > * + * {
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
+}
+
+/* Drop-cap on first paragraph after the cover/header */
+.article-body > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 3.4em;
+  float: left;
+  line-height: 0.85;
+  padding: 0.3rem 0.6rem 0 0;
+  color: var(--accent);
 }
 
 .article-body h1 {
-  font-family: var(--font-sans);
-  font-size: 1.75rem;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
   font-weight: 700;
-  margin-top: 3rem;
-  margin-bottom: 1.25rem;
+  margin-top: 2.75rem;
+  margin-bottom: 1.1rem;
   letter-spacing: -0.02em;
-  padding-left: 1.25rem;
-  border-left: 4px solid var(--accent-secondary);
+  line-height: 1.2;
 }
 
 .article-body h2 {
-  font-family: var(--font-sans);
-  font-size: 1.5rem;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
   font-weight: 700;
-  margin-top: 3rem;
-  margin-bottom: 1.25rem;
-  letter-spacing: -0.02em;
-  padding-left: 1.25rem;
-  border-left: 4px solid var(--accent);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+/* h2 gets a small pill marker (LCARS DNA, restrained) */
+.article-body h2::before {
+  content: '';
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  background: var(--accent);
+  border-radius: var(--pill-radius);
+  margin-right: 0.6rem;
+  vertical-align: 0.15em;
 }
 
 .article-body h3 {
-  font-size: 1.2rem;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
   font-weight: 600;
-  margin-top: 2.5rem;
-  margin-bottom: 0.75rem;
-  padding-left: 1rem;
-  border-left: 3px solid var(--accent-tertiary);
+  margin-top: 2rem;
+  margin-bottom: 0.65rem;
+  letter-spacing: -0.005em;
+  color: var(--text);
 }
 
 .article-body h4 {
-  font-size: 1.1rem;
+  font-family: var(--font-display);
+  font-size: 1.02rem;
   font-weight: 600;
-  margin-top: 2rem;
+  margin-top: 1.75rem;
   margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
 }
 
 .article-body a {
   color: var(--accent);
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+
+.article-body a:hover {
+  text-decoration-thickness: 2.5px;
 }
 
 .article-body strong {
@@ -700,43 +879,144 @@ body {
 }
 
 .article-body li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
+.article-body li::marker {
+  color: var(--accent);
+}
+
+/* Editorial pull-quote treatment */
 .article-body blockquote {
-  margin: 2rem 0;
-  padding: 1.5rem;
-  background: var(--bg-alt);
-  border-left: 3px solid var(--accent);
-  font-style: italic;
+  margin: 2.25rem 0;
+  padding: 1.5rem 1.75rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border-left: 4px solid var(--accent-secondary);
+  position: relative;
+}
+
+.article-body blockquote::before {
+  content: '“';
+  position: absolute;
+  top: -0.5rem;
+  left: 1.5rem;
+  font-family: var(--font-display);
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--accent-secondary);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.article-body blockquote p {
+  margin: 0;
+}
+
+.article-body blockquote p + p {
+  margin-top: 0.75rem;
+}
+
+.article-body blockquote cite,
+.article-body blockquote footer {
+  display: block;
+  margin-top: 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   color: var(--text-muted);
 }
 
+/* Code blocks — LCARS chrome */
 .article-body pre {
   background: var(--bg-alt);
-  padding: 1.5rem;
+  padding: 1.25rem 1.5rem;
   overflow-x: auto;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  margin: 2rem 0;
-  border-left: 3px solid var(--accent);
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin: 0;
+  border-radius: 0 0 6px 6px;
 }
+
+/* Hugo wraps highlighted code in <div class="highlight"> */
+.article-body .highlight,
+.article-body figure.highlight,
+.article-body pre:not(.highlight pre) {
+  position: relative;
+  margin: 1.75rem 0;
+}
+
+.article-body .highlight {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Top bar with language pill */
+.article-body .highlight::before {
+  content: attr(data-lang);
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1a1410;
+  background: var(--accent);
+  padding: 0.4rem 0.85rem;
+  line-height: 1;
+  border-radius: 6px 6px 0 0;
+}
+
+/* Fallback: when there's no .highlight wrapper, give the bare pre a top edge */
+.article-body > pre,
+.article-body p + pre {
+  border-top: 2px solid var(--accent);
+  border-radius: 0 0 6px 6px;
+}
+
+/* Hide the bar entirely when there's no language to label */
+.article-body .highlight:not([data-lang])::before { display: none; }
 
 .article-body code {
   font-family: var(--font-mono);
-  font-size: 0.85em;
+  font-size: 0.88em;
   background: var(--bg-alt);
-  padding: 0.2em 0.4em;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
 }
 
 .article-body pre code {
   background: none;
   padding: 0;
+  font-size: inherit;
 }
 
 .article-body img {
   max-width: 100%;
   height: auto;
+  border-radius: 4px;
+}
+
+/* Horizontal rule as a mini LCARS divider */
+.article-body hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg,
+    var(--accent) 0%, var(--accent) 33%,
+    var(--accent-secondary) 33%, var(--accent-secondary) 66%,
+    var(--accent-tertiary) 66%, var(--accent-tertiary) 100%);
+  margin: 2.5rem auto;
+  width: 8rem;
+  border-radius: 1px;
+  opacity: 0.7;
 }
 
 .article-body table {
@@ -773,40 +1053,36 @@ body {
 }
 
 .tag-pill {
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: #000;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #1a1410;
   text-decoration: none;
-  padding: 0.35rem 0.75rem;
+  padding: 0.35rem 0.8rem;
   background: var(--accent);
   border: none;
-  border-radius: 2px;
-  transition: all 0.2s;
+  border-radius: var(--pill-radius);
+  transition: filter 0.15s, transform 0.15s;
+  line-height: 1;
 }
 
-.tag-pill:nth-child(3n+1) {
-  background: var(--accent-tertiary);
-}
-
-.tag-pill:nth-child(3n+2) {
-  background: var(--accent);
-}
-
-.tag-pill:nth-child(3n) {
-  background: var(--accent-secondary);
-}
+.tag-pill:nth-child(3n+1) { background: var(--accent-tertiary); }
+.tag-pill:nth-child(3n+2) { background: var(--accent); }
+.tag-pill:nth-child(3n)   { background: var(--accent-secondary); }
 
 .tag-pill:hover {
-  filter: brightness(1.15);
+  filter: brightness(1.1);
   transform: translateY(-2px);
 }
 
-/* Article Nav */
+/* Article Nav — paired LCARS panels with end-cap pills */
 .article-nav {
   max-width: var(--container-narrow);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
   margin-top: calc(var(--space) * 3);
   padding-top: calc(var(--space) * 2);
   border-top: 1px solid var(--border);
@@ -817,39 +1093,48 @@ body {
   flex-direction: column;
   gap: 0.5rem;
   text-decoration: none;
-  padding: 1rem;
-  background: var(--accent-tertiary);
-  transition: all 0.2s;
+  padding: 1.1rem 1.25rem;
+  background: var(--bg-alt);
+  border-radius: 14px 14px 14px 14px;
+  transition: filter 0.15s, transform 0.15s;
+  position: relative;
+  overflow: hidden;
 }
 
 .nav-link--prev {
-  background: var(--accent-tertiary);
-}
-
-.nav-link--next {
-  background: var(--accent);
-}
-
-.nav-link:hover {
-  filter: brightness(1.15);
+  border-left: 6px solid var(--accent-tertiary);
+  border-radius: var(--pill-radius) 14px 14px var(--pill-radius);
 }
 
 .nav-link--next {
   text-align: right;
-  background: var(--accent);
+  border-right: 6px solid var(--accent);
+  border-radius: 14px var(--pill-radius) var(--pill-radius) 14px;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.02);
 }
 
 .nav-label {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: #000;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
 }
 
+.nav-link--next .nav-label { color: var(--accent); }
+.nav-link--prev .nav-label { color: var(--accent-tertiary); }
+
 .nav-title {
+  font-family: var(--font-display);
   font-size: 1rem;
-  font-weight: 500;
-  color: #000;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.005em;
 }
 
 /* Error Page */
@@ -2486,5 +2771,187 @@ a.project-award:hover {
   }
   .award-org {
     text-align: left;
+  }
+}
+
+/* =============================================
+   FOCUS STYLES — keyboard-visible accessibility
+   ============================================= */
+
+:focus { outline: none; }
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: 4px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  box-shadow: var(--focus-ring);
+}
+
+/* Pills get rounded focus rings */
+.link-pill:focus-visible,
+.tag-pill:focus-visible,
+.view-all:focus-visible,
+.pagination-link:focus-visible,
+.about-jump-link:focus-visible,
+.site-nav a:focus-visible {
+  border-radius: var(--pill-radius);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* =============================================
+   PRINT — essay/reading-optimized
+   ============================================= */
+
+@media print {
+  :root {
+    --bg: #ffffff;
+    --bg-alt: #ffffff;
+    --text: #000000;
+    --text-muted: #333333;
+    --border: #cccccc;
+  }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #000;
+    background: #fff;
+    font-size: 11pt;
+    line-height: 1.55;
+  }
+
+  /* Hide chrome */
+  .accent-bar,
+  .site-header,
+  .site-footer,
+  .site-nav,
+  .article-nav,
+  .pagination,
+  .view-all,
+  .links-section,
+  .article-tags,
+  .about-jump-nav,
+  .hero-label,
+  .section-number {
+    display: none !important;
+  }
+
+  /* Article structure */
+  .article {
+    padding: 0;
+  }
+
+  .article-header {
+    text-align: left;
+    padding: 0 0 1rem 0;
+  }
+
+  .article-title {
+    font-family: 'Georgia', serif;
+    font-size: 22pt;
+    color: #000;
+    max-width: none;
+    margin: 0;
+  }
+
+  .article-date {
+    background: none;
+    color: #555;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    font-size: 10pt;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+
+  .article-date::before {
+    content: '';
+    margin: 0;
+  }
+
+  .article-body {
+    max-width: none;
+    font-family: 'Georgia', serif;
+    font-size: 11pt;
+    line-height: 1.55;
+  }
+
+  .article-body > p:first-of-type::first-letter {
+    font-family: 'Georgia', serif;
+    color: #000;
+    font-size: 1em;
+    float: none;
+    padding: 0;
+  }
+
+  .article-body h1,
+  .article-body h2,
+  .article-body h3,
+  .article-body h4 {
+    font-family: 'Georgia', serif;
+    color: #000;
+    page-break-after: avoid;
+  }
+
+  .article-body h2::before { display: none; }
+
+  .article-body a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  /* Expand link URLs after their text */
+  .article-body a[href^="http"]::after {
+    content: ' (' attr(href) ')';
+    font-size: 9pt;
+    color: #555;
+    word-break: break-all;
+  }
+
+  .article-body img,
+  .article-cover img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+
+  .article-body pre,
+  .article-body blockquote {
+    page-break-inside: avoid;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    color: #000;
+  }
+
+  .article-body blockquote::before { display: none; }
+
+  .article-body hr {
+    background: #ccc;
+    height: 1px;
+    width: 100%;
+  }
+
+  /* Hide all the playful hover/animated chrome */
+  .leo-walker,
+  .iff-hover-video,
+  .mtpleasant-starfield,
+  .culture-canvas,
+  .book-flung {
+    display: none !important;
+  }
+
+  @page {
+    margin: 2cm;
   }
 }
