@@ -135,7 +135,7 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 </div>
 </a>
 
-<div class="project-card-wrap--full">
+<a class="project-card-link project-card-link--full" href="https://yarnspinner.dev/leonardo/">
 <div class="project-card project-card--featured project-card--nda project-card--leo">
 <div class="project-icon"><img src="images/leonardos-moon-ship.png" alt="Leonardo's Moon Ship"></div>
 <div class="project-body">
@@ -146,7 +146,7 @@ When not doing any of that, he helps run [Tasmanian Game Makers](https://tasgame
 </div>
 <div class="leo-walker"></div>
 </div>
-</div>
+</a>
 
 <div class="project-card-wrap--full project-card-wrap--mtpleasant">
 <div class="project-card project-card--featured project-card--nda project-card--mtpleasant">

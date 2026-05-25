@@ -14,7 +14,7 @@ params:
 tags: ["leonardosmoonship", "games", "gamedev", "2d", "programming"]
 ---
 
-We're working on an adventure game, Leonardo's Moon Ship. The player character, Leo, has the usual pile of animations: idle left and right, walk in four directions, a couple of stair anims. Since implementing the basics of the character, Leo has had this slightly cursed behaviour where he'd grow about 3% taller the moment he started walking, then shrink back when he stopped. His feet would also lift off the ground by up to 27 pixels depending on which way he was facing. Not enough to be obviously broken in a screenshot. Exactly enough to make the game feel wrong.
+We're working on an adventure game, [Leonardo's Moon Ship](https://yarnspinner.dev/leonardo/). The player character, Leo, has the usual pile of animations: idle left and right, walk in four directions, a couple of stair anims. Since implementing the basics of the character, Leo has had this slightly cursed behaviour where he'd grow about 3% taller the moment he started walking, then shrink back when he stopped. His feet would also lift off the ground by up to 27 pixels depending on which way he was facing. Not enough to be obviously broken in a screenshot. Exactly enough to make the game feel wrong.
 
 <video controls width="720" style="max-width:100%;height:auto;">
   <source src="explain-overlay.mp4" type="video/mp4">
