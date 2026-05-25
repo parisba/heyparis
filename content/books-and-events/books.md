@@ -224,6 +224,12 @@ For nearly 15 years, I wrote _a lot_ of technical books, initially for Wiley, an
   * English: [iPhone and iPad Game Development For Dummies](https://www.wiley.com/en-gb/iPhone+and+iPad+Game+Development+For+Dummies-p-9780470599105) (Wiley Publishing, 2010)
   * French: [Développer des jeux pour iPhone et iPad pour les Nuls](https://search.worldcat.org/title/717622899) (Wiley Publishing, 2011)
 
+# Policy and Positions
+
+Sometimes I write submissions and take public positions on policy that affects games, the arts, and technology.
+
+* **Games Are the Art Form of Our Time** (2026): my submission to Australia's next National Cultural Policy, written on behalf of [Tasmanian Game Makers](https://tasgamemakers.com). It argues for funding video games as culture, and for backing regional Australia, where that investment goes furthest. [Read the full submission](https://tasgamemakers.com/policies-and-positions/ncp-2026/).
+
 # Selected Papers
 
 I also occasionally put my PhD to use, and pretend to be an academic. Here are some of the papers I've written:

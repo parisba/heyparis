@@ -40,6 +40,46 @@
       if (c) wrap.setAttribute('data-lang', c.getAttribute('data-lang'));
     });
 
+    // "Boot" numeric pills (section numbers, hero label) when they enter view —
+    // brief flicker through random digits before settling. Subsystem-powering-up feel.
+    var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function bootPill(el) {
+      if (el.dataset.booted) return;
+      el.dataset.booted = '1';
+      var real = el.textContent.trim();
+      if (!/^\d+$/.test(real)) return;
+      if (prefersReduced) return;
+      var len = real.length;
+      var iterations = 11;
+      var i = 0;
+      var tick = setInterval(function () {
+        if (i >= iterations) {
+          clearInterval(tick);
+          el.textContent = real;
+          return;
+        }
+        var s = '';
+        for (var k = 0; k < len; k++) s += Math.floor(Math.random() * 10);
+        el.textContent = s;
+        i++;
+      }, 42);
+    }
+
+    var pillSelector = '.section-number, .hero-label';
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            bootPill(entry.target);
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.4 });
+      document.querySelectorAll(pillSelector).forEach(function (el) { io.observe(el); });
+    } else {
+      document.querySelectorAll(pillSelector).forEach(bootPill);
+    }
+
     // Track outbound link clicks (with page context to distinguish post vs non-post)
     document.addEventListener('click', function (e) {
       var link = e.target.closest('a[href]');

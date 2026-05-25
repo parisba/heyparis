@@ -69,7 +69,7 @@ body {
   flex-direction: column;
 }
 
-/* Accent Bar — LCARS three-color signature, now load-bearing */
+/* Accent Bar — three-color signature, with a rare slow shimmer pass */
 .accent-bar {
   height: 6px;
   background: linear-gradient(90deg,
@@ -83,6 +83,28 @@ body {
   position: sticky;
   top: 0;
   z-index: 101;
+  overflow: hidden;
+}
+
+.accent-bar::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.75) 45%,
+    rgba(255, 255, 255, 0.9) 50%,
+    rgba(255, 255, 255, 0.75) 55%,
+    transparent 100%);
+  transform: translateX(-100%);
+  animation: lcars-shimmer 7s linear infinite;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+@keyframes lcars-shimmer {
+  0%   { transform: translateX(-100%); }
+  60%, 100% { transform: translateX(120%); }
 }
 
 /* Container */
@@ -141,22 +163,9 @@ body {
 .site-title-text {
   display: inline-flex;
   align-items: center;
-  padding: 0 0.65rem;
+  padding: 0 0.95rem 0 0.65rem;
   background: var(--bg);
   font-size: 0.95rem;
-}
-
-.site-title::after {
-  content: '·';
-  display: inline-flex;
-  align-items: center;
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  color: var(--text-muted);
-  background: var(--bg);
-  padding: 0 0.65rem 0 0;
   border-radius: 0 var(--pill-radius) var(--pill-radius) 0;
 }
 
@@ -314,9 +323,20 @@ body {
 .section-header::after {
   content: '';
   flex: 1;
-  height: 2px;
-  background: var(--border);
-  border-radius: 1px;
+  height: 3px;
+  border-radius: 2px;
+  background:
+    linear-gradient(90deg, transparent 0%, var(--accent) 45%, var(--accent) 55%, transparent 100%) no-repeat,
+    var(--border);
+  background-size: 80px 100%, 100% 100%;
+  background-position: 0% center, 0 0;
+  animation: lcars-rail-scan 4.5s ease-in-out infinite;
+}
+
+@keyframes lcars-rail-scan {
+  0%   { background-position: 0% center, 0 0; }
+  50%  { background-position: 100% center, 0 0; }
+  100% { background-position: 0% center, 0 0; }
 }
 
 .section-number {
@@ -1077,7 +1097,8 @@ section:nth-of-type(3n)   .section-number { background: var(--accent-tertiary); 
   transform: translateY(-2px);
 }
 
-/* Article Nav — paired LCARS panels with end-cap pills */
+/* Article Nav — proper LCARS panel: colored end-cap holding the label,
+   flat body holding the title, full-pill outer silhouette. */
 .article-nav {
   max-width: var(--container-narrow);
   display: grid;
@@ -1090,51 +1111,72 @@ section:nth-of-type(3n)   .section-number { background: var(--accent-tertiary); 
 
 .nav-link {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  align-items: stretch;
+  min-height: 4.5rem;
   text-decoration: none;
-  padding: 1.1rem 1.25rem;
   background: var(--bg-alt);
-  border-radius: 14px 14px 14px 14px;
-  transition: filter 0.15s, transform 0.15s;
-  position: relative;
+  border-radius: var(--pill-radius);
   overflow: hidden;
-}
-
-.nav-link--prev {
-  border-left: 6px solid var(--accent-tertiary);
-  border-radius: var(--pill-radius) 14px 14px var(--pill-radius);
-}
-
-.nav-link--next {
-  text-align: right;
-  border-right: 6px solid var(--accent);
-  border-radius: 14px var(--pill-radius) var(--pill-radius) 14px;
+  transition: transform 0.15s ease;
 }
 
 .nav-link:hover {
   transform: translateY(-2px);
-  filter: brightness(1.02);
 }
 
 .nav-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-mono);
   font-size: 0.7rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: #1a1410;
+  padding: 0 1.15rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  line-height: 1;
 }
 
-.nav-link--next .nav-label { color: var(--accent); }
-.nav-link--prev .nav-label { color: var(--accent-tertiary); }
-
 .nav-title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.15rem;
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--text);
   letter-spacing: -0.005em;
+  line-height: 1.3;
+}
+
+/* Prev: colored end-cap on the LEFT */
+.nav-link--prev .nav-label {
+  background: var(--accent-tertiary);
+  order: 1;
+}
+
+.nav-link--prev .nav-title {
+  order: 2;
+}
+
+/* Next: colored end-cap on the RIGHT */
+.nav-link--next .nav-label {
+  background: var(--accent);
+  order: 2;
+}
+
+.nav-link--next .nav-title {
+  order: 1;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.nav-link:hover .nav-label {
+  filter: brightness(1.08);
 }
 
 /* Error Page */
@@ -2799,6 +2841,52 @@ button:focus-visible {
 .about-jump-link:focus-visible,
 .site-nav a:focus-visible {
   border-radius: var(--pill-radius);
+}
+
+/* TNG-style console-press feedback on pills */
+.link-pill:active,
+.tag-pill:active,
+.view-all:active,
+.pagination-link:active,
+.about-jump-link:active,
+.site-nav a:active,
+.work-link:active {
+  transform: scale(0.95);
+  filter: brightness(1.3);
+  transition: transform 0.08s ease, filter 0.08s ease;
+}
+
+/* Magazine card hover scan-line — thin accent line sweeps down the image */
+.magazine-image {
+  position: relative;
+}
+
+.magazine-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+  box-shadow: 0 0 8px 1px rgba(var(--accent-rgb), 0.6);
+  z-index: 3;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.magazine-item:hover .magazine-image::before {
+  animation: magazine-scan 0.8s cubic-bezier(0.4, 0, 0.6, 1) forwards;
+}
+
+.magazine-item:nth-child(3n+2):hover .magazine-image::before { background: var(--accent-secondary); box-shadow: 0 0 8px 1px rgba(255, 153, 102, 0.6); }
+.magazine-item:nth-child(3n):hover .magazine-image::before   { background: var(--accent-tertiary);  box-shadow: 0 0 8px 1px rgba(153, 153, 204, 0.6); }
+
+@keyframes magazine-scan {
+  0%   { top: 0%;                opacity: 0; }
+  15%  { top: 12%;               opacity: 0.95; }
+  85%  { top: 88%;               opacity: 0.95; }
+  100% { top: calc(100% - 2px);  opacity: 0; }
 }
 
 /* Reduced motion */
