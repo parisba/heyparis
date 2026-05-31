@@ -1,0 +1,15 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $caption := .Get "caption" -}}
+{{- $img := .Page.Resources.GetMatch $src -}}
+{{- if $img -}}
+  {{- $embed := $img.Resize "1200x q82 webp" -}}
+  <figure style="margin:1.5em 0;text-align:center;">
+    <a href="{{ $img.RelPermalink }}" target="_blank" rel="noopener" style="display:inline-block;box-shadow:none;">
+      <img src="{{ $embed.RelPermalink }}" width="{{ $embed.Width }}" height="{{ $embed.Height }}" alt="{{ $alt }}" loading="lazy" style="max-width:100%;height:auto;border-radius:6px;" />
+    </a>
+    {{- with $caption }}<figcaption style="margin-top:0.6em;font-size:0.85em;line-height:1.4;color:var(--secondary);opacity:0.85;font-style:italic;">{{ . | markdownify }}</figcaption>{{ end -}}
+  </figure>
+{{- else -}}
+  {{- warnf "photo shortcode: no resource found for %q in %q" $src .Page.Path -}}
+{{- end -}}
