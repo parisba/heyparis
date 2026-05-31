@@ -16,7 +16,8 @@
     {{- if $.Params.cover.relative -}}
       {{- $img := $.Resources.GetMatch . -}}
       {{- if $img -}}
-        <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
+        {{- $hero := $img.Resize "1600x q82 webp" -}}
+        <img src="{{ $hero.RelPermalink }}" width="{{ $hero.Width }}" height="{{ $hero.Height }}" alt="{{ with $.Params.cover.alt }}{{ . }}{{ else }}{{ $.Title }}{{ end }}">
       {{- end -}}
     {{- else if hasPrefix . "/" -}}
       <img src="{{ . }}" alt="{{ $.Title }}">
