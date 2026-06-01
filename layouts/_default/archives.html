@@ -2,22 +2,16 @@
 <section class="page-header">
   <div class="container">
     <span class="section-number">01</span>
-    {{- $displayTitle := .Title -}}
-    {{- if eq .Type "tags" -}}
-      {{- $tagMap := dict "Ai" "AI" "Nsw" "NSW" "Uk" "UK" "Us" "US" "Auspol" "AusPol" "Hci" "HCI" "Ml" "ML" "Api" "API" "Ios" "iOS" "Macos" "macOS" "Gdc" "GDC" "Ui" "UI" "Ux" "UX" "Aisi" "AISI" -}}
-      {{- $displayTitle = index $tagMap .Title | default .Title -}}
-    {{- end -}}
-    <h1 class="page-title">{{ $displayTitle }}</h1>
-    {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+    <h1 class="page-title">{{ .Title }}</h1>
   </div>
 </section>
 
 <section class="posts-section">
   <div class="container">
-    {{ $paginator := .Paginate .Pages 12 }}
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
 
     <div class="posts-timeline">
-      {{ range $paginator.Pages }}
+      {{ range $posts.ByDate.Reverse }}
       {{ $post := . }}
       <article class="post-entry">
         <div class="post-date">
@@ -50,14 +44,6 @@
       </article>
       {{ end }}
     </div>
-
-    {{ if gt $paginator.TotalPages 1 }}
-    <nav class="pagination">
-      {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" class="pagination-link">← Newer</a>{{ end }}
-      <span class="pagination-info">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
-      {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" class="pagination-link">Older →</a>{{ end }}
-    </nav>
-    {{ end }}
   </div>
 </section>
 {{ end }}
