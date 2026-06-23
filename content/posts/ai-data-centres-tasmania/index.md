@@ -125,7 +125,7 @@ Build the generation first. Sort out supply for our own homes and industry, writ
 
 And even if this were a good idea (it isn't), we've gone about it backwards: the flagship is already approved, contracted and under construction, and the inquiry is only being called now. We're nearly too late. Nearly.
 
-Contact your local representatives, both State and Federal, as well as your local council, and industry bodies like TasICT, and tell them what you think.
+Contact your local representatives, both State and Federal, as well as your local council, and industry bodies like TasICT, and tell them what you think. [Sign the petition](https://haepetitions.parliament.tas.gov.au/haepet/Home/PetitionDetails/147?title=Petition%20Details) if you can!
 
 ---
 
