@@ -20,7 +20,7 @@ A lot of people seem convinced Tasmania can become some kind of "AI Island". We'
 
 One of the core problem with this is the power. We don't uniformly have a surplus to sell. Last year we were importing electricity from Victoria just to keep our own lights on, and the government wants to hand about a sixth of the grid to a handful of foreign-owned sheds full of NVIDIA chips. What we get back is a few dozen permanent jobs, a stack of environmental claims nobody has audited, a great deal of noise, and a contract we're not allowed to read. It's a bad deal, and it's being pushed and pushed and pushed.
 
-And to be clear, this isn't anti-AI. You can use AI, like it, even love it, and still think this plan is a bad deal for Tasmania. You can love electronics and still not want a lithium mine next door. For what it's worth, I'm no fan of AI myself, but that's beside the point. Whether you're for or against it barely matters here. What matters is whether handing a foreign company a big slice of our grid, water and goodwill is worth it for the people who actually live here.
+And to be clear, this isn't anti-AI. You can use AI, like it, even love it, and still think this plan is a bad deal for Tasmania. You can love electronics and still not want a lithium mine next door. Whether you're for or against it barely matters here. What matters is whether handing a foreign company a big slice of our grid, water and goodwill is worth it for the people who actually live here. There are better ways to get a few dozen jobs, and most don't rely on a huge chunk of our power grid, and lots of concerning impacts on things.
 
 ## The spare power isn't there
 
