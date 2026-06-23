@@ -119,7 +119,7 @@ And if the point is simply to look high-tech, we already are. Tasmania grows gen
 
 ## So, no...
 
-Our renewable power should keep Tasmanian bills below the mainland's, it's the lever for cleaning up our own heavy industry, and it's the strongest card we'll hold for decades. We're lucky to have it. It shouldn't be flogged off for someone else's AI boom. Doing this while we're importing electricity, while Boyer's told to wait, while the contract stays secret and Hydro's profits crater, and while comparable places overseas are backing away, would be giving away a one real advantage.
+Our renewable power should keep Tasmanian bills below the mainland's, it's the lever for cleaning up our own heavy industry, and it's the strongest card we'll hold for decades. We're lucky to have it. It shouldn't be flogged off for someone else's AI boom. Doing this while we're importing electricity, while Boyer's told to wait, while the contract stays secret and Hydro's profits crater, and while comparable places overseas are backing away, would be giving away a real advantage.
 
 Build the generation first. Sort out supply for our own homes and industry, write some actual rules, and put the contracts where the public can see them. Do that and there's a conversation worth having. Until then the answer's no, and the government should stop pretending the question is settled.
 
