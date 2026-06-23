@@ -1,10 +1,16 @@
 ---
-title: "We're importing electricity. So why are we giving it away to a foreign AI startup?"
-date: 2026-06-19
+title: "Our hydro deserves better than a chatbot"
+date: 2026-06-23
+cover:
+  image: "cover.jpg"
+  alt: "A lone technician with a tablet in a long, brightly lit data centre server aisle"
+  relative: true
 ShowToc: false
 params:
   description: Tasmania was a net electricity importer last year, yet the government wants to hand about a sixth of the grid to a foreign AI startup. Here's why these data centres shouldn't be built, with the numbers.
-  title: "We're importing electricity. So why are we giving it away to a foreign AI startup?"
+  images:
+  - cover.jpg
+  title: "Our hydro deserves better than a chatbot"
 tags: ["tasmania", "ai", "artificial intelligence", "energy", "hydro", "renewables", "firmus", "data centres", "politics", "rant", "angry"]
 ---
 
@@ -31,7 +37,7 @@ So the rules bend for the right foreign investor, making something of spurious v
 > *"How is it possible that established industries in Tasmania aren't able to get additional power generation, but a Singaporean company who walks in and suggests a $2-billion investment are able to whistle up what they need?"*
 > — [House of Assembly, 25 March 2026](https://tasgreensmps.org/parliament/speeches/ai-factories-and-datacentres-3/)
 
-Every gigawatt-hour we sign over to AI is one that can't get Boyer off coal, expand Bell Bay Aluminium, or electrify our homes and cars and bring people's bills down along the way. We'd be rationing power to Tasmanian workers and households so a foreign company can rent out AI compute to whoever pays the most for it. To say nothing of the supposed benefits of AI.
+Every gigawatt-hour we sign over to AI is one that can't get Boyer off coal, expand Bell Bay Aluminium, or electrify our homes and cars and bring people's bills down along the way. We'd be rationing power to Tasmanian workers and households so a foreign company can rent out AI compute to whoever pays the most for it. To say nothing of the supposed benefits of AI, which look shakier by the month.
 
 ## Not many jobs
 
@@ -49,6 +55,14 @@ There's definitely some real carbon concerns, there. Add hundreds of megawatts o
 
 Investors have their doubts too. One analyst flagged Firmus spruiking a [Power Usage Effectiveness of 1.03](https://rogermontgomery.com/6-billion-hype-or-structural-risk-inside-the-firmus-asx-listing/), close to the best in the world if it stands up. It's self-reported, and nobody independent has checked it. Good times all around.
 
+## Spare a thought for the neighbours
+
+Wherever these things get built near people, the people tend to end up hating them. Data centres run hot and loud around the clock: banks of cooling fans, chillers and backup generators that, as the US Environmental and Energy Study Institute puts it, throw off high- and low-frequency noise that ["can be heard for hundreds of feet"](https://www.eesi.org/articles/view/communities-are-raising-noise-pollution-concernsabout-data-centers). The low hum is the nasty part: hard to pin down with a decibel meter, and it never stops. Residents near these sites report wrecked sleep and falling property values, there's a wave of noise-nuisance lawsuits underway (including one in [West Michigan](https://spectrumlocalnews.com/mi/michigan/news/2026/05/29/residents-sue-data-center-company-over-constant-noise--health-concerns)), and a quiet suburb in Chandler, Arizona spent the better part of a decade fighting one. Then there's the air: VCU researchers found Northern Virginia's data-centre diesel generators now [rival a power plant for emissions](https://news.vcu.edu/article/northern-virginia-data-center-air-pollution-rivals-power-plant-emissions).
+
+To be fair to Firmus, siting matters, and at Bell Bay it works in their favour. The George Town campus goes on the old Gunns pulp-mill land, which Firmus rightly calls ["well separated from homes and residential areas"](https://firmus.co/project-southgate-faqs). It's a heavy-industrial zone, and a server shed is hardly the worst neighbour that stretch of the Tamar has had. The full suburban horror story probably doesn't apply there.
+
+St Leonards is a different matter. That one sits in Launceston's eastern suburbs, close enough that the council bolted [noise-attenuation conditions](https://pulsetasmania.com.au/news/launceston-council-approves-major-2-1-billion-ai-data-centre/) onto the permit, and locals had already raised concerns about cooling-system chemicals. The Bell Bay plans, industrial zone or not, still [list diesel generators on site](https://pulsetasmania.com.au/news/firmus-lodges-plans-for-second-tasmanian-ai-factory-at-bell-bay/). None of it is a deal-breaker on its own. But with no Tasmania-specific noise or air rules for these places, residents are left trusting the standard council conditions to hold the line, the same kind of conditions that, everywhere else, have ended in court.
+
 ## Higher bills, including here
 
 Modelling consistently indicates data centres will push up local power bills. Work reported by [The New Daily](https://www.thenewdaily.com.au/finance/consumer/2026/06/03/data-centre-power-prices) and the [Climate Council](https://www.climatecouncil.org.au/what-does-the-data-centre-boom-mean-for-australias-switch-to-renewables/) has data-centre demand pushing household power prices up by as much as 26 per cent within a decade, with wholesale prices in New South Wales up 26 per cent and Victoria 23 per cent by 2035 if the build keeps outrunning new renewable supply, which it is. This is on top of existing regular increases, which we're already subject to.
@@ -59,9 +73,9 @@ Hydro Tasmania, the public company that's meant to be banking all this, saw its 
 
 ## Ireland already ran this experiment
 
-For a preview of letting the data centres in first and sorting the grid out later, we can look at Ireland, where they now eat [22% of all metered electricity, up from 5% in 2015](https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2024/keyfindings), and are headed for 30% by 2030. The grid operator has warned plainly about [blackout risk](https://www.irishtimes.com/environment/2026/04/02/data-centres-blackout-worries-trigger-new-electricity-protocols/), and the regulator was eventually forced to put [strict conditions](https://www.cru.ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/) on new connections: bring your own generation, match your demand with renewables, and prove you won't destabilise the local grid.
+For a preview of letting the data centres in first and sorting the grid out later, we can look at Ireland, where they now eat [22% of all metered electricity, up from 5% in 2015](https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2024/keyfindings), and are [forecast to hit 30 per cent within five years](https://www.irishtimes.com/environment/2026/04/02/data-centres-blackout-worries-trigger-new-electricity-protocols/). The grid operator has warned plainly about [blackout risk](https://www.irishtimes.com/environment/2026/04/02/data-centres-blackout-worries-trigger-new-electricity-protocols/), and the regulator was eventually forced to put [strict conditions](https://www.cru.ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/) on new connections: bring your own generation, match your demand with renewables, and prove you won't destabilise the local grid.
 
-The United States is going the same way. Data centres drove [40% of the cost of PJM's most recent capacity auction](https://www.utilitydive.com/news/data-centers-pjm-capacity-auction/808951/), and communities there have blocked or stalled [around $64 billion](https://virginiamercury.com/2025/05/21/report-highlights-community-pushback-stalling-64-billion-in-data-center-development-nationwide/) of projects over the same fights. Greenpeace has called for an outright [moratorium on new AI facilities](https://tasgreensmps.org/media-releases/firmus-ai-factories-look-set-to-become-states-largest-power-consumer/).
+The United States is going the same way. Data centres drove [40% of the cost of PJM's most recent capacity auction](https://www.utilitydive.com/news/data-centers-pjm-capacity-auction/808951/), and communities there have blocked or delayed [around $64 billion](https://virginiamercury.com/2025/05/21/report-highlights-community-pushback-stalling-64-billion-in-data-center-development-nationwide/) of projects over the same fights. Greenpeace has called for an outright [moratorium on new AI facilities](https://tasgreensmps.org/media-releases/firmus-ai-factories-look-set-to-become-states-largest-power-consumer/).
 
 Everywhere this runs at scale, the rules show up after the strain, the blackout warnings and the price rises, not before. We've got the rare luxury of seeing it coming, and we're lining up to make the same mistake anyway. There might be time to stop this, though. Perhaps?
 
@@ -81,10 +95,24 @@ Despite my own misgivings, the other side deserves a fair hearing: Firmus is, ap
 
 That's a lot of conditions, and ifs, and the timing gives the game away. Marinus and the Lake Cethana pumped hydro aren't due until roughly 2028 to 2030. The Firmus load switches on in August 2026. So we're being asked to take on the demand now and hope the supply, the jobs and the green credentials all turn up later, on the word of a company that's busy lining up to sell itself on the sharemarket.
 
+## It's the opposite of Brand Tasmania
+
+What really gets me, though, is the brand. Tasmania has spent years and real public money building a place brand that's the precise opposite of a hyperscale AI shed. Brand Tasmania, an actual statutory authority, sells the state as ["the quiet pursuit of the extraordinary"](https://tasmanian.com.au/brand-tasmania/). Its own brand essence describes Tasmanians as "humble, quietly confident, and cool while the rest of the world is increasingly loud and hot", focused on "better, not more", on "quality taking precedence over quantity", and on "our choice to protect the wilderness and our environment".
+
+A 400-to-500 MW AI factory is the opposite of nearly every word of that. Data centres are loud and hot, in the most literal sense. They're "more, not better" poured into a tin shed: more compute, more power, more water, racked up as fast as the chips arrive. We sell ourselves on being quiet and low-impact, then line up to hand the grid to the loudest, most power-hungry industry going. You couldn't dream up something more off-brand if you tried.
+
+And we'd be trading that brand for a technology a lot of serious people reckon is a bubble. The IMF and the Bank of England have both warned of [a sharp market correction if the AI boom turns sour](https://www.cnbc.com/2025/10/09/imf-and-bank-of-england-join-growing-chorus-warning-of-an-ai-bubble.html). MIT's own NANDA research found 95% of corporate generative-AI pilots deliver ["little to no measurable impact"](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/) on the bottom line. So the benefits are, let's say, unproven. We'd be giving away a real, hard-won advantage in clean power and a clean brand to chase one that might not even be real.
+
 ## So, no...
 
 Our renewable power should keep Tasmanian bills below the mainland's, it's the lever for cleaning up our own heavy industry, and it's the strongest card we'll hold for decades. We're lucky to have it. It shouldn't be flogged off for someone else's AI boom. Doing this while we're importing electricity, while Boyer's told to wait, while the contract stays secret and Hydro's profits crater, and while comparable places overseas are backing away, would be giving away a one real advantage.
 
 Build the generation first. Sort out supply for our own homes and industry, write some actual rules, and put the contracts where the public can see them. Do that and there's a conversation worth having. Until then the answer's no, and the government should stop pretending the question is settled.
 
+And even if this were a good idea (it isn't), we've gone about it backwards: the flagship is already approved, contracted and under construction, and the inquiry is only being called now. We're nearly too late. Nearly.
+
 Contact your local representatives, both State and Federal, as well as your local council, and industry bodies like TasICT, and tell them what you think.
+
+---
+
+*Cover photo by [CommScope](https://www.flickr.com/photos/commscope/40049975305/) on Flickr, licensed under [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/). Used unmodified.*
