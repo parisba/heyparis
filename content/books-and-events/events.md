@@ -24,12 +24,21 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 * Hosting: Monthly [Space News on ABC Radio Hobart and Northern Tasmania](/posts/spacenews), [with Lucie Cutting](https://www.abc.net.au/listen/programs/hobart-sundays) (I took over hosting this from my wife, [Mars](https://themartianlife.com), while she's busy with her PhD.)
 
 ## 2026
-* Exhibiting: [TasICT Tas Tech Fest 2026](https://web.cvent.com/event/e75ca83f-5ab4-42f6-99bf-e0fb0572c906/summary), Hobart, Australia
-* Organising: [Screen Tasmania Level Up Tasmania 2026](https://www.screen.tas.gov.au/leveluptasmania), 17-19 April 2026, Hobart, Australia
+
+* Organising: AUC [/dev/world/2026](https://devworld.au), August 2026, Melbourne, Australia
+* Organising: AUC [X World 2026](https://xworld.au), August 2026, Melbourne, Australia
+* Speaking: GCAP 2026, Melbourne, Australia
+    * Session: [Cut Your Script in Half](https://gcap.com.au)
 
 # Past Events
 
+## 2026
+
+* Organising: [Level Up Tasmania 2026](https://www.screen.tas.gov.au/leveluptasmania), 17-19 April 2026, Hobart, Australia
+* Exhibiting: [TasICT Tas Tech Fest 2026](https://web.cvent.com/event/e75ca83f-5ab4-42f6-99bf-e0fb0572c906/summary), Hobart, Australia
+
 ## 2025
+
 * Attending: Parliamentary Friends of Technology, December 2025, Hobart, Tasmania
 * Attending: AI Industry Leaders Dialogue, November 2025, Hobart, Tasmania
 * Speaking: PAX Australia 2025, Melbourne, Australia
