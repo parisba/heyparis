@@ -25,15 +25,21 @@ If you cannot afford to pay for travel, and speaking fees, please let me know up
 
 ## 2026
 
-* Organising: AUC [/dev/world/2026](https://devworld.au), August 2026, Melbourne, Australia
-* Organising: AUC [X World 2026](https://xworld.au), August 2026, Melbourne, Australia
+* Presenting: [Secret Station](https://secretstation.theunconformity.com.au/), 3 October 2026, Queenstown and Lynchford, Tasmania, Australia
 * Speaking: GCAP 2026, Melbourne, Australia
     * Session: [Cut Your Script in Half](https://gcap.com.au)
+* Speaking: [Roguelike Celebration 2026](https://www.roguelike.club/event2026.html), 17-18 October 2026, Online
+    * Session: Please Hold: Building a Playable Museum Exhibit About 1993 Game Support
+* Attending: [gamescom asia x Thailand Game Show 2026](https://gamescom.asia/), 29 October-1 November 2026, Bangkok, Thailand
+* Attending: [GodotFest 2026](https://godotfest.com/), 3-4 November 2026, Munich, Germany
+* Attending: [AdventureX 2026](https://www.adventurexpo.org/), 7-8 November 2026, London, UK
 
 # Past Events
 
 ## 2026
 
+* Organising: AUC [/dev/world/2026](https://devworld.au), August 2026, Melbourne, Australia
+* Organising: AUC [X World 2026](https://xworld.au), August 2026, Melbourne, Australia
 * Organising: [Level Up Tasmania 2026](https://www.screen.tas.gov.au/leveluptasmania), 17-19 April 2026, Hobart, Australia
 * Exhibiting: [TasICT Tas Tech Fest 2026](https://web.cvent.com/event/e75ca83f-5ab4-42f6-99bf-e0fb0572c906/summary), Hobart, Australia
 
