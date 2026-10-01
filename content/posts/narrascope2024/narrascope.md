@@ -1,6 +1,8 @@
 ---
 title: "NarraScope 2024"
 date: 2024-07-12
+aliases:
+  - /ns2024/
 cover:
   image: /posts/narrascope2024/cover.jpg
   alt: "The glass front of The Strong National Museum of Play in Rochester, New York, under a blue sky"
